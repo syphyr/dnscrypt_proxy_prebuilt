@@ -1,0 +1,67 @@
+#!/system/bin/sh
+
+set -e
+
+IPTABLES=/system/bin/iptables
+IP6TABLES=/system/bin/ip6tables
+PROXY_PORT=5454
+
+allowed_ipv6 () {
+	if [ -f /proc/net/ip6_tables_names ]; then
+		return 0
+	else
+		return 1
+	fi
+}
+
+iptrules_on () {
+	iptrules_off
+	$IPTABLES -t nat -A OUTPUT -p tcp --dport 53 -j DNAT --to-destination 127.0.0.1:$PROXY_PORT
+	$IPTABLES -t nat -A OUTPUT -p udp --dport 53 -j DNAT --to-destination 127.0.0.1:$PROXY_PORT
+	if allowed_ipv6; then
+		$IP6TABLES -t nat -A OUTPUT -p tcp --dport 53 -j DNAT --to-destination [::1]:$PROXY_PORT
+		$IP6TABLES -t nat -A OUTPUT -p udp --dport 53 -j DNAT --to-destination [::1]:$PROXY_PORT
+	fi
+}
+
+iptrules_off () {
+	iptrules_off_helper $IPTABLES "tcp" "127.0.0.1"
+	iptrules_off_helper $IPTABLES "udp" "127.0.0.1"
+	if allowed_ipv6; then
+		iptrules_off_helper $IP6TABLES "tcp" "[::1]"
+		iptrules_off_helper $IP6TABLES "udp" "[::1]"
+	fi
+}
+
+iptrules_off_helper () {
+	IPT=$1
+	IPP=$2
+	IPA=$3
+	
+	while $IPT -n -t nat -L OUTPUT | grep -q "DNAT.*$IPP.*dpt:53.*to:$IPA:$PROXY_PORT" ; do
+		$IPT -t nat -D OUTPUT -p $IPP --dport 53 -j DNAT --to-destination $IPA:$PROXY_PORT
+	done
+}
+
+do_start () {
+	iptrules_on
+}
+
+do_stop () {    
+	iptrules_off
+}
+
+case "$1" in
+  start)
+        do_start 
+        ;;
+  stop)
+        do_stop
+        ;;
+  *)
+        echo "Usage: {start|stop}" >&2
+        exit 1
+        ;;
+esac
+
+exit 0

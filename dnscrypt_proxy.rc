@@ -1,0 +1,26 @@
+service dnscrypt /system/bin/dnscrypt
+    class main
+    user root
+    oneshot
+    disabled
+
+service dns_nat_on /system/bin/dnscrypt-iptables start
+    class main
+    user root
+    oneshot
+    disabled
+
+service dns_nat_off /system/bin/dnscrypt-iptables stop
+    class main
+    user root
+    oneshot
+    disabled
+
+on property:init.svc.netd=running
+    start dnscrypt
+
+on property:init.svc.dnscrypt=running
+    start dns_nat_on
+
+on property:init.svc.dnscrypt=stopped
+    start dns_nat_off
