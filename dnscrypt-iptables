@@ -43,12 +43,25 @@ iptrules_off_helper () {
 	done
 }
 
+##
+## If executed manually via command line, the system properties need
+## to be set as well
+##
+set_prop() {
+  PROP_STATE=$( getprop persist.privacy.dnscrypt )
+  if [ "$PROP_STATE" != "$1" ]; then
+      setprop persist.privacy.dnscrypt $1
+  fi
+}
+
 do_start () {
 	iptrules_on
+	set_prop 1
 }
 
 do_stop () {    
 	iptrules_off
+	set_prop 0
 }
 
 case "$1" in
