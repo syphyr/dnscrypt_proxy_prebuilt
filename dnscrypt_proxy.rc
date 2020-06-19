@@ -16,7 +16,7 @@ service dns_nat_off /system/bin/dnscrypt-iptables stop
     oneshot
     disabled
 
-on property:init.svc.netd=running
+on property:persist.privacy.dnscrypt=1
     start dnscrypt
 
 on property:init.svc.dnscrypt=running
