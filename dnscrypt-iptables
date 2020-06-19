@@ -4,6 +4,9 @@ set -e
 
 IPTABLES=/system/bin/iptables
 IP6TABLES=/system/bin/ip6tables
+##
+## PROXY_PORT must also match proxy port value set in dnscrypt-proxy.toml
+##
 PROXY_PORT=5454
 
 allowed_ipv6 () {
