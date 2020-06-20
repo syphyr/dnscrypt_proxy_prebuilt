@@ -108,6 +108,15 @@ LOCAL_REQUIRED_MODULES := relays.md
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := localhost.pem
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/dnscrypt-proxy
+LOCAL_SRC_FILES := etc/dnscrypt-proxy/$(LOCAL_MODULE)
+LOCAL_REQUIRED_MODULES := relays.md.minisig
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := dnscrypt-proxy
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_TARGET_ARCH := arm arm64
@@ -116,5 +125,5 @@ LOCAL_SRC_FILES := prebuilt/$(my_src_arch)/$(LOCAL_MODULE)
 LOCAL_MODULE_CLASS := EXECUTABLES
 LOCAL_MODULE_PATH := $(TARGET_OUT_OPTIONAL_EXECUTABLES)
 LOCAL_INIT_RC := dnscrypt_proxy.rc
-LOCAL_REQUIRED_MODULES := relays.md.minisig
+LOCAL_REQUIRED_MODULES := localhost.pem
 include $(BUILD_PREBUILT)
