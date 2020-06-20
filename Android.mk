@@ -3,40 +3,10 @@
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := dnscrypt-proxy-config
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := ETC
-LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/dnscrypt-proxy
-LOCAL_SRC_FILES := etc/dnscrypt-proxy/blacklist \
-	etc/dnscrypt-proxy/cloaking-rules \
-	etc/dnscrypt-proxy/dnscrypt-proxy.toml \
-	etc/dnscrypt-proxy/forwarding-rules \
-	etc/dnscrypt-proxy/ip-blacklist \
-	etc/dnscrypt-proxy/whitelist \
-	etc/dnscrypt-proxy/localhost.pem \
-	etc/dnscrypt-proxy/public-resolvers.md \
-	etc/dnscrypt-proxy/public-resolvers.md.minisig \
-	etc/dnscrypt-proxy/relays.md \
-	etc/dnscrypt-proxy/relays.md.minisig
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := dnscrypt-proxy
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_TARGET_ARCH := arm arm64
-my_src_arch := $(call get-prebuilt-src-arch,$(LOCAL_MODULE_TARGET_ARCH))
-LOCAL_SRC_FILES := prebuilt/$(my_src_arch)/$(LOCAL_MODULE)
-LOCAL_MODULE_PATH := $(TARGET_OUT_OPTIONAL_EXECUTABLES)
-LOCAL_INIT_RC := dnscrypt_proxy.rc
-LOCAL_REQUIRED_MODULES := dnscrypt-proxy-config
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE:= dnscrypt-iptables
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
-LOCAL_REQUIRED_MODULES := dnscrypt-proxy
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -45,4 +15,106 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
 LOCAL_SRC_FILES := $(LOCAL_MODULE)
 LOCAL_REQUIRED_MODULES := dnscrypt-iptables
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := blacklist
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/dnscrypt-proxy
+LOCAL_SRC_FILES := etc/dnscrypt-proxy/$(LOCAL_MODULE)
+LOCAL_REQUIRED_MODULES := dnscrypt
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := cloaking-rules
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/dnscrypt-proxy
+LOCAL_SRC_FILES := etc/dnscrypt-proxy/$(LOCAL_MODULE)
+LOCAL_REQUIRED_MODULES := blacklist
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := dnscrypt-proxy.toml
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/dnscrypt-proxy
+LOCAL_SRC_FILES := etc/dnscrypt-proxy/$(LOCAL_MODULE)
+LOCAL_REQUIRED_MODULES := cloaking-rules
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := forwarding-rules
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/dnscrypt-proxy
+LOCAL_SRC_FILES := etc/dnscrypt-proxy/$(LOCAL_MODULE)
+LOCAL_REQUIRED_MODULES := dnscrypt-proxy.toml
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := ip-blacklist
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/dnscrypt-proxy
+LOCAL_SRC_FILES := etc/dnscrypt-proxy/$(LOCAL_MODULE)
+LOCAL_REQUIRED_MODULES := forwarding-rules
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := whitelist
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/dnscrypt-proxy
+LOCAL_SRC_FILES := etc/dnscrypt-proxy/$(LOCAL_MODULE)
+LOCAL_REQUIRED_MODULES := ip-blacklist
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := public-resolvers.md
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/dnscrypt-proxy
+LOCAL_SRC_FILES := etc/dnscrypt-proxy/$(LOCAL_MODULE)
+LOCAL_REQUIRED_MODULES := whitelist
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := public-resolvers.md.minisig
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/dnscrypt-proxy
+LOCAL_SRC_FILES := etc/dnscrypt-proxy/$(LOCAL_MODULE)
+LOCAL_REQUIRED_MODULES := public-resolvers.md
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := relays.md
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/dnscrypt-proxy
+LOCAL_SRC_FILES := etc/dnscrypt-proxy/$(LOCAL_MODULE)
+LOCAL_REQUIRED_MODULES := public-resolvers.md.minisig
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := relays.md.minisig
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/dnscrypt-proxy
+LOCAL_SRC_FILES := etc/dnscrypt-proxy/$(LOCAL_MODULE)
+LOCAL_REQUIRED_MODULES := relays.md
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := dnscrypt-proxy
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_TARGET_ARCH := arm arm64
+my_src_arch := $(call get-prebuilt-src-arch,$(LOCAL_MODULE_TARGET_ARCH))
+LOCAL_SRC_FILES := prebuilt/$(my_src_arch)/$(LOCAL_MODULE)
+LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_PATH := $(TARGET_OUT_OPTIONAL_EXECUTABLES)
+LOCAL_INIT_RC := dnscrypt_proxy.rc
+LOCAL_REQUIRED_MODULES := relays.md.minisig
 include $(BUILD_PREBUILT)
