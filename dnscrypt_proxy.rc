@@ -19,6 +19,9 @@ service dns_nat_off /system/bin/dnscrypt-iptables stop
 on property:persist.privacy.dnscrypt=1
     start dnscrypt
 
+on property:persist.privacy.dnscrypt=0
+    stop dnscrypt
+
 on property:init.svc.dnscrypt=running
     start dns_nat_on
 
