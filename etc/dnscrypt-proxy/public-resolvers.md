@@ -229,6 +229,33 @@ If you are within India, this might be a nice DNS server to use.
 sdns://AQQAAAAAAAAAEjEzOS41OS40OC4yMjI6NDQzNCAFOt_yxaMpFtga2IpneSwwK6rV0oAyleham9IvhoceEBsyLmRuc2NyeXB0LWNlcnQuY2FwdG5lbW8uaW4
 
 
+## cira-family
+
+CIRA DoH resolvers, blocking trackers, malware, phishing and pornography.
+Operated by the .CA registry. Built by Canadians for Canadians.
+https://www.cira.ca/fr/cybersecurity-services/canadian-shield
+
+sdns://AgEAAAAAAAAAACA_4zhjTgUQYz3kU8o1CxXOwzmz3Li6nyot0k0QqDj-6x1mYW1pbHkuY2FuYWRpYW5zaGllbGQuY2lyYS5jYQovZG5zLXF1ZXJ5
+
+
+## cira-private
+
+CIRA DoH resolvers, blocking trackers.
+Operated by the .CA registry. Built by Canadians for Canadians.
+https://www.cira.ca/fr/cybersecurity-services/canadian-shield
+
+sdns://AgEAAAAAAAAAACA_4zhjTgUQYz3kU8o1CxXOwzmz3Li6nyot0k0QqDj-6x5wcml2YXRlLmNhbmFkaWFuc2hpZWxkLmNpcmEuY2EKL2Rucy1xdWVyeQ
+
+
+## cira-protected
+
+CIRA DoH resolvers, blocking trackers, malware and phishing.
+Operated by the .CA registry. Built by Canadians for Canadians.
+https://www.cira.ca/fr/cybersecurity-services/canadian-shield
+
+sdns://AgEAAAAAAAAAACA_4zhjTgUQYz3kU8o1CxXOwzmz3Li6nyot0k0QqDj-6yBwcm90ZWN0ZWQuY2FuYWRpYW5zaGllbGQuY2lyYS5jYQovZG5zLXF1ZXJ5
+
+
 ## cisco
 
 Remove your DNS blind spot (DNSCrypt protocol)
@@ -923,6 +950,22 @@ Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Germany. By https://blahdn
 sdns://AgMAAAAAAAAAF1syYTAxOjRmODoxYzFjOjZiNGI6OjFdABJkb2gtZGUuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ
 
 
+## doh-eastas-pi-dns
+
+A zero logging DNS with support for DNS-over-HTTPS (DoH) & DNS-over-TLS (DoT). Blocks ads, malware, trackers, viruses and telemetry. No persistent logs, DNSSEC, Hosted in Tokyo, Japan. By https://pi-dns.com/
+Server statistics can be seen at: https://statistics.pi-dns.com/?server=eastas
+
+sdns://AgMAAAAAAAAADDY2LjQyLjMzLjEzNSA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OBVkb2guZWFzdGFzLnBpLWRucy5jb20KL2Rucy1xdWVyeQ
+
+
+## doh-eastas-pi-dns-ipv6
+
+A zero logging DNS with support for DNS-over-HTTPS (DoH) & DNS-over-TLS (DoT). Blocks ads, malware, trackers, viruses and telemetry. No persistent logs, DNSSEC, Hosted in Tokyo, Japan. By https://pi-dns.com/
+Server statistics can be seen at: https://statistics.pi-dns.com/?server=eastas
+
+sdns://AgMAAAAAAAAAGFsyMDAxOjE5ZjA6NzAwMToyMjVkOjoxXSA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OBVkb2guZWFzdGFzLnBpLWRucy5jb20KL2Rucy1xdWVyeQ
+
+
 ## doh-eastau-pi-dns
 
 A zero logging DNS with support for DNS-over-HTTPS (DoH) & DNS-over-TLS (DoT). Blocks ads, malware, trackers, viruses and telemetry. No persistent logs, DNSSEC, Hosted in Sydney, Australia. By https://pi-dns.com/
@@ -1120,11 +1163,68 @@ Location: Vancouver, Canada
 sdns://AQcAAAAAAAAADTIzLjExMS43NC4yMDUg_0RyX8kcAcMdtRk5SAX5RKs3yiLLS6kdJlnsUpVbnOEdMi5kbnNjcnlwdC1jZXJ0LmV2aWx2aWJlcy5jb20
 
 
-## faelix-doh
+## faelix-ch-ipv4
 
-An open DoH resolver operated by https://faelix.net/ with nodes in UK and CH.
+An open (non-logging, non-filtering, no ECS) DNSCrypt resolver operated by https://faelix.net/ with IPv4 nodes anycast within AS41495 in Switzerland.
+
+sdns://AQcAAAAAAAAAEzE4NS4xMzQuMTk2LjU0Ojg0NDMgfsvvPi8BgDKNYODh0ewj5Oh32OoJoZNwGgTWs8C-i-EfMi5kbnNjcnlwdC1jZXJ0LnJkbnMuZmFlbGl4Lm5ldA
+sdns://AQcAAAAAAAAAEzE4NS4xMzQuMTk2LjU1Ojg0NDMgfsvvPi8BgDKNYODh0ewj5Oh32OoJoZNwGgTWs8C-i-EfMi5kbnNjcnlwdC1jZXJ0LnJkbnMuZmFlbGl4Lm5ldA
+
+
+## faelix-ch-ipv4-doh
+
+An open (non-logging, non-filtering, no ECS) DoH resolver operated by https://faelix.net/ with IPv4 nodes anycast within AS41495 in Switzerland.
+
+sdns://AgcAAAAAAAAADjE4NS4xMzQuMTk2LjU0ID4aGg9sU_PpekktVwhLW5gHBZ7gV6sVBYdv2D_aPbg4D3JkbnMuZmFlbGl4Lm5ldAEv
+sdns://AgcAAAAAAAAADjE4NS4xMzQuMTk2LjU1ID4aGg9sU_PpekktVwhLW5gHBZ7gV6sVBYdv2D_aPbg4D3JkbnMuZmFlbGl4Lm5ldAEv
+
+
+## faelix-ch-ipv6
+
+An open (non-logging, non-filtering, no ECS) DNSCrypt resolver operated by https://faelix.net/ with IPv6 nodes anycast within AS41495 in Switzerland.
+
+sdns://AQcAAAAAAAAAFFsyYTAxOjllMDE6OjU0XTo4NDQzIH7L7z4vAYAyjWDg4dHsI-Tod9jqCaGTcBoE1rPAvovhHzIuZG5zY3J5cHQtY2VydC5yZG5zLmZhZWxpeC5uZXQ
+sdns://AQcAAAAAAAAAFFsyYTAxOjllMDE6OjU1XTo4NDQzIH7L7z4vAYAyjWDg4dHsI-Tod9jqCaGTcBoE1rPAvovhHzIuZG5zY3J5cHQtY2VydC5yZG5zLmZhZWxpeC5uZXQ
+
+
+## faelix-ch-ipv6-doh
+
+An open (non-logging, non-filtering, no ECS) DoH resolver operated by https://faelix.net/ with IPv6 nodes anycast within AS41495 in Switzerland.
+
+sdns://AgcAAAAAAAAAD1syYTAxOjllMDE6OjU0XSA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OA9yZG5zLmZhZWxpeC5uZXQBLw
+sdns://AgcAAAAAAAAAD1syYTAxOjllMDE6OjU1XSA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OA9yZG5zLmZhZWxpeC5uZXQBLw
+
+
+## faelix-uk-ipv4
+
+An open (non-logging, non-filtering, no ECS) DNSCrypt resolver operated by https://faelix.net/ with IPv4 nodes anycast within AS41495 in the UK.
+
+sdns://AQcAAAAAAAAAEjQ2LjIyNy4yMDAuNTQ6ODQ0MyB-y-8-LwGAMo1g4OHR7CPk6HfY6gmhk3AaBNazwL6L4R8yLmRuc2NyeXB0LWNlcnQucmRucy5mYWVsaXgubmV0
+sdns://AQcAAAAAAAAAEjQ2LjIyNy4yMDAuNTU6ODQ0MyB-y-8-LwGAMo1g4OHR7CPk6HfY6gmhk3AaBNazwL6L4R8yLmRuc2NyeXB0LWNlcnQucmRucy5mYWVsaXgubmV0
+
+
+## faelix-uk-ipv4-doh
+
+An open (non-logging, non-filtering, no ECS) DoH resolver operated by https://faelix.net/ with IPv4 nodes anycast within AS41495 in the UK.
 
 sdns://AgcAAAAAAAAADTQ2LjIyNy4yMDAuNTQgPhoaD2xT8-l6SS1XCEtbmAcFnuBXqxUFh2_YP9o9uDgPcmRucy5mYWVsaXgubmV0AS8
+sdns://AgcAAAAAAAAADTQ2LjIyNy4yMDAuNTUgPhoaD2xT8-l6SS1XCEtbmAcFnuBXqxUFh2_YP9o9uDgPcmRucy5mYWVsaXgubmV0AS8
+
+
+## faelix-uk-ipv6
+
+An open (non-logging, non-filtering, no ECS) DNSCrypt resolver operated by https://faelix.net/ with IPv6 nodes anycast within AS41495 in the UK.
+
+sdns://AQcAAAAAAAAAFFsyYTAxOjllMDA6OjU0XTo4NDQzIH7L7z4vAYAyjWDg4dHsI-Tod9jqCaGTcBoE1rPAvovhHzIuZG5zY3J5cHQtY2VydC5yZG5zLmZhZWxpeC5uZXQ
+sdns://AQcAAAAAAAAAFFsyYTAxOjllMDA6OjU1XTo4NDQzIH7L7z4vAYAyjWDg4dHsI-Tod9jqCaGTcBoE1rPAvovhHzIuZG5zY3J5cHQtY2VydC5yZG5zLmZhZWxpeC5uZXQ
+
+
+## faelix-uk-ipv6-doh
+
+An open (non-logging, non-filtering, no ECS) DoH resolver operated by https://faelix.net/ with IPv6 nodes anycast within AS41495 in the UK.
+
+sdns://AgcAAAAAAAAAD1syYTAxOjllMDA6OjU0XSA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OA9yZG5zLmZhZWxpeC5uZXQBLw
+sdns://AgcAAAAAAAAAD1syYTAxOjllMDA6OjU1XSA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OA9yZG5zLmZhZWxpeC5uZXQBLw
 
 
 ## ffmuc.net
@@ -1492,82 +1592,114 @@ sdns://AgcAAAAAAAAAACAoPxWWFWiOuUdTdn7SvYpzbNqr_iDmmJrktihy4wca5gxkbnMudHduaWMud
 
 
 ## quad9-dnscrypt-ip4-filter-alt
+
 Quad9 (anycast) dnssec/no-log/filter 149.112.112.9
+
 sdns://AQMAAAAAAAAAEjE0OS4xMTIuMTEyLjk6ODQ0MyBnyEe4yHWM0SAkVUO-dWdG3zTfHYTAC4xHA2jfgh2GPhkyLmRuc2NyeXB0LWNlcnQucXVhZDkubmV0
 
 
 ## quad9-dnscrypt-ip4-filter-pri
+
 Quad9 (anycast) dnssec/no-log/filter 9.9.9.9
+
 sdns://AQMAAAAAAAAADDkuOS45Ljk6ODQ0MyBnyEe4yHWM0SAkVUO-dWdG3zTfHYTAC4xHA2jfgh2GPhkyLmRuc2NyeXB0LWNlcnQucXVhZDkubmV0
 
 
 ## quad9-dnscrypt-ip4-nofilter-alt
+
 Quad9 (anycast) no-dnssec/no-log/no-filter 149.112.112.10
+
 sdns://AQYAAAAAAAAAEzE0OS4xMTIuMTEyLjEwOjg0NDMgZ8hHuMh1jNEgJFVDvnVnRt803x2EwAuMRwNo34Idhj4ZMi5kbnNjcnlwdC1jZXJ0LnF1YWQ5Lm5ldA
 
 
 ## quad9-dnscrypt-ip4-nofilter-pri
+
 Quad9 (anycast) no-dnssec/no-log/no-filter 9.9.9.10
+
 sdns://AQYAAAAAAAAADTkuOS45LjEwOjg0NDMgZ8hHuMh1jNEgJFVDvnVnRt803x2EwAuMRwNo34Idhj4ZMi5kbnNjcnlwdC1jZXJ0LnF1YWQ5Lm5ldA
 
 
 ## quad9-dnscrypt-ip6-filter-alt
+
 Quad9 (anycast) dnssec/no-log/filter 2620:fe::9
+
 sdns://AQMAAAAAAAAAEVsyNjIwOmZlOjo5XTo4NDQzIGfIR7jIdYzRICRVQ751Z0bfNN8dhMALjEcDaN-CHYY-GTIuZG5zY3J5cHQtY2VydC5xdWFkOS5uZXQ
 
 
 ## quad9-dnscrypt-ip6-filter-pri
+
 Quad9 (anycast) dnssec/no-log/filter 2620:fe::fe:9
+
 sdns://AQMAAAAAAAAAFFsyNjIwOmZlOjpmZTo5XTo4NDQzIGfIR7jIdYzRICRVQ751Z0bfNN8dhMALjEcDaN-CHYY-GTIuZG5zY3J5cHQtY2VydC5xdWFkOS5uZXQ
 
 
 ## quad9-dnscrypt-ip6-nofilter-alt
+
 Quad9 (anycast) no-dnssec/no-log/no-filter 2620:fe::fe:10
+
 sdns://AQYAAAAAAAAAFVsyNjIwOmZlOjpmZToxMF06ODQ0MyBnyEe4yHWM0SAkVUO-dWdG3zTfHYTAC4xHA2jfgh2GPhkyLmRuc2NyeXB0LWNlcnQucXVhZDkubmV0
 
 
 ## quad9-dnscrypt-ip6-nofilter-pri
+
 Quad9 (anycast) no-dnssec/no-log/no-filter 2620:fe::10
+
 sdns://AQYAAAAAAAAAElsyNjIwOmZlOjoxMF06ODQ0MyBnyEe4yHWM0SAkVUO-dWdG3zTfHYTAC4xHA2jfgh2GPhkyLmRuc2NyeXB0LWNlcnQucXVhZDkubmV0
 
 
 ## quad9-doh-ip4-filter-alt
+
 Quad9 (anycast) dnssec/no-log/filter 149.112.112.9
+
 sdns://AgMAAAAAAAAADTE0OS4xMTIuMTEyLjmAABJkbnM5LnF1YWQ5Lm5ldDo0NDMKL2Rucy1xdWVyeQ
 
 
 ## quad9-doh-ip4-filter-pri
+
 Quad9 (anycast) dnssec/no-log/filter 9.9.9.9
+
 sdns://AgMAAAAAAAAABzkuOS45LjmAABJkbnM5LnF1YWQ5Lm5ldDo0NDMKL2Rucy1xdWVyeQ
 
 
 ## quad9-doh-ip4-nofilter-alt
+
 Quad9 (anycast) no-dnssec/no-log/no-filter 149.112.112.10
+
 sdns://AgYAAAAAAAAADjE0OS4xMTIuMTEyLjEwgAASZG5zOS5xdWFkOS5uZXQ6NDQzCi9kbnMtcXVlcnk
 
 
 ## quad9-doh-ip4-nofilter-pri
+
 Quad9 (anycast) no-dnssec/no-log/no-filter 9.9.9.10
+
 sdns://AgYAAAAAAAAACDkuOS45LjEwgAASZG5zOS5xdWFkOS5uZXQ6NDQzCi9kbnMtcXVlcnk
 
 
 ## quad9-doh-ip6-filter-alt
+
 Quad9 (anycast) dnssec/no-log/filter 2620:fe::fe:9
+
 sdns://AgMAAAAAAAAAD1syNjIwOmZlOjpmZTo5XYAAEmRuczkucXVhZDkubmV0OjQ0MwovZG5zLXF1ZXJ5
 
 
 ## quad9-doh-ip6-filter-pri
+
 Quad9 (anycast) dnssec/no-log/filter 2620:fe::9
+
 sdns://AgMAAAAAAAAADFsyNjIwOmZlOjo5XYAAEmRuczkucXVhZDkubmV0OjQ0MwovZG5zLXF1ZXJ5
 
 
 ## quad9-doh-ip6-nofilter-alt
+
 Quad9 (anycast) no-dnssec/no-log/no-filter 2620:fe::fe:10
+
 sdns://AgYAAAAAAAAAEFsyNjIwOmZlOjpmZToxMF2AABJkbnM5LnF1YWQ5Lm5ldDo0NDMKL2Rucy1xdWVyeQ
 
 
 ## quad9-doh-ip6-nofilter-pri
+
 Quad9 (anycast) no-dnssec/no-log/no-filter 2620:fe::10
+
 sdns://AgYAAAAAAAAADVsyNjIwOmZlOjoxMF2AABJkbnM5LnF1YWQ5Lm5ldDo0NDMKL2Rucy1xdWVyeQ
 
 
@@ -1673,12 +1805,14 @@ sdns://AQcAAAAAAAAAFDE3OC4yMTYuMjAxLjIyMjoyMDUzICXE4YgpFUaXj5wrvbanr6QB7aBRBQhdU
 
 
 ## sth-dnscrypt-se
+
 Resolver in Stockholm, Sweden. DNSCrypt server. Non-logging, non-filtering, DNSSEC. Forward DNS to anoymized DNS servers
 
 sdns://AQcAAAAAAAAAETQ1LjE1My4xODcuOTY6NDQzILwTiPV2Pj3sdfHJD8kVv7aK6t_rHEX2mFGAY5xg5_FiHzIuZG5zY3J5cHQtY2VydC5zdGgtZG5zY3J5cHQtc2U
 
 
 ## sth-doh-se
+
 Resolver in Stockholm, Sweden. DoH server. Non-logging, non-filtering, DNSSEC. Forward DNS to anoymized DNS servers
 
 sdns://AgcAAAAAAAAAETQ1LjE1My4xODcuOTY6NDQzABZkbnNzZS5hbGVrYmVyZy5uZXQ6NDQzBC9kbnM
@@ -1726,3 +1860,4 @@ sdns://AgUAAAAAAAAAEjk2LjExMy4xNTEuMTQzOjQ0M6Ax_Wo8PCx8I5Gkl1qfoqes0mp4xMrk1W5GI
 Yandex public DNS server (anycast)
 
 sdns://AQQAAAAAAAAAEDc3Ljg4LjguNzg6MTUzNTMg04TAccn3RmKvKszVe13MlxTUB7atNgHhrtwG1W1JYyciMi5kbnNjcnlwdC1jZXJ0LmJyb3dzZXIueWFuZGV4Lm5ldA
+
