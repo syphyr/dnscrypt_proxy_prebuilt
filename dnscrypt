@@ -8,6 +8,12 @@ CONFIG_DIR=/etc/dnscrypt-proxy
 CONFIG_FILE=$CONFIG_DIR/dnscrypt-proxy.toml
 CACHE_DIR=/data/local/tmp/dnscrypt
 
+PROP_STATE=$( getprop persist.privacy.tor )
+
+if [ "$PROP_STATE" == "1" ]; then
+	CONFIG_FILE=$CONFIG_DIR/dnscrypt-proxy-tor.toml
+fi
+
 if test ! -s "$CONFIG_FILE"; then
     exit 1
 fi

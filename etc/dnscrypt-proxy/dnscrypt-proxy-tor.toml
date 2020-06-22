@@ -88,14 +88,14 @@ disabled_server_names = []
 ## (dnscrypt-proxy will always encrypt everything even using UDP), and can
 ## only increase latency.
 
-force_tcp = false
+force_tcp = true
 
 
 ## SOCKS proxy
 ## Uncomment the following line to route all TCP connections to a local Tor node
 ## Tor doesn't support UDP, so set `force_tcp` to `true` as well.
 
-# proxy = 'socks5://127.0.0.1:9050'
+proxy = 'socks5://127.0.0.1:9050'
 
 
 ## HTTP/HTTPS proxy
