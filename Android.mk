@@ -45,12 +45,21 @@ LOCAL_REQUIRED_MODULES := cloaking-rules
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := forwarding-rules
+LOCAL_MODULE := dnscrypt-proxy-tor.toml
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/dnscrypt-proxy
 LOCAL_SRC_FILES := etc/dnscrypt-proxy/$(LOCAL_MODULE)
 LOCAL_REQUIRED_MODULES := dnscrypt-proxy.toml
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := forwarding-rules
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/dnscrypt-proxy
+LOCAL_SRC_FILES := etc/dnscrypt-proxy/$(LOCAL_MODULE)
+LOCAL_REQUIRED_MODULES := dnscrypt-proxy-tor.toml
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
