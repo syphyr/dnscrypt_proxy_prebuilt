@@ -18,7 +18,7 @@ LOCAL_REQUIRED_MODULES := dnscrypt-iptables
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := blacklist
+LOCAL_MODULE := blocked-names
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/dnscrypt-proxy
@@ -32,7 +32,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/dnscrypt-proxy
 LOCAL_SRC_FILES := etc/dnscrypt-proxy/$(LOCAL_MODULE)
-LOCAL_REQUIRED_MODULES := blacklist
+LOCAL_REQUIRED_MODULES := blocked-names
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -63,7 +63,7 @@ LOCAL_REQUIRED_MODULES := dnscrypt-proxy-tor.toml
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := ip-blacklist
+LOCAL_MODULE := blocked-ips
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/dnscrypt-proxy
@@ -72,12 +72,12 @@ LOCAL_REQUIRED_MODULES := forwarding-rules
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := whitelist
+LOCAL_MODULE := allowed-names
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/dnscrypt-proxy
 LOCAL_SRC_FILES := etc/dnscrypt-proxy/$(LOCAL_MODULE)
-LOCAL_REQUIRED_MODULES := ip-blacklist
+LOCAL_REQUIRED_MODULES := blocked-ips
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -86,7 +86,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/dnscrypt-proxy
 LOCAL_SRC_FILES := etc/dnscrypt-proxy/$(LOCAL_MODULE)
-LOCAL_REQUIRED_MODULES := whitelist
+LOCAL_REQUIRED_MODULES := allowed-names
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
