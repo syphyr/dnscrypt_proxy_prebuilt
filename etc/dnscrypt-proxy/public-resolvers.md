@@ -16,7 +16,7 @@ To use that list, add this to the `[sources]` section of your
 `dnscrypt-proxy.toml` configuration file:
 
     [sources.'public-resolvers']
-    urls = ['https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v2/public-resolvers.md', 'https://download.dnscrypt.info/resolvers-list/v2/public-resolvers.md']
+    urls = ['https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/public-resolvers.md', 'https://download.dnscrypt.info/resolvers-list/v3/public-resolvers.md']
     minisign_key = 'RWQf6LRCGA9i53mlYecO4IzT51TGPpvWucNSCh1CBM0QTaLn73Y7GFO3'
     cache_file = 'public-resolvers.md'
 
@@ -182,6 +182,24 @@ Resolver in Amsterdam. DoH protocol. Non-logging, non-filtering, DNSSEC.
 Forward DNS to anoymized DNS servers.
 
 sdns://AgcAAAAAAAAAETUxLjE1LjEyNC4yMDg6NDQzABZkbnNubC5hbGVrYmVyZy5uZXQ6NDQzCi9kbnMtcXVlcnk
+
+
+## arapurayil-dnscrypt
+
+Hosted in Mumbai, India (https://www.dns.arapurayil.com)
+Non-logging | Filtering | DNSSEC | QNAME Minimization | No EDNS Client-Subnet
+Blocks ads, trackers, resource-abusers, malware, and phishing.
+
+sdns://AQMAAAAAAAAAEDMuNy4xNTYuMTI4Ojg0NDMgDXD9OSDJDwe2q9bi836PURTP14NLYS03RbDq6j891ZciMi5kbnNjcnlwdC1jZXJ0LmRucy5hcmFwdXJheWlsLmNvbQ
+
+
+## arapurayil-doh
+
+Hosted in Mumbai, India (https://www.dns.arapurayil.com)
+Non-logging | Filtering | DNSSEC | QNAME Minimization | No EDNS Client-Subnet
+Blocks ads, trackers, resource-abusers, malware, and phishing.
+
+sdns://AgMAAAAAAAAAACA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OBJkbnMuYXJhcHVyYXlpbC5jb20KL2Rucy1xdWVyeQ
 
 
 ## arvind-io
@@ -587,6 +605,16 @@ information on pages where your computer sends personal data.
 https://www.nic.cz/odvr/
 
 sdns://AgcAAAAAAAAADDE4NS40My4xMzUuMSA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OAtvZHZyLm5pYy5jegQvZG9o
+
+
+## cz.nic-ipv6
+
+CZ.NIC's open DNSSEC validating resolvers in Prague, Czech Republic (IPv6 only).
+CZ.NIC resolvers neither collect any personal data nor gather
+information on pages where your computer sends personal data.
+https://www.nic.cz/odvr/
+
+sdns://AgcAAAAAAAAAE1syMDAxOjE0OGY6ZmZmZTo6MV0gPhoaD2xT8-l6SS1XCEtbmAcFnuBXqxUFh2_YP9o9uDgLb2R2ci5uaWMuY3oEL2RvaA
 
 
 ## d0wn-is-ns2
@@ -1758,6 +1786,16 @@ Backed by unbound.
 Maintained by [rumpelsepp](https://rumpelsepp.org)
 
 sdns://AgcAAAAAAAAADzExNi4yMDMuMTc5LjI0OCA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OA5ydW1wZWxzZXBwLm9yZwovZG5zLXF1ZXJ5
+
+
+## safesurfer
+
+Family safety focused blocklist for over 2 million adult sites, as well as phishing and malware and more.
+Free to use, paid for customizing blocking for more categories+sites and viewing usage at my.safesurfer.io. Logs taken for viewing
+usage, data never sold - https://safesurfer.io
+
+sdns://AQMAAAAAAAAADjEwNC4xOTcuMjguMTIxICcgf9USBOg2e0g0AF35_9HTC74qnDNjnm7b-K7ZHUDYIDIuZG5zY3J5cHQtY2VydC5zYWZlc3VyZmVyLmNvLm56
+sdns://AQMAAAAAAAAADzEwNC4xNTUuMjM3LjIyNSAnIH_VEgToNntINABd-f_R0wu-KpwzY55u2_iu2R1A2CAyLmRuc2NyeXB0LWNlcnQuc2FmZXN1cmZlci5jby5ueg
 
 
 ## scaleway-ams
