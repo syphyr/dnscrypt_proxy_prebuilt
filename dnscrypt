@@ -24,22 +24,16 @@ fi
 
 if [ ! -f "$CACHE_DIR"/public-resolvers.md ]; then
 	cp "$CONFIG_DIR"/public-resolvers.md "$CACHE_DIR"/
-	chmod 644 "$CACHE_DIR"/public-resolvers.md
-fi
-
-if [ ! -f "$CACHE_DIR"/public-resolvers.md.minisig ]; then
 	cp "$CONFIG_DIR"/public-resolvers.md.minisig "$CACHE_DIR"/
+	chmod 644 "$CACHE_DIR"/public-resolvers.md
 	chmod 644 "$CACHE_DIR"/public-resolvers.md.minisig
 fi
 
 if [ ! -f "$CACHE_DIR"/relays.md ]; then
 	cp "$CONFIG_DIR"/relays.md "$CACHE_DIR"/
-	chmod 644 "$CACHE_DIR"/relays.md
-fi
-
-if [ ! -f "$CACHE_DIR"/relays.md.minisig ]; then
 	cp "$CONFIG_DIR"/relays.md.minisig "$CACHE_DIR"/
+	chmod 644 "$CACHE_DIR"/relays.md
 	chmod 644 "$CACHE_DIR"/relays.md.minisig
 fi
-        
+
 exec $DAEMON -config "$CONFIG_FILE"
