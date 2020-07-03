@@ -30,7 +30,14 @@ sdns://gRpbMjAwMTpiYzg6MTgyNDo3Mzg6OjFdOjQ0Mw
 
 Anonymized DNS relay hosted in Netherlands - NL
 
-sdns://gRE1MS4xNS4xMjQuMjA4OjQ0Mw
+sdns://gRI1MS4xNS4xMjQuMjA4OjQzNDM
+
+
+## anon-bcn
+
+Anonymized DNS relay hosted in Barcelona, Spain.
+
+sdns://gRMxODUuMjUzLjE1NC42Njo0MzQz
 
 
 ## anon-cs-ca2
@@ -295,4 +302,18 @@ sdns://gRMxMDQuMjM4LjE4Ni4xOTI6NDQz
 Anonymized DNS relay hosted in UK on Vultr
 
 sdns://gSxbMjAwMToxOWYwOjc0MDI6MTU3NDo1NDAwOjJmZjpmZTY2OjJjZmZdOjQ0Mw
+
+
+## anon-yofiji-se-ipv4
+
+Anonymized DNS relay hosted in Sweden and maintained by yofiji.
+
+sdns://gRMxODUuMTkzLjEyNy4yNDQ6NDQz
+
+
+## anon-yofiji-se-ipv6
+
+Anonymized DNS relay hosted in Sweden and maintained by yofiji.
+
+sdns://gSlbMmEwYTozODQwOjEzMzc6MTI3OjA6YjljMTo3ZmY0OjEzMzddOjQ0Mw
 

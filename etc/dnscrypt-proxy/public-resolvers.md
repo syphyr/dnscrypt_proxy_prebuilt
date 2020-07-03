@@ -171,7 +171,7 @@ sdns://AgAAAAAAAAAACTIyMy41LjUuNSCoF6cUD2dwqtorNi96I2e3nkHPSJH1ka3xbdOglmOVkQ5kb
 ## ams-dnscrypt-nl
 
 Resolver in Amsterdam. DNSCrypt protocol. Non-logging, non-filtering, DNSSEC.
-Forward DNS to anoymized DNS servers.
+Forward DNS to anonymized DNS servers.
 
 sdns://AQcAAAAAAAAAEjUxLjE1LjEyNC4yMDg6NDM0MyC8E4j1dj497HXxyQ_JFb-2iurf6xxF9phRgGOcYOfxYh8yLmRuc2NyeXB0LWNlcnQuYW1zLWRuc2NyeXB0LW5s
 
@@ -179,7 +179,7 @@ sdns://AQcAAAAAAAAAEjUxLjE1LjEyNC4yMDg6NDM0MyC8E4j1dj497HXxyQ_JFb-2iurf6xxF9phRg
 ## ams-doh-nl
 
 Resolver in Amsterdam. DoH protocol. Non-logging, non-filtering, DNSSEC.
-Forward DNS to anoymized DNS servers.
+Forward DNS to anonymized DNS servers.
 
 sdns://AgcAAAAAAAAAETUxLjE1LjEyNC4yMDg6NDQzABZkbnNubC5hbGVrYmVyZy5uZXQ6NDQzCi9kbnMtcXVlcnk
 
@@ -217,6 +217,20 @@ sdns://AQcAAAAAAAAAFDIwNi4xODkuMTQyLjE3OTo1MzUzII5GJ8c4g6hRAwghulrn5dBB9KrvlbeCk
 AT&T test DoH server.
 
 sdns://AgQAAAAAAAAAAKBLTrSwdCmLgotcADCVoQtFI_uVHAyINIsJxT5bq6QIoyD2Hldod9qWUClMzLX5bHX8txvaG7xGRjZ8Tr7aidcxjxBkb2h0cmlhbC5hdHQubmV0Ci9kbnMtcXVlcnk
+
+
+## bcn-dnscrypt
+
+Resolver in Barcelona, Spain. DNSCrypt protocol. Non-logging, non-filtering, DNSSEC. Anonymized.
+
+sdns://AQcAAAAAAAAAEzE4NS4yNTMuMTU0LjY2OjQzNDMg_IlDWhFp1tL1VycXVO3QTEiQIKG_1OwG4tNTAD-nLj0cMi5kbnNjcnlwdC1jZXJ0LmJjbi1kbnNjcnlwdA
+
+
+## bcn-doh
+
+Resolver in Barcelona, Spain. DoH protocol. Non-logging, non-filtering, DNSSEC. Anonymized.
+
+sdns://AgcAAAAAAAAAEjE4NS4yNTMuMTU0LjY2OjQ0MwAWZG5zZXMuYWxla2JlcmcubmV0OjQ0MwovZG5zLXF1ZXJ5
 
 
 ## brahma-world
@@ -1639,116 +1653,68 @@ https://101.101.101.101/index_en.html
 sdns://AgcAAAAAAAAAACAoPxWWFWiOuUdTdn7SvYpzbNqr_iDmmJrktihy4wca5gxkbnMudHduaWMudHcKL2Rucy1xdWVyeQ
 
 
-## quad9-dnscrypt-ip4-filter-alt
-
-Quad9 (anycast) dnssec/no-log/filter 149.112.112.9
-
-sdns://AQMAAAAAAAAAEjE0OS4xMTIuMTEyLjk6ODQ0MyBnyEe4yHWM0SAkVUO-dWdG3zTfHYTAC4xHA2jfgh2GPhkyLmRuc2NyeXB0LWNlcnQucXVhZDkubmV0
-
-
 ## quad9-dnscrypt-ip4-filter-pri
 
-Quad9 (anycast) dnssec/no-log/filter 9.9.9.9
+Quad9 (anycast) dnssec/no-log/filter 9.9.9.9 / 149.112.112.9
 
 sdns://AQMAAAAAAAAADDkuOS45Ljk6ODQ0MyBnyEe4yHWM0SAkVUO-dWdG3zTfHYTAC4xHA2jfgh2GPhkyLmRuc2NyeXB0LWNlcnQucXVhZDkubmV0
-
-
-## quad9-dnscrypt-ip4-nofilter-alt
-
-Quad9 (anycast) no-dnssec/no-log/no-filter 149.112.112.10
-
-sdns://AQYAAAAAAAAAEzE0OS4xMTIuMTEyLjEwOjg0NDMgZ8hHuMh1jNEgJFVDvnVnRt803x2EwAuMRwNo34Idhj4ZMi5kbnNjcnlwdC1jZXJ0LnF1YWQ5Lm5ldA
+sdns://AQMAAAAAAAAAEjE0OS4xMTIuMTEyLjk6ODQ0MyBnyEe4yHWM0SAkVUO-dWdG3zTfHYTAC4xHA2jfgh2GPhkyLmRuc2NyeXB0LWNlcnQucXVhZDkubmV0
 
 
 ## quad9-dnscrypt-ip4-nofilter-pri
 
-Quad9 (anycast) no-dnssec/no-log/no-filter 9.9.9.10
+Quad9 (anycast) no-dnssec/no-log/no-filter 9.9.9.10 / 149.112.112.10
 
 sdns://AQYAAAAAAAAADTkuOS45LjEwOjg0NDMgZ8hHuMh1jNEgJFVDvnVnRt803x2EwAuMRwNo34Idhj4ZMi5kbnNjcnlwdC1jZXJ0LnF1YWQ5Lm5ldA
-
-
-## quad9-dnscrypt-ip6-filter-alt
-
-Quad9 (anycast) dnssec/no-log/filter 2620:fe::9
-
-sdns://AQMAAAAAAAAAEVsyNjIwOmZlOjo5XTo4NDQzIGfIR7jIdYzRICRVQ751Z0bfNN8dhMALjEcDaN-CHYY-GTIuZG5zY3J5cHQtY2VydC5xdWFkOS5uZXQ
+sdns://AQYAAAAAAAAAEzE0OS4xMTIuMTEyLjEwOjg0NDMgZ8hHuMh1jNEgJFVDvnVnRt803x2EwAuMRwNo34Idhj4ZMi5kbnNjcnlwdC1jZXJ0LnF1YWQ5Lm5ldA
 
 
 ## quad9-dnscrypt-ip6-filter-pri
 
-Quad9 (anycast) dnssec/no-log/filter 2620:fe::fe:9
+Quad9 (anycast) dnssec/no-log/filter 2620:fe::9 / 2620:fe::fe:9
 
+sdns://AQMAAAAAAAAAEVsyNjIwOmZlOjo5XTo4NDQzIGfIR7jIdYzRICRVQ751Z0bfNN8dhMALjEcDaN-CHYY-GTIuZG5zY3J5cHQtY2VydC5xdWFkOS5uZXQ
 sdns://AQMAAAAAAAAAFFsyNjIwOmZlOjpmZTo5XTo4NDQzIGfIR7jIdYzRICRVQ751Z0bfNN8dhMALjEcDaN-CHYY-GTIuZG5zY3J5cHQtY2VydC5xdWFkOS5uZXQ
-
-
-## quad9-dnscrypt-ip6-nofilter-alt
-
-Quad9 (anycast) no-dnssec/no-log/no-filter 2620:fe::fe:10
-
-sdns://AQYAAAAAAAAAFVsyNjIwOmZlOjpmZToxMF06ODQ0MyBnyEe4yHWM0SAkVUO-dWdG3zTfHYTAC4xHA2jfgh2GPhkyLmRuc2NyeXB0LWNlcnQucXVhZDkubmV0
 
 
 ## quad9-dnscrypt-ip6-nofilter-pri
 
-Quad9 (anycast) no-dnssec/no-log/no-filter 2620:fe::10
+Quad9 (anycast) no-dnssec/no-log/no-filter 2620:fe::10 / 2620:fe::fe:10
 
 sdns://AQYAAAAAAAAAElsyNjIwOmZlOjoxMF06ODQ0MyBnyEe4yHWM0SAkVUO-dWdG3zTfHYTAC4xHA2jfgh2GPhkyLmRuc2NyeXB0LWNlcnQucXVhZDkubmV0
-
-
-## quad9-doh-ip4-filter-alt
-
-Quad9 (anycast) dnssec/no-log/filter 149.112.112.9
-
-sdns://AgMAAAAAAAAADTE0OS4xMTIuMTEyLjmAABJkbnM5LnF1YWQ5Lm5ldDo0NDMKL2Rucy1xdWVyeQ
+sdns://AQYAAAAAAAAAFVsyNjIwOmZlOjpmZToxMF06ODQ0MyBnyEe4yHWM0SAkVUO-dWdG3zTfHYTAC4xHA2jfgh2GPhkyLmRuc2NyeXB0LWNlcnQucXVhZDkubmV0
 
 
 ## quad9-doh-ip4-filter-pri
 
-Quad9 (anycast) dnssec/no-log/filter 9.9.9.9
+Quad9 (anycast) dnssec/no-log/filter 9.9.9.9 / 149.112.112.9
 
-sdns://AgMAAAAAAAAABzkuOS45LjmAABJkbnM5LnF1YWQ5Lm5ldDo0NDMKL2Rucy1xdWVyeQ
-
-
-## quad9-doh-ip4-nofilter-alt
-
-Quad9 (anycast) no-dnssec/no-log/no-filter 149.112.112.10
-
-sdns://AgYAAAAAAAAADjE0OS4xMTIuMTEyLjEwgAASZG5zOS5xdWFkOS5uZXQ6NDQzCi9kbnMtcXVlcnk
+sdns://AgMAAAAAAAAABzkuOS45LjkAEmRuczkucXVhZDkubmV0OjQ0MwovZG5zLXF1ZXJ5
+sdns://AgMAAAAAAAAADTE0OS4xMTIuMTEyLjkAEmRuczkucXVhZDkubmV0OjQ0MwovZG5zLXF1ZXJ5
 
 
 ## quad9-doh-ip4-nofilter-pri
 
-Quad9 (anycast) no-dnssec/no-log/no-filter 9.9.9.10
+Quad9 (anycast) no-dnssec/no-log/no-filter 9.9.9.10 / 149.112.112.10
 
-sdns://AgYAAAAAAAAACDkuOS45LjEwgAASZG5zOS5xdWFkOS5uZXQ6NDQzCi9kbnMtcXVlcnk
-
-
-## quad9-doh-ip6-filter-alt
-
-Quad9 (anycast) dnssec/no-log/filter 2620:fe::fe:9
-
-sdns://AgMAAAAAAAAAD1syNjIwOmZlOjpmZTo5XYAAEmRuczkucXVhZDkubmV0OjQ0MwovZG5zLXF1ZXJ5
+sdns://AgYAAAAAAAAACDkuOS45LjEwAA9kbnMxMC5xdWFkOS5uZXQKL2Rucy1xdWVyeQ
+sdns://AgYAAAAAAAAADjE0OS4xMTIuMTEyLjEwAA9kbnMxMC5xdWFkOS5uZXQKL2Rucy1xdWVyeQ
 
 
 ## quad9-doh-ip6-filter-pri
 
-Quad9 (anycast) dnssec/no-log/filter 2620:fe::9
+Quad9 (anycast) dnssec/no-log/filter 2620:fe::9 / 2620:fe::fe:9
 
-sdns://AgMAAAAAAAAADFsyNjIwOmZlOjo5XYAAEmRuczkucXVhZDkubmV0OjQ0MwovZG5zLXF1ZXJ5
-
-
-## quad9-doh-ip6-nofilter-alt
-
-Quad9 (anycast) no-dnssec/no-log/no-filter 2620:fe::fe:10
-
-sdns://AgYAAAAAAAAAEFsyNjIwOmZlOjpmZToxMF2AABJkbnM5LnF1YWQ5Lm5ldDo0NDMKL2Rucy1xdWVyeQ
+sdns://AgMAAAAAAAAADFsyNjIwOmZlOjo5XQAOZG5zOS5xdWFkOS5uZXQKL2Rucy1xdWVyeQ
+sdns://AgMAAAAAAAAAD1syNjIwOmZlOjpmZTo5XQAOZG5zOS5xdWFkOS5uZXQKL2Rucy1xdWVyeQ
 
 
 ## quad9-doh-ip6-nofilter-pri
 
-Quad9 (anycast) no-dnssec/no-log/no-filter 2620:fe::10
+Quad9 (anycast) no-dnssec/no-log/no-filter 2620:fe::10 / 2620:fe::fe:10
 
-sdns://AgYAAAAAAAAADVsyNjIwOmZlOjoxMF2AABJkbnM5LnF1YWQ5Lm5ldDo0NDMKL2Rucy1xdWVyeQ
+sdns://AgYAAAAAAAAADVsyNjIwOmZlOjoxMF0AD2RuczEwLnF1YWQ5Lm5ldAovZG5zLXF1ZXJ5
+sdns://AgYAAAAAAAAAEFsyNjIwOmZlOjpmZToxMF0AD2RuczEwLnF1YWQ5Lm5ldAovZG5zLXF1ZXJ5
 
 
 ## qualityology.com
@@ -1864,14 +1830,14 @@ sdns://AQcAAAAAAAAAFDE3OC4yMTYuMjAxLjIyMjoyMDUzICXE4YgpFUaXj5wrvbanr6QB7aBRBQhdU
 
 ## sth-dnscrypt-se
 
-Resolver in Stockholm, Sweden. DNSCrypt server. Non-logging, non-filtering, DNSSEC. Forward DNS to anoymized DNS servers
+Resolver in Stockholm, Sweden. DNSCrypt server. Non-logging, non-filtering, DNSSEC. Forward DNS to anonymized DNS servers
 
 sdns://AQcAAAAAAAAAETQ1LjE1My4xODcuOTY6NDQzILwTiPV2Pj3sdfHJD8kVv7aK6t_rHEX2mFGAY5xg5_FiHzIuZG5zY3J5cHQtY2VydC5zdGgtZG5zY3J5cHQtc2U
 
 
 ## sth-doh-se
 
-Resolver in Stockholm, Sweden. DoH server. Non-logging, non-filtering, DNSSEC. Forward DNS to anoymized DNS servers
+Resolver in Stockholm, Sweden. DoH server. Non-logging, non-filtering, DNSSEC. Forward DNS to anonymized DNS servers
 
 sdns://AgcAAAAAAAAAETQ1LjE1My4xODcuOTY6NDQzABZkbnNzZS5hbGVrYmVyZy5uZXQ6NDQzBC9kbnM
 
@@ -1918,4 +1884,20 @@ sdns://AgUAAAAAAAAAEjk2LjExMy4xNTEuMTQzOjQ0M6Ax_Wo8PCx8I5Gkl1qfoqes0mp4xMrk1W5GI
 Yandex public DNS server (anycast)
 
 sdns://AQQAAAAAAAAAEDc3Ljg4LjguNzg6MTUzNTMg04TAccn3RmKvKszVe13MlxTUB7atNgHhrtwG1W1JYyciMi5kbnNjcnlwdC1jZXJ0LmJyb3dzZXIueWFuZGV4Lm5ldA
+
+
+## yofiji-se-ipv4
+
+Uncensored, DNSSEC, no logging DNSCrypt server (IPv4) hosted in Sweden
+Maintained by yofiji
+
+sdns://AQcAAAAAAAAAEzE4NS4xOTMuMTI3LjI0NDo0NDMgsaZZTbc7aLZjQQ6dtvkke4mmYRS49ry5rk1sdSV-1dYZMi5kbnNjcnlwdC1jZXJ0LnlvZmlqaS1zZQ
+
+
+## yofiji-se-ipv6
+
+Uncensored, DNSSEC, no logging DNSCrypt server (IPv6) hosted in Sweden
+Maintained by yofiji
+
+sdns://AQcAAAAAAAAAKVsyYTBhOjM4NDA6MTMzNzoxMjc6MDpiOWMxOjdmZjQ6MTMzN106NDQzILGmWU23O2i2Y0EOnbb5JHuJpmEUuPa8ua5NbHUlftXWGTIuZG5zY3J5cHQtY2VydC55b2Zpamktc2U
 
