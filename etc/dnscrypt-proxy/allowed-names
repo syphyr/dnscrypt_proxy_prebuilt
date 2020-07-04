@@ -15,7 +15,30 @@
 ## ads[0-9]*     | matches "ads" followed by one or more digits
 ## ads*.example* | *, ? and [] can be used anywhere, but prefixes/suffixes are faster
 
+tracker.aletorrenty.pl
+tracker.bt-hash.com
+tracker.coppersurfer.tk
+tracker.cyberia.is
 tracker.debian.org
+tracker.dutchtracking.com
+tracker.fastdownload.xyz
+tracker.internetwarriors.net
+tracker.ipv6tracker.ru
+tracker.justseed.it
+tracker.kicks-ass.net
+tracker.leechers-paradise.org
+tracker.moxing.party
+tracker.opentrackr.org
+tracker.open-internet.nl
+tracker.parrotsec.org
+tracker.pirateparty.gr
+tracker.publicbt.com
+tracker.sktorrent.net
+tracker.tiny-vps.com
+tracker.torrent.eu.org
+tracker.trackerfix.com
+tracker.vanitycore.co
+tracker.zer0day.to
 
 
 
