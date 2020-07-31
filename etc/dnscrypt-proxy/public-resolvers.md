@@ -231,6 +231,24 @@ Resolver in Barcelona, Spain. DoH protocol. Non-logging, non-filtering, DNSSEC.
 sdns://AgcAAAAAAAAAEzE4NS4yNTMuMTU0LjY2OjQzNDMAF2Ruc2VzLmFsZWtiZXJnLm5ldDo0MzQzCi9kbnMtcXVlcnk
 
 
+## bortzmeyer
+
+Non-logging DoH server in France operated by Stéphane Bortzmeyer.
+
+https://www.bortzmeyer.org/doh-bortzmeyer-fr-policy.html
+
+sdns://AgcAAAAAAAAADDE5My43MC44NS4xMSA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OBFkb2guYm9ydHptZXllci5mcgEv
+
+
+## bortzmeyer-ipv6
+
+Non-logging DoH server in France operated by Stéphane Bortzmeyer (IPv6 only).
+
+https://www.bortzmeyer.org/doh-bortzmeyer-fr-policy.html
+
+sdns://AgcAAAAAAAAAGVsyMDAxOjQxZDA6MzAyOjIyMDA6OjE4MF0gPhoaD2xT8-l6SS1XCEtbmAcFnuBXqxUFh2_YP9o9uDgRZG9oLmJvcnR6bWV5ZXIuZnIBLw
+
+
 ## brahma-world
 
 DNS-over-HTTPS / DNS over TLS server with PiHole. Filters ads, trackers and malware.
@@ -463,6 +481,22 @@ sdns://AgUAAAAAAAAAACA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OAxjb21tb25zLmhvc
 Comodo Dome Shield (anycast) - https://cdome.comodo.com/shield/
 
 sdns://AQUAAAAAAAAACjguMjAuMjQ3LjIg0sJUqpYcHsoXmZb1X7yAHwg2xyN5q1J-zaiGG-Dgs7AoMi5kbnNjcnlwdC1jZXJ0LnNoaWVsZC0yLmRuc2J5Y29tb2RvLmNvbQ
+
+
+## comss.one
+
+DNS server in Lithuania filtering phishing and ads.
+https://www.comss.ru/page.php?id=7315
+
+sdns://AQMAAAAAAAAAETk0LjE3Ni4yMzMuOTM6NDQzIBVpyAOGbSSr5yLPYOsmU-FiMj2_q0BAdu6WiMTPzpMTHTIuZG5zY3J5cHQtY2VydC5kbnMuY29tc3Mub25l
+
+
+## comss.one-ipv6
+
+DNS server in Lithuania filtering phishing and ads (IPv6 only).
+https://www.comss.ru/page.php?id=7315
+
+sdns://AQMAAAAAAAAAHFsyYTAyOjdiNDA6NWViMDplOTVkOjoxXTo0NDMgFWnIA4ZtJKvnIs9g6yZT4WIyPb-rQEB27paIxM_OkxMdMi5kbnNjcnlwdC1jZXJ0LmRucy5jb21zcy5vbmU
 
 
 ## containerpi
@@ -715,7 +749,7 @@ Using Cloudflare as a frontend.
 
 https://dns.sb
 
-sdns://AgUAAAAAAAAAACA9pLcWNKQTwc7zSqltJaQBY01M82w7Ezx0KU5I5jcBKgpkb2guZG5zLnNiCi9kbnMtcXVlcnk
+sdns://AgUAAAAAAAAAAAAKZG9oLmRucy5zYgovZG5zLXF1ZXJ5
 
 
 ## dnscrypt-de-blahdns-ipv4
