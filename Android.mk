@@ -27,12 +27,21 @@ LOCAL_REQUIRED_MODULES := dnscrypt
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := cloaking-rules
+LOCAL_MODULE := captive-portal-handler
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/dnscrypt-proxy
 LOCAL_SRC_FILES := etc/dnscrypt-proxy/$(LOCAL_MODULE)
 LOCAL_REQUIRED_MODULES := blocked-names
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := cloaking-rules
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/dnscrypt-proxy
+LOCAL_SRC_FILES := etc/dnscrypt-proxy/$(LOCAL_MODULE)
+LOCAL_REQUIRED_MODULES := captive-portal-handler
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
