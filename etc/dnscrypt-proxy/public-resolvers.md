@@ -179,7 +179,7 @@ sdns://AQcAAAAAAAAAEjUxLjE1LjEyNC4yMDg6NDM0MyC8E4j1dj497HXxyQ_JFb-2iurf6xxF9phRg
 
 Resolver in Amsterdam. DoH protocol. Non-logging, non-filtering, DNSSEC.
 
-sdns://AgcAAAAAAAAAEjUxLjE1LjEyNC4yMDg6NDM0MwAXZG5zbmwuYWxla2JlcmcubmV0OjQzNDMKL2Rucy1xdWVyeQ
+sdns://AgcAAAAAAAAAETUxLjE1LjEyNC4yMDg6NDQzABZkbnNubC5hbGVrYmVyZy5uZXQ6NDQzCi9kbnMtcXVlcnk
 
 
 ## arapurayil-dnscrypt
@@ -228,7 +228,7 @@ sdns://AQcAAAAAAAAAEzE4NS4yNTMuMTU0LjY2OjQzNDMg_IlDWhFp1tL1VycXVO3QTEiQIKG_1OwG4
 
 Resolver in Barcelona, Spain. DoH protocol. Non-logging, non-filtering, DNSSEC.
 
-sdns://AgcAAAAAAAAAEzE4NS4yNTMuMTU0LjY2OjQzNDMAF2Ruc2VzLmFsZWtiZXJnLm5ldDo0MzQzCi9kbnMtcXVlcnk
+sdns://AgcAAAAAAAAAEjE4NS4yNTMuMTU0LjY2OjQ0MwAWZG5zZXMuYWxla2JlcmcubmV0OjQ0MwovZG5zLXF1ZXJ5
 
 
 ## bortzmeyer
@@ -858,14 +858,14 @@ sdns://AgcAAAAAAAAADTE0OS41Ni4yMjguNDUgPhoaD2xT8-l6SS1XCEtbmAcFnuBXqxUFh2_YP9o9u
 Free, Canadian, uncensored, no-logs, encrypted, and DNSSEC validated
 DNS service for your pleasure.
 
-sdns://AQcAAAAAAAAAHFsyNjA3OjUzMDA6MTIwOmI5Yjo6MjAwXTo0NDMgmHxwqJfb2hUaNK1LVeqADvVhzASq1cV90sPYYfwX9CkiMi5kbnNjcnlwdC1jZXJ0LmRuc2NyeXB0LmNhLTItaXB2Ng
+sdns://AQcAAAAAAAAAHFsyNjA3OjUzMDA6NjA6NjUyZjo6MjAwXTo0NDMgmHxwqJfb2hUaNK1LVeqADvVhzASq1cV90sPYYfwX9CkiMi5kbnNjcnlwdC1jZXJ0LmRuc2NyeXB0LmNhLTItaXB2Ng
 
 
 ## dnscrypt.ca-2-ipv6-doh
 
 Free, Canadian, uncensored, no-logs, encrypted, and DNSSEC validated DNS service for your pleasure.
 
-sdns://AgcAAAAAAAAAGFsyNjA3OjUzMDA6MTIwOmI5Yjo6MjAwXSA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OBRkbnMyLmRuc2NyeXB0LmNhOjQ1MwovZG5zLXF1ZXJ5
+sdns://AgcAAAAAAAAAGFsyNjA3OjUzMDA6NjA6NjUyZjo6MjAwXSA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OBRkbnMyLmRuc2NyeXB0LmNhOjQ1MwovZG5zLXF1ZXJ5
 
 
 ## dnscrypt.eu-dk
@@ -955,6 +955,15 @@ https://www.dnslify.com/
 sdns://AgcAAAAAAAAADDE4NS4yMzUuODEuMSA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OA9kb2guZG5zbGlmeS5jb20KL2Rucy1xdWVyeQ
 
 
+## dnspod-doh
+
+A public DNS resolver in mainland China provided by DNSPod (Tencent Cloud).
+
+https://www.dnspod.cn/Products/Public.DNS?lang=en
+
+sdns://AgAAAAAAAAAAACDrdSX4jw2UWPgamVAZv9NMuJzNyVfnsO8xXxD4l2OBGAdkb2gucHViCi9kbnMtcXVlcnk
+
+
 ## doh-centraleu-pi-dns
 
 A zero logging DNS with support for DNS-over-HTTPS (DoH) & DNS-over-TLS (DoT). Blocks ads, malware, trackers, viruses and telemetry. No persistent logs, DNSSEC, Hosted in Nuremberg, Germany. By https://pi-dns.com/
@@ -1008,7 +1017,7 @@ DNS-over-HTTPS server. Anycast, no logs, no censorship, DNSSEC.
 Backend hosted by Scaleway, globally cached via Cloudflare.
 Maintained by Frank Denis.
 
-sdns://AgcAAAAAAAAADDEwNC4yOC4wLjEwNiA9pLcWNKQTwc7zSqltJaQBY01M82w7Ezx0KU5I5jcBKg1kb2guY3J5cHRvLnN4Ci9kbnMtcXVlcnk
+sdns://AgcAAAAAAAAADDEwNC4yOC4wLjEwNgANZG9oLmNyeXB0by5zeAovZG5zLXF1ZXJ5
 
 
 ## doh-crypto-sx-ipv6
@@ -1017,7 +1026,7 @@ DNS-over-HTTPS server accessible over IPv6. Anycast, no logs, no censorship, DNS
 Backend hosted by Scaleway, globally cached via Cloudflare.
 Maintained by Frank Denis.
 
-sdns://AgcAAAAAAAAAF1syNjA2OjQ3MDA6MzA6OjY4MWM6NmFdIB3YUIqMVlkEOXx4ZFHgj1dhPPPIpyP283n9TDhYtvOfEmRvaC1pcHY2LmNyeXB0by5zeAovZG5zLXF1ZXJ5
+sdns://AgcAAAAAAAAAF1syNjA2OjQ3MDA6MzA6OjY4MWM6NmFdABJkb2gtaXB2Ni5jcnlwdG8uc3gKL2Rucy1xdWVyeQ
 
 
 ## doh-de-blahdns
@@ -1593,18 +1602,45 @@ Location: Munich, Germany
 sdns://AQYAAAAAAAAAETUuMTg5LjE3MC4xOTY6NDY1IFQ1LFVAO4Luk8QH_cI0RJcNmlbvIr_P-eyQnM0yJDJrKDIuZG5zY3J5cHQtY2VydC5uczE2LmRlLmRucy5vcGVubmljLmdsdWU
 
 
+## opennic-fische
+
+OpenNIC • Non-logging • DNSSEC
+Location: Nurnberg, Germany
+
+sdns://AQcAAAAAAAAAEjYyLjIxMC4xODAuNzE6MTA1MyBxLWt8kNHoMqM7vKXCkuZ3PnB32c0qV2I3KGQYtlDKSB8yLmRuc2NyeXB0LWNlcnQubnMyLmlyaXNlZGVuLmZy
+
+
+## opennic-fische-ipv6
+
+OpenNIC • Non-logging • DNSSEC
+Location: Nurnberg, Germany
+
+sdns://AQcAAAAAAAAAHFsyYTAxOjRmODoxYzBjOjgwYzk6OjFdOjEwNTMgcmZXgMxIKLKAtkLUX7t6Lhw7j4-PIqXir5hMytnM-W8dMi5kbnNjcnlwdC1jZXJ0Lm5zMS5maXNjaGUuaW8
+
+
+## opennic-iriseden
+
+OpenNIC • Non-logging • DNSSEC
+Location: Paris, France
+Maintained by iriseden.
+
+sdns://AQcAAAAAAAAAHVsyMDAxOmJjODozMmQ3OjMwODo6MjAxXToxMDUzIEUAcwKTPY6tyEQxtfO3rIzEyqN9w7WGPLz7ZsHsx5EGHzIuZG5zY3J5cHQtY2VydC5uczEuaXJpc2VkZW4uZnI
+
+
+## opennic-iriseden-ipv6
+
+OpenNIC • Non-logging • DNSSEC
+Location: Paris, France
+Maintained by iriseden.
+
+sdns://AQcAAAAAAAAAHVsyMDAxOmJjODozMmQ3OjMwNzo6MzAxXToxMDUzIJjeEela3WTzMuuZTskr7aOchIg2llSDNRsHfcggITn6HzIuZG5zY3J5cHQtY2VydC5uczIuaXJpc2VkZW4uZnI
+
+
 ## opennic-luggs
 
 Public DNS server in Canada operated by Luggs
 
 sdns://AQYAAAAAAAAADTE0Mi40LjIwNC4xMTEgHBl5MxvoI8zPCJp5BpN-XDQQKlasf2Jw4EYlsu3bBOMfMi5kbnNjcnlwdC1jZXJ0Lm5zMy5jYS5sdWdncy5jbw
-
-
-## opennic-luggs-ipv6
-
-Public DNS server in Canada operated by Luggs (IPv6)
-
-sdns://AQYAAAAAAAAAIVsyNjA3OjUzMDA6MTIwOmE4YToxNDI6NDoyMDQ6MTExXSAcGXkzG-gjzM8ImnkGk35cNBAqVqx_YnDgRiWy7dsE4x8yLmRuc2NyeXB0LWNlcnQubnMzLmNhLmx1Z2dzLmNv
 
 
 ## opennic-luggs2
@@ -1864,7 +1900,7 @@ sdns://AQcAAAAAAAAAEjQ1LjE1My4xODcuOTY6NDM0MyC8E4j1dj497HXxyQ_JFb-2iurf6xxF9phRg
 
 Resolver in Stockholm, Sweden. DoH server. Non-logging, non-filtering, DNSSEC.
 
-sdns://AgcAAAAAAAAAEjQ1LjE1My4xODcuOTY6NDM0MwAXZG5zc2UuYWxla2JlcmcubmV0OjQzNDMKL2Rucy1xdWVyeQ
+sdns://AgcAAAAAAAAAETQ1LjE1My4xODcuOTY6NDQzABZkbnNzZS5hbGVrYmVyZy5uZXQ6NDQzCi9kbnMtcXVlcnk
 
 
 ## t53
