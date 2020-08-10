@@ -56,42 +56,6 @@ https://www.aaflalo.me/2019/01/dns-over-https-server-aaflalo-me/
 sdns://AgMAAAAAAAAADjE2OC4yMzUuODEuMTY3ID4aGg9sU_PpekktVwhLW5gHBZ7gV6sVBYdv2D_aPbg4EmRucy1ueWMuYWFmbGFsby5tZQovZG5zLXF1ZXJ5
 
 
-## abmb-sg-doh-ipv4
-
-Non-logging and Non-filtering DoH server. Support DNSSEC. Both IPv4 & IPv6.
-
-Hosted in Singapore.
-
-sdns://AgcAAAAAAAAACTMuMC41OS40OAAMZG9oLmFibWIud2luCi9kbnMtcXVlcnk
-
-
-## abmb-sg-doh-ipv6
-
-Non-logging and Non-filtering DoH server. Support DNSSEC. Both IPv4 & IPv6.
-
-Hosted in Singapore.
-
-sdns://AgcAAAAAAAAALFsyNDA2OmRhMTg6OTUxOjg1ODY6YWNmZTo1ODQ5OmI0NmM6N2VlMl06NDQzAAxkb2guYWJtYi53aW4KL2Rucy1xdWVyeQ
-
-
-## abmb-sg2-doh-ipv4
-
-Non-logging and Non-filtering DoH server. Support DNSSEC. Both IPv4 & IPv6.
-
-Hosted in Singapore.
-
-sdns://AgcAAAAAAAAADjU0LjE2OS4xMDMuMjQ0AA1kb2gyLmFibWIud2luCi9kbnMtcXVlcnk
-
-
-## abmb-sg2-doh-ipv6
-
-Non-logging and Non-filtering DoH server. Support DNSSEC. Both IPv4 & IPv6.
-
-Hosted in Singapore.
-
-sdns://AgcAAAAAAAAAJlsyNDA2OmRhMTg6OTUxOjg1ODY6Y2E2NDo2ZDVhOjFiOmYzY2VdAA1kb2gyLmFibWIud2luCi9kbnMtcXVlcnk
-
-
 ## acsacsar-ams-ipv4
 
 Public non-censoring, non-logging, DNSSEC-capable, DNSCrypt-enabled DNS resolver hosted on Scaleway by @acsacsar (twitter)
@@ -476,27 +440,12 @@ DoH server by the Commons Host CDN
 sdns://AgUAAAAAAAAAACA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OAxjb21tb25zLmhvc3QKL2Rucy1xdWVyeQ
 
 
-## comodo-02
-
-Comodo Dome Shield (anycast) - https://cdome.comodo.com/shield/
-
-sdns://AQUAAAAAAAAACjguMjAuMjQ3LjIg0sJUqpYcHsoXmZb1X7yAHwg2xyN5q1J-zaiGG-Dgs7AoMi5kbnNjcnlwdC1jZXJ0LnNoaWVsZC0yLmRuc2J5Y29tb2RvLmNvbQ
-
-
 ## comss.one
 
 DNS server in Lithuania filtering phishing and ads.
 https://www.comss.ru/page.php?id=7315
 
 sdns://AQMAAAAAAAAAETk0LjE3Ni4yMzMuOTM6NDQzIBVpyAOGbSSr5yLPYOsmU-FiMj2_q0BAdu6WiMTPzpMTHTIuZG5zY3J5cHQtY2VydC5kbnMuY29tc3Mub25l
-
-
-## comss.one-ipv6
-
-DNS server in Lithuania filtering phishing and ads (IPv6 only).
-https://www.comss.ru/page.php?id=7315
-
-sdns://AQMAAAAAAAAAHFsyYTAyOjdiNDA6NWViMDplOTVkOjoxXTo0NDMgFWnIA4ZtJKvnIs9g6yZT4WIyPb-rQEB27paIxM_OkxMdMi5kbnNjcnlwdC1jZXJ0LmRucy5jb21zcy5vbmU
 
 
 ## containerpi
