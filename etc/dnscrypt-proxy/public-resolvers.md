@@ -143,7 +143,7 @@ sdns://AQcAAAAAAAAAEjUxLjE1LjEyNC4yMDg6NDM0MyC8E4j1dj497HXxyQ_JFb-2iurf6xxF9phRg
 
 Resolver in Amsterdam. DoH protocol. Non-logging, non-filtering, DNSSEC.
 
-sdns://AgcAAAAAAAAAETUxLjE1LjEyNC4yMDg6NDQzABZkbnNubC5hbGVrYmVyZy5uZXQ6NDQzCi9kbnMtcXVlcnk
+sdns://AgcAAAAAAAAADTUxLjE1LjEyNC4yMDggPhoaD2xT8-l6SS1XCEtbmAcFnuBXqxUFh2_YP9o9uDgSZG5zbmwuYWxla2JlcmcubmV0Ci9kbnMtcXVlcnk
 
 
 ## arapurayil-dnscrypt
@@ -192,7 +192,7 @@ sdns://AQcAAAAAAAAAEzE4NS4yNTMuMTU0LjY2OjQzNDMg_IlDWhFp1tL1VycXVO3QTEiQIKG_1OwG4
 
 Resolver in Barcelona, Spain. DoH protocol. Non-logging, non-filtering, DNSSEC.
 
-sdns://AgcAAAAAAAAAEjE4NS4yNTMuMTU0LjY2OjQ0MwAWZG5zZXMuYWxla2JlcmcubmV0OjQ0MwovZG5zLXF1ZXJ5
+sdns://AgcAAAAAAAAADjE4NS4yNTMuMTU0LjY2ID4aGg9sU_PpekktVwhLW5gHBZ7gV6sVBYdv2D_aPbg4EmRuc2VzLmFsZWtiZXJnLm5ldAovZG5zLXF1ZXJ5
 
 
 ## bortzmeyer
@@ -215,20 +215,20 @@ sdns://AgcAAAAAAAAAGVsyMDAxOjQxZDA6MzAyOjIyMDA6OjE4MF0gPhoaD2xT8-l6SS1XCEtbmAcFn
 
 ## brahma-world
 
-DNS-over-HTTPS / DNS over TLS server with PiHole. Filters ads, trackers and malware.
+DNS-over-HTTPS / DNS over TLS server with PiHole. Filters ads, trackers and malware. DNSSEC ready, QNAME Minimization, No EDNS Client-Subnet.
 
-Hosted in Nuremberg, Germany. (https://dns.brahma.world)
+Hosted in Frankfurt, Germany. (https://dns.brahma.world)
 
-sdns://AgMAAAAAAAAADjk0LjEzMC4yMjQuMTE0ID4aGg9sU_PpekktVwhLW5gHBZ7gV6sVBYdv2D_aPbg4EGRucy5icmFobWEud29ybGQKL2Rucy1xdWVyeQ
+sdns://AgMAAAAAAAAADTk0LjIzNy44MC4yMTEgPhoaD2xT8-l6SS1XCEtbmAcFnuBXqxUFh2_YP9o9uDgQZG5zLmJyYWhtYS53b3JsZAovZG5zLXF1ZXJ5
 
 
 ## brahma-world-ipv6
 
-DNS-over-HTTPS / DNS over TLS server with PiHole. Filters ads, trackers and malware.
+DNS-over-HTTPS / DNS over TLS server with PiHole. Filters ads, trackers and malware. DNSSEC ready, QNAME Minimization, No EDNS Client-Subnet.
 
-Hosted in Nuremberg, Germany. (https://dns.brahma.world)
+Hosted in Frankfurt, Germany. (https://dns.brahma.world)
 
-sdns://AgMAAAAAAAAAFlsyYTAxOjRmODpjMGM6OTI1NTo6MV0gPhoaD2xT8-l6SS1XCEtbmAcFnuBXqxUFh2_YP9o9uDgQZG5zLmJyYWhtYS53b3JsZAovZG5zLXF1ZXJ5
+sdns://AgMAAAAAAAAAKFsyYTA0OjM1NDI6MTAwMDo5MTA6MzA1Yzo3NGZmOmZlMjk6N2MyNl0gPhoaD2xT8-l6SS1XCEtbmAcFnuBXqxUFh2_YP9o9uDgQZG5zLmJyYWhtYS53b3JsZAovZG5zLXF1ZXJ5
 
 
 ## captnemo-in
@@ -651,6 +651,14 @@ Contributed by: https://decloudus.com
 sdns://AQMAAAAAAAAAG1syYTAxOjRmODoxNTE6MTFiMDo6M106ODQ0MyD73Ye9XeCsS7TdFu9fRP7s5k-0aL91yygulGVmeOAKLh4yLmRuc2NyeXB0LWNlcnQuRGVDbG91ZFVzLXRlc3Q
 
 
+## deffer-dns.au
+
+DNSSEC/Non-logged/Uncensored in Sydney (AWS).
+Encrypted DNS Server image by jedisct1, maintaned by DeffeR.
+
+sdns://AQcAAAAAAAAAETUyLjY1LjIzNS4xMjk6NDQzIOUNNEQwwZMMd31GmtP3rY8-Ih95SwTqrIPeW2A5ldOzHTIuZG5zY3J5cHQtY2VydC5kZWZmZXItZG5zLmF1
+
+
 ## dns.digitale-gesellschaft.ch
 
 Public DoH resolver operated by the Digital Society (https://www.digitale-gesellschaft.ch).
@@ -757,6 +765,14 @@ Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Singapore. By https://blah
 sdns://AQMAAAAAAAAALVsyMDAxOjE5ZjA6NDQwMDo2YmVkOjU0MDA6MmZmOmZlYjE6ZjlmYV06ODQ0MyBThOgUQxQpPlbdGxQKHvFyrUe9uheZyJVylJU9A061xxsyLmRuc2NyeXB0LWNlcnQuYmxhaGRucy5jb20
 
 
+## dnscrypt.be
+
+Resolver in Leuven, Belgium (UCLL Campus Proximus). Non-logging/DNSSEC/Uncensored. https://dnscrypt.be
+Maintained by Sigfried (https://sigfried.be) hosted by ISW Leuven (https://iswleuven.be).
+
+sdns://AQcAAAAAAAAAEzE5My4xOTEuMTg3LjEwNzo0NDMgM1plzk_yPJNgSic8SCf4mKF0UEVnEdENRRcqyVrb6IMbMi5kbnNjcnlwdC1jZXJ0LmRuc2NyeXB0LmJl
+
+
 ## dnscrypt.ca-1
 
 Free, Canadian, uncensored, no-logs, encrypted, and DNSSEC validated
@@ -843,6 +859,13 @@ sdns://AQcAAAAAAAAADjE3Ni41Ni4yMzcuMTcxIGfADywhxVSBRd18tGonGvLrlpkxQKMJtiuNFlMRh
 Free, non-logged, uncensored. Hosted by RamNode.
 
 sdns://AQcAAAAAAAAAGlsyYTAwOmQ4ODA6MzoxOjphNmMxOjJlODldIGfADywhxVSBRd18tGonGvLrlpkxQKMJtiuNFlMRhZxmJTIuZG5zY3J5cHQtY2VydC5yZXNvbHZlcjEuZG5zY3J5cHQuZXU
+
+
+## dnscrypt.one
+
+Public non-censoring, non-logging, DNSSEC-capable, DNSCrypt-enabled DNS resolver hosted in Germany (Nuremberg)
+
+sdns://AQcAAAAAAAAAEjE0NC45MS4xMDYuMjI3OjQ0MyBdoGNCA_IFO3Mx7f02CSF8RLhU8bAqxq52ha2jxuDc3xwyLmRuc2NyeXB0LWNlcnQuZG5zY3J5cHQub25l
 
 
 ## dnscrypt.uk-ipv4
@@ -1655,14 +1678,6 @@ Maintained by publicarray - https://dns.seby.io
 sdns://AgcAAAAAAAAADTEzOS45OS4yMjIuNzIgPhoaD2xT8-l6SS1XCEtbmAcFnuBXqxUFh2_YP9o9uDgRZG9oLTIuc2VieS5pbzo0NDMKL2Rucy1xdWVyeQ
 
 
-## quad101
-
-DNSSEC-aware public resolver by the Taiwan Network Information Center (TWNIC)
-https://101.101.101.101/index_en.html
-
-sdns://AgcAAAAAAAAAACAoPxWWFWiOuUdTdn7SvYpzbNqr_iDmmJrktihy4wca5gxkbnMudHduaWMudHcKL2Rucy1xdWVyeQ
-
-
 ## quad9-dnscrypt-ip4-filter-pri
 
 Quad9 (anycast) dnssec/no-log/filter 9.9.9.9 / 149.112.112.9
@@ -1849,7 +1864,7 @@ sdns://AQcAAAAAAAAAEjQ1LjE1My4xODcuOTY6NDM0MyC8E4j1dj497HXxyQ_JFb-2iurf6xxF9phRg
 
 Resolver in Stockholm, Sweden. DoH server. Non-logging, non-filtering, DNSSEC.
 
-sdns://AgcAAAAAAAAAETQ1LjE1My4xODcuOTY6NDQzABZkbnNzZS5hbGVrYmVyZy5uZXQ6NDQzCi9kbnMtcXVlcnk
+sdns://AgcAAAAAAAAADTQ1LjE1My4xODcuOTYgPhoaD2xT8-l6SS1XCEtbmAcFnuBXqxUFh2_YP9o9uDgSZG5zc2UuYWxla2JlcmcubmV0Ci9kbnMtcXVlcnk
 
 
 ## t53
@@ -1880,13 +1895,6 @@ sdns://AQcAAAAAAAAALFsyMDAxOjE5ZjA6NzQwMjoxNTc0OjU0MDA6MmZmOmZlNjY6MmNmZl06NDQzI
 Public DNSCrypt resolver provided by Jacob Henner
 
 sdns://AQcAAAAAAAAADTEwNy4xNzAuNTcuMzQg6YXxGK1OPMZf8iUgGJDG9Vi3W1pS9WsXz-rBAFyLm6olMi5kbnNjcnlwdC1jZXJ0LmRuc2NyeXB0LnZlbnRyaWNsZS51cw
-
-
-## xfinity
-
-Comcast DOH server
-
-sdns://AgUAAAAAAAAAEjk2LjExMy4xNTEuMTQzOjQ0M6Ax_Wo8PCx8I5Gkl1qfoqes0mp4xMrk1W5GIynLLGg2syANc6YU7vdZbPWjRzP3Ta8sz-Tfe0pABpv0PEPkKCZBdw9kb2gueGZpbml0eS5jb20KL2Rucy1xdWVyeQ
 
 
 ## yandex
