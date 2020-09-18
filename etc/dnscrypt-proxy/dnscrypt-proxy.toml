@@ -117,6 +117,14 @@ timeout = 5000
 keepalive = 30
 
 
+## Add EDNS-client-subnet information to outgoing queries
+##
+## Multiple networks can be listed; they will be randomly chosen.
+## These networks don't have to match your actual networks.
+
+# edns_client_subnet = ["0.0.0.0/0", "2001:db8::/32"]
+
+
 ## Response for blocked queries.  Options are `refused`, `hinfo` (default) or
 ## an IP response.  To give an IP response, use the format `a:<IPv4>,aaaa:<IPv6>`.
 ## Using the `hinfo` option means that some responses will be lies.
@@ -378,7 +386,7 @@ cache_neg_max_ttl = 600
 
 ## Addresses that the local DoH server should listen to
 
-listen_addresses = ['127.0.0.1:3000']
+# listen_addresses = ['127.0.0.1:3000']
 
 
 ## Path of the DoH URL. This is not a file, but the part after the hostname
@@ -386,14 +394,14 @@ listen_addresses = ['127.0.0.1:3000']
 ## For each `listen_address` the complete URL to access the server will be:
 ## `https://<listen_address><path>` (ex: `https://127.0.0.1/dns-query`)
 
-path = '/dns-query'
+# path = '/dns-query'
 
 
 ## Certificate file and key - Note that the certificate has to be trusted.
 ## See the documentation (wiki) for more information.
 
-cert_file = '/system/etc/dnscrypt-proxy/localhost.pem'
-cert_key_file = '/system/etc/dnscrypt-proxy/localhost.pem'
+# cert_file = '/system/etc/dnscrypt-proxy/localhost.pem'
+# cert_key_file = '/system/etc/dnscrypt-proxy/localhost.pem'
 
 
 
