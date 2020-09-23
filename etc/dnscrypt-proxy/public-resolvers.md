@@ -1317,7 +1317,7 @@ sdns://AQcAAAAAAAAAEzIwNS4xODUuMTE2LjExNjo1NTMg2P-7QuAxvnp5cwtFVo1Jak6Ky1mqg2b9a
 
 ## geekdns-doh
 
-GeekDNS for users in China
+GeekDNS for users in China, via Cloudflare
 
 GeekDNS is a non-logging public DNS service located in mainland China.
 Queries are cached locally, and, for some domains, resolved by servers located
@@ -1325,7 +1325,7 @@ in Taiwan.
 
 https://www.nextrt.com/s/dns
 
-sdns://AgcAAAAAAAAAACCi3jNJDEdtNW4tvHN8J3lpIklSa2Wrj7qaNCgEgci9_AtpLjIzM3B5LmNvbQovZG5zLXF1ZXJ5
+sdns://AgcAAAAAAAAAAAALaS4yMzNweS5jb20KL2Rucy1xdWVyeQ
 
 
 ## geekdns-doh-ext
@@ -1519,6 +1519,16 @@ Hosted in Amsterdam, The Netherlands.
 Non-logging, non-filtering, supports DNSSEC.
 
 sdns://AgcAAAAAAAAADjIwOS4yNTAuMjQxLjI1ID4aGg9sU_PpekktVwhLW5gHBZ7gV6sVBYdv2D_aPbg4Emphcmphci5tZWdhbmVyZC5ubAQvZG9o
+
+
+## meganerd-doh-ipv6
+
+Public DoH server by MegaNerd.nl - https://meganerd.nl/encrypted-dns-server
+Hosted in Amsterdam, The Netherlands.
+
+Non-logging, non-filtering, supports DNSSEC.
+
+sdns://AgcAAAAAAAAAKFsyYTA1OmY0ODA6MTQwMDo0MzY6NTQwMDowMmZmOmZlYjg6OGQxY10gPhoaD2xT8-l6SS1XCEtbmAcFnuBXqxUFh2_YP9o9uDgSamFyamFyLm1lZ2FuZXJkLm5sBC9kb2g
 
 
 ## meganerd-ipv6
