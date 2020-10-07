@@ -1437,6 +1437,16 @@ https://www.iij.ad.jp/
 sdns://AgUAAAAAAAAACjEwMy4yLjU3LjUgs2lfGAQCPrV0DPQqOkPci0Jei0GhMK_ne-QHwPbfn4oRcHVibGljLmRucy5paWouanAKL2Rucy1xdWVyeQ
 
 
+## jitender
+
+DNSCrypt resolver in Hyderabad, India, Oracle Cloud
+
+Operated by Jitender (@coolquasar) in Hyderabad, India.
+Blocks ads/trackers/analytics domains and provides a clean browsing experience.
+
+sdns://AQMAAAAAAAAADTE1Mi42Ny4xNjUuMjYgBQbmyjgl5vyzNCe7s6WXJck9ZZR425-NzDAP63Xij5AcMi5kbnNjcnlwdC1jZXJ0LmppdC5kZG5zLm5ldA
+
+
 ## jp.tiar.app
 
 Non-Logging, Non-Filtering DNSCrypt server in Japan.
