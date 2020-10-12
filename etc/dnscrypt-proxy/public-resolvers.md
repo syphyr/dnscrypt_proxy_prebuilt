@@ -440,6 +440,13 @@ DoH server by the Commons Host CDN
 sdns://AgUAAAAAAAAAACA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OAxjb21tb25zLmhvc3QKL2Rucy1xdWVyeQ
 
 
+## comodo-02
+
+Comodo Dome Shield (anycast) - https://cdome.comodo.com/shield/
+
+sdns://AQUAAAAAAAAACjguMjAuMjQ3LjIg0sJUqpYcHsoXmZb1X7yAHwg2xyN5q1J-zaiGG-Dgs7AoMi5kbnNjcnlwdC1jZXJ0LnNoaWVsZC0yLmRuc2J5Y29tb2RvLmNvbQ
+
+
 ## comss.one
 
 DNS server in Lithuania filtering phishing and ads.
@@ -705,6 +712,13 @@ An open Non-logging, Non-filtering DNSCrypt resolver operated by @cruisemaniac i
 https://dns.flatty.co
 
 sdns://AQcAAAAAAAAAEjQ5LjIwNS4yMTcuMjEyOjQ0MyB-88D9eF8V-CII5iNAP1yxrAdTwX8SrBbPeU89cgviWh0yLmRuc2NyeXB0LWNlcnQuZG5zLmZsYXR0eS5jbw
+
+
+## dns.ryan-palmer
+
+Non-logging, non-filtering, DNSSEC DoH Server. Hosted in the UK.
+
+sdns://AgcAAAAAAAAADjY4LjE4My4yNTMuMjAwID4aGg9sU_PpekktVwhLW5gHBZ7gV6sVBYdv2D_aPbg4FGRuczEucnlhbi1wYWxtZXIuY29tCi9kbnMtcXVlcnk
 
 
 ## dns.sb
