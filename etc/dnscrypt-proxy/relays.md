@@ -177,14 +177,14 @@ sdns://gR5bMmEwMzpiMGMwOjE6ZTA6OjJlMzplMDAxXTo0NDM
 
 Anonymized DNS relay provided by evilvibes.com Location: Toronto, Canada
 
-sdns://gQw2Ni44NS4zMC4xMTU
+sdns://gQw2Ni44NS4zMC4xMDU
 
 
 ## anon-ev-va
 
 Anonymized DNS relay provided by evilvibes.com Location: Vancouver, Canada
 
-sdns://gQ0yMy4xMTEuNzQuMjA1
+sdns://gQ4xMDQuMzYuMTQ4LjIyMQ
 
 
 ## anon-ibksturm
@@ -228,6 +228,13 @@ sdns://gRIyMDkuMjUwLjI0MS4yNTo0NDM
 Anonymized DNS relay hosted by MegaNerd.nl (https://www.meganerd.nl/encrypted-dns-server) in Amsterdam, The Netherlands
 
 sdns://gStbMmEwNTpmNDgwOjE0MDA6NDM2OjU0MDA6MmZmOmZlYjg6OGQxY106NDQz
+
+
+## anon-plan9-dns
+
+Anonymized DNS relay hosted in New Jersey, USA. Running the official Docker image on Vultr by @jlongua1
+
+sdns://gRIxNzMuMTk5LjEyNi4zNTo0NDM
 
 
 ## anon-publicarray
