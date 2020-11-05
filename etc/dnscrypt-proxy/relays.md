@@ -156,21 +156,21 @@ sdns://gREyMDkuNTguMTQ3LjM2OjQ0Mw
 
 Anonymized DNS relay hosted in Germany (Nuremberg), https://dnscrypt.one
 
-sdns://gRIxNDQuOTEuMTA2LjIyNzo0NDM
+sdns://gRExNjEuOTcuMTAxLjUxOjQ0Mw
 
 
 ## anon-dnscrypt.uk-ipv4
 
 Anonymized DNS relay hosted in UK on DigitalOcean
 
-sdns://gRIxMzkuNTkuMjAwLjExNjo0NDM
+sdns://gRExNjUuMjMyLjMyLjk1OjQ0Mw
 
 
 ## anon-dnscrypt.uk-ipv6
 
 Anonymized DNS relay hosted in UK on DigitalOcean
 
-sdns://gR5bMmEwMzpiMGMwOjE6ZTA6OjJlMzplMDAxXTo0NDM
+sdns://gR5bMmEwMzpiMGMwOjE6ZTA6OjQ4NzoxMDAxXTo0NDM
 
 
 ## anon-ev-to
