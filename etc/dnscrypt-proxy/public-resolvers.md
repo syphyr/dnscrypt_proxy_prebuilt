@@ -241,33 +241,6 @@ If you are within India, this might be a nice DNS server to use.
 sdns://AQQAAAAAAAAAEjEzOS41OS40OC4yMjI6NDQzNCAFOt_yxaMpFtga2IpneSwwK6rV0oAyleham9IvhoceEBsyLmRuc2NyeXB0LWNlcnQuY2FwdG5lbW8uaW4
 
 
-## cira-family
-
-CIRA DoH resolvers, blocking trackers, malware, phishing and pornography.
-Operated by the .CA registry. Built by Canadians for Canadians.
-https://www.cira.ca/fr/cybersecurity-services/canadian-shield
-
-sdns://AgEAAAAAAAAAACA_4zhjTgUQYz3kU8o1CxXOwzmz3Li6nyot0k0QqDj-6x1mYW1pbHkuY2FuYWRpYW5zaGllbGQuY2lyYS5jYQovZG5zLXF1ZXJ5
-
-
-## cira-private
-
-CIRA DoH resolvers, blocking trackers.
-Operated by the .CA registry. Built by Canadians for Canadians.
-https://www.cira.ca/fr/cybersecurity-services/canadian-shield
-
-sdns://AgEAAAAAAAAAACA_4zhjTgUQYz3kU8o1CxXOwzmz3Li6nyot0k0QqDj-6x5wcml2YXRlLmNhbmFkaWFuc2hpZWxkLmNpcmEuY2EKL2Rucy1xdWVyeQ
-
-
-## cira-protected
-
-CIRA DoH resolvers, blocking trackers, malware and phishing.
-Operated by the .CA registry. Built by Canadians for Canadians.
-https://www.cira.ca/fr/cybersecurity-services/canadian-shield
-
-sdns://AgEAAAAAAAAAACA_4zhjTgUQYz3kU8o1CxXOwzmz3Li6nyot0k0QqDj-6yBwcm90ZWN0ZWQuY2FuYWRpYW5zaGllbGQuY2lyYS5jYQovZG5zLXF1ZXJ5
-
-
 ## cisco
 
 Remove your DNS blind spot (DNSCrypt protocol)
@@ -742,7 +715,7 @@ sdns://AQMAAAAAAAAAEjc4LjQ2LjI0NC4xNDM6ODQ0MyBThOgUQxQpPlbdGxQKHvFyrUe9uheZyJVyl
 
 Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Germany. By https://blahdns.com/
 
-sdns://AQMAAAAAAAAAG1syYTAxOjRmODpjMTc6ZWM2Nzo6MV06ODQ0MyDImNtJLgiBNj_Yofc1UYbQM0iAE_MsSp_yvTScBtxTFBsyLmRuc2NyeXB0LWNlcnQuYmxhaGRucy5jb20
+sdns://AQMAAAAAAAAAG1syYTAxOjRmODpjMTc6ZWM2Nzo6MV06ODQ0MyBThOgUQxQpPlbdGxQKHvFyrUe9uheZyJVylJU9A061xxsyLmRuc2NyeXB0LWNlcnQuYmxhaGRucy5jb20
 
 
 ## dnscrypt-fi-blahdns-ipv4
@@ -1012,6 +985,7 @@ Backend hosted by Scaleway, globally cached via Cloudflare.
 Maintained by Frank Denis.
 
 sdns://AgcAAAAAAAAADDEwNC4yOC4wLjEwNgANZG9oLmNyeXB0by5zeAovZG5zLXF1ZXJ5
+sdns://AgcAAAAAAAAADDEwNC4yOC4xLjEwNgANZG9oLmNyeXB0by5zeAovZG5zLXF1ZXJ5
 
 
 ## doh-crypto-sx-ipv6
@@ -1020,7 +994,8 @@ DNS-over-HTTPS server accessible over IPv6. Anycast, no logs, no censorship, DNS
 Backend hosted by Scaleway, globally cached via Cloudflare.
 Maintained by Frank Denis.
 
-sdns://AgcAAAAAAAAAF1syNjA2OjQ3MDA6MzA6OjY4MWM6NmFdABJkb2gtaXB2Ni5jcnlwdG8uc3gKL2Rucy1xdWVyeQ
+sdns://AgcAAAAAAAAAGVsyNjA2OjQ3MDA6MzAzNjo6NjgxYzo2YV0AEmRvaC1pcHY2LmNyeXB0by5zeAovZG5zLXF1ZXJ5
+sdns://AgcAAAAAAAAAGlsyNjA2OjQ3MDA6MzAzNDo6NjgxYzoxNmFdABJkb2gtaXB2Ni5jcnlwdG8uc3gKL2Rucy1xdWVyeQ
 
 
 ## doh-de-blahdns
@@ -1527,8 +1502,8 @@ sdns://AgIAAAAAAAAAACA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OA9kb2gubGlicmVkb
 
 ## meganerd
 
-Public DNSCrypt server by MegaNerd.nl - https://meganerd.nl/encrypted-dns-server
-Hosted in Amsterdam, The Netherlands.
+DNSCrypt server by MegaNerd.nl (IPv4) - https://meganerd.nl/encrypted-dns-server
+Hosted in Amsterdam (AMS1), The Netherlands.
 
 Non-logging, non-filtering, supports DNSSEC.
 
@@ -1537,8 +1512,8 @@ sdns://AQcAAAAAAAAAEjEzNi4yNDQuOTcuMTE0OjQ0MyD8qtxwTl7jYLuhTuKVO9Uougk1epDw_OTQO
 
 ## meganerd-doh-ipv4
 
-Public DoH server by MegaNerd.nl - https://meganerd.nl/encrypted-dns-server
-Hosted in Amsterdam, The Netherlands.
+DoH server by MegaNerd.nl (IPv4) - https://meganerd.nl/encrypted-dns-server
+Hosted in Amsterdam (AMS1), The Netherlands.
 
 Non-logging, non-filtering, supports DNSSEC.
 
@@ -1547,8 +1522,8 @@ sdns://AgcAAAAAAAAAEjEzNi4yNDQuOTcuMTE0OjQ0MyA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb
 
 ## meganerd-doh-ipv6
 
-Public DoH server by MegaNerd.nl - https://meganerd.nl/encrypted-dns-server
-Hosted in Amsterdam, The Netherlands.
+DoH server by MegaNerd.nl (IPv6) - https://meganerd.nl/encrypted-dns-server
+Hosted in Amsterdam (AMS1), The Netherlands.
 
 Non-logging, non-filtering, supports DNSSEC.
 
@@ -1557,8 +1532,8 @@ sdns://AgcAAAAAAAAALFsyMDAxOjE5ZjA6NTAwMTpjYmI6NTQwMDowM2ZmOmZlMDc6ZjcwZF06NDQzI
 
 ## meganerd-ipv6
 
-Public DNSCrypt server by MegaNerd.nl - https://meganerd.nl/encrypted-dns-server
-Hosted in Amsterdam, The Netherlands.
+DNSCrypt server by MegaNerd.nl (IPv6) - https://meganerd.nl/encrypted-dns-server
+Hosted in Amsterdam (AMS1), The Netherlands.
 
 Non-logging, non-filtering, supports DNSSEC.
 
@@ -1589,6 +1564,15 @@ DNSSEC, Anycast, Non-logging, NoFilters
 https://www.nextdns.io/
 
 sdns://AgcAAAAAAAAADVsyYTA3OmE4YzA6Ol0gPhoaD2xT8-l6SS1XCEtbmAcFnuBXqxUFh2_YP9o9uDgOZG5zLm5leHRkbnMuaW8PL2Ruc2NyeXB0LXByb3h5
+
+
+## njalla-doh
+
+Non-logging DoH server in Sweden operated by Njalla.
+
+https://dns.njal.la/
+
+sdns://AgcAAAAAAAAADDk1LjIxNS4xOS41MyA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OAtkbnMubmphbC5sYQovZG5zLXF1ZXJ5
 
 
 ## opennic-R4SAS
@@ -1775,6 +1759,15 @@ Maintained by Evan Xu (@ex-git)
 sdns://AQcAAAAAAAAAEjE3My44Mi4yMzIuMjMyOjg1MyCPlK_22Cu9WRVyKgl-CZp2GXezsRDWizG-BHIzChok4iAyLmRuc2NyeXB0LWNlcnQucXVhbGl0eW9sb2d5LmNvbQ
 
 
+## quickline
+
+Public DNS servers in Switzerland, by the Quickline AG service provider.
+https://quickline.ch
+
+sdns://AgUAAAAAAAAAACA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OBFkbnMxLnF1aWNrbGluZS5jaAovZG5zLXF1ZXJ5
+sdns://AgUAAAAAAAAAACA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OBFkbnMyLnF1aWNrbGluZS5jaAovZG5zLXF1ZXJ5
+
+
 ## rubyfish-ea
 
 Resolver in mainland China, forwarding queries for non-Chinese domains
@@ -1844,6 +1837,13 @@ DNSSEC/Non-logged/Uncensored in Paris - IPv6 only - DEV1-S instance donated by S
 Maintained by Frank Denis - https://fr.dnscrypt.info
 
 sdns://AQcAAAAAAAAAG1syMDAxOmJjODo0N2IwOjFhMDE6OjFdOjQ0MyDoAbhOpga_sLrAzkNEW7FeumSwL6PEqjGuEGNqB5AyTR8yLmRuc2NyeXB0LWNlcnQuZnIuZG5zY3J5cHQub3Jn
+
+
+## serbica
+
+Public DNSCrypt server in the Netherlands by https://litepay.ch
+
+sdns://AQcAAAAAAAAAEzE4NS42Ni4xNDMuMTc4OjUzNTMg-Y2MQmGOXiggAEKulN-ITGEn_Kj3TIP1UK1X2wh3o7wXMi5kbnNjcnlwdC1jZXJ0LnNlcmJpY2E
 
 
 ## sfw.scaleway-fr
@@ -1929,18 +1929,9 @@ Yandex public DNS server (anycast)
 sdns://AQQAAAAAAAAAEDc3Ljg4LjguNzg6MTUzNTMg04TAccn3RmKvKszVe13MlxTUB7atNgHhrtwG1W1JYyciMi5kbnNjcnlwdC1jZXJ0LmJyb3dzZXIueWFuZGV4Lm5ldA
 
 
-## yofiji-se-ipv4
+## yepdns-doh
 
-Uncensored, DNSSEC, no logging DNSCrypt server (IPv4) hosted in Sweden
-Maintained by yofiji
+Filtering | DNSSEC | No-logs | Singapore | https://get.yepdns.com/ | @arapurayil
 
-sdns://AQcAAAAAAAAAEzE4NS4xOTMuMTI3LjI0NDo0NDMgsaZZTbc7aLZjQQ6dtvkke4mmYRS49ry5rk1sdSV-1dYZMi5kbnNjcnlwdC1jZXJ0LnlvZmlqaS1zZQ
-
-
-## yofiji-se-ipv6
-
-Uncensored, DNSSEC, no logging DNSCrypt server (IPv6) hosted in Sweden
-Maintained by yofiji
-
-sdns://AQcAAAAAAAAAKVsyYTBhOjM4NDA6MTMzNzoxMjc6MDpiOWMxOjdmZjQ6MTMzN106NDQzILGmWU23O2i2Y0EOnbb5JHuJpmEUuPa8ua5NbHUlftXWGTIuZG5zY3J5cHQtY2VydC55b2Zpamktc2U
+sdns://AgMAAAAAAAAADjk1LjExMS4xOTQuMTMzID4aGg9sU_PpekktVwhLW5gHBZ7gV6sVBYdv2D_aPbg4CnllcGRucy5jb20KL2Rucy1xdWVyeQ
 
