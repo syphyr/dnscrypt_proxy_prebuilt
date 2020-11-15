@@ -81,12 +81,21 @@ LOCAL_REQUIRED_MODULES := forwarding-rules
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := allowed-names
+LOCAL_MODULE := allowed-ips
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/dnscrypt-proxy
 LOCAL_SRC_FILES := etc/dnscrypt-proxy/$(LOCAL_MODULE)
 LOCAL_REQUIRED_MODULES := blocked-ips
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := allowed-names
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/dnscrypt-proxy
+LOCAL_SRC_FILES := etc/dnscrypt-proxy/$(LOCAL_MODULE)
+LOCAL_REQUIRED_MODULES := allowed-ips
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
