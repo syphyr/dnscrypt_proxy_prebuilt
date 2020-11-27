@@ -1705,10 +1705,10 @@ sdns://AQYAAAAAAAAAEzE0OS4xMTIuMTEyLjEwOjg0NDMgZ8hHuMh1jNEgJFVDvnVnRt803x2EwAuMR
 
 ## quad9-dnscrypt-ip6-filter-pri
 
-Quad9 (anycast) dnssec/no-log/filter 2620:fe::9 / 2620:fe::fe:9
+Quad9 (anycast) dnssec/no-log/filter 2620:fe::fe:9 / 2620:fe::9
 
-sdns://AQMAAAAAAAAAEVsyNjIwOmZlOjo5XTo4NDQzIGfIR7jIdYzRICRVQ751Z0bfNN8dhMALjEcDaN-CHYY-GTIuZG5zY3J5cHQtY2VydC5xdWFkOS5uZXQ
 sdns://AQMAAAAAAAAAFFsyNjIwOmZlOjpmZTo5XTo4NDQzIGfIR7jIdYzRICRVQ751Z0bfNN8dhMALjEcDaN-CHYY-GTIuZG5zY3J5cHQtY2VydC5xdWFkOS5uZXQ
+sdns://AQMAAAAAAAAAEVsyNjIwOmZlOjo5XTo4NDQzIGfIR7jIdYzRICRVQ751Z0bfNN8dhMALjEcDaN-CHYY-GTIuZG5zY3J5cHQtY2VydC5xdWFkOS5uZXQ
 
 
 ## quad9-dnscrypt-ip6-nofilter-pri
@@ -1723,32 +1723,32 @@ sdns://AQYAAAAAAAAAFVsyNjIwOmZlOjpmZToxMF06ODQ0MyBnyEe4yHWM0SAkVUO-dWdG3zTfHYTAC
 
 Quad9 (anycast) dnssec/no-log/filter 9.9.9.9 / 149.112.112.9
 
-sdns://AgMAAAAAAAAABzkuOS45LjkAEmRuczkucXVhZDkubmV0OjQ0MwovZG5zLXF1ZXJ5
-sdns://AgMAAAAAAAAADTE0OS4xMTIuMTEyLjkAEmRuczkucXVhZDkubmV0OjQ0MwovZG5zLXF1ZXJ5
+sdns://AgMAAAAAAAAABzkuOS45LjmAABJkbnM5LnF1YWQ5Lm5ldDo0NDMKL2Rucy1xdWVyeQ
+sdns://AgMAAAAAAAAADTE0OS4xMTIuMTEyLjmAABJkbnM5LnF1YWQ5Lm5ldDo0NDMKL2Rucy1xdWVyeQ
 
 
 ## quad9-doh-ip4-nofilter-pri
 
 Quad9 (anycast) no-dnssec/no-log/no-filter 9.9.9.10 / 149.112.112.10
 
-sdns://AgYAAAAAAAAACDkuOS45LjEwAA9kbnMxMC5xdWFkOS5uZXQKL2Rucy1xdWVyeQ
-sdns://AgYAAAAAAAAADjE0OS4xMTIuMTEyLjEwAA9kbnMxMC5xdWFkOS5uZXQKL2Rucy1xdWVyeQ
+sdns://AgYAAAAAAAAACDkuOS45LjEwgAASZG5zOS5xdWFkOS5uZXQ6NDQzCi9kbnMtcXVlcnk
+sdns://AgYAAAAAAAAADjE0OS4xMTIuMTEyLjEwgAASZG5zOS5xdWFkOS5uZXQ6NDQzCi9kbnMtcXVlcnk
 
 
 ## quad9-doh-ip6-filter-pri
 
 Quad9 (anycast) dnssec/no-log/filter 2620:fe::9 / 2620:fe::fe:9
 
-sdns://AgMAAAAAAAAADFsyNjIwOmZlOjo5XQAOZG5zOS5xdWFkOS5uZXQKL2Rucy1xdWVyeQ
-sdns://AgMAAAAAAAAAD1syNjIwOmZlOjpmZTo5XQAOZG5zOS5xdWFkOS5uZXQKL2Rucy1xdWVyeQ
+sdns://AgMAAAAAAAAADFsyNjIwOmZlOjo5XYAAEmRuczkucXVhZDkubmV0OjQ0MwovZG5zLXF1ZXJ5
+sdns://AgMAAAAAAAAAD1syNjIwOmZlOjpmZTo5XYAAEmRuczkucXVhZDkubmV0OjQ0MwovZG5zLXF1ZXJ5
 
 
 ## quad9-doh-ip6-nofilter-pri
 
 Quad9 (anycast) no-dnssec/no-log/no-filter 2620:fe::10 / 2620:fe::fe:10
 
-sdns://AgYAAAAAAAAADVsyNjIwOmZlOjoxMF0AD2RuczEwLnF1YWQ5Lm5ldAovZG5zLXF1ZXJ5
-sdns://AgYAAAAAAAAAEFsyNjIwOmZlOjpmZToxMF0AD2RuczEwLnF1YWQ5Lm5ldAovZG5zLXF1ZXJ5
+sdns://AgYAAAAAAAAADVsyNjIwOmZlOjoxMF2AABJkbnM5LnF1YWQ5Lm5ldDo0NDMKL2Rucy1xdWVyeQ
+sdns://AgYAAAAAAAAAEFsyNjIwOmZlOjpmZToxMF2AABJkbnM5LnF1YWQ5Lm5ldDo0NDMKL2Rucy1xdWVyeQ
 
 
 ## qualityology.com
