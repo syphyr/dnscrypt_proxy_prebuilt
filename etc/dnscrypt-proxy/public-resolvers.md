@@ -174,7 +174,7 @@ sdns://AgcAAAAAAAAADTUxLjE1LjEyNC4yMDigPhoaD2xT8-l6SS1XCEtbmAcFnuBXqxUFh2_YP9o9u
 
 Resolver in Amsterdam. DoH protocol. Non-logging, non-filtering, DNSSEC.
 
-sdns://AgcAAAAAAAAAF1syMDAxOmJjODoxODMwOjFlMTg6OjFdID4aGg9sU_PpekktVwhLW5gHBZ7gV6sVBYdv2D_aPbg4EmRuc25sLmFsZWtiZXJnLm5ldAovZG5zLXF1ZXJ5
+sdns://AgcAAAAAAAAAF1syMDAxOmJjODoxODMwOjFlMTg6OjFdoD4aGg9sU_PpekktVwhLW5gHBZ7gV6sVBYdv2D_aPbg4IDKG_2WmX68yCF7qE4jDc4un43hzyQbM48Sii0zCpYmIEmRuc25sLmFsZWtiZXJnLm5ldAovZG5zLXF1ZXJ5
 
 
 ## arapurayil-dnscrypt
@@ -270,6 +270,24 @@ Maintained by Abhay Rana aka Nemo.
 If you are within India, this might be a nice DNS server to use.
 
 sdns://AQQAAAAAAAAAEjEzOS41OS40OC4yMjI6NDQzNCAFOt_yxaMpFtga2IpneSwwK6rV0oAyleham9IvhoceEBsyLmRuc2NyeXB0LWNlcnQuY2FwdG5lbW8uaW4
+
+
+## circl-doh
+
+DoH server operated by CIRCL, Computer Incident Response Center Luxembourg.
+
+Hosted in Bettembourg, Luxembourg.
+
+sdns://AgYAAAAAAAAADTE4NS4xOTQuOTQuNzEADGRucy5jaXJjbC5sdQovZG5zLXF1ZXJ5
+
+
+## circl-doh-ipv6
+
+DoH server operated by CIRCL, Computer Incident Response Center Luxembourg.
+
+Hosted in Bettembourg, Luxembourg.
+
+sdns://AgYAAAAAAAAAElsyYTAwOjU5ODA6OTQ6OjcxXQAMZG5zLmNpcmNsLmx1Ci9kbnMtcXVlcnk
 
 
 ## cisco
@@ -935,7 +953,13 @@ sdns://AQcAAAAAAAAAGlsyYTAzOmIwYzA6MTplMDo6NDg3OjEwMDFdIAHTDugOIE3aGHHToQ8oUVRnZ
 
 ## dnsforfamily
 
-Block adult websites, gambling websites and advertisements. No DNS queries are logged. As of March 2019 2.1million websites are blocked and new websites are added to blacklist daily.
+(DNSCrypt Protocol) Block adult websites, gambling websites, malwares and advertisements.
+It also enforces safe search in: Google, YouTube, Bing, DuckDuckGo and Yandex.
+
+Social websites like Facebook and Instagram are not blocked. No DNS queries are logged.
+
+As of December 2020 2.7 million websites are blocked and new websites are added to blacklist daily.
+Completely free, no ads or any commercial motive. Operating for 3 years now.
 
 Warning: This server is incompatible with anonymization.
 
@@ -944,9 +968,27 @@ Provided by: https://dnsforfamily.com
 sdns://AQIAAAAAAAAADDc4LjQ3LjY0LjE2MSATJeLOABXNSYcSJIoqR5_iUYz87Y4OecMLB84aEAKPrRBkbnNmb3JmYW1pbHkuY29t
 
 
+## dnsforfamily-doh
+
+(DoH Protocol) Block adult websites, gambling websites, malwares and advertisements.
+It also enforces safe search in: Google, YouTube, Bing, DuckDuckGo and Yandex.
+Social websites like Facebook and Instagram are not blocked. No DNS queries are logged.
+As of December 2020 2.7 million websites are blocked and new websites are added to blacklist daily.
+Completely free, no ads or any commercial motive. Operating for 3 years now.
+
+Provided by: https://dnsforfamily.com
+
+sdns://AgIAAAAAAAAADTk1LjIxNy4yMTMuOTSgPhoaD2xT8-l6SS1XCEtbmAcFnuBXqxUFh2_YP9o9uDggMob_ZaZfrzIIXuoTiMNzi6fjeHPJBszjxKKLTMKliYgYZG5zLWRvaC5kbnNmb3JmYW1pbHkuY29tCi9kbnMtcXVlcnk
+
+
 ## dnsforfamily-v6
 
-Block adult websites, gambling websites and advertisements. No DNS queries are logged. As of March 2019 2.1million websites are blocked and new websites are added to blacklist daily.
+(DNSCrypt Protocol) Block adult websites, gambling websites, malwares and advertisements.
+It also enforces safe search in: Google, YouTube, Bing, DuckDuckGo and Yandex.
+
+Social websites like Facebook and Instagram are not blocked. No DNS queries are logged.
+As of December 2020 2.7 million websites are blocked and new websites are added to blacklist daily.
+Completely free, no ads or any commercial motive. Operating for 3 years now.
 
 Provided by: https://dnsforfamily.com
 
@@ -1418,6 +1460,14 @@ Unknown logging policy.
 sdns://AgUAAAAAAAAAEFsyMDAxOjQ3MDoyMDo6Ml2gPhoaD2xT8-l6SS1XCEtbmAcFnuBXqxUFh2_YP9o9uDggMob_ZaZfrzIIXuoTiMNzi6fjeHPJBszjxKKLTMKliYgMb3JkbnMuaGUubmV0Ci9kbnMtcXVlcnk
 
 
+## ibksturm
+
+dnscrypt-server (nginx - encrypted-dns - unbound backend), DNSSEC / Non-Logged / Uncensored, OpenNIC and Root DNS-Zone Copy
+Hosted in Switzerland by ibksturm, aka Andreas Ziegler
+
+sdns://AQcAAAAAAAAAEjgzLjc4LjEyMC4yMjc6ODQ0MyDBz1dQALBbwmxiH17PmqJWCs6_AH6-yzp_9LIN4LQ57hgyLmRuc2NyeXB0LWNlcnQuaWJrc3R1cm0
+
+
 ## ibksturm-ipv6
 
 dnscrypt-server (nginx - encrypted-dns - unbound backend), DNSSEC / Non-Logged / Uncensored, OpenNIC and Root DNS-Zone Copy
@@ -1855,6 +1905,13 @@ Warning: this server is incompatible with DNS anonymization.
 
 sdns://AQMAAAAAAAAADjEwNC4xOTcuMjguMTIxICcgf9USBOg2e0g0AF35_9HTC74qnDNjnm7b-K7ZHUDYIDIuZG5zY3J5cHQtY2VydC5zYWZlc3VyZmVyLmNvLm56
 sdns://AQMAAAAAAAAADzEwNC4xNTUuMjM3LjIyNSAnIH_VEgToNntINABd-f_R0wu-KpwzY55u2_iu2R1A2CAyLmRuc2NyeXB0LWNlcnQuc2FmZXN1cmZlci5jby5ueg
+
+
+## sarpel-dns-istanbul
+
+No-filter | No-logs | Uncensored | Hosted in Istanbul(Turkey) on Cloudeos
+
+sdns://AQcAAAAAAAAADzE4NS4xNTMuMjQ5LjIzOSDkXGvqcMO6TaLJUSkr49jGcXvjT3q1ZyiO-Oy6uE-40jAyLmRuc2NyeXB0LWNlcnQuMTg1LTE1My0yNDktMjM5LmluZi5jbG91ZGVvcy5uZXQ
 
 
 ## scaleway-ams
