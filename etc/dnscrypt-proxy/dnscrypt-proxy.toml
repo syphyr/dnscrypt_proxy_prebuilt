@@ -346,6 +346,7 @@ reject_ttl = 600
 # cloak_ttl = 600
 
 
+
 ###########################
 #        DNS cache        #
 ###########################
@@ -378,6 +379,20 @@ cache_neg_min_ttl = 60
 ## Maximum TTL for negatively cached entries
 
 cache_neg_max_ttl = 600
+
+
+
+########################################
+#        Captive portal handling       #
+########################################
+
+[captive_portals]
+
+## A file that contains a set of names used by operating systems to
+## check for connectivity and captive portals, along with hard-coded
+## IP addresses to return.
+
+map_file = "/system/etc/dnscrypt-proxy/captive-portals"
 
 
 
@@ -688,7 +703,7 @@ cache_neg_max_ttl = 600
 # The list below enables workarounds to make non-relayed usage more reliable
 # until the servers are fixed.
 
-fragments_blocked = ['cisco', 'cisco-ipv6', 'cisco-familyshield', 'cisco-familyshield-ipv6', 'cleanbrowsing-adult', 'cleanbrowsing-family-ipv6', 'cleanbrowsing-family', 'cleanbrowsing-security']
+fragments_blocked = ['cisco', 'cisco-ipv6', 'cisco-familyshield', 'cisco-familyshield-ipv6', 'cleanbrowsing-adult', 'cleanbrowsing-adult-ipv6', 'cleanbrowsing-family', 'cleanbrowsing-family-ipv6', 'cleanbrowsing-security', 'cleanbrowsing-security-ipv6']
 
 
 
