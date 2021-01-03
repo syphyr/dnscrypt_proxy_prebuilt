@@ -15,6 +15,8 @@
 ## ads[0-9]*     | matches "ads" followed by one or more digits
 ## ads*.example* | *, ? and [] can be used anywhere, but prefixes/suffixes are faster
 
+
+# That one may be blocked due to 'tracker' being in the name.
 tracker.aletorrenty.pl
 tracker.bt-hash.com
 tracker.coppersurfer.tk
@@ -40,6 +42,10 @@ tracker.trackerfix.com
 tracker.vanitycore.co
 tracker.zer0day.to
 
+# That one may be blocked due to 'ads' being in the name.
+# However, blocking it prevents all sponsored links from the Google
+# search engine from being opened.
+googleadservices.com
 
 
 ## Time-based rules
