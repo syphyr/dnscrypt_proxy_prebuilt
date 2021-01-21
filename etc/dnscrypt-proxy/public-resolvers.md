@@ -92,7 +92,7 @@ sdns://AQIAAAAAAAAAFDE3Ni4xMDMuMTMwLjEzMDo1NDQzINErR_JS3PLCu_iZEIbq95zkSV2LFsigx
 
 Remove ads and protect your computer from malware (over DoH)
 
-sdns://AgMAAAAAAAAADzE3Ni4xMDMuMTMwLjEzMCD5_zfwLmMstzhwJcB-V5CKPTcbfJXYzdA5DeIx7ZQ6Eg9kbnMuYWRndWFyZC5jb20KL2Rucy1xdWVyeQ
+sdns://AgMAAAAAAAAADzE3Ni4xMDMuMTMwLjEzMCCsFdIhxY-VWoedpSrEKWAhaBEVj-8L-p_FJl6wMpPufg9kbnMuYWRndWFyZC5jb20KL2Rucy1xdWVyeQ
 
 
 ## adguard-dns-family
@@ -108,7 +108,7 @@ sdns://AQIAAAAAAAAAFDE3Ni4xMDMuMTMwLjEzMjo1NDQzILgxXdexS27jIKRw3C7Wsao5jMnlhvhdR
 
 Adguard DNS with safesearch and adult content blocking (over DoH)
 
-sdns://AgMAAAAAAAAADzE3Ni4xMDMuMTMwLjEzMiD5_zfwLmMstzhwJcB-V5CKPTcbfJXYzdA5DeIx7ZQ6EhZkbnMtZmFtaWx5LmFkZ3VhcmQuY29tCi9kbnMtcXVlcnk
+sdns://AgMAAAAAAAAADzE3Ni4xMDMuMTMwLjEzMiCsFdIhxY-VWoedpSrEKWAhaBEVj-8L-p_FJl6wMpPufhZkbnMtZmFtaWx5LmFkZ3VhcmQuY29tCi9kbnMtcXVlcnk
 
 
 ## adguard-dns-family-ipv6
@@ -239,22 +239,13 @@ Resolver in Amsterdam. DoH protocol. Non-logging, non-filtering, DNSSEC.
 sdns://AgcAAAAAAAAAF1syMDAxOmJjODoxODMwOjIwMTg6OjFdoD4aGg9sU_PpekktVwhLW5gHBZ7gV6sVBYdv2D_aPbg4IDKG_2WmX68yCF7qE4jDc4un43hzyQbM48Sii0zCpYmIEmRuc25sLmFsZWtiZXJnLm5ldAovZG5zLXF1ZXJ5
 
 
-## arapurayil-dnscrypt
+## arapurayil-doh-in
 
-Hosted in Mumbai, India (https://www.dns.arapurayil.com)
-Non-logging | Filtering | DNSSEC | QNAME Minimization | No EDNS Client-Subnet
+DoH,DoT,DoQ server @ Mumbai, India (https://www.dns.arapurayil.com)
+Non-logging | Filtering | DNSSEC | anti-CNAME cloaking | QNAME Minimization | No EDNS Client-Subnet
 Blocks ads, trackers, resource-abusers, malware, and phishing.
 
-sdns://AQMAAAAAAAAAEDMuNy4xNTYuMTI4Ojg0NDMgDXD9OSDJDwe2q9bi836PURTP14NLYS03RbDq6j891ZciMi5kbnNjcnlwdC1jZXJ0LmRucy5hcmFwdXJheWlsLmNvbQ
-
-
-## arapurayil-doh
-
-Hosted in Mumbai, India (https://www.dns.arapurayil.com)
-Non-logging | Filtering | DNSSEC | QNAME Minimization | No EDNS Client-Subnet
-Blocks ads, trackers, resource-abusers, malware, and phishing.
-
-sdns://AgMAAAAAAAAAAKA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OCAyhv9lpl-vMghe6hOIw3OLp-N4c8kGzOPEootMwqWJiBJkbnMuYXJhcHVyYXlpbC5jb20KL2Rucy1xdWVyeQ
+sdns://AgMAAAAAAAAAACAyhv9lpl-vMghe6hOIw3OLp-N4c8kGzOPEootMwqWJiBJkbnMuYXJhcHVyYXlpbC5jb20KL2Rucy1xdWVyeQ
 
 
 ## arvind-io
@@ -1181,7 +1172,7 @@ sdns://AgcAAAAAAAAADTE2NS4yMzIuMzIuOTUgMob_ZaZfrzIIXuoTiMNzi6fjeHPJBszjxKKLTMKli
 DOH, no logs, uncensored, DNSSEC. Hosted in London UK on Digital Ocean
 https://www.dnscrypt.uk
 
-sdns://AgcAAAAAAAAAHlsyYTAzOmIwYzA6MTplMDo6NDg3OjEwMDFdOjQ0MyAyhv9lpl-vMghe6hOIw3OLp-N4c8kGzOPEootMwqWJiA5kby5kbnNjcnlwdC51awovZG5zLXF1ZXJ5
+sdns://AgcAAAAAAAAAGlsyYTAzOmIwYzA6MTplMDo6NDg3OjEwMDFdIDKG_2WmX68yCF7qE4jDc4un43hzyQbM48Sii0zCpYmIDmRvLmRuc2NyeXB0LnVrCi9kbnMtcXVlcnk
 
 
 ## doh-fi-blahdns
@@ -1263,7 +1254,7 @@ sdns://AgcAAAAAAAAADzEwNC4yMzguMTg2LjE5MiAyhv9lpl-vMghe6hOIw3OLp-N4c8kGzOPEootMw
 DOH, no logs, uncensored, DNSSEC. Hosted in London UK on Vultr
 https://www.dnscrypt.uk
 
-sdns://AgcAAAAAAAAALFsyMDAxOjE5ZjA6NzQwMjoxNTc0OjU0MDA6MmZmOmZlNjY6MmNmZl06NDQzIDKG_2WmX68yCF7qE4jDc4un43hzyQbM48Sii0zCpYmIDXYuZG5zY3J5cHQudWsKL2Rucy1xdWVyeQ
+sdns://AgcAAAAAAAAAKFsyMDAxOjE5ZjA6NzQwMjoxNTc0OjU0MDA6MmZmOmZlNjY6MmNmZl0gMob_ZaZfrzIIXuoTiMNzi6fjeHPJBszjxKKLTMKliYgNdi5kbnNjcnlwdC51awovZG5zLXF1ZXJ5
 
 
 ## doh.appliedprivacy.net
@@ -1505,7 +1496,7 @@ sdns://AQMAAAAAAAAAG1syNDAwOjYxODA6MDpkMDo6NWY2ZTo0MDAxXSDvloBm6NmU8GXYPt3TGu7t9
 DoH server operated by Internet Initiative Japan in Tokyo.
 https://www.iij.ad.jp/
 
-sdns://AgUAAAAAAAAACjEwMy4yLjU3LjUgs2lfGAQCPrV0DPQqOkPci0Jei0GhMK_ne-QHwPbfn4oRcHVibGljLmRucy5paWouanAKL2Rucy1xdWVyeQ
+sdns://AgUAAAAAAAAACjEwMy4yLjU3LjUgmOPV5TavKVjNL38U9wTvSidtJeM81l8uZfXk8nJ8EzARcHVibGljLmRucy5paWouanAKL2Rucy1xdWVyeQ
 
 
 ## jitender
@@ -1917,7 +1908,7 @@ to upstream servers in East Asia.
 
 https://www.rubyfish.cn/
 
-sdns://AgUAAAAAAAAAAKA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OCAyhv9lpl-vMghe6hOIw3OLp-N4c8kGzOPEootMwqWJiBJlYS1kbnMucnVieWZpc2guY24KL2Rucy1xdWVyeQ
+sdns://AgEAAAAAAAAAAKA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OCAyhv9lpl-vMghe6hOIw3OLp-N4c8kGzOPEootMwqWJiBJlYS1kbnMucnVieWZpc2guY24KL2Rucy1xdWVyeQ
 
 
 ## rubyfish-uw
@@ -1927,7 +1918,7 @@ to US-West.
 
 https://www.rubyfish.cn/
 
-sdns://AgUAAAAAAAAAAKA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OCAyhv9lpl-vMghe6hOIw3OLp-N4c8kGzOPEootMwqWJiBJ1dy1kbnMucnVieWZpc2guY24KL2Rucy1xdWVyeQ
+sdns://AgEAAAAAAAAAAKA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OCAyhv9lpl-vMghe6hOIw3OLp-N4c8kGzOPEootMwqWJiBJ1dy1kbnMucnVieWZpc2guY24KL2Rucy1xdWVyeQ
 
 
 ## rumpelsepp.org
