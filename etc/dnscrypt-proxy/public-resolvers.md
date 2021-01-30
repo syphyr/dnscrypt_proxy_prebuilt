@@ -239,11 +239,26 @@ Resolver in Amsterdam. DoH protocol. Non-logging, non-filtering, DNSSEC.
 sdns://AgcAAAAAAAAAF1syMDAxOmJjODoxODMwOjIwMTg6OjFdoD4aGg9sU_PpekktVwhLW5gHBZ7gV6sVBYdv2D_aPbg4IDKG_2WmX68yCF7qE4jDc4un43hzyQbM48Sii0zCpYmIEmRuc25sLmFsZWtiZXJnLm5ldAovZG5zLXF1ZXJ5
 
 
+## arapurayil-dnscrypt-in-ipv4
+
+DNSCrypt v2 server(ipv4). Also supports DoH,DoT,DoQ protocols. Located in Mumbai, India. Visit https://www.dns.arapurayil.com for details.
+Non-logging | Filtering | DNSSEC | anti-CNAME cloaking | QNAME Minimization | No EDNS Client-Subnet
+
+sdns://AQMAAAAAAAAAEDMuNy4xNzYuMTIzOjg0NDMggyXjcEBxUFeQc2O5FaBzadiWC6vE6NTTQP84IY-Xfl8dMi5kbnNjcnlwdC1jZXJ0LmFyYXB1cmF5aWwtaW4
+
+
+## arapurayil-dnscrypt-in-ipv6
+
+DNSCrypt v2 server(ipv6). Also supports DoH,DoT,DoQ protocols. Located in Mumbai, India.  Visit https://www.dns.arapurayil.com for details.
+Non-logging | Filtering | DNSSEC | anti-CNAME cloaking | QNAME Minimization | No EDNS Client-Subnet
+
+sdns://AQMAAAAAAAAALFsyNDA2OmRhMWE6YzU5OmFlMDA6MjBmOmRiZjU6YTEyYzo1YWZiXTo4NDQzIIMl43BAcVBXkHNjuRWgc2nYlgurxOjU00D_OCGPl35fHTIuZG5zY3J5cHQtY2VydC5hcmFwdXJheWlsLWlu
+
+
 ## arapurayil-doh-in
 
-DoH,DoT,DoQ server @ Mumbai, India (https://www.dns.arapurayil.com)
+DoH server(ipv4/ipv6). Also supports DNSCrypt,DoT,DoQ protocols. Located in Mumbai, India.  Visit https://www.dns.arapurayil.com for details.
 Non-logging | Filtering | DNSSEC | anti-CNAME cloaking | QNAME Minimization | No EDNS Client-Subnet
-Blocks ads, trackers, resource-abusers, malware, and phishing.
 
 sdns://AgMAAAAAAAAAACAyhv9lpl-vMghe6hOIw3OLp-N4c8kGzOPEootMwqWJiBJkbnMuYXJhcHVyYXlpbC5jb20KL2Rucy1xdWVyeQ
 
@@ -809,6 +824,16 @@ https://dns.sb
 sdns://AgUAAAAAAAAAAAAKZG9oLmRucy5zYgovZG5zLXF1ZXJ5
 
 
+## dns.therifleman.name
+
+DNS-over-HTTPS DNS forwarder from Mumbai, India. Blocks web and Android trackers and ads.
+Forwards queries to Linode DNS resolvers. 24hrs logging (for debugging).
+Report issues, send suggestions @ joker349 at protonmail.com.
+Also supports DoT (for android) @ dns.therifleman.name and plain DNS @ 172.104.206.174
+
+sdns://AgEAAAAAAAAADzE3Mi4xMDQuMjA2LjE3NCAyhv9lpl-vMghe6hOIw3OLp-N4c8kGzOPEootMwqWJiBRkbnMudGhlcmlmbGVtYW4ubmFtZQovZG5zLXF1ZXJ5
+
+
 ## dnscrypt-ch-blahdns-ipv4
 
 Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Switzerland. By https://blahdns.com/
@@ -928,13 +953,6 @@ DNS service for your pleasure.
 Warning: This server is incompatible with anonymization.
 
 sdns://AQcAAAAAAAAAGFsyNjA3OjUzMDA6NjA6NjUyZjo6MjAwXSCYfHCol9vaFRo0rUtV6oAO9WHMBKrVxX3Sw9hh_Bf0KSIyLmRuc2NyeXB0LWNlcnQuZG5zY3J5cHQuY2EtMi1pcHY2
-
-
-## dnscrypt.ca-2-ipv6-doh
-
-Free, Canadian, uncensored, no-logs, encrypted, and DNSSEC validated DNS service for your pleasure.
-
-sdns://AgcAAAAAAAAAGFsyNjA3OjUzMDA6NjA6NjUyZjo6MjAwXaA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OCAyhv9lpl-vMghe6hOIw3OLp-N4c8kGzOPEootMwqWJiBRkbnMyLmRuc2NyeXB0LmNhOjQ1MwovZG5zLXF1ZXJ5
 
 
 ## dnscrypt.eu-dk
@@ -1205,14 +1223,6 @@ run by Noah Seefried - https://snopyta.org
 sdns://AgcAAAAAAAAAFlsyYTAxOjRmOToyYToxOTE5OjoyMV2gPhoaD2xT8-l6SS1XCEtbmAcFnuBXqxUFh2_YP9o9uDggMob_ZaZfrzIIXuoTiMNzi6fjeHPJBszjxKKLTMKliYgWZmkuZG9oLmRucy5zbm9weXRhLm9yZwovZG5zLXF1ZXJ5
 
 
-## doh-ibksturm
-
-doh-server (nginx - dnsproxy - unbound backend), DNSSEC / Non-Logged / Uncensored, OpenNIC and Root DNS-Zone Copy
-Hosted in Switzerland by ibksturm, aka Andreas Ziegler
-
-sdns://AgcAAAAAAAAAAKA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OCAyhv9lpl-vMghe6hOIw3OLp-N4c8kGzOPEootMwqWJiBRpYmtzdHVybS5zeW5vbG9neS5tZQovZG5zLXF1ZXJ5
-
-
 ## doh-jp-blahdns
 
 Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Japan. By https://blahdns.com/
@@ -1308,6 +1318,13 @@ Filters out ads, trackers and malware, NO ECS, supports DNSSEC.
 sdns://AgMAAAAAAAAAG1syNjA2OjQ3MDA6MzAzNDo6YWM0MzpiNjZhXSDlfOUtFRBtpOz9nhH9pf0dHgpr4BIkGITTYuodSvRk9w5kb2gudGlhcmFwLm9yZwovZG5zLXF1ZXJ5
 
 
+## east.comss.one
+
+DNS with adblock filters and antiphishing, gaining popularity among russian-speaking users.
+
+sdns://AQMAAAAAAAAAEjkxLjIzMC4yMTEuNjc6NTQ0MyAVacgDhm0kq-ciz2DrJlPhYjI9v6tAQHbulojEz86TEyIyLmRuc2NyeXB0LWNlcnQuZG5zLmVhc3QuY29tc3Mub25l
+
+
 ## ev-canada
 
 Non-logging, uncensored DNS resolver provided by evilvibes.com
@@ -1388,13 +1405,6 @@ https://ffmuc.net/
 sdns://AQcAAAAAAAAAGlsyMDAxOjY3ODplNjg6ZjAwMDo6XTo4NDQzIAfQevHP3F2Zdp0_AmaQpwRJZcJ0J2x5HK71rvO5DEb6GTIuZG5zY3J5cHQtY2VydC5mZm11Yy5uZXQ
 
 
-## freetsa.org-ipv4
-
-Non-logged/Uncensored provided by www.freetsa.org. Support for DNS and DNS-over-TLS (DoT)
-
-sdns://AQcAAAAAAAAAETE3My44Mi4xOC4yMzg6NTUzINj_u0LgMb56eXMLRVaNSWpOistZqoNm_Wq5HicqfRbkGzIuZG5zY3J5cHQtY2VydC5mcmVldHNhLm9yZw
-
-
 ## freetsa.org-ipv6
 
 Non-logged/Uncensored provided by www.freetsa.org. Support for DNS and DNS-over-TLS (DoT)
@@ -1449,14 +1459,6 @@ Hurricane Electric DoH server (anycast)
 Unknown logging policy.
 
 sdns://AgUAAAAAAAAACzc0LjgyLjQyLjQyoD4aGg9sU_PpekktVwhLW5gHBZ7gV6sVBYdv2D_aPbg4IDKG_2WmX68yCF7qE4jDc4un43hzyQbM48Sii0zCpYmIDG9yZG5zLmhlLm5ldAovZG5zLXF1ZXJ5
-
-
-## ibksturm-ipv6
-
-dnscrypt-server (nginx - encrypted-dns - unbound backend), DNSSEC / Non-Logged / Uncensored, OpenNIC and Root DNS-Zone Copy
-Hosted in Switzerland by ibksturm, aka Andreas Ziegler
-
-sdns://AQcAAAAAAAAALlsyYTAyOjEyMDU6MzRlNzo4ZTMwOmIyNmU6YmZmZjpmZTFkOmUxOWJdOjg0NDMgwc9XUACwW8JsYh9ez5qiVgrOvwB-vss6f_SyDeC0Oe4YMi5kbnNjcnlwdC1jZXJ0Lmlia3N0dXJt
 
 
 ## id-gmail
@@ -1559,14 +1561,6 @@ Cached via Cloudflare.
 sdns://AgcAAAAAAAAAG1syNjA2OjQ3MDA6MzAzNjo6NjgxYjo5NmFhXSDlfOUtFRBtpOz9nhH9pf0dHgpr4BIkGITTYuodSvRk9w1qcC50aWFyYXAub3JnCi9kbnMtcXVlcnk
 
 
-## lelux.fi
-
-DoH server in France. No logging, no filtering, DNSSEC support.
-https://lelux.fi/resolver/
-
-sdns://AgcAAAAAAAAADTUxLjE1OC4xNDcuNTCgPhoaD2xT8-l6SS1XCEtbmAcFnuBXqxUFh2_YP9o9uDggMob_ZaZfrzIIXuoTiMNzi6fjeHPJBszjxKKLTMKliYgUcmVzb2x2ZXItZXUubGVsdXguZmkKL2Rucy1xdWVyeQ
-
-
 ## libredns
 
 DoH server in Germany. No logging, but no DNS padding and no DNSSEC support.
@@ -1581,6 +1575,16 @@ DoH server in Germany. No logging, but no DNS padding and no DNSSEC support.
 no ads version, uses StevenBlack's host list: https://github.com/StevenBlack/hosts
 
 sdns://AgIAAAAAAAAAAKA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OCAyhv9lpl-vMghe6hOIw3OLp-N4c8kGzOPEootMwqWJiA9kb2gubGlicmVkbnMuZ3IEL2Fkcw
+
+
+## linuxsec-doh
+
+Non-logging DoH server in the Indonesia operated by LinuxSec.
+Report any issues to rin@linuxsec.org
+
+https://doh.linuxsec.org
+
+sdns://AgcAAAAAAAAADDEwMy44NS4xNS42MCAyhv9lpl-vMghe6hOIw3OLp-N4c8kGzOPEootMwqWJiBBkb2gubGludXhzZWMub3JnCi9kbnMtcXVlcnk
 
 
 ## meganerd
@@ -1892,15 +1896,6 @@ sdns://AgYAAAAAAAAADVsyNjIwOmZlOjoxMF0AEmRuczkucXVhZDkubmV0OjQ0MwovZG5zLXF1ZXJ5
 sdns://AgYAAAAAAAAAEFsyNjIwOmZlOjpmZToxMF0AEmRuczkucXVhZDkubmV0OjQ0MwovZG5zLXF1ZXJ5
 
 
-## quickline
-
-Public DNS servers in Switzerland, by the Quickline AG service provider.
-https://quickline.ch
-
-sdns://AgUAAAAAAAAAAKA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OCAyhv9lpl-vMghe6hOIw3OLp-N4c8kGzOPEootMwqWJiBFkbnMxLnF1aWNrbGluZS5jaAovZG5zLXF1ZXJ5
-sdns://AgUAAAAAAAAAAKA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OCAyhv9lpl-vMghe6hOIw3OLp-N4c8kGzOPEootMwqWJiBFkbnMyLnF1aWNrbGluZS5jaAovZG5zLXF1ZXJ5
-
-
 ## rubyfish-ea
 
 Resolver in mainland China, forwarding queries for non-Chinese domains
@@ -2063,9 +2058,30 @@ Yandex public DNS server (anycast)
 sdns://AQQAAAAAAAAAEDc3Ljg4LjguNzg6MTUzNTMg04TAccn3RmKvKszVe13MlxTUB7atNgHhrtwG1W1JYyciMi5kbnNjcnlwdC1jZXJ0LmJyb3dzZXIueWFuZGV4Lm5ldA
 
 
-## yepdns-doh
+## yepdns-dnscrypt-sg-ipv4
 
-Filtering | DNSSEC | No-logs | Singapore | https://get.yepdns.com/ | @arapurayil
+Filtering | DNSSEC | No-logs | Singapore | https://get.yepdns.com/
 
-sdns://AgMAAAAAAAAADjk1LjExMS4xOTQuMTMzoD4aGg9sU_PpekktVwhLW5gHBZ7gV6sVBYdv2D_aPbg4IDKG_2WmX68yCF7qE4jDc4un43hzyQbM48Sii0zCpYmICnllcGRucy5jb20KL2Rucy1xdWVyeQ
+sdns://AQMAAAAAAAAAETk0LjIzNy42OC44MDo4NDQzIHoxYc1seP38R7YSxInE5OxkqaJWgUbfncQoWRTLwvPjGTIuZG5zY3J5cHQtY2VydC55ZXBkbnMtc2c
+
+
+## yepdns-doh-sg
+
+Filtering | DNSSEC | No-logs | Singapore | https://get.yepdns.com/
+
+sdns://AgMAAAAAAAAAAAANc2cueWVwZG5zLmNvbQovZG5zLXF1ZXJ5
+
+
+## zackptg5-us-il-ipv4
+
+DNSSEC/unfiltered/non-logged. Hosted on Vultr in Chicago, IL. Running the official Docker image by @zackptg5
+
+sdns://AQcAAAAAAAAADTEzNy4yMjAuNTkuNjIgTNMjCh27ODMeT_zUDR4yV_L9iWnqXTyyMuyLeAQW0eceMi5kbnNjcnlwdC1jZXJ0LnphY2twdGc1LXVzLWls
+
+
+## zackptg5-us-il-ipv6
+
+DNSSEC/unfiltered/non-logged. Hosted on Vultr in Chicago, IL. Running the official Docker image by @zackptg5
+
+sdns://AQcAAAAAAAAAKFsyMDAxOjE5ZjA6NWMwMToxNDdlOjU0MDA6M2ZmOmZlMmE6M2IxZl0gTNMjCh27ODMeT_zUDR4yV_L9iWnqXTyyMuyLeAQW0eceMi5kbnNjcnlwdC1jZXJ0LnphY2twdGc1LXVzLWls
 
