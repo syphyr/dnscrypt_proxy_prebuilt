@@ -301,15 +301,6 @@ https://www.bortzmeyer.org/doh-bortzmeyer-fr-policy.html
 sdns://AgcAAAAAAAAAGVsyMDAxOjQxZDA6MzAyOjIyMDA6OjE4MF2gPhoaD2xT8-l6SS1XCEtbmAcFnuBXqxUFh2_YP9o9uDggMob_ZaZfrzIIXuoTiMNzi6fjeHPJBszjxKKLTMKliYgRZG9oLmJvcnR6bWV5ZXIuZnIBLw
 
 
-## brahma-world
-
-DNS-over-HTTPS / DNS over TLS server with PiHole. Filters ads, trackers and malware. DNSSEC ready, QNAME Minimization, No EDNS Client-Subnet.
-
-Hosted in Frankfurt, Germany. (https://dns.brahma.world)
-
-sdns://AgMAAAAAAAAADTk0LjIzNy44MC4yMTGgPhoaD2xT8-l6SS1XCEtbmAcFnuBXqxUFh2_YP9o9uDggMob_ZaZfrzIIXuoTiMNzi6fjeHPJBszjxKKLTMKliYgQZG5zLmJyYWhtYS53b3JsZAovZG5zLXF1ZXJ5
-
-
 ## captnemo-in
 
 Server running out of a Digital Ocean droplet in BLR1 region.
@@ -795,18 +786,25 @@ sdns://AgUAAAAAAAAAAAAKZG9oLmRucy5zYgovZG5zLXF1ZXJ5
 ## dns.therifleman.name
 
 DNS-over-HTTPS DNS forwarder from Mumbai, India. Blocks web and Android trackers and ads.
-Forwards queries to Linode DNS resolvers. 24hrs logging (for debugging).
+IP addresses are not logged, but queries are logged for 24 hours for debugging.
 Report issues, send suggestions @ joker349 at protonmail.com.
 Also supports DoT (for android) @ dns.therifleman.name and plain DNS @ 172.104.206.174
 
-sdns://AgEAAAAAAAAADzE3Mi4xMDQuMjA2LjE3NCAyhv9lpl-vMghe6hOIw3OLp-N4c8kGzOPEootMwqWJiBRkbnMudGhlcmlmbGVtYW4ubmFtZQovZG5zLXF1ZXJ5
+sdns://AgMAAAAAAAAADzE3Mi4xMDQuMjA2LjE3NCAyhv9lpl-vMghe6hOIw3OLp-N4c8kGzOPEootMwqWJiBRkbnMudGhlcmlmbGVtYW4ubmFtZQovZG5zLXF1ZXJ5
+
+
+## dnscrypt-ch-blahdns-ipv4
+
+Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Switzerland. By https://blahdns.com/
+
+sdns://AQMAAAAAAAAAETQ1LjkwLjU3LjEyMTo4NDQzIGwtSBHT3HesNLSJKRuzyT4LBhtDvQWV_oH9ISdBP0i1GzIuZG5zY3J5cHQtY2VydC5ibGFoZG5zLmNvbQ
 
 
 ## dnscrypt-ch-blahdns-ipv6
 
 Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Switzerland. By https://blahdns.com/
 
-sdns://AQMAAAAAAAAAFVsyYTA1Ojk0MDY6OjE3NV06ODQ0MyBThOgUQxQpPlbdGxQKHvFyrUe9uheZyJVylJU9A061xxsyLmRuc2NyeXB0LWNlcnQuYmxhaGRucy5jb20
+sdns://AQMAAAAAAAAAFVsyYTA1Ojk0MDY6OjE3NV06ODQ0MyBsLUgR09x3rDS0iSkbs8k-CwYbQ70Flf6B_SEnQT9ItRsyLmRuc2NyeXB0LWNlcnQuYmxhaGRucy5jb20
 
 
 ## dnscrypt-de-blahdns-ipv4
@@ -841,14 +839,28 @@ sdns://AQMAAAAAAAAAHFsyYTAxOjRmOTpjMDEwOjQzY2U6OjFdOjg0NDMgU4ToFEMUKT5W3RsUCh7xc
 
 Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Japan. By https://blahdns.com/
 
-sdns://AQMAAAAAAAAAEDQ1LjMyLjU1Ljk0Ojg0NDMgU4ToFEMUKT5W3RsUCh7xcq1HvboXmciVcpSVPQNOtccbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t
+sdns://AQMAAAAAAAAAEzEzOS4xNjIuMTEyLjQ3Ojg0NDMgbC1IEdPcd6w0tIkpG7PJPgsGG0O9BZX-gf0hJ0E_SLUbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t
+
+
+## dnscrypt-jp-blahdns-ipv6
+
+Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Japan. By https://blahdns.com/
+
+sdns://AQMAAAAAAAAAJVsyNDAwOjg5MDI6OmYwM2M6OTJmZjpmZTI3OjM0NGJdOjg0NDMgbC1IEdPcd6w0tIkpG7PJPgsGG0O9BZX-gf0hJ0E_SLUbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t
 
 
 ## dnscrypt-sg-blahdns-ipv4
 
 Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Singapore. By https://blahdns.com/
 
-sdns://AQMAAAAAAAAAEzEzOS4xODAuMTQxLjU3Ojg0NDMgU4ToFEMUKT5W3RsUCh7xcq1HvboXmciVcpSVPQNOtccbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t
+sdns://AQMAAAAAAAAAEzE5Mi41My4xNzUuMTQ5Ojg0NDMgbC1IEdPcd6w0tIkpG7PJPgsGG0O9BZX-gf0hJ0E_SLUbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t
+
+
+## dnscrypt-sg-blahdns-ipv6
+
+Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Singapore. By https://blahdns.com/
+
+sdns://AQMAAAAAAAAAJVsyNDAwOjg5MDE6OmYwM2M6OTJmZjpmZTI3Ojg3MGFdOjg0NDMgbC1IEdPcd6w0tIkpG7PJPgsGG0O9BZX-gf0hJ0E_SLUbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t
 
 
 ## dnscrypt.be
@@ -1163,22 +1175,6 @@ Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Germany. By https://blahdn
 sdns://AgMAAAAAAAAAFlsyYTAxOjRmODpjMTc6ZWM2Nzo6MV0AEmRvaC1kZS5ibGFoZG5zLmNvbQovZG5zLXF1ZXJ5
 
 
-## doh-dnscrypt.uk-ipv4
-
-DOH, no logs, uncensored, DNSSEC. Hosted in London UK on Digital Ocean
-https://www.dnscrypt.uk
-
-sdns://AgcAAAAAAAAADTE2NS4yMzIuMzIuOTUgMob_ZaZfrzIIXuoTiMNzi6fjeHPJBszjxKKLTMKliYgOZG8uZG5zY3J5cHQudWsKL2Rucy1xdWVyeQ
-
-
-## doh-dnscrypt.uk-ipv6
-
-DOH, no logs, uncensored, DNSSEC. Hosted in London UK on Digital Ocean
-https://www.dnscrypt.uk
-
-sdns://AgcAAAAAAAAAGlsyYTAzOmIwYzA6MTplMDo6NDg3OjEwMDFdIDKG_2WmX68yCF7qE4jDc4un43hzyQbM48Sii0zCpYmIDmRvLmRuc2NyeXB0LnVrCi9kbnMtcXVlcnk
-
-
 ## doh-fi-blahdns
 
 Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Finland. By https://blahdns.com/
@@ -1213,44 +1209,28 @@ sdns://AgcAAAAAAAAAFlsyYTAxOjRmOToyYToxOTE5OjoyMV2gPhoaD2xT8-l6SS1XCEtbmAcFnuBXq
 
 Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Japan. By https://blahdns.com/
 
-sdns://AgMAAAAAAAAACzQ1LjMyLjU1Ljk0ABJkb2gtanAuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ
+sdns://AgMAAAAAAAAADjEzOS4xNjIuMTEyLjQ3ABJkb2gtanAuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ
 
 
 ## doh-jp-blahdns-v6
 
 Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Japan. By https://blahdns.com/
 
-sdns://AgMAAAAAAAAAKVsyMDAxOjE5ZjA6NzAwMTozMjU5OjU0MDA6MDJmZjpmZTcxOjBiYzldABJkb2gtanAuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ
+sdns://AgMAAAAAAAAAIFsyNDAwOjg5MDI6OmYwM2M6OTJmZjpmZTI3OjM0NGJdABJkb2gtanAuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ
 
 
 ## doh-sg-blahdns
 
 Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Singapore. By https://blahdns.com/
 
-sdns://AgMAAAAAAAAADjEzOS4xODAuMTQxLjU3ABJkb2gtc2cuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ
+sdns://AgMAAAAAAAAADjE5Mi41My4xNzUuMTQ5ABJkb2gtc2cuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ
 
 
 ## doh-sg-blahdns-v6
 
 Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Singapore. By https://blahdns.com/
 
-sdns://AgMAAAAAAAAAKFsyMDAxOjE5ZjA6NDQwMDo2YmVkOjU0MDA6MmZmOmZlYjE6ZjlmYV0AEmRvaC1zZy5ibGFoZG5zLmNvbQovZG5zLXF1ZXJ5
-
-
-## doh-v.dnscrypt.uk-ipv4
-
-DOH, no logs, uncensored, DNSSEC. Hosted in London UK on Vultr
-https://www.dnscrypt.uk
-
-sdns://AgcAAAAAAAAADzEwNC4yMzguMTg2LjE5MiAyhv9lpl-vMghe6hOIw3OLp-N4c8kGzOPEootMwqWJiA12LmRuc2NyeXB0LnVrCi9kbnMtcXVlcnk
-
-
-## doh-v.dnscrypt.uk-ipv6
-
-DOH, no logs, uncensored, DNSSEC. Hosted in London UK on Vultr
-https://www.dnscrypt.uk
-
-sdns://AgcAAAAAAAAAKFsyMDAxOjE5ZjA6NzQwMjoxNTc0OjU0MDA6MmZmOmZlNjY6MmNmZl0gMob_ZaZfrzIIXuoTiMNzi6fjeHPJBszjxKKLTMKliYgNdi5kbnNjcnlwdC51awovZG5zLXF1ZXJ5
+sdns://AgMAAAAAAAAAIFsyNDAwOjg5MDE6OmYwM2M6OTJmZjpmZTI3Ojg3MGFdABJkb2gtc2cuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ
 
 
 ## doh.appliedprivacy.net
@@ -1398,32 +1378,6 @@ Non-logged/Uncensored provided by www.freetsa.org. Support for DNS and DNS-over-
 sdns://AQcAAAAAAAAAH1syNjA3OmYxMzA6MDpmODo6MzA4NTplOTYxXTo1NTMg2P-7QuAxvnp5cwtFVo1Jak6Ky1mqg2b9arkeJyp9FuQbMi5kbnNjcnlwdC1jZXJ0LmZyZWV0c2Eub3Jn
 
 
-## geekdns-doh
-
-GeekDNS for users in China, via Cloudflare
-
-GeekDNS is a non-logging public DNS service located in mainland China.
-Queries are cached locally, and, for some domains, resolved by servers located
-in Taiwan.
-
-https://www.nextrt.com/s/dns
-
-sdns://AgcAAAAAAAAAAAALaS4yMzNweS5jb20KL2Rucy1xdWVyeQ
-
-
-## geekdns-doh-ext
-
-GeekDNS for users outside China, via Cloudflare
-
-GeekDNS is a non-logging public DNS service located in mainland China.
-Queries are cached locally, and, for some domains, resolved by servers located
-in Taiwan.
-
-https://www.nextrt.com/s/dns
-
-sdns://AgcAAAAAAAAAAAANZG5zLjIzM3B5LmNvbQovZG5zLXF1ZXJ5
-
-
 ## google
 
 Google DNS (anycast)
@@ -1565,7 +1519,7 @@ sdns://AgIAAAAAAAAAAKA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OCAyhv9lpl-vMghe6
 
 ## linuxsec-adguard
 
-DoH proxy to Cloudflare DNS servers with AdGuard Home for ads blocking.
+DoH server with AdGuard Home for ads blocking.
 Operated by LinuxSec.
 
 Non-logging, AD-filtering, supports DNSSEC.
@@ -1577,7 +1531,7 @@ sdns://AgMAAAAAAAAADDEwMy44NS4xNS42MCAyhv9lpl-vMghe6hOIw3OLp-N4c8kGzOPEootMwqWJi
 
 ## linuxsec-doh
 
-DoH proxy to Cloudflare DNS servers operated by LinuxSec.
+DoH server operated by LinuxSec.
 Server located in the Indonesia.
 
 Non-logging, supports DNSSEC.
@@ -1604,7 +1558,7 @@ Hosted in Amsterdam (AMS1), The Netherlands.
 
 Non-logging, non-filtering, supports DNSSEC.
 
-sdns://AgcAAAAAAAAADjEzNi4yNDQuOTcuMTE0oD4aGg9sU_PpekktVwhLW5gHBZ7gV6sVBYdv2D_aPbg4IDKG_2WmX68yCF7qE4jDc4un43hzyQbM48Sii0zCpYmIFWNoZXdiYWNjYS5tZWdhbmVyZC5ubAQvZG9o
+sdns://AgcAAAAAAAAADjEzNi4yNDQuOTcuMTE0IDKG_2WmX68yCF7qE4jDc4un43hzyQbM48Sii0zCpYmIGWNoZXdiYWNjYS5tZWdhbmVyZC5ubDo0NDMEL2RvaA
 
 
 ## meganerd-doh-ipv6
@@ -1614,7 +1568,7 @@ Hosted in Amsterdam (AMS1), The Netherlands.
 
 Non-logging, non-filtering, supports DNSSEC.
 
-sdns://AgcAAAAAAAAAKFsyMDAxOjE5ZjA6NTAwMTpjYmI6NTQwMDowM2ZmOmZlMDc6ZjcwZF2gPhoaD2xT8-l6SS1XCEtbmAcFnuBXqxUFh2_YP9o9uDggMob_ZaZfrzIIXuoTiMNzi6fjeHPJBszjxKKLTMKliYgVY2hld2JhY2NhLm1lZ2FuZXJkLm5sBC9kb2g
+sdns://AgcAAAAAAAAAKFsyMDAxOjE5ZjA6NTAwMTpjYmI6NTQwMDowM2ZmOmZlMDc6ZjcwZF0gMob_ZaZfrzIIXuoTiMNzi6fjeHPJBszjxKKLTMKliYgZY2hld2JhY2NhLm1lZ2FuZXJkLm5sOjQ0MwQvZG9o
 
 
 ## meganerd-ipv6
@@ -1723,6 +1677,15 @@ Non-logging DoH server in Sweden operated by Njalla.
 https://dns.njal.la/
 
 sdns://AgcAAAAAAAAADDk1LjIxNS4xOS41M6A-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OCAyhv9lpl-vMghe6hOIw3OLp-N4c8kGzOPEootMwqWJiAtkbnMubmphbC5sYQovZG5zLXF1ZXJ5
+
+
+## opennic-R4SAS
+
+DNSSEC - OpenNIC - Non-logging - Uncensored - hosted on ovh.com
+Location: Gravelines, France.
+Maintained by R4SAS.
+
+sdns://AQcAAAAAAAAADTE1MS44MC4yMjIuNzkgqdYyOk8lgAkmGXUVAs4jHh922d53bIfGu7KKDv_bDk4gMi5kbnNjcnlwdC1jZXJ0Lm9wZW5uaWMuaTJwZC54eXo
 
 
 ## opennic-fische
