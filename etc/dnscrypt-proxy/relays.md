@@ -26,25 +26,18 @@ Anonymized DNS relay hosted in AMS on Scaleway
 sdns://gRZbMjAwMTpiYzg6MTgyNDo3Mzg6OjFd
 
 
+## anon-ams-nl
+
+Anonymized DNS relay hosted in Netherlands - NL
+
+sdns://gRI1MS4xNS4xMjQuMjA4OjQzNDM
+
+
 ## anon-ams-nl-ipv6
 
 Anonymized DNS relay hosted in Netherlands - NL
 
 sdns://gRxbMjAwMTpiYzg6MTgzMDoyMDE4OjoxXTo0MzQz
-
-
-## anon-arapurayil-in-ipv4
-
-Anonymized DNS relay located in Mumbai, India
-
-sdns://gRAzLjcuMTc2LjEyMzo4NDQz
-
-
-## anon-arapurayil-in-ipv6
-
-Anonymized DNS relay located in Mumbai, India
-
-sdns://gSxbMjQwNjpkYTFhOmM1OTphZTAwOjIwZjpkYmY1OmExMmM6NWFmYl06ODQ0Mw
 
 
 ## anon-bcn
@@ -164,13 +157,6 @@ sdns://gQ0xNjUuMjMyLjMyLjk1
 Anonymized DNS relay hosted in UK on DigitalOcean
 
 sdns://gRpbMmEwMzpiMGMwOjE6ZTA6OjQ4NzoxMDAxXQ
-
-
-## anon-ev-canada
-
-Anonymized DNS relay provided by evilvibes.com Location: Vancouver, Canada
-
-sdns://gQ4xMDQuMzYuMTQ4LjE5Mg
 
 
 ## anon-inconnu
