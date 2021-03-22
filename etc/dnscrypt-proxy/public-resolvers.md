@@ -276,15 +276,6 @@ If you are within India, this might be a nice DNS server to use.
 sdns://AQQAAAAAAAAAEjEzOS41OS40OC4yMjI6NDQzNCAFOt_yxaMpFtga2IpneSwwK6rV0oAyleham9IvhoceEBsyLmRuc2NyeXB0LWNlcnQuY2FwdG5lbW8uaW4
 
 
-## cira-family
-
-CIRA DoH resolvers, blocking trackers, malware, phishing and pornography.
-Operated by the .CA registry. Built by Canadians for Canadians.
-https://www.cira.ca/fr/cybersecurity-services/canadian-shield
-
-sdns://AgEAAAAAAAAAACA_4zhjTgUQYz3kU8o1CxXOwzmz3Li6nyot0k0QqDj-6x1mYW1pbHkuY2FuYWRpYW5zaGllbGQuY2lyYS5jYQovZG5zLXF1ZXJ5
-
-
 ## circl-doh
 
 DoH server operated by CIRCL, Computer Incident Response Center Luxembourg.
@@ -890,6 +881,24 @@ Server provided by Martin 'd0wn' Albus
 sdns://AQcAAAAAAAAAGFsyYzBmOmZkYTg6NTo6MmVkMTpkMmVjXSDWBhX70UU7oU52ij5cXLOsF0YTMUY9oK-M998E2k11bRsyLmRuc2NyeXB0LWNlcnQudHouZDB3bi5iaXo
 
 
+## decloudus-nogoogle-tst
+
+Servers helps you deGoogle and unGoogle by completely blocking Google tracking in addition to annoying ads, online trackers, and malware. Supports DNSSEC. No Logs.
+
+Contributed by: https://decloudus.com
+
+sdns://AQMAAAAAAAAAEjE3Ni45LjE5OS4xNTg6ODQ0MyD73Ye9XeCsS7TdFu9fRP7s5k-0aL91yygulGVmeOAKLh4yLmRuc2NyeXB0LWNlcnQuRGVDbG91ZFVzLXRlc3Q
+
+
+## decloudus-nogoogle-tstipv6
+
+Servers helps you deGoogle and unGoogle by completely blocking Google tracking in addition to annoying ads, online trackers, and malware. Supports DNSSEC. No Logs. For IPv6.
+
+Contributed by: https://decloudus.com
+
+sdns://AQMAAAAAAAAAG1syYTAxOjRmODoxNTE6MTFiMDo6M106ODQ0MyD73Ye9XeCsS7TdFu9fRP7s5k-0aL91yygulGVmeOAKLh4yLmRuc2NyeXB0LWNlcnQuRGVDbG91ZFVzLXRlc3Q
+
+
 ## deffer-dns.au
 
 DNSSEC/Non-logged/Uncensored in Sydney (AWS).
@@ -1048,7 +1057,7 @@ DNS service for your pleasure.
 
 Warning: This server is incompatible with anonymization.
 
-sdns://AQcAAAAAAAAAGFsyNjA3OjUzMDA6NjA6NjUyZjo6MjAwXSCYfHCol9vaFRo0rUtV6oAO9WHMBKrVxX3Sw9hh_Bf0KSIyLmRuc2NyeXB0LWNlcnQuZG5zY3J5cHQuY2EtMi1pcHY2
+sdns://AQcAAAAAAAAAJVsyNjA3OjUzMDA6NjE6OTVmOjcyODM6MTFkOTpmODY6ZTY5MF0gmHxwqJfb2hUaNK1LVeqADvVhzASq1cV90sPYYfwX9CkiMi5kbnNjcnlwdC1jZXJ0LmRuc2NyeXB0LmNhLTItaXB2Ng
 
 
 ## dnscrypt.eu-dk
@@ -1303,22 +1312,6 @@ sdns://AgMAAAAAAAAADjk1LjIxNi4yMTIuMTc3ABJkb2gtZmkuYmxhaGRucy5jb20KL2Rucy1xdWVye
 Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Finland. By https://blahdns.com/
 
 sdns://AgMAAAAAAAAAF1syYTAxOjRmOTpjMDEwOjQzY2U6OjFdABJkb2gtZmkuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ
-
-
-## doh-fi-snopyta
-
-Snopyta non-logging DoH Server in Finland
-run by Noah Seefried - https://snopyta.org
-
-sdns://AgcAAAAAAAAADjk1LjIxNi4yMjkuMTUzoD4aGg9sU_PpekktVwhLW5gHBZ7gV6sVBYdv2D_aPbg4IDKG_2WmX68yCF7qE4jDc4un43hzyQbM48Sii0zCpYmIFmZpLmRvaC5kbnMuc25vcHl0YS5vcmcKL2Rucy1xdWVyeQ
-
-
-## doh-fi-snopyta-ipv6
-
-Snopyta non-logging DoH Server in Finland - IPv6 only
-run by Noah Seefried - https://snopyta.org
-
-sdns://AgcAAAAAAAAAFlsyYTAxOjRmOToyYToxOTE5OjoyMV2gPhoaD2xT8-l6SS1XCEtbmAcFnuBXqxUFh2_YP9o9uDggMob_ZaZfrzIIXuoTiMNzi6fjeHPJBszjxKKLTMKliYgWZmkuZG9oLmRucy5zbm9weXRhLm9yZwovZG5zLXF1ZXJ5
 
 
 ## doh-jp-blahdns
@@ -1659,16 +1652,6 @@ Non-logging, non-filtering, supports DNSSEC.
 sdns://AQcAAAAAAAAADjEzNi4yNDQuOTcuMTE0IPyq3HBOXuNgu6FO4pU71Si6CTV6kPD85NA6AThr_6tiGDIuZG5zY3J5cHQtY2VydC5tZWdhbmVyZA
 
 
-## meganerd-doh-ipv4
-
-DoH server by MegaNerd.nl (IPv4) - https://meganerd.nl/encrypted-dns-server
-Hosted in Amsterdam (AMS1), The Netherlands.
-
-Non-logging, non-filtering, supports DNSSEC.
-
-sdns://AgcAAAAAAAAADjEzNi4yNDQuOTcuMTE0IDKG_2WmX68yCF7qE4jDc4un43hzyQbM48Sii0zCpYmIGWNoZXdiYWNjYS5tZWdhbmVyZC5ubDo0NDMEL2RvaA
-
-
 ## meganerd-doh-ipv6
 
 DoH server by MegaNerd.nl (IPv6) - https://meganerd.nl/encrypted-dns-server
@@ -1818,12 +1801,16 @@ Information at https://dns.oszx.co
 sdns://AQIAAAAAAAAAETUxLjM4LjgzLjE0MTo1MzUzIMwm9_oYw26P4JIVoDhJ_5kFDdNxX1ke4fEzL1V5bwEjFzIuZG5zY3J5cHQtY2VydC5vc3p4LmNv
 
 
+## pf-dnscrypt
+
+by post-factum | Zürich, Switzerland | Non-logging | Non-filtering | DNSSEC | https://dns.post-factum.tk
+
+sdns://AQcAAAAAAAAAFDE0MC4yMzguMjE1LjE5Mjo4NDQzIH2l4fL6H6BQcKWfdf9ZnrvWxZL_vxKUtQMcWDdZwB6bHjIuZG5zY3J5cHQtY2VydC5wb3N0LWZhY3R1bS50aw
+
+
 ## pf-doh
 
-DoH server by post-factum
-Hosted in Zürich, Switzerland using Oracle Cloud, cached globally via Cloudflare
-
-Non-logging, non-filtering, supports DNSSEC
+by post-factum | Zürich, Switzerland | Non-logging | Non-filtering | DNSSEC | Cached globally via Cloudflare | https://dns.post-factum.tk
 
 sdns://AgcAAAAAAAAAACCcu6D8li96KzHGKxsXWi3kxQqDlXJ-MLYmqAAJp4Dj2BJkb2gucG9zdC1mYWN0dW0udGsKL2Rucy1xdWVyeQ
 
