@@ -1624,6 +1624,16 @@ Non-logging, non-filtering, supports DNSSEC.
 sdns://AQcAAAAAAAAADjEzNi4yNDQuOTcuMTE0IPyq3HBOXuNgu6FO4pU71Si6CTV6kPD85NA6AThr_6tiGDIuZG5zY3J5cHQtY2VydC5tZWdhbmVyZA
 
 
+## meganerd-doh-ipv4
+
+DoH server by MegaNerd.nl (IPv4) - https://meganerd.nl/encrypted-dns-server
+Hosted in Amsterdam (AMS1), The Netherlands.
+
+Non-logging, non-filtering, supports DNSSEC.
+
+sdns://AgcAAAAAAAAADjEzNi4yNDQuOTcuMTE0IDKG_2WmX68yCF7qE4jDc4un43hzyQbM48Sii0zCpYmIGWNoZXdiYWNjYS5tZWdhbmVyZC5ubDo0NDMEL2RvaA
+
+
 ## meganerd-doh-ipv6
 
 DoH server by MegaNerd.nl (IPv6) - https://meganerd.nl/encrypted-dns-server
@@ -1787,12 +1797,44 @@ by post-factum | Zürich, Switzerland | Non-logging | Non-filtering | DNSSEC | C
 sdns://AgcAAAAAAAAAACCcu6D8li96KzHGKxsXWi3kxQqDlXJ-MLYmqAAJp4Dj2BJkb2gucG9zdC1mYWN0dW0udGsKL2Rucy1xdWVyeQ
 
 
-## plan9-dns
+## plan9-ns1
 
-Resolver in New Jersey, USA. DNSCrypt protocol. Non-logging, non-filtering, DNSSEC, anonymized.
-Running the official Docker image on Vultr by @jlongua1
+DNSCrypt server in New Jersey, USA. Non-logging, non-filtering, DNSSEC, anonymized.
+Running the official Docker image, info - https://jlongua.github.io/plan9-dns/
 
 sdns://AQcAAAAAAAAADjE3My4xOTkuMTI2LjM1IJLwH3z8-G6TDyEk6yXMmGxuss7nGfFnkHrtm4VOSc9SGTIuZG5zY3J5cHQtY2VydC5wbGFuOS1kbnM
+
+
+## plan9-ns1-doh
+
+doh server in New Jersey, USA. Non-logging, non-filtering, DNSSEC.
+info - https://jlongua.github.io/plan9-dns/
+
+sdns://AgcAAAAAAAAADjE3My4xOTkuMTI2LjM1IDKG_2WmX68yCF7qE4jDc4un43hzyQbM48Sii0zCpYmIE2h5ZHJhLnBsYW45LW5zMS5jb20KL2Rucy1xdWVyeQ
+
+
+## plan9-ns2
+
+DNSCrypt server in Florida, USA. Non-logging, non-filtering, DNSSEC, anonymized.
+info - https://jlongua.github.io/plan9-dns/
+
+sdns://AQcAAAAAAAAAEjQ1LjYzLjExMC4xODc6ODQ0MyCcjeRhPcJTsKhZ8iViALPd39CussG6SnprFT9z_1f03x0yLmRuc2NyeXB0LWNlcnQucGxhbjktbnMyLmNvbQ
+
+
+## plan9-ns2-doh
+
+doh server in Florida, USA. Non-logging, non-filtering, DNSSEC.
+info - https://jlongua.github.io/plan9-dns/
+
+sdns://AgcAAAAAAAAADTQ1LjYzLjExMC4xODcgMob_ZaZfrzIIXuoTiMNzi6fjeHPJBszjxKKLTMKliYgTZHJhY28ucGxhbjktbnMyLmNvbQovZG5zLXF1ZXJ5
+
+
+## plan9-ns2-doh-ipv6
+
+doh server in Florida, USA. Non-logging, non-filtering, DNSSEC.
+info - https://jlongua.github.io/plan9-dns/
+
+sdns://AgcAAAAAAAAAHVsyMDAxOjE5ZjA6OTAwMjoxZDc0OjU0MDA6OjFdIDKG_2WmX68yCF7qE4jDc4un43hzyQbM48Sii0zCpYmIE2RyYWNvLnBsYW45LW5zMi5jb20KL2Rucy1xdWVyeQ
 
 
 ## powerdns-doh
