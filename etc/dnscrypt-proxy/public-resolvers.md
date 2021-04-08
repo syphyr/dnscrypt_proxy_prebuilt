@@ -62,7 +62,7 @@ Remove ads and protect your computer from malware
 
 Warning: This server is incompatible with anonymization.
 
-sdns://AQIAAAAAAAAAFDE3Ni4xMDMuMTMwLjEzMDo1NDQzINErR_JS3PLCu_iZEIbq95zkSV2LFsigxDIuUso_OQhzIjIuZG5zY3J5cHQuZGVmYXVsdC5uczEuYWRndWFyZC5jb20
+sdns://AQMAAAAAAAAAETk0LjE0MC4xNC4xNDo1NDQzINErR_JS3PLCu_iZEIbq95zkSV2LFsigxDIuUso_OQhzIjIuZG5zY3J5cHQuZGVmYXVsdC5uczEuYWRndWFyZC5jb20
 
 
 ## adguard-dns-doh
@@ -78,7 +78,7 @@ Adguard DNS with safesearch and adult content blocking
 
 Warning: This server is incompatible with anonymization.
 
-sdns://AQIAAAAAAAAAFDE3Ni4xMDMuMTMwLjEzMjo1NDQzILgxXdexS27jIKRw3C7Wsao5jMnlhvhdRUXWuMm1AFq6ITIuZG5zY3J5cHQuZmFtaWx5Lm5zMS5hZGd1YXJkLmNvbQ
+sdns://AQMAAAAAAAAAETk0LjE0MC4xNC4xNTo1NDQzILgxXdexS27jIKRw3C7Wsao5jMnlhvhdRUXWuMm1AFq6ITIuZG5zY3J5cHQuZmFtaWx5Lm5zMS5hZGd1YXJkLmNvbQ
 
 
 ## adguard-dns-family-doh
@@ -94,7 +94,7 @@ Adguard DNS with safesearch and adult content blocking
 
 Warning: This server is incompatible with anonymization.
 
-sdns://AQMAAAAAAAAAGlsyYTAwOjVhNjA6OmJhZDI6MGZmXTo1NDQzIIwhF6nrwVfW-2QFbwrbwRxdg2c0c8RuJY2bL1fU7jUfITIuZG5zY3J5cHQuZmFtaWx5Lm5zMi5hZGd1YXJkLmNvbQ
+sdns://AQMAAAAAAAAAGVsyYTEwOjUwYzA6OmJhZDE6ZmZdOjU0NDMguDFd17FLbuMgpHDcLtaxqjmMyeWG-F1FRda4ybUAWrohMi5kbnNjcnlwdC5mYW1pbHkubnMxLmFkZ3VhcmQuY29t
 
 
 ## adguard-dns-ipv6
@@ -103,7 +103,7 @@ Remove ads and protect your computer from malware
 
 Warning: This server is incompatible with anonymization.
 
-sdns://AQMAAAAAAAAAGVsyYTAwOjVhNjA6OmFkMjowZmZdOjU0NDMggdAC02pMpQxHO3R5ZQ_hLgKzIcthOFYqII5APf3FXpQiMi5kbnNjcnlwdC5kZWZhdWx0Lm5zMi5hZGd1YXJkLmNvbQ
+sdns://AQMAAAAAAAAAGFsyYTEwOjUwYzA6OmFkMTpmZl06NTQ0MyDRK0fyUtzywrv4mRCG6vec5EldixbIoMQyLlLKPzkIcyIyLmRuc2NyeXB0LmRlZmF1bHQubnMxLmFkZ3VhcmQuY29t
 
 
 ## adguard-dns-unfiltered
@@ -112,7 +112,16 @@ AdGuard public DNS servers without filters
 
 Warning: This server is incompatible with anonymization.
 
-sdns://AQcAAAAAAAAAFDE3Ni4xMDMuMTMwLjEzNjo1NDQzILXoRNa4Oj4-EmjraB--pw3jxfpo29aIFB2_LsBmstr6JTIuZG5zY3J5cHQudW5maWx0ZXJlZC5uczEuYWRndWFyZC5jb20
+sdns://AQMAAAAAAAAAEjk0LjE0MC4xNC4xNDA6NTQ0MyC16ETWuDo-PhJo62gfvqcN48X6aNvWiBQdvy7AZrLa-iUyLmRuc2NyeXB0LnVuZmlsdGVyZWQubnMxLmFkZ3VhcmQuY29t
+
+
+## adguard-dns-unfiltered-ipv6
+
+AdGuard public DNS servers without filters
+
+Warning: This server is incompatible with anonymization.
+
+sdns://AQMAAAAAAAAAFlsyYTEwOjUwYzA6OjE6ZmZdOjU0NDMgtehE1rg6Pj4SaOtoH76nDePF-mjb1ogUHb8uwGay2volMi5kbnNjcnlwdC51bmZpbHRlcmVkLm5zMS5hZGd1YXJkLmNvbQ
 
 
 ## ahadns-doh-in
@@ -1732,6 +1741,24 @@ Public | Non-filtering | Non-logging | DNSSEC aware | Hosted in UK | Operated by
 sdns://AQcAAAAAAAAADjUxLjE5NS4yMDAuMTgyIOdFe4OLrR_kCKC-8omGs5my5qxIyBgkldWZoSUmYvCNHTIuZG5zY3J5cHQtY2VydC5tb3VsdGljYXN0LXVr
 
 
+## mullvad-adblock-doh
+
+Public ad-blocking, non-logging (audited), DNSSEC-capable, DNS-over-HTTPS resolver hosted by VPN provider Mullvad
+Anycast IPv4/IPv6 with servers in SE, DE, UK, US, AU and SG
+https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/
+
+sdns://AgMAAAAAAAAAACD5_zfwLmMstzhwJcB-V5CKPTcbfJXYzdA5DeIx7ZQ6EhdhZGJsb2NrLmRvaC5tdWxsdmFkLm5ldAovZG5zLXF1ZXJ5
+
+
+## mullvad-doh
+
+Public non-filtering, non-logging (audited), DNSSEC-capable, DNS-over-HTTPS resolver hosted by VPN provider Mullvad
+Anycast IPv4/IPv6 with servers in SE, DE, UK, US, AU and SG
+https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/
+
+sdns://AgcAAAAAAAAAACD5_zfwLmMstzhwJcB-V5CKPTcbfJXYzdA5DeIx7ZQ6Eg9kb2gubXVsbHZhZC5uZXQKL2Rucy1xdWVyeQ
+
+
 ## nextdns
 
 NextDNS is a cloud-based private DNS service that gives you full control
@@ -1914,24 +1941,6 @@ sdns://AQYAAAAAAAAADTkuOS45LjEwOjg0NDMgZ8hHuMh1jNEgJFVDvnVnRt803x2EwAuMRwNo34Idh
 sdns://AQYAAAAAAAAAEzE0OS4xMTIuMTEyLjEwOjg0NDMgZ8hHuMh1jNEgJFVDvnVnRt803x2EwAuMRwNo34Idhj4ZMi5kbnNjcnlwdC1jZXJ0LnF1YWQ5Lm5ldA
 
 
-## quad9-dnscrypt-ip6-filter-pri
-
-Quad9 (anycast) dnssec/no-log/filter 2620:fe::fe:9 / 2620:fe::9
-
-Warning: this server is incompatible with DNS anonymization.
-
-sdns://AQMAAAAAAAAAFFsyNjIwOmZlOjpmZTo5XTo4NDQzIGfIR7jIdYzRICRVQ751Z0bfNN8dhMALjEcDaN-CHYY-GTIuZG5zY3J5cHQtY2VydC5xdWFkOS5uZXQ
-
-
-## quad9-dnscrypt-ip6-nofilter-pri
-
-Quad9 (anycast) no-dnssec/no-log/no-filter 2620:fe::10 / 2620:fe::fe:10
-
-Warning: this server is incompatible with DNS anonymization.
-
-sdns://AQYAAAAAAAAAElsyNjIwOmZlOjoxMF06ODQ0MyBnyEe4yHWM0SAkVUO-dWdG3zTfHYTAC4xHA2jfgh2GPhkyLmRuc2NyeXB0LWNlcnQucXVhZDkubmV0
-
-
 ## quad9-doh-ip4-filter-pri
 
 Quad9 (anycast) dnssec/no-log/filter 9.9.9.9 / 149.112.112.9
@@ -1993,13 +2002,6 @@ usage, data never sold - https://safesurfer.io
 Warning: this server is incompatible with DNS anonymization.
 
 sdns://AQMAAAAAAAAADzEwNC4xNTUuMjM3LjIyNSAnIH_VEgToNntINABd-f_R0wu-KpwzY55u2_iu2R1A2CAyLmRuc2NyeXB0LWNlcnQuc2FmZXN1cmZlci5jby5ueg
-
-
-## sarpel-dns-istanbul
-
-No-filter | No-logs | Uncensored | Hosted in Istanbul(Turkey) on Cloudeos
-
-sdns://AQcAAAAAAAAADzE4NS4xNTMuMjQ5LjIzOSDkXGvqcMO6TaLJUSkr49jGcXvjT3q1ZyiO-Oy6uE-40jAyLmRuc2NyeXB0LWNlcnQuMTg1LTE1My0yNDktMjM5LmluZi5jbG91ZGVvcy5uZXQ
 
 
 ## scaleway-ams
@@ -2096,6 +2098,70 @@ DNSCrypt v2, no logs, uncensored, DNSSEC. Hosted in London UK on Vultr
 https://www.dnscrypt.uk
 
 sdns://AQcAAAAAAAAAKFsyMDAxOjE5ZjA6NzQwMjoxNTc0OjU0MDA6MmZmOmZlNjY6MmNmZl0g7Uk9jOrXkGZPBjxHt5WaI2ktfJA2PJ5DzLWRe-W0HuUdMi5kbnNjcnlwdC1jZXJ0LnYuZG5zY3J5cHQudWs
+
+
+## wevpn-adblock-singapore
+
+Private DNSCrypt service by WeVPN in Singapore - https://wevpn.com/dns
+With ad blocking.
+
+sdns://AQMAAAAAAAAAEzE0My4yNDQuMzMuOTA6MTUzNTMgufWZBK6y8zr6mDW3z47IASY0jQoaoRFSBaB8i1GHng8fMi5kbnNjcnlwdC1jZXJ0LnNlY3VyZS5kbnMudGVzdA
+
+
+## wevpn-adblock-uk
+
+Private DNSCrypt service by WeVPN in London, UK - https://wevpn.com/dns
+With ad blocking.
+
+sdns://AQMAAAAAAAAAFDIxNi4xMTkuMTU1LjQ5OjE1MzUzIF2QDfN8-gL0x3IyXgqgrawgSxKm7A80BgexEH7WghsBHzIuZG5zY3J5cHQtY2VydC5zZWN1cmUuZG5zLnRlc3Q
+
+
+## wevpn-adblock-useast
+
+Private DNSCrypt service by WeVPN in New Jersey, USA - https://wevpn.com/dns
+With ad blocking.
+
+sdns://AQMAAAAAAAAAFDIzLjIyNi4xMzQuMjQzOjE1MzUzIBf1guPReaoN_V7w-UelcO4YnvqoXnDGsxRPIRc6uSjsHzIuZG5zY3J5cHQtY2VydC5zZWN1cmUuZG5zLnRlc3Q
+
+
+## wevpn-adblock-uswest
+
+Private DNSCrypt service by WeVPN in Los Angeles, USA - https://wevpn.com/dns
+With ad blocking.
+
+sdns://AQMAAAAAAAAAEjcyLjExLjEzNC45MToxNTM1MyBV2R9ORyXQIRO7dlT0F2mYeEdvXEuBOWMdFkripZcN9B8yLmRuc2NyeXB0LWNlcnQuc2VjdXJlLmRucy50ZXN0
+
+
+## wevpn-singapore
+
+Private DNSCrypt service by WeVPN in Singapore - https://wevpn.com/dns
+With ad blocking.
+
+sdns://AQcAAAAAAAAAEzE0My4yNDQuMzMuNzQ6MTUzNTMgFTXwu5MfYkBOrRpDeoB-yOWEjCnf-l3yixhtuzuPBskfMi5kbnNjcnlwdC1jZXJ0LnNlY3VyZS5kbnMudGVzdA
+
+
+## wevpn-uk
+
+Private DNSCrypt service by WeVPN in London, UK - https://wevpn.com/dns
+With ad blocking.
+
+sdns://AQcAAAAAAAAAEjIxMi43OC45NC40MDoxNTM1MyCAw5p4sJ073gZnQ5jy00DHU3r7Y9mopz-_idDV_HHuuR8yLmRuc2NyeXB0LWNlcnQuc2VjdXJlLmRucy50ZXN0
+
+
+## wevpn-useast
+
+Private DNSCrypt service by WeVPN in New Jersey, USA - https://wevpn.com/dns
+With ad blocking.
+
+sdns://AQcAAAAAAAAAFDIzLjIyNi4xMzQuMjQyOjE1MzUzII_Le5DiGa3AfdRxR7DRt52ZaexL_22aLfjDJwp5saIsHzIuZG5zY3J5cHQtY2VydC5zZWN1cmUuZG5zLnRlc3Q
+
+
+## wevpn-uswest
+
+Private DNSCrypt service by WeVPN in Los Angeles, USA - https://wevpn.com/dns
+With ad blocking.
+
+sdns://AQcAAAAAAAAAEjcyLjExLjEzNC45MDoxNTM1MyAKLsInrJLgKMxBqSL1VvH74T3wwp1bn5wkvPwUlea3Kh8yLmRuc2NyeXB0LWNlcnQuc2VjdXJlLmRucy50ZXN0
 
 
 ## yandex
