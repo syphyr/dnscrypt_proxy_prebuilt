@@ -254,7 +254,7 @@ sdns://AgQAAAAAAAAAAKBLTrSwdCmLgotcADCVoQtFI_uVHAyINIsJxT5bq6QIoyD2Hldod9qWUClMz
 
 Resolver in Barcelona, Spain. DNSCrypt protocol. Non-logging, non-filtering, DNSSEC.
 
-sdns://AQcAAAAAAAAAEzE4NS4yNTMuMTU0LjY2OjQzNDMg_IlDWhFp1tL1VycXVO3QTEiQIKG_1OwG4tNTAD-nLj0cMi5kbnNjcnlwdC1jZXJ0LmJjbi1kbnNjcnlwdA
+sdns://AQcAAAAAAAAAEzE4NS4yNTMuMTU0LjY2OjQzNDMgJamotI-hwWI8IrJ0Zq-ofLaFCdeuOONZQ478aqWcZr0cMi5kbnNjcnlwdC1jZXJ0LmJjbi1kbnNjcnlwdA
 
 
 ## bcn-doh
@@ -660,13 +660,6 @@ Manchester, England DNSCrypt server provided by https://cryptostorm.is/
 sdns://AQYAAAAAAAAADTE5NS4xMi40OC4xNzEgMTNyrVlWMsJBa4cvCY-FG925ZShMbL6aTxkJZDDbqVoeMi5kbnNjcnlwdC1jZXJ0LmNyeXB0b3N0b3JtLmlz
 
 
-## cs-md
-
-Moldova DNSCrypt server provided by https://cryptostorm.is/
-
-sdns://AQYAAAAAAAAADzE3OC4xNzUuMTM5LjIxMSAxM3KtWVYywkFrhy8Jj4Ub3bllKExsvppPGQlkMNupWh4yLmRuc2NyeXB0LWNlcnQuY3J5cHRvc3Rvcm0uaXM
-
-
 ## cs-milan
 
 Milan, Italy DNSCrypt server provided by https://cryptostorm.is/
@@ -926,16 +919,6 @@ sdns://AgcAAAAAAAAAD1syYTA1OmZjODQ6OjQzXaA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2
 Non-logging, non-filtering, DNSSEC DoH Server. Hosted in the UK.
 
 sdns://AgcAAAAAAAAADjY4LjE4My4yNTMuMjAwoD4aGg9sU_PpekktVwhLW5gHBZ7gV6sVBYdv2D_aPbg4IDKG_2WmX68yCF7qE4jDc4un43hzyQbM48Sii0zCpYmIFGRuczEucnlhbi1wYWxtZXIuY29tCi9kbnMtcXVlcnk
-
-
-## dns.sb
-
-DNSSEC-enabled DoH server by https://xtom.com/
-Using Cloudflare as a frontend.
-
-https://dns.sb
-
-sdns://AgUAAAAAAAAAAAAKZG9oLmRucy5zYgovZG5zLXF1ZXJ5
 
 
 ## dns.therifleman.name
@@ -1232,8 +1215,8 @@ DNS-over-HTTPS server. Anycast, no logs, no censorship, DNSSEC.
 Backend hosted by Scaleway, globally cached via Cloudflare.
 Maintained by Frank Denis.
 
-sdns://AgcAAAAAAAAADDEwNC4yOC4wLjEwNgANZG9oLmNyeXB0by5zeAovZG5zLXF1ZXJ5
-sdns://AgcAAAAAAAAADDEwNC4yOC4xLjEwNgANZG9oLmNyeXB0by5zeAovZG5zLXF1ZXJ5
+sdns://AgcAAAAAAAAACzEwNC4yMS42Ljc4AA1kb2guY3J5cHRvLnN4Ci9kbnMtcXVlcnk
+sdns://AgcAAAAAAAAADjE3Mi42Ny4xMzQuMTU3AA1kb2guY3J5cHRvLnN4Ci9kbnMtcXVlcnk
 
 
 ## doh-crypto-sx-ipv6
@@ -1242,8 +1225,8 @@ DNS-over-HTTPS server accessible over IPv6. Anycast, no logs, no censorship, DNS
 Backend hosted by Scaleway, globally cached via Cloudflare.
 Maintained by Frank Denis.
 
-sdns://AgcAAAAAAAAAGVsyNjA2OjQ3MDA6MzAzNjo6NjgxYzo2YV0AEmRvaC1pcHY2LmNyeXB0by5zeAovZG5zLXF1ZXJ5
-sdns://AgcAAAAAAAAAGlsyNjA2OjQ3MDA6MzAzNDo6NjgxYzoxNmFdABJkb2gtaXB2Ni5jcnlwdG8uc3gKL2Rucy1xdWVyeQ
+sdns://AgcAAAAAAAAAGlsyNjA2OjQ3MDA6MzAzNzo6NjgxNTo2NGVdABJkb2gtaXB2Ni5jcnlwdG8uc3gKL2Rucy1xdWVyeQ
+sdns://AgcAAAAAAAAAG1syNjA2OjQ3MDA6MzAzNjo6YWM0Mzo4NjlkXQASZG9oLWlwdjYuY3J5cHRvLnN4Ci9kbnMtcXVlcnk
 
 
 ## doh-de-blahdns
@@ -1344,7 +1327,7 @@ sdns://AgUAAAAAAAAAAKA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OCAyhv9lpl-vMghe6
 Non-Logging DNS-over-HTTPS server, cached via Cloudflare.
 Filters out ads, trackers and malware, NO ECS, supports DNSSEC.
 
-sdns://AgMAAAAAAAAADDEwNC4yOC4yOC4zNCDlfOUtFRBtpOz9nhH9pf0dHgpr4BIkGITTYuodSvRk9w5kb2gudGlhcmFwLm9yZwovZG5zLXF1ZXJ5
+sdns://AgMAAAAAAAAADDEwNC4yMS42NS42MAAOZG9oLnRpYXJhcC5vcmcKL2Rucy1xdWVyeQ
 
 
 ## doh.tiarap.org-ipv6
@@ -1352,7 +1335,7 @@ sdns://AgMAAAAAAAAADDEwNC4yOC4yOC4zNCDlfOUtFRBtpOz9nhH9pf0dHgpr4BIkGITTYuodSvRk9
 Non-Logging DNS-over-HTTPS server (IPv6), cached via Cloudflare.
 Filters out ads, trackers and malware, NO ECS, supports DNSSEC.
 
-sdns://AgMAAAAAAAAAG1syNjA2OjQ3MDA6MzAzNDo6YWM0MzpiNjZhXSDlfOUtFRBtpOz9nhH9pf0dHgpr4BIkGITTYuodSvRk9w5kb2gudGlhcmFwLm9yZwovZG5zLXF1ZXJ5
+sdns://AgMAAAAAAAAAG1syNjA2OjQ3MDA6MzAzNDo6NjgxNTo0MTNjXQAOZG9oLnRpYXJhcC5vcmcKL2Rucy1xdWVyeQ
 
 
 ## east.comss.one
@@ -1557,7 +1540,7 @@ sdns://AQcAAAAAAAAAJVsyNDAwOjg5MDI6OmYwM2M6OTFmZjpmZWRhOmM1MTRdOjE0NDMgMrh2PvG_Z
 DNS-over-HTTPS Server. Non-Logging, Non-Filtering, No ECS, Support DNSSEC.
 Cached via Cloudflare.
 
-sdns://AgcAAAAAAAAADDEwNC4yOC4yOC4zNCDlfOUtFRBtpOz9nhH9pf0dHgpr4BIkGITTYuodSvRk9w1qcC50aWFyYXAub3JnCi9kbnMtcXVlcnk
+sdns://AgcAAAAAAAAAACDlfOUtFRBtpOz9nhH9pf0dHgpr4BIkGITTYuodSvRk9w1qcC50aWFyYXAub3JnCi9kbnMtcXVlcnk
 
 
 ## jp.tiarap.org-ipv6
@@ -1616,16 +1599,6 @@ Hosted in Amsterdam (AMS1), The Netherlands.
 Non-logging, non-filtering, supports DNSSEC.
 
 sdns://AQcAAAAAAAAADjEzNi4yNDQuOTcuMTE0IPyq3HBOXuNgu6FO4pU71Si6CTV6kPD85NA6AThr_6tiGDIuZG5zY3J5cHQtY2VydC5tZWdhbmVyZA
-
-
-## meganerd-doh-ipv4
-
-DoH server by MegaNerd.nl (IPv4) - https://meganerd.nl/encrypted-dns-server
-Hosted in Amsterdam (AMS1), The Netherlands.
-
-Non-logging, non-filtering, supports DNSSEC.
-
-sdns://AgcAAAAAAAAADjEzNi4yNDQuOTcuMTE0IDKG_2WmX68yCF7qE4jDc4un43hzyQbM48Sii0zCpYmIGWNoZXdiYWNjYS5tZWdhbmVyZC5ubDo0NDMEL2RvaA
 
 
 ## meganerd-doh-ipv6
@@ -1861,7 +1834,7 @@ sdns://AgcAAAAAAAAADDQ1Ljc2LjExMy4zMaA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24O
 DNSSEC • OpenNIC • Non-logging • Uncensored - hosted on ovh.com.au
 Maintained by publicarray - https://dns.seby.io
 
-sdns://AQcAAAAAAAAAEjEzOS45OS4yMjIuNzI6ODQ0MyCH8q9RBc6SiI6_tBYIuyfkh13C3UaDhV-k_d3XspWMNBsyLmRuc2NyeXB0LWNlcnQuZG5zLnNlYnkuaW8
+sdns://AQcAAAAAAAAAEjEzOS45OS4yMjIuNzI6ODQ0MyB3NPVeil3tZfA7hH0fz-MBp7VSd6pprpccj78c5dOjFRsyLmRuc2NyeXB0LWNlcnQuZG5zLnNlYnkuaW8
 
 
 ## publicarray-au2-doh
@@ -2044,6 +2017,22 @@ sdns://AgMAAAAAAAAAACA7FAZ73R-Sz_NJdsl8yiP0L0H3yntGnmJAVtqSpC3Nmg1kbnMuc3dpdGNoL
 Deutsche Telekom experimental DoH server.
 
 sdns://AgUAAAAAAAAAAKA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OCAyhv9lpl-vMghe6hOIw3OLp-N4c8kGzOPEootMwqWJiApkbnMudDUzLmRlCi9kbnMtcXVlcnk
+
+
+## userspace-australia
+
+Public DNSCrypt in Australia (Brisbane & Melbourne) by UserSpace. No logging, currently uncensored, IPv4.
+
+sdns://AQcAAAAAAAAAEjEwMy4yMzYuMTYyLjExOTo1NCC82yDYAafAl4ht8sAbOgn3TjyhAbdTakx92VaUFLBwux0yLmRuc2NyeXB0LWNlcnQudXNlcnNwYWNlLW1lbA
+sdns://AQcAAAAAAAAAEDEwMy4xNi4xMzEuNzc6NTQgEWOI99_3M0Rk_Jsm7KQtUjC1612HdCwSWA7_ftojHG4dMi5kbnNjcnlwdC1jZXJ0LnVzZXJzcGFjZS1ibmU
+
+
+## userspace-australia-ipv6
+
+Public DNSCrypt in Australia (Brisbane & Melbourne) by UserSpace. No logging, currently uncensored, IPv6.
+
+sdns://AQcAAAAAAAAAJVsyNDA0Ojk0MDA6MzowOjIxNjozZWZmOmZlZTA6N2Y2OV06NTQgvNsg2AGnwJeIbfLAGzoJ9048oQG3U2pMfdlWlBSwcLsdMi5kbnNjcnlwdC1jZXJ0LnVzZXJzcGFjZS1tZWw
+sdns://AQcAAAAAAAAAJVsyNDA0Ojk0MDA6MTowOjIxNjozZWZmOmZlZjA6MTgwYV06NTQgEWOI99_3M0Rk_Jsm7KQtUjC1612HdCwSWA7_ftojHG4dMi5kbnNjcnlwdC1jZXJ0LnVzZXJzcGFjZS1ibmU
 
 
 ## v.dnscrypt.uk-ipv4
