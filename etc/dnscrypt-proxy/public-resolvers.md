@@ -935,28 +935,70 @@ sdns://AgMAAAAAAAAADzE3Mi4xMDQuMjA2LjE3NCAyhv9lpl-vMghe6hOIw3OLp-N4c8kGzOPEootMw
 
 Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Switzerland. By https://blahdns.com/
 
-sdns://AQMAAAAAAAAAETQ1LjkwLjU3LjEyMTo4NDQzIGwtSBHT3HesNLSJKRuzyT4LBhtDvQWV_oH9ISdBP0i1GzIuZG5zY3J5cHQtY2VydC5ibGFoZG5zLmNvbQ
+sdns://AQMAAAAAAAAAETQ1LjkxLjkyLjEyMTo4NDQzIIUTqWvE4INLlQ1jtQLo0-LVTQSWayYCkzTpBx26I_wrGzIuZG5zY3J5cHQtY2VydC5ibGFoZG5zLmNvbQ
+
+
+## dnscrypt-ch-blahdns-ipv6
+
+Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Switzerland. By https://blahdns.com/
+
+sdns://AQMAAAAAAAAAF1syYTBlOmRjMDo2OjIzOjoyXTo4NDQzIIUTqWvE4INLlQ1jtQLo0-LVTQSWayYCkzTpBx26I_wrGzIuZG5zY3J5cHQtY2VydC5ibGFoZG5zLmNvbQ
+
+
+## dnscrypt-de-blahdns-ipv4
+
+Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Germany. By https://blahdns.com/
+
+sdns://AQMAAAAAAAAAEjc4LjQ2LjI0NC4xNDM6ODQ0MyCFE6lrxOCDS5UNY7UC6NPi1U0ElmsmApM06QcduiP8KxsyLmRuc2NyeXB0LWNlcnQuYmxhaGRucy5jb20
+
+
+## dnscrypt-de-blahdns-ipv6
+
+Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Germany. By https://blahdns.com/
+
+sdns://AQMAAAAAAAAAG1syYTAxOjRmODpjMTc6ZWM2Nzo6MV06ODQ0MyCFE6lrxOCDS5UNY7UC6NPi1U0ElmsmApM06QcduiP8KxsyLmRuc2NyeXB0LWNlcnQuYmxhaGRucy5jb20
+
+
+## dnscrypt-fi-blahdns-ipv4
+
+Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Finland. By https://blahdns.com/
+
+sdns://AQMAAAAAAAAAEzk1LjIxNi4yMTIuMTc3Ojg0NDMghROpa8Tgg0uVDWO1AujT4tVNBJZrJgKTNOkHHboj_CsbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t
+
+
+## dnscrypt-fi-blahdns-ipv6
+
+Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Finland. By https://blahdns.com/
+
+sdns://AQMAAAAAAAAAHFsyYTAxOjRmOTpjMDEwOjQzY2U6OjFdOjg0NDMghROpa8Tgg0uVDWO1AujT4tVNBJZrJgKTNOkHHboj_CsbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t
 
 
 ## dnscrypt-jp-blahdns-ipv4
 
 Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Japan. By https://blahdns.com/
 
-sdns://AQMAAAAAAAAAEzEzOS4xNjIuMTEyLjQ3Ojg0NDMgbC1IEdPcd6w0tIkpG7PJPgsGG0O9BZX-gf0hJ0E_SLUbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t
+sdns://AQMAAAAAAAAAEzEzOS4xNjIuMTEyLjQ3Ojg0NDMghROpa8Tgg0uVDWO1AujT4tVNBJZrJgKTNOkHHboj_CsbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t
 
 
 ## dnscrypt-jp-blahdns-ipv6
 
 Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Japan. By https://blahdns.com/
 
-sdns://AQMAAAAAAAAAJVsyNDAwOjg5MDI6OmYwM2M6OTJmZjpmZTI3OjM0NGJdOjg0NDMgbC1IEdPcd6w0tIkpG7PJPgsGG0O9BZX-gf0hJ0E_SLUbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t
+sdns://AQMAAAAAAAAAJVsyNDAwOjg5MDI6OmYwM2M6OTJmZjpmZTI3OjM0NGJdOjg0NDMghROpa8Tgg0uVDWO1AujT4tVNBJZrJgKTNOkHHboj_CsbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t
 
 
 ## dnscrypt-sg-blahdns-ipv4
 
 Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Singapore. By https://blahdns.com/
 
-sdns://AQMAAAAAAAAAEzE5Mi41My4xNzUuMTQ5Ojg0NDMgbC1IEdPcd6w0tIkpG7PJPgsGG0O9BZX-gf0hJ0E_SLUbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t
+sdns://AQMAAAAAAAAAEzE5Mi41My4xNzUuMTQ5Ojg0NDMghROpa8Tgg0uVDWO1AujT4tVNBJZrJgKTNOkHHboj_CsbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t
+
+
+## dnscrypt-sg-blahdns-ipv6
+
+Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Singapore. By https://blahdns.com/
+
+sdns://AQMAAAAAAAAAJVsyNDAwOjg5MDE6OmYwM2M6OTJmZjpmZTI3Ojg3MGFdOjg0NDMghROpa8Tgg0uVDWO1AujT4tVNBJZrJgKTNOkHHboj_CsbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t
 
 
 ## dnscrypt.be
@@ -1178,6 +1220,20 @@ https://www.dnspod.cn/Products/Public.DNS?lang=en
 sdns://AgAAAAAAAAAAACDrdSX4jw2UWPgamVAZv9NMuJzNyVfnsO8xXxD4l2OBGAdkb2gucHViCi9kbnMtcXVlcnk
 
 
+## doh-ch-blahdns
+
+Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Switzerland. By https://blahdns.com/
+
+sdns://AgMAAAAAAAAAEDQ1LjkxLjkyLjEyMTo0NDMAEmRvaC1jaC5ibGFoZG5zLmNvbQovZG5zLXF1ZXJ5
+
+
+## doh-ch-blahdns-v6
+
+Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Switzerland. By https://blahdns.com/
+
+sdns://AgMAAAAAAAAAFlsyYTBlOmRjMDo2OjIzOjoyXTo0NDMAEmRvaC1jaC5ibGFoZG5zLmNvbQovZG5zLXF1ZXJ5
+
+
 ## doh-cleanbrowsing-adult
 
 Blocks access to all adult, pornographic and explicit sites. It does
@@ -1287,6 +1343,13 @@ Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Singapore. By https://blah
 sdns://AgMAAAAAAAAADjE5Mi41My4xNzUuMTQ5ABJkb2gtc2cuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ
 
 
+## doh-sg-blahdns-v6
+
+Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Singapore. By https://blahdns.com/
+
+sdns://AgMAAAAAAAAAIFsyNDAwOjg5MDE6OmYwM2M6OTJmZjpmZTI3Ojg3MGFdABJkb2gtc2cuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ
+
+
 ## doh.appliedprivacy.net
 
 Public DoH resolver operated by the Foundation for Applied Privacy (https://appliedprivacy.net).
@@ -1352,25 +1415,11 @@ An open (non-logging, non-filtering, no ECS) DNSCrypt resolver operated by https
 sdns://AQcAAAAAAAAAEzE4NS4xMzQuMTk2LjU0Ojg0NDMgfsvvPi8BgDKNYODh0ewj5Oh32OoJoZNwGgTWs8C-i-EfMi5kbnNjcnlwdC1jZXJ0LnJkbnMuZmFlbGl4Lm5ldA
 
 
-## faelix-ch-ipv4-doh
-
-An open (non-logging, non-filtering, no ECS) DoH resolver operated by https://faelix.net/ with IPv4 nodes anycast within AS41495 in Switzerland.
-
-sdns://AgcAAAAAAAAADjE4NS4xMzQuMTk2LjU0oD4aGg9sU_PpekktVwhLW5gHBZ7gV6sVBYdv2D_aPbg4IDKG_2WmX68yCF7qE4jDc4un43hzyQbM48Sii0zCpYmID3JkbnMuZmFlbGl4Lm5ldAEv
-
-
 ## faelix-ch-ipv6
 
 An open (non-logging, non-filtering, no ECS) DNSCrypt resolver operated by https://faelix.net/ with IPv6 nodes anycast within AS41495 in Switzerland.
 
 sdns://AQcAAAAAAAAAFFsyYTAxOjllMDE6OjU0XTo4NDQzIH7L7z4vAYAyjWDg4dHsI-Tod9jqCaGTcBoE1rPAvovhHzIuZG5zY3J5cHQtY2VydC5yZG5zLmZhZWxpeC5uZXQ
-
-
-## faelix-ch-ipv6-doh
-
-An open (non-logging, non-filtering, no ECS) DoH resolver operated by https://faelix.net/ with IPv6 nodes anycast within AS41495 in Switzerland.
-
-sdns://AgcAAAAAAAAAD1syYTAxOjllMDE6OjU0XaA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OCAyhv9lpl-vMghe6hOIw3OLp-N4c8kGzOPEootMwqWJiA9yZG5zLmZhZWxpeC5uZXQBLw
 
 
 ## faelix-uk-ipv4
@@ -1380,25 +1429,11 @@ An open (non-logging, non-filtering, no ECS) DNSCrypt resolver operated by https
 sdns://AQcAAAAAAAAAEjQ2LjIyNy4yMDAuNTQ6ODQ0MyB-y-8-LwGAMo1g4OHR7CPk6HfY6gmhk3AaBNazwL6L4R8yLmRuc2NyeXB0LWNlcnQucmRucy5mYWVsaXgubmV0
 
 
-## faelix-uk-ipv4-doh
-
-An open (non-logging, non-filtering, no ECS) DoH resolver operated by https://faelix.net/ with IPv4 nodes anycast within AS41495 in the UK.
-
-sdns://AgcAAAAAAAAADTQ2LjIyNy4yMDAuNTSgPhoaD2xT8-l6SS1XCEtbmAcFnuBXqxUFh2_YP9o9uDggMob_ZaZfrzIIXuoTiMNzi6fjeHPJBszjxKKLTMKliYgPcmRucy5mYWVsaXgubmV0AS8
-
-
 ## faelix-uk-ipv6
 
 An open (non-logging, non-filtering, no ECS) DNSCrypt resolver operated by https://faelix.net/ with IPv6 nodes anycast within AS41495 in the UK.
 
 sdns://AQcAAAAAAAAAFFsyYTAxOjllMDA6OjU0XTo4NDQzIH7L7z4vAYAyjWDg4dHsI-Tod9jqCaGTcBoE1rPAvovhHzIuZG5zY3J5cHQtY2VydC5yZG5zLmZhZWxpeC5uZXQ
-
-
-## faelix-uk-ipv6-doh
-
-An open (non-logging, non-filtering, no ECS) DoH resolver operated by https://faelix.net/ with IPv6 nodes anycast within AS41495 in the UK.
-
-sdns://AgcAAAAAAAAAD1syYTAxOjllMDA6OjU0XaA-GhoPbFPz6XpJLVcIS1uYBwWe4FerFQWHb9g_2j24OCAyhv9lpl-vMghe6hOIw3OLp-N4c8kGzOPEootMwqWJiA9yZG5zLmZhZWxpeC5uZXQBLw
 
 
 ## ffmuc.net
