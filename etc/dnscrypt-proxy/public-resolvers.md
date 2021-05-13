@@ -1533,7 +1533,7 @@ sdns://AQMAAAAAAAAADjE3NC4xMzguMjEuMTI4IO-WgGbo2ZTwZdg-3dMa7u31bYZXRj5KykfN1_6Xw
 Non-Logging DNS-over-HTTPS server located in Singapore.
 Filters out ads, trackers and malware, supports DNSSEC, provided by id-gmail.
 
-sdns://AgMAAAAAAAAADjE3NC4xMzguMjkuMTc1oDKG_2WmX68yCF7qE4jDc4un43hzyQbM48Sii0zCpYmIoEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOIMwQYNOcgym2K2-8fQ1t-TCYabmB5-Y5LVzY-kCPTYDmDGRvaC50aWFyLmFwcAovZG5zLXF1ZXJ5
+sdns://AgMAAAAAAAAADjE3NC4xMzguMjkuMTc1IEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffODGRvaC50aWFyLmFwcAovZG5zLXF1ZXJ5
 
 
 ## id-gmail-doh-ipv6
@@ -1541,7 +1541,7 @@ sdns://AgMAAAAAAAAADjE3NC4xMzguMjkuMTc1oDKG_2WmX68yCF7qE4jDc4un43hzyQbM48Sii0zCp
 Non-Logging DNS-over-HTTPS (IPv6) server located in Singapore.
 Filters out ads, trackers and malware, supports DNSSEC, provided by id-gmail.
 
-sdns://AgMAAAAAAAAAG1syNDAwOjYxODA6MDpkMDo6NWY3Mzo0MDAxXaAyhv9lpl-vMghe6hOIw3OLp-N4c8kGzOPEootMwqWJiKBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33ziDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5gxkb2gudGlhci5hcHAKL2Rucy1xdWVyeQ
+sdns://AgMAAAAAAAAAG1syNDAwOjYxODA6MDpkMDo6NWY3Mzo0MDAxXSBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zgxkb2gudGlhci5hcHAKL2Rucy1xdWVyeQ
 
 
 ## id-gmail-ipv6
@@ -1877,6 +1877,13 @@ By PowerDNS/Open-Xchange https://powerdns.org
 sdns://AgcAAAAAAAAAAKAyhv9lpl-vMghe6hOIw3OLp-N4c8kGzOPEootMwqWJiKBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33ziDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5hBkb2gucG93ZXJkbnMub3JnAS8
 
 
+## pryv8boi
+
+By pryv8, non Logging, uncensored, DNSSEC - hosted on contabo servers
+
+sdns://AQcAAAAAAAAAEzE2NC42OC4xMjEuMTYyOjQ0NDMg0I13MMoiCKduiHKph6yaHFtoNLhPFroCyPOffUqqcsocMi5kbnNjcnlwdC1jZXJ0LnByeXY4Ym9pLm9yZw
+
+
 ## publicarray-au
 
 DNSSEC • OpenNIC • Non-logging • Uncensored - hosted on vultr.com
@@ -1981,6 +1988,27 @@ usage, data never sold - https://safesurfer.io
 Warning: this server is incompatible with DNS anonymization.
 
 sdns://AQMAAAAAAAAADzEwNC4xNTUuMjM3LjIyNSAnIH_VEgToNntINABd-f_R0wu-KpwzY55u2_iu2R1A2CAyLmRuc2NyeXB0LWNlcnQuc2FmZXN1cmZlci5jby5ueg
+
+
+## saldns01-conoha-ipv4
+
+Hosted on ConoHa VPS Tokyo region. No log. No filter.
+
+sdns://AQcAAAAAAAAAFDExOC4yNy4xMDguMTQwOjUwNDQzIJ6mPj1aeYrSINYeUzVU2n9JMTUgalCmDR6OhSlzrFtfIjIuZG5zY3J5cHQtY2VydC5zYWxkbnMwMS50eXBlcS5vcmc
+
+
+## saldns02-conoha-ipv4
+
+Hosted on ConoHa VPS Tokyo region. No log. No filter.
+
+sdns://AQcAAAAAAAAAFTEzMy4xMzAuMTE4LjEwMzo1MDQ0MyCo72atOPI72UkQcaypJBmUUd1btQTwm1VRxHLioOo19SIyLmRuc2NyeXB0LWNlcnQuc2FsZG5zMDIudHlwZXEub3Jn
+
+
+## saldnssg01-conoha-ipv4
+
+Hosted on ConoHa VPS Singapore region. No log. No filter.
+
+sdns://AQcAAAAAAAAAFDE2My40NC4xNTQuMTQ0OjUwNDQzIGri6V6DYmNp01gdIzQyrACcU7_tbcUKEN8-P4B5NATAJTIuZG5zY3J5cHQtY2VydC5zYWxkbnMtc2cwMS50eXBlcS5vcmc
 
 
 ## scaleway-ams
