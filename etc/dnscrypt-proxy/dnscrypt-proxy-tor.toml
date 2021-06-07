@@ -29,7 +29,8 @@
 ##
 ## Remove the leading # first to enable this; lines starting with # are ignored.
 
-server_names = ['scaleway-fr', 'google', 'yandex', 'cloudflare']
+# server_names = ['scaleway-fr', 'google', 'yandex', 'cloudflare']
+server_names = ['odoh-cloudflare', 'odoh-crypto-sx']
 
 
 ## List of local addresses and ports to listen to. Can be IPv4 and/or IPv6.
@@ -70,7 +71,7 @@ dnscrypt_servers = true
 doh_servers = true
 
 # Use servers implementing the Oblivious DoH protocol
-odoh_servers = false
+odoh_servers = true
 
 
 ## Require servers defined by remote sources to satisfy specific properties
@@ -686,12 +687,12 @@ map_file = '/system/etc/dnscrypt-proxy/captive-portals'
 
   ## ODoH (Oblivious DoH) servers and relays
 
-  # [sources.'odoh']
-  # urls = ['https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/odoh.md', 'https://download.dnscrypt.info/resolvers-list/v3/odoh.md', 'https://ipv6.download.dnscrypt.info/resolvers-list/v3/odoh.md', 'https://download.dnscrypt.net/resolvers-list/v3/odoh.md']
-  # cache_file = '/data/local/tmp/dnscrypt/odoh.md'
-  # minisign_key = 'RWQf6LRCGA9i53mlYecO4IzT51TGPpvWucNSCh1CBM0QTaLn73Y7GFO3'
-  # refresh_delay = 24
-  # prefix = ''
+  [sources.'odoh']
+  urls = ['https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/odoh.md', 'https://download.dnscrypt.info/resolvers-list/v3/odoh.md', 'https://ipv6.download.dnscrypt.info/resolvers-list/v3/odoh.md', 'https://download.dnscrypt.net/resolvers-list/v3/odoh.md']
+  cache_file = '/data/local/tmp/dnscrypt/odoh.md'
+  minisign_key = 'RWQf6LRCGA9i53mlYecO4IzT51TGPpvWucNSCh1CBM0QTaLn73Y7GFO3'
+  refresh_delay = 24
+  prefix = ''
 
   ## Quad9 over DNSCrypt - https://quad9.net/
 
@@ -790,6 +791,11 @@ fragments_blocked = ['cisco', 'cisco-ipv6', 'cisco-familyshield', 'cisco-familys
 #    { server_name='example-server-1', via=['anon-example-1', 'anon-example-2'] },
 #    { server_name='example-server-2', via=['sdns://gRIxMzcuNzQuMjIzLjIzNDo0NDM'] }
 # ]
+
+routes = [
+   { server_name='odoh-cloudflare', via=['odohrelay-ams', 'odohrelay-surf', 'odohrelay-bcn', 'odohrelay-crypto-sx'] },
+   { server_name='odoh-crypto-sx', via=['odohrelay-ams', 'odohrelay-surf', 'odohrelay-bcn', 'odohrelay-crypto-sx'] }
+]
 
 
 # Skip resolvers incompatible with anonymization instead of using them directly

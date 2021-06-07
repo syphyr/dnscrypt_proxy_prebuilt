@@ -36,4 +36,11 @@ if [ ! -f "$CACHE_DIR"/relays.md ]; then
 	chmod 644 "$CACHE_DIR"/relays.md.minisig
 fi
 
+if [ ! -f "$CACHE_DIR"/odoh.md ]; then
+        cp "$CONFIG_DIR"/odoh.md "$CACHE_DIR"/
+        cp "$CONFIG_DIR"/odoh.md.minisig "$CACHE_DIR"/
+        chmod 644 "$CACHE_DIR"/odoh.md
+        chmod 644 "$CACHE_DIR"/odoh.md.minisig
+fi
+
 exec $DAEMON -config "$CONFIG_FILE"
