@@ -694,6 +694,13 @@ map_file = '/system/etc/dnscrypt-proxy/captive-portals'
   refresh_delay = 24
   prefix = ''
 
+  ## DNS servers as .onion services
+
+  [sources.'onion-services']
+  urls = ['https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/onion-services.md', 'https://download.dnscrypt.info/resolvers-list/v3/onion-services.md']
+  cache_file = '/data/local/tmp/dnscrypt/onion-services.md'
+  minisign_key = 'RWQf6LRCGA9i53mlYecO4IzT51TGPpvWucNSCh1CBM0QTaLn73Y7GFO3'
+
   ## Quad9 over DNSCrypt - https://quad9.net/
 
   # [sources.quad9-resolvers]
