@@ -43,4 +43,11 @@ if [ ! -f "$CACHE_DIR"/odoh.md ]; then
         chmod 644 "$CACHE_DIR"/odoh.md.minisig
 fi
 
+if [ ! -f "$CACHE_DIR"/onion-services.md ]; then
+        cp "$CONFIG_DIR"/onion-services.md "$CACHE_DIR"/
+        cp "$CONFIG_DIR"/onion-services.md.minisig "$CACHE_DIR"/
+        chmod 644 "$CACHE_DIR"/onion-services.md
+        chmod 644 "$CACHE_DIR"/onion-services.md.minisig
+fi
+
 exec $DAEMON -config "$CONFIG_FILE"

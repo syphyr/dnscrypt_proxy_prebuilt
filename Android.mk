@@ -153,12 +153,30 @@ LOCAL_REQUIRED_MODULES := odoh.md
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := localhost.pem
+LOCAL_MODULE := onion-services.md
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/dnscrypt-proxy
 LOCAL_SRC_FILES := etc/dnscrypt-proxy/$(LOCAL_MODULE)
 LOCAL_REQUIRED_MODULES := odoh.md.minisig
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := onion-services.md.minisig
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/dnscrypt-proxy
+LOCAL_SRC_FILES := etc/dnscrypt-proxy/$(LOCAL_MODULE)
+LOCAL_REQUIRED_MODULES := onion-services.md
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := localhost.pem
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/dnscrypt-proxy
+LOCAL_SRC_FILES := etc/dnscrypt-proxy/$(LOCAL_MODULE)
+LOCAL_REQUIRED_MODULES := onion-services.md.minisig
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
