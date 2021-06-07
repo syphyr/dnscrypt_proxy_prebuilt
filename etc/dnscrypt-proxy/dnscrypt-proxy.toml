@@ -69,6 +69,9 @@ dnscrypt_servers = true
 # Use servers implementing the DNS-over-HTTPS protocol
 doh_servers = true
 
+# Use servers implementing the Oblivious DoH protocol
+odoh_servers = false
+
 
 ## Require servers defined by remote sources to satisfy specific properties
 
@@ -241,7 +244,7 @@ tls_cipher_suite = [52392, 49199]
 bootstrap_resolvers = ['9.9.9.9:53', '8.8.8.8:53']
 
 
-## Always use the fallback resolver before the system DNS settings.
+## Always use the bootstrap resolver before the system DNS settings.
 
 ignore_system_dns = true
 
@@ -681,6 +684,15 @@ map_file = '/system/etc/dnscrypt-proxy/captive-portals'
   refresh_delay = 72
   prefix = ''
 
+  ## ODoH (Oblivious DoH) servers and relays
+
+  # [sources.'odoh']
+  # urls = ['https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/odoh.md', 'https://download.dnscrypt.info/resolvers-list/v3/odoh.md', 'https://ipv6.download.dnscrypt.info/resolvers-list/v3/odoh.md', 'https://download.dnscrypt.net/resolvers-list/v3/odoh.md']
+  # cache_file = '/data/local/tmp/dnscrypt/odoh.md'
+  # minisign_key = 'RWQf6LRCGA9i53mlYecO4IzT51TGPpvWucNSCh1CBM0QTaLn73Y7GFO3'
+  # refresh_delay = 24
+  # prefix = ''
+
   ## Quad9 over DNSCrypt - https://quad9.net/
 
   # [sources.quad9-resolvers]
@@ -734,7 +746,7 @@ fragments_blocked = ['cisco', 'cisco-ipv6', 'cisco-familyshield', 'cisco-familys
 
 #
 # creds = [
-#    { server_name='myserver', client_cert='client.crt', client_key='client.key' }
+#    { server_name='*', client_cert='client.crt', client_key='client.key' }
 # ]
 
 
