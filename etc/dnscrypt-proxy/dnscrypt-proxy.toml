@@ -29,8 +29,7 @@
 ##
 ## Remove the leading # first to enable this; lines starting with # are ignored.
 
-# server_names = ['scaleway-fr', 'google', 'yandex', 'cloudflare']
-server_names = ['odoh-cloudflare', 'odoh-crypto-sx']
+server_names = ['scaleway-fr', 'google', 'yandex', 'cloudflare']
 
 
 ## List of local addresses and ports to listen to. Can be IPv4 and/or IPv6.
@@ -71,7 +70,7 @@ dnscrypt_servers = true
 doh_servers = true
 
 # Use servers implementing the Oblivious DoH protocol
-odoh_servers = true
+odoh_servers = false
 
 
 ## Require servers defined by remote sources to satisfy specific properties
@@ -798,11 +797,6 @@ fragments_blocked = ['cisco', 'cisco-ipv6', 'cisco-familyshield', 'cisco-familys
 #    { server_name='example-server-1', via=['anon-example-1', 'anon-example-2'] },
 #    { server_name='example-server-2', via=['sdns://gRIxMzcuNzQuMjIzLjIzNDo0NDM'] }
 # ]
-
-routes = [
-   { server_name='odoh-cloudflare', via=['odohrelay-ams', 'odohrelay-surf', 'odohrelay-bcn', 'odohrelay-crypto-sx'] },
-   { server_name='odoh-crypto-sx', via=['odohrelay-ams', 'odohrelay-surf', 'odohrelay-bcn', 'odohrelay-crypto-sx'] }
-]
 
 
 # Skip resolvers incompatible with anonymization instead of using them directly
