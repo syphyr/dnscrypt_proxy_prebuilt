@@ -636,13 +636,6 @@ London, England DNSCrypt server provided by https://cryptostorm.is/
 sdns://AQYAAAAAAAAADTc4LjEyOS4xNDAuNjUgMTNyrVlWMsJBa4cvCY-FG925ZShMbL6aTxkJZDDbqVoeMi5kbnNjcnlwdC1jZXJ0LmNyeXB0b3N0b3JtLmlz
 
 
-## cs-lv
-
-Latvia DNSCrypt server provided by https://cryptostorm.is/
-
-sdns://AQYAAAAAAAAADzEwOS4yNDguMTQ5LjEzMyAxM3KtWVYywkFrhy8Jj4Ub3bllKExsvppPGQlkMNupWh4yLmRuc2NyeXB0LWNlcnQuY3J5cHRvc3Rvcm0uaXM
-
-
 ## cs-madrid
 
 Madrid, Spain DNSCrypt server provided by https://cryptostorm.is/
@@ -829,7 +822,7 @@ sdns://AQcAAAAAAAAAGFsyYzBmOmZkYTg6NTo6MmVkMTpkMmVjXSDWBhX70UU7oU52ij5cXLOsF0YTM
 DNSCrypt server located in Oslo/Norway. Link-speed 100 Mbit/s.
 Non-censoring, non-logging, DNSSEC-capable.
 
-sdns://AQcAAAAAAAAAEzIxNy4xNzAuMjA1LjEwNDo0NDMg7XzHuxk9EXOSK6lTQexoqlCRRdvD7TuNzBTlb9udIRMfMi5kbnNjcnlwdC1jZXJ0Lm9zbC1zMDQuZGFtYS5ubw
+sdns://AQcAAAAAAAAADzIxNy4xNzAuMjA1LjEwNCDtfMe7GT0Rc5IrqVNB7GiqUJFF28PtO43MFOVv250hEx8yLmRuc2NyeXB0LWNlcnQub3NsLXMwNC5kYW1hLm5v
 
 
 ## dama.no sa-a80
@@ -846,14 +839,14 @@ sdns://AQcAAAAAAAAADjE5My4yMDAuMjM4LjgwIIZwYLY60l2SdIfAz_N0-AmQM8gjVwLWNly83S3XV
 
 DNSCrypt | IPv4 only | Non-logging | Non-filtering | DNSSEC | Saint Petersburg, Russia.
 
-sdns://AQcAAAAAAAAAEDk0LjI0Mi41OS4zNTo0NDMgTg8e1Qx5q3cMqZ8MkxmG6850fFHXcEwdd_7gAcWcp6wXMi5kbnNjcnlwdC1jZXJ0LmRjdC1ydTE
+sdns://AQcAAAAAAAAADDk0LjI0Mi41OS4zNSBODx7VDHmrdwypnwyTGYbrznR8UddwTB13_uABxZynrBcyLmRuc2NyeXB0LWNlcnQuZGN0LXJ1MQ
 
 
 ## dct-ru2
 
 DNSCrypt | IPv4 only | Non-logging | Non-filtering | DNSSEC | Moscow, Russia.
 
-sdns://AQcAAAAAAAAAETE4NS4yMi4xNTQuMTk6NDQzIB9z-95JSBqhYTv8UIQqUs65Ym2DYNXzBf5cN-kH8Pt9FzIuZG5zY3J5cHQtY2VydC5kY3QtcnUy
+sdns://AQcAAAAAAAAADTE4NS4yMi4xNTQuMTkgH3P73klIGqFhO_xQhCpSzrlibYNg1fMF_lw36Qfw-30XMi5kbnNjcnlwdC1jZXJ0LmRjdC1ydTI
 
 
 ## decloudus-nogoogle-tst
@@ -1042,16 +1035,6 @@ Free, Canadian, uncensored, no-logs, encrypted, and DNSSEC validated DNS service
 sdns://AgcAAAAAAAAADzE2Ny4xMTQuMjIwLjEyNaAyhv9lpl-vMghe6hOIw3OLp-N4c8kGzOPEootMwqWJiKBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33ziDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5hRkbnMxLmRuc2NyeXB0LmNhOjQ1MwovZG5zLXF1ZXJ5
 
 
-## dnscrypt.ca-1-ipv6
-
-Free, Canadian, uncensored, no-logs, encrypted, and DNSSEC validated
-DNS service for your pleasure.
-
-Warning: This server is incompatible with anonymization.
-
-sdns://AQcAAAAAAAAAJlsyNjA3OjUzMDA6NjE6OTVmOjcyODM6MTFkOTowZjg2OmU2ODldICDZGdTsPFAIzccKUeorT8v-ipk8ZDHQ7GgdXqc4RauAIjIuZG5zY3J5cHQtY2VydC5kbnNjcnlwdC5jYS0xLWlwdjY
-
-
 ## dnscrypt.ca-2
 
 Free, Canadian, uncensored, no-logs, encrypted, and DNSSEC validated
@@ -1065,16 +1048,6 @@ sdns://AQcAAAAAAAAADTE0OS41Ni4yMjguNDUgAQhUqztWp-7505FY_vaCC_-TojV8iRYI254V07vgE
 Free, Canadian, uncensored, no-logs, encrypted, and DNSSEC validated DNS service for your pleasure.
 
 sdns://AgcAAAAAAAAADTE0OS41Ni4yMjguNDWgMob_ZaZfrzIIXuoTiMNzi6fjeHPJBszjxKKLTMKliYigRE69Z7uD-IB7OSHpOKyReLiCvVCq2xEjHwRM9fCN984gzBBg05yDKbYrb7x9DW35MJhpuYHn5jktXNj6QI9NgOYUZG5zMi5kbnNjcnlwdC5jYTo0NTMKL2Rucy1xdWVyeQ
-
-
-## dnscrypt.ca-2-ipv6
-
-Free, Canadian, uncensored, no-logs, encrypted, and DNSSEC validated
-DNS service for your pleasure.
-
-Warning: This server is incompatible with anonymization.
-
-sdns://AQcAAAAAAAAAJVsyNjA3OjUzMDA6NjE6OTVmOjcyODM6MTFkOTpmODY6ZTY5MF0gmHxwqJfb2hUaNK1LVeqADvVhzASq1cV90sPYYfwX9CkiMi5kbnNjcnlwdC1jZXJ0LmRuc2NyeXB0LmNhLTItaXB2Ng
 
 
 ## dnscrypt.eu-dk
@@ -1386,12 +1359,28 @@ https://ffmuc.net/
 sdns://AgcAAAAAAAAACjUuMS42Ni4yNTWgMob_ZaZfrzIIXuoTiMNzi6fjeHPJBszjxKKLTMKliYigRE69Z7uD-IB7OSHpOKyReLiCvVCq2xEjHwRM9fCN984gzBBg05yDKbYrb7x9DW35MJhpuYHn5jktXNj6QI9NgOYNZG9oLmZmbXVjLm5ldAovZG5zLXF1ZXJ5
 
 
+## doh.ffmuc.net-2
+
+An open (non-logging, non-filtering, non-censoring) DoH resolver operated by Freifunk Munich with nodes in DE.
+https://ffmuc.net/
+
+sdns://AgcAAAAAAAAADjE4NS4xNTAuOTkuMjU1oDKG_2WmX68yCF7qE4jDc4un43hzyQbM48Sii0zCpYmIoEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOIMwQYNOcgym2K2-8fQ1t-TCYabmB5-Y5LVzY-kCPTYDmDWRvaC5mZm11Yy5uZXQKL2Rucy1xdWVyeQ
+
+
 ## doh.ffmuc.net-v6
 
 An open (non-logging, non-filtering, non-censoring) DoH resolver operated by Freifunk Munich with nodes in DE.
 https://ffmuc.net/
 
 sdns://AgcAAAAAAAAAFVsyMDAxOjY3ODplNjg6ZjAwMDo6XaAyhv9lpl-vMghe6hOIw3OLp-N4c8kGzOPEootMwqWJiKBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33ziDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5g1kb2guZmZtdWMubmV0Ci9kbnMtcXVlcnk
+
+
+## doh.ffmuc.net-v6-2
+
+An open (non-logging, non-filtering, non-censoring) DoH resolver operated by Freifunk Munich with nodes in DE.
+https://ffmuc.net/
+
+sdns://AgcAAAAAAAAAFVsyMDAxOjY3ODplZDA6ZjAwMDo6XaAyhv9lpl-vMghe6hOIw3OLp-N4c8kGzOPEootMwqWJiKBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33ziDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5g1kb2guZmZtdWMubmV0Ci9kbnMtcXVlcnk
 
 
 ## doh.tiarap.org
@@ -2045,7 +2034,7 @@ sdns://AQMAAAAAAAAADzE2My4xNzIuMTgwLjEyNSDfYnO_x1IZKotaObwMhaw_-WRF1zZE9mJygl01W
 
 Resolver in Frankfurt, Germany and New York, United States. Anycast. More locations following. DNSCrypt server. Non-logging, non-filtering, DNSSEC.
 
-sdns://AQcAAAAAAAAAEDE4NS4yMzUuNjAuMTo0NDMgA-0Um9P9C564j6S8u0ij_DVITfFpSmvk7KIAfPFr3NcrMi5kbnNjcnlwdC1jZXJ0LmRuc2NyeXB0LnNpY2hlci1zdXJmZW4udGVjaA
+sdns://AQcAAAAAAAAADDE4NS4yMzUuNjAuMSAD7RSb0_0LnriPpLy7SKP8NUhN8WlKa-TsogB88Wvc1ysyLmRuc2NyeXB0LWNlcnQuZG5zY3J5cHQuc2ljaGVyLXN1cmZlbi50ZWNo
 
 
 ## sth-dnscrypt-se
@@ -2080,6 +2069,38 @@ Deutsche Telekom experimental DoH server.
 sdns://AgUAAAAAAAAAAKAyhv9lpl-vMghe6hOIw3OLp-N4c8kGzOPEootMwqWJiKBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33ziDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5gpkbnMudDUzLmRlCi9kbnMtcXVlcnk
 
 
+## uncensoreddns-dk-ipv4
+
+Also known as censurfridns.
+DoH, no logs, no filter, DNSSEC, unicast hosted in Denmark - https://blog.uncensoreddns.org
+
+sdns://AgcAAAAAAAAADDg5LjIzMy40My43MaAyhv9lpl-vMghe6hOIw3OLp-N4c8kGzOPEootMwqWJiKBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33ziDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5hl1bmljYXN0LnVuY2Vuc29yZWRkbnMub3JnCi9kbnMtcXVlcnk
+
+
+## uncensoreddns-dk-ipv6
+
+Also known as censurfridns.
+DoH, no logs, no filter, DNSSEC, unicast hosted in Denmark - https://blog.uncensoreddns.org
+
+sdns://AgcAAAAAAAAAElsyYTAxOjNhMDo1Mzo1Mzo6XaAyhv9lpl-vMghe6hOIw3OLp-N4c8kGzOPEootMwqWJiKBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33ziDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5hl1bmljYXN0LnVuY2Vuc29yZWRkbnMub3JnCi9kbnMtcXVlcnk
+
+
+## uncensoreddns-ipv4
+
+Also known as censurfridns.
+DoH, no logs, no filter, DNSSEC, anycast - https://blog.uncensoreddns.org
+
+sdns://AgcAAAAAAAAADjkxLjIzOS4xMDAuMTAwoDKG_2WmX68yCF7qE4jDc4un43hzyQbM48Sii0zCpYmIoEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOIMwQYNOcgym2K2-8fQ1t-TCYabmB5-Y5LVzY-kCPTYDmGWFueWNhc3QudW5jZW5zb3JlZGRucy5vcmcKL2Rucy1xdWVyeQ
+
+
+## uncensoreddns-ipv6
+
+Also known as censurfridns.
+DoH, no logs, no filter, DNSSEC, anycast - https://blog.uncensoreddns.org
+
+sdns://AgcAAAAAAAAAEVsyMDAxOjY3YzoyOGE0OjpdoDKG_2WmX68yCF7qE4jDc4un43hzyQbM48Sii0zCpYmIoEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOIMwQYNOcgym2K2-8fQ1t-TCYabmB5-Y5LVzY-kCPTYDmGWFueWNhc3QudW5jZW5zb3JlZGRucy5vcmcKL2Rucy1xdWVyeQ
+
+
 ## userspace-australia
 
 Public DNSCrypt in Australia (Brisbane & Melbourne) by UserSpace. No logging, currently uncensored, IPv4.
@@ -2094,22 +2115,6 @@ Public DNSCrypt in Australia (Brisbane & Melbourne) by UserSpace. No logging, cu
 
 sdns://AQcAAAAAAAAAJVsyNDA0Ojk0MDA6MzowOjIxNjozZWZmOmZlZTA6N2Y2OV06NTQgvNsg2AGnwJeIbfLAGzoJ9048oQG3U2pMfdlWlBSwcLsdMi5kbnNjcnlwdC1jZXJ0LnVzZXJzcGFjZS1tZWw
 sdns://AQcAAAAAAAAAJVsyNDA0Ojk0MDA6MTowOjIxNjozZWZmOmZlZjA6MTgwYV06NTQgEWOI99_3M0Rk_Jsm7KQtUjC1612HdCwSWA7_ftojHG4dMi5kbnNjcnlwdC1jZXJ0LnVzZXJzcGFjZS1ibmU
-
-
-## v.dnscrypt.uk-ipv4
-
-DNSCrypt v2, no logs, uncensored, DNSSEC. Hosted in London UK on Vultr
-https://www.dnscrypt.uk
-
-sdns://AQcAAAAAAAAADzEwNC4yMzguMTg2LjE5MiDtST2M6teQZk8GPEe3lZojaS18kDY8nkPMtZF75bQe5R0yLmRuc2NyeXB0LWNlcnQudi5kbnNjcnlwdC51aw
-
-
-## v.dnscrypt.uk-ipv6
-
-DNSCrypt v2, no logs, uncensored, DNSSEC. Hosted in London UK on Vultr
-https://www.dnscrypt.uk
-
-sdns://AQcAAAAAAAAAKFsyMDAxOjE5ZjA6NzQwMjoxNTc0OjU0MDA6MmZmOmZlNjY6MmNmZl0g7Uk9jOrXkGZPBjxHt5WaI2ktfJA2PJ5DzLWRe-W0HuUdMi5kbnNjcnlwdC1jZXJ0LnYuZG5zY3J5cHQudWs
 
 
 ## wevpn-adblock-singapore
