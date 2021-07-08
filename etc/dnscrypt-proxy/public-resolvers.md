@@ -657,13 +657,6 @@ Milan, Italy DNSCrypt server provided by https://cryptostorm.is/
 sdns://AQYAAAAAAAAADzIxNy4xMzguMjE5LjIxOSAxM3KtWVYywkFrhy8Jj4Ub3bllKExsvppPGQlkMNupWh4yLmRuc2NyeXB0LWNlcnQuY3J5cHRvc3Rvcm0uaXM
 
 
-## cs-montreal
-
-Montreal, Canada DNSCrypt server provided by https://cryptostorm.is/
-
-sdns://AQYAAAAAAAAADjE2Ny4xMTQuODQuMTMyIDEzcq1ZVjLCQWuHLwmPhRvduWUoTGy-mk8ZCWQw26laHjIuZG5zY3J5cHQtY2VydC5jcnlwdG9zdG9ybS5pcw
-
-
 ## cs-nc
 
 US - North Carolina DNSCrypt server provided by https://cryptostorm.is/
@@ -817,7 +810,7 @@ Server provided by Martin 'd0wn' Albus
 sdns://AQcAAAAAAAAAGFsyYzBmOmZkYTg6NTo6MmVkMTpkMmVjXSDWBhX70UU7oU52ij5cXLOsF0YTMUY9oK-M998E2k11bRsyLmRuc2NyeXB0LWNlcnQudHouZDB3bi5iaXo
 
 
-## dama.no osl-s04
+## dama.no-osl-s04
 
 DNSCrypt server located in Oslo/Norway. Link-speed 100 Mbit/s.
 Non-censoring, non-logging, DNSSEC-capable.
@@ -825,7 +818,7 @@ Non-censoring, non-logging, DNSSEC-capable.
 sdns://AQcAAAAAAAAADzIxNy4xNzAuMjA1LjEwNCDtfMe7GT0Rc5IrqVNB7GiqUJFF28PtO43MFOVv250hEx8yLmRuc2NyeXB0LWNlcnQub3NsLXMwNC5kYW1hLm5v
 
 
-## dama.no sa-a80
+## dama.no-sa-a80
 
 DNSCrypt server located in Sandefjord/Norway. Link-speed 2.5 Gbit/s and low latency from Northern Europe (north of Hamburg).
 Non-censoring, non-logging, DNSSEC-capable.
@@ -925,11 +918,17 @@ sdns://AgcAAAAAAAAADjY4LjE4My4yNTMuMjAwoDKG_2WmX68yCF7qE4jDc4un43hzyQbM48Sii0zCp
 ## dns.sb
 
 DNSSEC-enabled DoH server by https://xtom.com/
-Using Cloudflare as a frontend.
+https://dns.sb/doh/
 
-https://dns.sb
+sdns://AgcAAAAAAAAADzE4NS4yMjIuMjIyLjIyMiACKC69_nqGQOLLyjCQJNWgwRXTVfrgMllhwr12J14JbAZkb2guc2IKL2Rucy1xdWVyeQ
 
-sdns://AgUAAAAAAAAAAAAKZG9oLmRucy5zYgovZG5zLXF1ZXJ5
+
+## dns.sb-ipv6
+
+DNSSEC-enabled DoH server by https://xtom.com/ - IPv6
+https://dns.sb/doh/
+
+sdns://AgcAAAAAAAAACFsyYTA5OjpdIAIoLr3-eoZA4svKMJAk1aDBFdNV-uAyWWHCvXYnXglsBmRvaC5zYgovZG5zLXF1ZXJ5
 
 
 ## dns.therifleman.name
@@ -1048,20 +1047,6 @@ sdns://AQcAAAAAAAAADTE0OS41Ni4yMjguNDUgAQhUqztWp-7505FY_vaCC_-TojV8iRYI254V07vgE
 Free, Canadian, uncensored, no-logs, encrypted, and DNSSEC validated DNS service for your pleasure.
 
 sdns://AgcAAAAAAAAADTE0OS41Ni4yMjguNDWgMob_ZaZfrzIIXuoTiMNzi6fjeHPJBszjxKKLTMKliYigRE69Z7uD-IB7OSHpOKyReLiCvVCq2xEjHwRM9fCN984gzBBg05yDKbYrb7x9DW35MJhpuYHn5jktXNj6QI9NgOYUZG5zMi5kbnNjcnlwdC5jYTo0NTMKL2Rucy1xdWVyeQ
-
-
-## dnscrypt.eu-dk
-
-Free, non-logged, uncensored. Hosted by Netgroup.
-
-sdns://AQcAAAAAAAAADDc3LjY2Ljg0LjIzMyA3SFWF47nQiP0lrTawNwH1UgzWSJ6a3VIUV0lVnwqZVSUyLmRuc2NyeXB0LWNlcnQucmVzb2x2ZXIyLmRuc2NyeXB0LmV1
-
-
-## dnscrypt.eu-dk-ipv6
-
-Free, non-logged, uncensored. Hosted by Netgroup.
-
-sdns://AQcAAAAAAAAAFFsyMDAxOjE0NDg6MjQzOjpkYzJdIDdIVYXjudCI_SWtNrA3AfVSDNZInprdUhRXSVWfCplVJTIuZG5zY3J5cHQtY2VydC5yZXNvbHZlcjIuZG5zY3J5cHQuZXU
 
 
 ## dnscrypt.eu-nl
@@ -1634,6 +1619,16 @@ Non-logging, non-filtering, supports DNSSEC.
 sdns://AQcAAAAAAAAADjEzNi4yNDQuOTcuMTE0IPyq3HBOXuNgu6FO4pU71Si6CTV6kPD85NA6AThr_6tiGDIuZG5zY3J5cHQtY2VydC5tZWdhbmVyZA
 
 
+## meganerd-doh-ipv4
+
+DoH server by MegaNerd.nl (IPv4) - https://meganerd.nl/encrypted-dns-server
+Hosted in Amsterdam (AMS1), The Netherlands.
+
+Non-logging, non-filtering, supports DNSSEC.
+
+sdns://AgcAAAAAAAAADjEzNi4yNDQuOTcuMTE0IEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOGWNoZXdiYWNjYS5tZWdhbmVyZC5ubDo0NDMEL2RvaA
+
+
 ## meganerd-doh-ipv6
 
 DoH server by MegaNerd.nl (IPv6) - https://meganerd.nl/encrypted-dns-server
@@ -1641,7 +1636,7 @@ Hosted in Amsterdam (AMS1), The Netherlands.
 
 Non-logging, non-filtering, supports DNSSEC.
 
-sdns://AgcAAAAAAAAAKFsyMDAxOjE5ZjA6NTAwMTpjYmI6NTQwMDowM2ZmOmZlMDc6ZjcwZF2gMob_ZaZfrzIIXuoTiMNzi6fjeHPJBszjxKKLTMKliYigRE69Z7uD-IB7OSHpOKyReLiCvVCq2xEjHwRM9fCN984gzBBg05yDKbYrb7x9DW35MJhpuYHn5jktXNj6QI9NgOYZY2hld2JhY2NhLm1lZ2FuZXJkLm5sOjQ0MwQvZG9o
+sdns://AgcAAAAAAAAAKFsyMDAxOjE5ZjA6NTAwMTpjYmI6NTQwMDowM2ZmOmZlMDc6ZjcwZF0gRE69Z7uD-IB7OSHpOKyReLiCvVCq2xEjHwRM9fCN984VY2hld2JhY2NhLm1lZ2FuZXJkLm5sBC9kb2g
 
 
 ## meganerd-ipv6
@@ -2191,18 +2186,4 @@ sdns://AQcAAAAAAAAADTEzNy4yMjAuNTkuNjIgTNMjCh27ODMeT_zUDR4yV_L9iWnqXTyyMuyLeAQW0
 DNSSEC/unfiltered/non-logged. Hosted on Vultr in Chicago, IL. Running the official Docker image by @zackptg5
 
 sdns://AQcAAAAAAAAAKFsyMDAxOjE5ZjA6NWMwMToxNDdlOjU0MDA6M2ZmOmZlMmE6M2IxZl0gTNMjCh27ODMeT_zUDR4yV_L9iWnqXTyyMuyLeAQW0eceMi5kbnNjcnlwdC1jZXJ0LnphY2twdGc1LXVzLWls
-
-
-## zackptg5-us-pit-ipv4
-
-DNSSEC/unfiltered/non-logged. Hosted on TeraSwitch in Pittsburgh, PA. Running the official Docker image by @zackptg5
-
-sdns://AQcAAAAAAAAAETc0LjExOC4xNDEuNDc6NDQyILLrUp55NwetKjM1XaPs19NIKDIbD1w0K-lCK33_gKcgHzIuZG5zY3J5cHQtY2VydC56YWNrcHRnNS11cy1waXQ
-
-
-## zackptg5-us-pit-ipv6
-
-DNSSEC/unfiltered/non-logged. Hosted on TeraSwitch in Pittsburgh, PA. Running the official Docker image by @zackptg5
-
-sdns://AQcAAAAAAAAAJ1syNjA3OmZkYzA6MjowOmY4MTY6M2VmZjpmZTMyOmM3YjRdOjQ0MiCy61KeeTcHrSozNV2j7NfTSCgyGw9cNCvpQit9_4CnIB8yLmRuc2NyeXB0LWNlcnQuemFja3B0ZzUtdXMtcGl0
 
