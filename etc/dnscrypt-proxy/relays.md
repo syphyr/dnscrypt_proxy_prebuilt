@@ -68,13 +68,6 @@ Anonymized DNS relay hosted in Chisinau, Moldova provided by https://cryptostorm
 sdns://gQ8xNzguMTc1LjEzOS4yMTE
 
 
-## anon-cs-nl
-
-Anonymized DNS relay hosted in Roosendaal, Netherlands provided by https://cryptostorm.is/
-
-sdns://gQ0xODUuMTA3LjgwLjg0
-
-
 ## anon-cs-se
 
 Anonymized DNS relay hosted in Stockholm, Sweden provided by https://cryptostorm.is/
@@ -165,6 +158,13 @@ sdns://gQ4xMzYuMjQ0Ljk3LjExNA
 Anonymized DNS relay hosted by MegaNerd.nl (IPv6) (https://www.meganerd.nl/encrypted-dns-server) in Amsterdam, The Netherlands (AMS1)
 
 sdns://gSdbMjAwMToxOWYwOjUwMDE6Y2JiOjU0MDA6M2ZmOmZlMDc6ZjcwZF0
+
+
+## anon-opennic-R4SAS
+
+Anonymized DNS relay hosted in OVH, Paris, France - maintained by R4SAS - https://github.com/r4sas
+
+sdns://gRExNTEuODAuMjIyLjc5OjQ0Mw
 
 
 ## anon-pf
