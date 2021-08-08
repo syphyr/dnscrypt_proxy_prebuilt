@@ -738,13 +738,6 @@ US - Dallas, TX DNSCrypt server provided by https://cryptostorm.is/
 sdns://AQYAAAAAAAAADTIwOS41OC4xNDcuMzYgMTNyrVlWMsJBa4cvCY-FG925ZShMbL6aTxkJZDDbqVoeMi5kbnNjcnlwdC1jZXJ0LmNyeXB0b3N0b3JtLmlz
 
 
-## cs-vancouver
-
-Vancouver, Canada DNSCrypt server provided by https://cryptostorm.is/
-
-sdns://AQYAAAAAAAAADzE2Mi4yMjEuMjA3LjIyOCAxM3KtWVYywkFrhy8Jj4Ub3bllKExsvppPGQlkMNupWh4yLmRuc2NyeXB0LWNlcnQuY3J5cHRvc3Rvcm0uaXM
-
-
 ## cz.nic
 
 CZ.NIC's open DNSSEC validating resolvers in Prague, Czech Republic.
@@ -1708,7 +1701,7 @@ DNSSEC, Anycast, Non-logging, NoFilters
 
 https://www.nextdns.io/
 
-sdns://AgcAAAAAAAAACjQ1LjkwLjI4LjCgMob_ZaZfrzIIXuoTiMNzi6fjeHPJBszjxKKLTMKliYigRE69Z7uD-IB7OSHpOKyReLiCvVCq2xEjHwRM9fCN984gzBBg05yDKbYrb7x9DW35MJhpuYHn5jktXNj6QI9NgOYOZG5zLm5leHRkbnMuaW8PL2Ruc2NyeXB0LXByb3h5
+sdns://AgcAAAAAAAAACjQ1LjkwLjI4LjAgmjo09yfeubylEAPZzpw5-PJ92cUkKQHCurGkTmNaAhkOZG5zLm5leHRkbnMuaW8PL2Ruc2NyeXB0LXByb3h5
 
 
 ## nextdns-ipv6
@@ -1722,7 +1715,7 @@ DNSSEC, Anycast, Non-logging, NoFilters
 
 https://www.nextdns.io/
 
-sdns://AgcAAAAAAAAADVsyYTA3OmE4YzA6Ol2gMob_ZaZfrzIIXuoTiMNzi6fjeHPJBszjxKKLTMKliYigRE69Z7uD-IB7OSHpOKyReLiCvVCq2xEjHwRM9fCN984gzBBg05yDKbYrb7x9DW35MJhpuYHn5jktXNj6QI9NgOYOZG5zLm5leHRkbnMuaW8PL2Ruc2NyeXB0LXByb3h5
+sdns://AgcAAAAAAAAADVsyYTA3OmE4YzA6Ol0gmjo09yfeubylEAPZzpw5-PJ92cUkKQHCurGkTmNaAhkOZG5zLm5leHRkbnMuaW8PL2Ruc2NyeXB0LXByb3h5
 
 
 ## njalla-doh
