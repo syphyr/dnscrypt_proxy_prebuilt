@@ -36,11 +36,18 @@ if [ ! -f "$CACHE_DIR"/relays.md ]; then
 	chmod 644 "$CACHE_DIR"/relays.md.minisig
 fi
 
-if [ ! -f "$CACHE_DIR"/odoh.md ]; then
-        cp "$CONFIG_DIR"/odoh.md "$CACHE_DIR"/
-        cp "$CONFIG_DIR"/odoh.md.minisig "$CACHE_DIR"/
-        chmod 644 "$CACHE_DIR"/odoh.md
-        chmod 644 "$CACHE_DIR"/odoh.md.minisig
+if [ ! -f "$CACHE_DIR"/odoh-servers.md ]; then
+        cp "$CONFIG_DIR"/odoh-servers.md "$CACHE_DIR"/
+        cp "$CONFIG_DIR"/odoh-servers.md.minisig "$CACHE_DIR"/
+        chmod 644 "$CACHE_DIR"/odoh-servers.md
+        chmod 644 "$CACHE_DIR"/odoh-servers.md.minisig
+fi
+
+if [ ! -f "$CACHE_DIR"/odoh-relays.md ]; then
+        cp "$CONFIG_DIR"/odoh-relays.md "$CACHE_DIR"/
+        cp "$CONFIG_DIR"/odoh-relays.md.minisig "$CACHE_DIR"/
+        chmod 644 "$CACHE_DIR"/odoh-relays.md
+        chmod 644 "$CACHE_DIR"/odoh-relays.md.minisig
 fi
 
 if [ ! -f "$CACHE_DIR"/onion-services.md ]; then
