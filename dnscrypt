@@ -25,36 +25,36 @@ fi
 if [ ! -f "$CACHE_DIR"/public-resolvers.md ]; then
 	cp "$CONFIG_DIR"/public-resolvers.md "$CACHE_DIR"/
 	cp "$CONFIG_DIR"/public-resolvers.md.minisig "$CACHE_DIR"/
-	chmod 644 "$CACHE_DIR"/public-resolvers.md
-	chmod 644 "$CACHE_DIR"/public-resolvers.md.minisig
+	chmod 600 "$CACHE_DIR"/public-resolvers.md
+	chmod 600 "$CACHE_DIR"/public-resolvers.md.minisig
 fi
 
 if [ ! -f "$CACHE_DIR"/relays.md ]; then
 	cp "$CONFIG_DIR"/relays.md "$CACHE_DIR"/
 	cp "$CONFIG_DIR"/relays.md.minisig "$CACHE_DIR"/
-	chmod 644 "$CACHE_DIR"/relays.md
-	chmod 644 "$CACHE_DIR"/relays.md.minisig
+	chmod 600 "$CACHE_DIR"/relays.md
+	chmod 600 "$CACHE_DIR"/relays.md.minisig
 fi
 
 if [ ! -f "$CACHE_DIR"/odoh-servers.md ]; then
         cp "$CONFIG_DIR"/odoh-servers.md "$CACHE_DIR"/
         cp "$CONFIG_DIR"/odoh-servers.md.minisig "$CACHE_DIR"/
-        chmod 644 "$CACHE_DIR"/odoh-servers.md
-        chmod 644 "$CACHE_DIR"/odoh-servers.md.minisig
+        chmod 600 "$CACHE_DIR"/odoh-servers.md
+        chmod 600 "$CACHE_DIR"/odoh-servers.md.minisig
 fi
 
 if [ ! -f "$CACHE_DIR"/odoh-relays.md ]; then
         cp "$CONFIG_DIR"/odoh-relays.md "$CACHE_DIR"/
         cp "$CONFIG_DIR"/odoh-relays.md.minisig "$CACHE_DIR"/
-        chmod 644 "$CACHE_DIR"/odoh-relays.md
-        chmod 644 "$CACHE_DIR"/odoh-relays.md.minisig
+        chmod 600 "$CACHE_DIR"/odoh-relays.md
+        chmod 600 "$CACHE_DIR"/odoh-relays.md.minisig
 fi
 
 if [ ! -f "$CACHE_DIR"/onion-services.md ]; then
         cp "$CONFIG_DIR"/onion-services.md "$CACHE_DIR"/
         cp "$CONFIG_DIR"/onion-services.md.minisig "$CACHE_DIR"/
-        chmod 644 "$CACHE_DIR"/onion-services.md
-        chmod 644 "$CACHE_DIR"/onion-services.md.minisig
+        chmod 600 "$CACHE_DIR"/onion-services.md
+        chmod 600 "$CACHE_DIR"/onion-services.md.minisig
 fi
 
 exec $DAEMON -config "$CONFIG_FILE"
