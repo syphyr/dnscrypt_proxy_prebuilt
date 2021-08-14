@@ -135,7 +135,7 @@ LOCAL_REQUIRED_MODULES := relays.md
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := odoh.md
+LOCAL_MODULE := odoh-servers.md
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/dnscrypt-proxy
@@ -144,12 +144,30 @@ LOCAL_REQUIRED_MODULES := relays.md.minisig
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := odoh.md.minisig
+LOCAL_MODULE := odoh-servers.md.minisig
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/dnscrypt-proxy
 LOCAL_SRC_FILES := etc/dnscrypt-proxy/$(LOCAL_MODULE)
-LOCAL_REQUIRED_MODULES := odoh.md
+LOCAL_REQUIRED_MODULES := odoh-servers.md
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := odoh-relays.md
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/dnscrypt-proxy
+LOCAL_SRC_FILES := etc/dnscrypt-proxy/$(LOCAL_MODULE)
+LOCAL_REQUIRED_MODULES := odoh-servers.md.minisig
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := odoh-relays.md.minisig
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/dnscrypt-proxy
+LOCAL_SRC_FILES := etc/dnscrypt-proxy/$(LOCAL_MODULE)
+LOCAL_REQUIRED_MODULES := odoh-relays.md
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -158,7 +176,7 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_PATH := $(TARGET_OUT_ETC)/dnscrypt-proxy
 LOCAL_SRC_FILES := etc/dnscrypt-proxy/$(LOCAL_MODULE)
-LOCAL_REQUIRED_MODULES := odoh.md.minisig
+LOCAL_REQUIRED_MODULES := odoh-relays.md.minisig
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
