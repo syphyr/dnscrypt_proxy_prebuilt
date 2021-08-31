@@ -40,6 +40,20 @@ Anonymized DNS relay hosted in Netherlands - NL
 sdns://gRxbMjAwMTpiYzg6MTgzMDoyMDE4OjoxXTo0MzQz
 
 
+## anon-artemis
+
+Anonymized DNS relay hosted in France and maintained by lucenera.
+
+sdns://gRE1MS4xNS4xNDMuMTIzOjQ0Mw
+
+
+## anon-artemis-ipv6
+
+Anonymized DNS relay hosted in France and maintained by lucenera.
+
+sdns://gRlbMjAwMTpiYzg6NjJjOjIxNjo6MV06NDQz
+
+
 ## anon-bcn
 
 Anonymized DNS relay hosted in Barcelona, Spain.
@@ -101,13 +115,6 @@ sdns://gQ4xNTUuMjU0LjI5LjExMw
 Anonymized DNS relay hosted in US - Las Vegas, NV provided by https://cryptostorm.is/
 
 sdns://gQwzNy4xMjAuMTQ3LjI
-
-
-## anon-cs-usor
-
-Anonymized DNS relay hosted in US - Roseburg, OR provided by https://cryptostorm.is/
-
-sdns://gQ0xMDQuMjU1LjE3NS4y
 
 
 ## anon-cs-ustx
@@ -314,13 +321,13 @@ sdns://gRI0NS4xNTMuMTg3Ljk2OjQzNDM
 
 Anonymized DNS relay hosted in Frankfurt and maintained by lucenera.
 
+sdns://gRExOTkuMjQ3LjIuMTY3OjQ0Mw
 
 
-# anon-suami-ipv6
+## anon-suami-ipv6
 
 Anonymized DNS relay hosted in Frankfurt and maintained by lucenera.
 
-sdns://gRExOTkuMjQ3LjIuMTY3OjQ0Mw
 sdns://gStbMjAwMToxOWYwOjZjMDE6NTdiOjU0MDA6M2ZmOmZlODM6ZWEwMV06NDQz
 
 
