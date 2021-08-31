@@ -226,6 +226,22 @@ Non-logging | Filtering | DNSSEC | anti-CNAME cloaking | QNAME Minimization | No
 sdns://AgMAAAAAAAAAAKAyhv9lpl-vMghe6hOIw3OLp-N4c8kGzOPEootMwqWJiKBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33ziDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5hJkbnMuYXJhcHVyYXlpbC5jb20KL2Rucy1xdWVyeQ
 
 
+## artemis
+
+dnscrypt-server. No logging, No filtering, support DNSSEC, located in France.
+by lucenera
+
+sdns://AQcAAAAAAAAAETUxLjE1LjE0My4xMjM6NDQzIAdO10Uz6uecpq_bzHbB_qSWnt5fMYzbFpBqAA3aCKm4GzIuZG5zY3J5cHQtY2VydC5hcnRlbWlzLmNvbQ
+
+
+## artemis-ipv6
+
+dnscrypt-server. No logging, No filtering, support DNSSEC, located in France.
+by lucenera
+
+sdns://AQcAAAAAAAAAGVsyMDAxOmJjODo2MmM6MjE2OjoxXTo0NDMgB07XRTPq55ymr9vMdsH-pJae3l8xjNsWkGoADdoIqbgbMi5kbnNjcnlwdC1jZXJ0LmFydGVtaXMuY29t
+
+
 ## att
 
 AT&T test DoH server.
@@ -710,13 +726,6 @@ Belgrade, Serbia DNSCrypt server provided by https://cryptostorm.is/
 sdns://AQYAAAAAAAAADjM3LjEyMC4xOTMuMjE5IDEzcq1ZVjLCQWuHLwmPhRvduWUoTGy-mk8ZCWQw26laHjIuZG5zY3J5cHQtY2VydC5jcnlwdG9zdG9ybS5pcw
 
 
-## cs-sk
-
-South Korea DNSCrypt server provided by https://cryptostorm.is/
-
-sdns://AQYAAAAAAAAADDI3LjI1NS43Ny41NiAxM3KtWVYywkFrhy8Jj4Ub3bllKExsvppPGQlkMNupWh4yLmRuc2NyeXB0LWNlcnQuY3J5cHRvc3Rvcm0uaXM
-
-
 ## cs-slovakia
 
 Bratislava, Slovakia DNSCrypt server provided by https://cryptostorm.is/
@@ -784,13 +793,6 @@ sdns://AQcAAAAAAAAAGFsyYzBmOmZkYTg6NTo6MmVkMTpkMmVjXSDWBhX70UU7oU52ij5cXLOsF0YTM
 DNSCrypt | IPv4 only | Non-logging | Non-filtering | DNSSEC | Saint Petersburg, Russia.
 
 sdns://AQcAAAAAAAAADDk0LjI0Mi41OS4zNSBODx7VDHmrdwypnwyTGYbrznR8UddwTB13_uABxZynrBcyLmRuc2NyeXB0LWNlcnQuZGN0LXJ1MQ
-
-
-## dct-ru2
-
-DNSCrypt | IPv4 only | Non-logging | Non-filtering | DNSSEC | Moscow, Russia.
-
-sdns://AQcAAAAAAAAADTE4NS4yMi4xNTQuMTkgH3P73klIGqFhO_xQhCpSzrlibYNg1fMF_lw36Qfw-30XMi5kbnNjcnlwdC1jZXJ0LmRjdC1ydTI
 
 
 ## decloudus-nogoogle-tst
@@ -1567,7 +1569,7 @@ sdns://AgcAAAAAAAAAG1syNjA2OjQ3MDA6MzAzNjo6NjgxYjo5NmFhXQANanAudGlhcmFwLm9yZwovZ
 dnscrypt-server. No logging, No filtering, support DNSSEC, located in Italy.
 by lucenera
 
-sdns://AQcAAAAAAAAAEjE4NS41OC4xOTQuMTk3OjQ0MyBUt90T_vs-aveKRUlkMPs2YAcwKTE-r3uOplPWuyMKsBkyLmRuc2NyeXB0LWNlcnQuanVsaWEuY29t
+sdns://AQcAAAAAAAAAEjE4NS41OC4xOTQuMTk3OjQ0MyDQu5u9R6HHQkmo9nG0_Ain1jubSdjnauOsgu4iMl5hBxkyLmRuc2NyeXB0LWNlcnQuanVsaWEuY29t
 
 
 ## julia-ipv6
@@ -1575,7 +1577,7 @@ sdns://AQcAAAAAAAAAEjE4NS41OC4xOTQuMTk3OjQ0MyBUt90T_vs-aveKRUlkMPs2YAcwKTE-r3uOp
 dnscrypt-server. No logging, No filtering, support DNSSEC, located in Italy.
 by lucenera
 
-sdns://AQcAAAAAAAAAGlsyYTAwOjZkNDA6NDA6NDBjNTo6MV06NDQzIFS33RP--z5q94pFSWQw-zZgBzApMT6ve46mU9a7IwqwGTIuZG5zY3J5cHQtY2VydC5qdWxpYS5jb20
+sdns://AQcAAAAAAAAAGlsyYTAwOjZkNDA6NDA6NDBjNTo6MV06NDQzINC7m71HocdCSaj2cbT8CKfWO5tJ2Odq46yC7iIyXmEHGTIuZG5zY3J5cHQtY2VydC5qdWxpYS5jb20
 
 
 ## kenshiro
@@ -1583,7 +1585,7 @@ sdns://AQcAAAAAAAAAGlsyYTAwOjZkNDA6NDA6NDBjNTo6MV06NDQzIFS33RP--z5q94pFSWQw-zZgB
 dnscrypt-server. No logging, No filtering, support DNSSEC, located in Amsterdam.
 by lucenera
 
-sdns://AQcAAAAAAAAAETc4LjE0MS4yMDguMTI6NDQzIOOWLHWKcXC3eNMdWnHxk7TdeOB-oT6H_ZmXADF7jL0VHDIuZG5zY3J5cHQtY2VydC5rZW5zaGlyby5jb20
+sdns://AQcAAAAAAAAADTc4LjE0MS4yMDguMTIg45YsdYpxcLd40x1acfGTtN144H6hPof9mZcAMXuMvRUcMi5kbnNjcnlwdC1jZXJ0LmtlbnNoaXJvLmNvbQ
 
 
 ## kenshiro-ipv6
@@ -1591,7 +1593,7 @@ sdns://AQcAAAAAAAAAETc4LjE0MS4yMDguMTI6NDQzIOOWLHWKcXC3eNMdWnHxk7TdeOB-oT6H_ZmXA
 dnscrypt-server. No logging, No filtering, support DNSSEC, located in Amsterdam.
 by lucenera
 
-sdns://AQcAAAAAAAAALFsyMDAxOjE5ZjA6NTAwMToyMTQ1OjU0MDA6M2ZmOmZlODM6ZTYzZl06NDQzIOOWLHWKcXC3eNMdWnHxk7TdeOB-oT6H_ZmXADF7jL0VHDIuZG5zY3J5cHQtY2VydC5rZW5zaGlyby5jb20
+sdns://AQcAAAAAAAAAKFsyMDAxOjE5ZjA6NTAwMToyMTQ1OjU0MDA6M2ZmOmZlODM6ZTYzZl0g45YsdYpxcLd40x1acfGTtN144H6hPof9mZcAMXuMvRUcMi5kbnNjcnlwdC1jZXJ0LmtlbnNoaXJvLmNvbQ
 
 
 ## libredns
@@ -1874,7 +1876,7 @@ sdns://AgcAAAAAAAAAAKAyhv9lpl-vMghe6hOIw3OLp-N4c8kGzOPEootMwqWJiKBETr1nu4P4gHs5I
 
 By pryv8, non Logging, uncensored, DNSSEC - hosted on contabo servers
 
-sdns://AQcAAAAAAAAAEzE2NC42OC4xMjEuMTYyOjQ0NDMg0I13MMoiCKduiHKph6yaHFtoNLhPFroCyPOffUqqcsocMi5kbnNjcnlwdC1jZXJ0LnByeXY4Ym9pLm9yZw
+sdns://AQcAAAAAAAAAEzE2NC42OC4xMjEuMTYyOjQ0NDMgHtKNfXpUMzPyLnXK8DauHpWm1Rqhz7LqwBBmSzdY9BIcMi5kbnNjcnlwdC1jZXJ0LnByeXY4Ym9pLm9yZw
 
 
 ## publicarray-au-doh
@@ -2086,7 +2088,7 @@ sdns://AgYAAAAAAAAAEFsyNjIwOmZlOjpmZToxMF0gKhX11qy258CQGt5Ou8dDsszUiQMrRuFkLwaTa
 dnscrypt-server. No logging, No filtering, support DNSSEC, located in Poland.
 by lucenera
 
-sdns://AQcAAAAAAAAAEjgwLjIxMS4yNDMuMTY5OjQ0MyD5csvwaorF_dUDK068OgiDTr6qUaRUSGd7Zst7y2xIbBcyLmRuc2NyeXB0LWNlcnQucmVpLmNvbQ
+sdns://AQcAAAAAAAAAEjgwLjIxMS4yNDMuMTY5OjQ0MyAFiR7OYCtFh1egstcI2nAVKNrNROeoEZUSuLcyOE-P5RcyLmRuc2NyeXB0LWNlcnQucmVpLmNvbQ
 
 
 ## rei-ipv6
@@ -2094,19 +2096,18 @@ sdns://AQcAAAAAAAAAEjgwLjIxMS4yNDMuMTY5OjQ0MyD5csvwaorF_dUDK068OgiDTr6qUaRUSGd7Z
 dnscrypt-server. No logging, No filtering, support DNSSEC, located in Poland.
 by lucenera
 
-sdns://AQcAAAAAAAAAGVsyYTAwOjZkNDc6MTA6YmE5OjoxXTo0NDMg-XLL8GqKxf3VAytOvDoIg06-qlGkVEhne2bLe8tsSGwXMi5kbnNjcnlwdC1jZXJ0LnJlaS5jb20
+sdns://AQcAAAAAAAAAGVsyYTAwOjZkNDc6MTA6YmE5OjoxXTo0NDMgBYkezmArRYdXoLLXCNpwFSjazUTnqBGVEri3MjhPj-UXMi5kbnNjcnlwdC1jZXJ0LnJlaS5jb20
 
 
 ## resolver4.dns.openinternet.io
 
-DNSCrypt resolver on dedicated hardware, colocated at Sonic.net in Santa Rosa, CA in the United States.
+DNSCrypt & DoH resolver on dedicated hardware colocated at Sonic.net in Santa Rosa, CA in the United States.
 
 No log, no filter, DNSSEC. Uses Sonic's recusrive DNS servers as upstream resolvers (but is not affiliated with Sonic
-in any way).
-
-Provided by https://openinternet.io
+in any way). Provided by https://openinternet.io
 
 sdns://AQcAAAAAAAAADTcwLjM2LjE3MC4xMjYgIMqRyWkPSPlDAmN_2ne3A6A6EQtQRyEJcXoCWPHbX5EtMi5kbnNjcnlwdC1jZXJ0LnJlc29sdmVyNC5kbnMub3BlbmludGVybmV0Lmlv
+sdns://AgcAAAAAAAAADTcwLjM2LjE3MC4xMjYAHXJlc29sdmVyNC5kbnMub3BlbmludGVybmV0LmlvCi9kbnMtcXVlcnk
 
 
 ## safesurfer
@@ -2215,7 +2216,7 @@ sdns://AgcAAAAAAAAADTQ1LjE1My4xODcuOTagMob_ZaZfrzIIXuoTiMNzi6fjeHPJBszjxKKLTMKli
 dnscrypt-server. No logging, No filtering, support DNSSEC, located in Frankfurt.
 by lucenera
 
-sdns://AQcAAAAAAAAAETE5OS4yNDcuMi4xNjc6NDQzIJKizlU0Z_bWVilEqftcnavJoTLabSlycwn6a__VKaU0GTIuZG5zY3J5cHQtY2VydC5zdWFtaS5jb20
+sdns://AQcAAAAAAAAADTE5OS4yNDcuMi4xNjcgkqLOVTRn9tZWKUSp-1ydq8mhMtptKXJzCfpr_9UppTQZMi5kbnNjcnlwdC1jZXJ0LnN1YW1pLmNvbQ
 
 
 ## suami-ipv6
@@ -2223,7 +2224,7 @@ sdns://AQcAAAAAAAAAETE5OS4yNDcuMi4xNjc6NDQzIJKizlU0Z_bWVilEqftcnavJoTLabSlycwn6a
 dnscrypt-server. No logging, No filtering, support DNSSEC, located in Frankfurt.
 by lucenera
 
-sdns://AQcAAAAAAAAAK1syMDAxOjE5ZjA6NmMwMTo1N2I6NTQwMDozZmY6ZmU4MzplYTAxXTo0NDMgkqLOVTRn9tZWKUSp-1ydq8mhMtptKXJzCfpr_9UppTQZMi5kbnNjcnlwdC1jZXJ0LnN1YW1pLmNvbQ
+sdns://AQcAAAAAAAAAJ1syMDAxOjE5ZjA6NmMwMTo1N2I6NTQwMDozZmY6ZmU4MzplYTAxXSCSos5VNGf21lYpRKn7XJ2ryaEy2m0pcnMJ-mv_1SmlNBkyLmRuc2NyeXB0LWNlcnQuc3VhbWkuY29t
 
 
 ## switch
