@@ -40,39 +40,11 @@ Anonymized DNS relay hosted in Netherlands - NL
 sdns://gRxbMjAwMTpiYzg6MTgzMDoyMDE4OjoxXTo0MzQz
 
 
-## anon-artemis
-
-Anonymized DNS relay hosted in France and maintained by lucenera.
-
-sdns://gQ01MS4xNS4xNDMuMTIz
-
-
-## anon-artemis-ipv6
-
-Anonymized DNS relay hosted in France and maintained by lucenera.
-
-sdns://gRVbMjAwMTpiYzg6NjJjOjIxNjo6MV0
-
-
 ## anon-bcn
 
 Anonymized DNS relay hosted in Barcelona, Spain.
 
 sdns://gRMxODUuMjUzLjE1NC42Njo0MzQz
-
-
-## anon-curzon-prg
-
-Anonymized DNS relay hosted in Prague, Czech Republic on SkylonHost - maintained by @ztheory
-
-sdns://gRIxMDkuMjQ4LjQzLjE1NDo0NDM
-
-
-## anon-curzon-vie
-
-Anonymized DNS relay hosted in Vienna, Austria on VPS274 - maintained by @ztheory
-
-sdns://gRAxODUuOS4xOS4xMzc6NDQz
 
 
 ## anon-dnscrypt.uk-ipv4
