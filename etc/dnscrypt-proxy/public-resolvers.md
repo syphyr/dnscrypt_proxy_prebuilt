@@ -1537,30 +1537,6 @@ no ads version, uses StevenBlack's host list: https://github.com/StevenBlack/hos
 sdns://AgIAAAAAAAAADjExNi4yMDIuMTc2LjI2oMwQYNOcgym2K2-8fQ1t-TCYabmB5-Y5LVzY-kCPTYDmIEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOD2RvaC5saWJyZWRucy5ncgQvYWRz
 
 
-## linuxsec-adguard
-
-DoH server with AdGuard Home for ads blocking.
-Operated by LinuxSec.
-
-Non-logging, AD-filtering, supports DNSSEC.
-
-https://doh.linuxsec.org
-
-sdns://AgMAAAAAAAAADDEwMy44NS4xNS42MKDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5iBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zhBkb2gubGludXhzZWMub3JnCC9hZGd1YXJk
-
-
-## linuxsec-doh
-
-DoH server operated by LinuxSec.
-Server located in the Indonesia.
-
-Non-logging, supports DNSSEC.
-
-https://doh.linuxsec.org
-
-sdns://AgcAAAAAAAAADDEwMy44NS4xNS42MKDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5iBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zhBkb2gubGludXhzZWMub3JnCi9kbnMtcXVlcnk
-
-
 ## meganerd
 
 DNSCrypt server by MegaNerd.nl (IPv4) - https://meganerd.nl/encrypted-dns-server
@@ -1790,13 +1766,6 @@ info - https://jlongua.github.io/plan9-dns/
 sdns://AgcAAAAAAAAAHVsyMDAxOjE5ZjA6OTAwMjoxZDc0OjU0MDA6OjFdoMwQYNOcgym2K2-8fQ1t-TCYabmB5-Y5LVzY-kCPTYDmIEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOE2RyYWNvLnBsYW45LW5zMi5jb20KL2Rucy1xdWVyeQ
 
 
-## powerdns-doh
-
-By PowerDNS/Open-Xchange https://powerdns.org
-
-sdns://AgcAAAAAAAAAAKDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5iBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zhBkb2gucG93ZXJkbnMub3JnAS8
-
-
 ## pryv8boi
 
 By pryv8, non Logging, uncensored, DNSSEC - hosted on contabo servers
@@ -2008,7 +1977,6 @@ No log, no filter, DNSSEC. Uses Sonic's recusrive DNS servers as upstream resolv
 in any way). Provided by https://openinternet.io
 
 sdns://AQcAAAAAAAAADTcwLjM2LjE3MC4xMjYgIMqRyWkPSPlDAmN_2ne3A6A6EQtQRyEJcXoCWPHbX5EtMi5kbnNjcnlwdC1jZXJ0LnJlc29sdmVyNC5kbnMub3BlbmludGVybmV0Lmlv
-sdns://AgcAAAAAAAAADTcwLjM2LjE3MC4xMjYAHXJlc29sdmVyNC5kbnMub3BlbmludGVybmV0LmlvCi9kbnMtcXVlcnk
 
 
 ## safesurfer
@@ -2333,18 +2301,4 @@ sdns://AQcAAAAAAAAADTEzNy4yMjAuNTkuNjIgTNMjCh27ODMeT_zUDR4yV_L9iWnqXTyyMuyLeAQW0
 DNSSEC/unfiltered/non-logged. Hosted on Vultr in Chicago, IL. Running the official Docker image by @zackptg5
 
 sdns://AQcAAAAAAAAAKFsyMDAxOjE5ZjA6NWMwMToxNDdlOjU0MDA6M2ZmOmZlMmE6M2IxZl0gTNMjCh27ODMeT_zUDR4yV_L9iWnqXTyyMuyLeAQW0eceMi5kbnNjcnlwdC1jZXJ0LnphY2twdGc1LXVzLWls
-
-
-## zackptg5-us-pit-ipv4
-
-DNSSEC/unfiltered/non-logged. Hosted on TeraSwitch in Pittsburgh, PA. Running the official Docker image by @zackptg5
-
-sdns://AQcAAAAAAAAAETc0LjExOC4xNDEuNDc6NDQyILLrUp55NwetKjM1XaPs19NIKDIbD1w0K-lCK33_gKcgHzIuZG5zY3J5cHQtY2VydC56YWNrcHRnNS11cy1waXQ
-
-
-## zackptg5-us-pit-ipv6
-
-DNSSEC/unfiltered/non-logged. Hosted on TeraSwitch in Pittsburgh, PA. Running the official Docker image by @zackptg5
-
-sdns://AQcAAAAAAAAAJ1syNjA3OmZkYzA6MjowOmY4MTY6M2VmZjpmZTMyOmM3YjRdOjQ0MiCy61KeeTcHrSozNV2j7NfTSCgyGw9cNCvpQit9_4CnIB8yLmRuc2NyeXB0LWNlcnQuemFja3B0ZzUtdXMtcGl0
 
