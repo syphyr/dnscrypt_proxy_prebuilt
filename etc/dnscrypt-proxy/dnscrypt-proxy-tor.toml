@@ -805,7 +805,7 @@ fragments_blocked = ['cisco', 'cisco-ipv6', 'cisco-familyshield', 'cisco-familys
 # ]
 
 routes = [
-   { server_name='odoh-cloudflare', via=['odohrelay-ams', 'odohrelay-surf', 'odohrelay-bcn'] }
+   { server_name='odoh-cloudflare', via=['odohrelay-koki-ams', 'odohrelay-surf', 'odohrelay-koki-bcn'] }
 ]
 
 
