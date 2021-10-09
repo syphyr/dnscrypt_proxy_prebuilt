@@ -1466,13 +1466,6 @@ https://www.iij.ad.jp/
 sdns://AgUAAAAAAAAACjEwMy4yLjU3LjUgmOPV5TavKVjNL38U9wTvSidtJeM81l8uZfXk8nJ8EzARcHVibGljLmRucy5paWouanAKL2Rucy1xdWVyeQ
 
 
-## indonesia-unfilter-doh
-
-Non-logging and non-Filtering DoH forwarder in Indonesia.
-
-sdns://AgYAAAAAAAAACjExNi4wLjIuODagzBBg05yDKbYrb7x9DW35MJhpuYHn5jktXNj6QI9NgOYgRE69Z7uD-IB7OSHpOKyReLiCvVCq2xEjHwRM9fCN984PZG9oLnRoaXMud2ViLmlkCi9kbnMtcXVlcnk
-
-
 ## jp.tiar.app
 
 Non-Logging, Non-Filtering DNSCrypt server in Japan.
@@ -1694,7 +1687,25 @@ DOH • DNSSEC • OpenNIC • Non-logging • Uncensored - hosted on OVH - http
 Location: Paris, France
 Maintained by R4SAS - https://github.com/r4sas
 
-sdns://AgcAAAAAAAAADTE1MS44MC4yMjIuNzkgKVTnuGY0K1Ihqu1Pba8r5vOERK-LffNTJu1qlyaQv3gQb3Blbm5pYy5pMnBkLnh5egovZG5zLXF1ZXJ5
+sdns://AgYAAAAAAAAADTE1MS44MC4yMjIuNzkgI_Tezy3E7gfCD1gW5aEuZxyjXKJ_LGgj6nrv42n4y7IQb3Blbm5pYy5pMnBkLnh5egovZG5zLXF1ZXJ5
+
+
+## opennic-R4SAS-doh-ipv6
+
+DOH • DNSSEC • OpenNIC • Non-logging • Uncensored - hosted on OVH - https://opennic.i2pd.xyz/
+Location: Paris, France
+Maintained by R4SAS - https://github.com/r4sas
+
+sdns://AgYAAAAAAAAAF1syMDAxOjQ3MDoxZjE1OmI4MDo6NTNdICP03s8txO4Hwg9YFuWhLmcco1yifyxoI-p67-Np-MuyEG9wZW5uaWMuaTJwZC54eXoKL2Rucy1xdWVyeQ
+
+
+## opennic-R4SAS-ipv6
+
+DNSSEC • OpenNIC • Non-logging • Uncensored - hosted on OVH - https://opennic.i2pd.xyz/
+Location: Paris, France
+Maintained by R4SAS - https://github.com/r4sas
+
+sdns://AQcAAAAAAAAAF1syMDAxOjQ3MDoxZjE1OmI4MDo6NTNdIKnWMjpPJYAJJhl1FQLOIx4fdtned2yHxruyig7_2w5OIDIuZG5zY3J5cHQtY2VydC5vcGVubmljLmkycGQueHl6
 
 
 ## opennic-luggs
@@ -2182,22 +2193,6 @@ Private DNSCrypt service by WeVPN in Singapore - https://wevpn.com/dns
 With ad blocking.
 
 sdns://AQMAAAAAAAAAEzE0My4yNDQuMzMuOTA6MTUzNTMgufWZBK6y8zr6mDW3z47IASY0jQoaoRFSBaB8i1GHng8fMi5kbnNjcnlwdC1jZXJ0LnNlY3VyZS5kbnMudGVzdA
-
-
-## wevpn-adblock-uk
-
-Private DNSCrypt service by WeVPN in London, UK - https://wevpn.com/dns
-With ad blocking.
-
-sdns://AQMAAAAAAAAAFDIxNi4xMTkuMTU1LjQ5OjE1MzUzIF2QDfN8-gL0x3IyXgqgrawgSxKm7A80BgexEH7WghsBHzIuZG5zY3J5cHQtY2VydC5zZWN1cmUuZG5zLnRlc3Q
-
-
-## wevpn-adblock-useast
-
-Private DNSCrypt service by WeVPN in New Jersey, USA - https://wevpn.com/dns
-With ad blocking.
-
-sdns://AQMAAAAAAAAAFDIzLjIyNi4xMzQuMjQzOjE1MzUzIBf1guPReaoN_V7w-UelcO4YnvqoXnDGsxRPIRc6uSjsHzIuZG5zY3J5cHQtY2VydC5zZWN1cmUuZG5zLnRlc3Q
 
 
 ## wevpn-adblock-uswest
