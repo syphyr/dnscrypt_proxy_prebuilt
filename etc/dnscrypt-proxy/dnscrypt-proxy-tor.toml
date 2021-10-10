@@ -490,7 +490,7 @@ map_file = '/system/etc/dnscrypt-proxy/captive-portals'
 
 
 ######################################################
-#        Pattern-based blocking (blocklists)        #
+#        Pattern-based blocking (blocklists)         #
 ######################################################
 
 ## Blocklists are made of one pattern per line. Example of valid patterns:
@@ -553,7 +553,7 @@ map_file = '/system/etc/dnscrypt-proxy/captive-portals'
 
 
 ######################################################
-#   Pattern-based allow lists (blocklists bypass)   #
+#   Pattern-based allow lists (blocklists bypass)    #
 ######################################################
 
 ## Allowlists support the same patterns as blocklists
@@ -731,7 +731,7 @@ map_file = '/system/etc/dnscrypt-proxy/captive-portals'
 [broken_implementations]
 
 # Cisco servers currently cannot handle queries larger than 1472 bytes, and don't
-# truncate reponses larger than questions as expected by the DNSCrypt protocol.
+# truncate responses larger than questions as expected by the DNSCrypt protocol.
 # This prevents large responses from being received over UDP and over relays.
 #
 # Older versions of the `dnsdist` server software had a bug with queries larger
@@ -802,10 +802,6 @@ fragments_blocked = ['cisco', 'cisco-ipv6', 'cisco-familyshield', 'cisco-familys
 # routes = [
 #    { server_name='example-server-1', via=['anon-example-1', 'anon-example-2'] },
 #    { server_name='example-server-2', via=['sdns://gRIxMzcuNzQuMjIzLjIzNDo0NDM'] }
-# ]
-
-# routes = [
-#    { server_name='odoh-cloudflare', via=['odohrelay-koki-ams', 'odohrelay-surf', 'odohrelay-koki-bcn'] }
 # ]
 
 
