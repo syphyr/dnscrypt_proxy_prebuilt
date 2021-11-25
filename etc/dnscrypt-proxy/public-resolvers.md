@@ -285,7 +285,7 @@ DNS-over-HTTPS server. Non Logging, filters ads, trackers and malware. DNSSEC re
 
 Hosted in Stockholm, Sweden. (https://dns.brahma.world)
 
-sdns://AgMAAAAAAAAADDEzLjQ5LjE3NS44NqDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5iBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zhBkbnMuYnJhaG1hLndvcmxkCi9kbnMtcXVlcnk
+sdns://AgMAAAAAAAAADDEzLjUzLjE4Ni41MqDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5iBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zhBkbnMuYnJhaG1hLndvcmxkCi9kbnMtcXVlcnk
 
 
 ## brahma-world-ipv6
@@ -968,6 +968,13 @@ Server provided by Martin 'd0wn' Albus
 sdns://AQcAAAAAAAAAGFsyYzBmOmZkYTg6NTo6MmVkMTpkMmVjXSDWBhX70UU7oU52ij5cXLOsF0YTMUY9oK-M998E2k11bRsyLmRuc2NyeXB0LWNlcnQudHouZDB3bi5iaXo
 
 
+## dct-de1
+
+DNSCrypt | IPv4 only | Non-logging | Non-filtering | DNSSEC | Nuremberg, Germany.
+
+sdns://AQcAAAAAAAAADzE1OS42OS44Mi41OjQ0MyBODx7VDHmrdwypnwyTGYbrznR8UddwTB13_uABxZynrBcyLmRuc2NyeXB0LWNlcnQuZGN0LWRlMQ
+
+
 ## dct-ru1
 
 DNSCrypt | IPv4 only | Non-logging | Non-filtering | DNSSEC | Saint Petersburg, Russia.
@@ -1354,6 +1361,258 @@ https://www.dnspod.cn/Products/Public.DNS?lang=en
 sdns://AgAAAAAAAAAAACDBlAfoWsQD52fP2oOBh_Ag-lY6yBaIr1EMIqd559RaVgdkb2gucHViCi9kbnMtcXVlcnk
 
 
+## dnswarden-asia-adblock-dcv4
+
+Hosted in Singapore. For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
+
+sdns://AQMAAAAAAAAAFDIwNy4xNDguMTIwLjI0NDoyMjIyIKaotzxLPX3tRvpH4lDhbTo1cHCL4X-ZhW_Ji6jU8LwyITIuZG5zY3J5cHQtY2VydC5kbnN3YXJkZW4tYWRibG9jaw
+
+
+## dnswarden-asia-adblock-dcv6
+
+Hosted in Singapore. For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
+
+sdns://AQMAAAAAAAAALVsyMDAxOjE5ZjA6NDQwMDo0ZGUyOjU0MDA6M2ZmOmZlYTk6ZDQxOF06MjIyMiCmqLc8Sz197Ub6R-JQ4W06NXBwi-F_mYVvyYuo1PC8MiEyLmRuc2NyeXB0LWNlcnQuZG5zd2FyZGVuLWFkYmxvY2s
+
+
+## dnswarden-asia-adblock-dohv4
+
+Hosted in Singapore. For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
+
+sdns://AgMAAAAAAAAADzIwNy4xNDguMTIwLjI0NCBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zhZkb2guYXNpYS5kbnN3YXJkZW4uY29tCC9hZGJsb2Nr
+
+
+## dnswarden-asia-adblock-dohv6
+
+Hosted in Singapore. For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
+
+sdns://AgMAAAAAAAAAKFsyMDAxOjE5ZjA6NDQwMDo0ZGUyOjU0MDA6M2ZmOmZlYTk6ZDQxOF0gRE69Z7uD-IB7OSHpOKyReLiCvVCq2xEjHwRM9fCN984WZG9oLmFzaWEuZG5zd2FyZGVuLmNvbQgvYWRibG9jaw
+
+
+## dnswarden-asia-adultfilter-dcv4
+
+Hosted in Singapore. For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
+
+sdns://AQMAAAAAAAAAFDIwNy4xNDguMTIwLjI0NDo1NTU1IKaotzxLPX3tRvpH4lDhbTo1cHCL4X-ZhW_Ji6jU8LwyJTIuZG5zY3J5cHQtY2VydC5kbnN3YXJkZW4tYWR1bHRmaWx0ZXI
+
+
+## dnswarden-asia-adultfilter-dcv6
+
+Hosted in Singapore. For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
+
+sdns://AQMAAAAAAAAALVsyMDAxOjE5ZjA6NDQwMDo0ZGUyOjU0MDA6M2ZmOmZlYTk6ZDQxOF06NTU1NSCmqLc8Sz197Ub6R-JQ4W06NXBwi-F_mYVvyYuo1PC8MiUyLmRuc2NyeXB0LWNlcnQuZG5zd2FyZGVuLWFkdWx0ZmlsdGVy
+
+
+## dnswarden-asia-adultfilter-dohv4
+
+Hosted in Singapore. For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
+
+sdns://AgMAAAAAAAAADzIwNy4xNDguMTIwLjI0NCBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zhZkb2guYXNpYS5kbnN3YXJkZW4uY29tDC9hZHVsdGZpbHRlcg
+
+
+## dnswarden-asia-adultfilter-dohv6
+
+Hosted in Singapore. For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
+
+sdns://AgMAAAAAAAAAKFsyMDAxOjE5ZjA6NDQwMDo0ZGUyOjU0MDA6M2ZmOmZlYTk6ZDQxOF0gRE69Z7uD-IB7OSHpOKyReLiCvVCq2xEjHwRM9fCN984WZG9oLmFzaWEuZG5zd2FyZGVuLmNvbQwvYWR1bHRmaWx0ZXI
+
+
+## dnswarden-asia-uncensor-dcv4
+
+Hosted in Singapore. For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
+
+sdns://AQcAAAAAAAAAFDIwNy4xNDguMTIwLjI0NDozMzMzIKaotzxLPX3tRvpH4lDhbTo1cHCL4X-ZhW_Ji6jU8LwyIjIuZG5zY3J5cHQtY2VydC5kbnN3YXJkZW4tdW5jZW5zb3I
+
+
+## dnswarden-asia-uncensor-dcv6
+
+Hosted in Singapore. For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
+
+sdns://AQcAAAAAAAAALVsyMDAxOjE5ZjA6NDQwMDo0ZGUyOjU0MDA6M2ZmOmZlYTk6ZDQxOF06MzMzMyCmqLc8Sz197Ub6R-JQ4W06NXBwi-F_mYVvyYuo1PC8MiIyLmRuc2NyeXB0LWNlcnQuZG5zd2FyZGVuLXVuY2Vuc29y
+
+
+## dnswarden-asia-uncensor-dohv4
+
+Hosted in Singapore. For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
+
+sdns://AgcAAAAAAAAADzIwNy4xNDguMTIwLjI0NCBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zhZkb2guYXNpYS5kbnN3YXJkZW4uY29tCy91bmNlbnNvcmVk
+
+
+## dnswarden-asia-uncensor-dohv6
+
+Hosted in Singapore. For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
+
+sdns://AgcAAAAAAAAAKFsyMDAxOjE5ZjA6NDQwMDo0ZGUyOjU0MDA6M2ZmOmZlYTk6ZDQxOF0gRE69Z7uD-IB7OSHpOKyReLiCvVCq2xEjHwRM9fCN984WZG9oLmFzaWEuZG5zd2FyZGVuLmNvbQsvdW5jZW5zb3JlZA
+
+
+## dnswarden-eu-adblock-dcv4
+
+Hosted in Germany. For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
+
+sdns://AQMAAAAAAAAAEDQ1Ljc2Ljg4LjIwOjIyMjIg1s4Ar-3awN0OmfAQzlZywvR2ZGVMg0aeNdwrLHspdpMhMi5kbnNjcnlwdC1jZXJ0LmRuc3dhcmRlbi1hZGJsb2Nr
+
+
+## dnswarden-eu-adblock-dcv6
+
+Hosted in Germany. For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
+
+sdns://AQMAAAAAAAAALVsyMDAxOjE5ZjA6NmMwMToyYjE3OjU0MDA6M2ZmOmZlYTk6ZDQyZl06MjIyMiDWzgCv7drA3Q6Z8BDOVnLC9HZkZUyDRp413Csseyl2kyEyLmRuc2NyeXB0LWNlcnQuZG5zd2FyZGVuLWFkYmxvY2s
+
+
+## dnswarden-eu-adblock-dohv4
+
+Hosted in Germany. For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
+
+sdns://AgMAAAAAAAAACzQ1Ljc2Ljg4LjIwIEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOFGRvaC5ldS5kbnN3YXJkZW4uY29tCC9hZGJsb2Nr
+
+
+## dnswarden-eu-adblock-dohv6
+
+Hosted in Germany. For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
+
+sdns://AgMAAAAAAAAAKFsyMDAxOjE5ZjA6NmMwMToyYjE3OjU0MDA6M2ZmOmZlYTk6ZDQyZl0gRE69Z7uD-IB7OSHpOKyReLiCvVCq2xEjHwRM9fCN984UZG9oLmV1LmRuc3dhcmRlbi5jb20IL2FkYmxvY2s
+
+
+## dnswarden-eu-adultfilter-dcv4
+
+Hosted in Germany. For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
+
+sdns://AQMAAAAAAAAAEDQ1Ljc2Ljg4LjIwOjU1NTUg1s4Ar-3awN0OmfAQzlZywvR2ZGVMg0aeNdwrLHspdpMlMi5kbnNjcnlwdC1jZXJ0LmRuc3dhcmRlbi1hZHVsdGZpbHRlcg
+
+
+## dnswarden-eu-adultfilter-dcv6
+
+Hosted in Germany. For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
+
+sdns://AQMAAAAAAAAALVsyMDAxOjE5ZjA6NmMwMToyYjE3OjU0MDA6M2ZmOmZlYTk6ZDQyZl06NTU1NSDWzgCv7drA3Q6Z8BDOVnLC9HZkZUyDRp413Csseyl2kyUyLmRuc2NyeXB0LWNlcnQuZG5zd2FyZGVuLWFkdWx0ZmlsdGVy
+
+
+## dnswarden-eu-adultfilter-dohv4
+
+Hosted in Germany. For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
+
+sdns://AgMAAAAAAAAACzQ1Ljc2Ljg4LjIwIEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOFGRvaC5ldS5kbnN3YXJkZW4uY29tDC9hZHVsdGZpbHRlcg
+
+
+## dnswarden-eu-adultfilter-dohv6
+
+Hosted in Germany. For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
+
+sdns://AgMAAAAAAAAAKFsyMDAxOjE5ZjA6NmMwMToyYjE3OjU0MDA6M2ZmOmZlYTk6ZDQyZl0gRE69Z7uD-IB7OSHpOKyReLiCvVCq2xEjHwRM9fCN984UZG9oLmV1LmRuc3dhcmRlbi5jb20ML2FkdWx0ZmlsdGVy
+
+
+## dnswarden-eu-uncensor-dcv4
+
+Hosted in Germany. For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
+
+sdns://AQcAAAAAAAAAEDQ1Ljc2Ljg4LjIwOjMzMzMg1s4Ar-3awN0OmfAQzlZywvR2ZGVMg0aeNdwrLHspdpMiMi5kbnNjcnlwdC1jZXJ0LmRuc3dhcmRlbi11bmNlbnNvcg
+
+
+## dnswarden-eu-uncensor-dcv6
+
+Hosted in Germany. For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
+
+sdns://AQcAAAAAAAAALVsyMDAxOjE5ZjA6NmMwMToyYjE3OjU0MDA6M2ZmOmZlYTk6ZDQyZl06MzMzMyDWzgCv7drA3Q6Z8BDOVnLC9HZkZUyDRp413Csseyl2kyIyLmRuc2NyeXB0LWNlcnQuZG5zd2FyZGVuLXVuY2Vuc29y
+
+
+## dnswarden-eu-uncensor-dohv4
+
+Hosted in Germany. For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
+
+sdns://AgcAAAAAAAAACzQ1Ljc2Ljg4LjIwIEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOFGRvaC5ldS5kbnN3YXJkZW4uY29tCy91bmNlbnNvcmVk
+
+
+## dnswarden-eu-uncensor-dohv6
+
+Hosted in Germany. For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
+
+sdns://AgcAAAAAAAAAKFsyMDAxOjE5ZjA6NmMwMToyYjE3OjU0MDA6M2ZmOmZlYTk6ZDQyZl0gRE69Z7uD-IB7OSHpOKyReLiCvVCq2xEjHwRM9fCN984UZG9oLmV1LmRuc3dhcmRlbi5jb20LL3VuY2Vuc29yZWQ
+
+
+## dnswarden-us-adblock-dcv4
+
+Hosted in USA (Dallas) . For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
+
+sdns://AQMAAAAAAAAAEzE0NC4yMDIuNjkuMTQ5OjIyMjIgc_eiadnb3wpUqznTHbI2NziLpELYc4uuDM-s3v3CsSQhMi5kbnNjcnlwdC1jZXJ0LmRuc3dhcmRlbi1hZGJsb2Nr
+
+
+## dnswarden-us-adblock-dcv6
+
+Hosted in USA (Dallas) . For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
+
+sdns://AQMAAAAAAAAALFsyMDAxOjE5ZjA6NjQwMTpkNmU6NTQwMDozZmY6ZmVhOTpkNDVlXToyMjIyIHP3omnZ298KVKs50x2yNjc4i6RC2HOLrgzPrN79wrEkITIuZG5zY3J5cHQtY2VydC5kbnN3YXJkZW4tYWRibG9jaw
+
+
+## dnswarden-us-adblock-dohv4
+
+Hosted in USA (Dallas) . For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
+
+sdns://AgMAAAAAAAAADjE0NC4yMDIuNjkuMTQ5IEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOFGRvaC51cy5kbnN3YXJkZW4uY29tCC9hZGJsb2Nr
+
+
+## dnswarden-us-adblock-dohv6
+
+Hosted in USA (Dallas) . For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
+
+sdns://AgMAAAAAAAAAJ1syMDAxOjE5ZjA6NjQwMTpkNmU6NTQwMDozZmY6ZmVhOTpkNDVlXSBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zhRkb2gudXMuZG5zd2FyZGVuLmNvbQgvYWRibG9jaw
+
+
+## dnswarden-us-adultfilter-dcv4
+
+Hosted in USA (Dallas) . For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
+
+sdns://AQMAAAAAAAAAEzE0NC4yMDIuNjkuMTQ5OjU1NTUgc_eiadnb3wpUqznTHbI2NziLpELYc4uuDM-s3v3CsSQlMi5kbnNjcnlwdC1jZXJ0LmRuc3dhcmRlbi1hZHVsdGZpbHRlcg
+
+
+## dnswarden-us-adultfilter-dcv6
+
+Hosted in USA (Dallas) . For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
+
+sdns://AQMAAAAAAAAALFsyMDAxOjE5ZjA6NjQwMTpkNmU6NTQwMDozZmY6ZmVhOTpkNDVlXTo1NTU1IHP3omnZ298KVKs50x2yNjc4i6RC2HOLrgzPrN79wrEkJTIuZG5zY3J5cHQtY2VydC5kbnN3YXJkZW4tYWR1bHRmaWx0ZXI
+
+
+## dnswarden-us-adultfilter-dohv4
+
+Hosted in USA (Dallas) . For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
+
+sdns://AgMAAAAAAAAADjE0NC4yMDIuNjkuMTQ5IEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOFGRvaC51cy5kbnN3YXJkZW4uY29tDC9hZHVsdGZpbHRlcg
+
+
+## dnswarden-us-adultfilter-dohv6
+
+Hosted in USA (Dallas) . For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
+
+sdns://AgMAAAAAAAAAJ1syMDAxOjE5ZjA6NjQwMTpkNmU6NTQwMDozZmY6ZmVhOTpkNDVlXSBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zhRkb2gudXMuZG5zd2FyZGVuLmNvbQwvYWR1bHRmaWx0ZXI
+
+
+## dnswarden-us-uncensor-dcv4
+
+Hosted in USA (Dallas) . For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
+
+sdns://AQcAAAAAAAAAEzE0NC4yMDIuNjkuMTQ5OjMzMzMgc_eiadnb3wpUqznTHbI2NziLpELYc4uuDM-s3v3CsSQiMi5kbnNjcnlwdC1jZXJ0LmRuc3dhcmRlbi11bmNlbnNvcg
+
+
+## dnswarden-us-uncensor-dcv6
+
+Hosted in USA (Dallas) . For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
+
+sdns://AQcAAAAAAAAALFsyMDAxOjE5ZjA6NjQwMTpkNmU6NTQwMDozZmY6ZmVhOTpkNDVlXTozMzMzIHP3omnZ298KVKs50x2yNjc4i6RC2HOLrgzPrN79wrEkIjIuZG5zY3J5cHQtY2VydC5kbnN3YXJkZW4tdW5jZW5zb3I
+
+
+## dnswarden-us-uncensor-dohv4
+
+Hosted in USA (Dallas) . For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
+
+sdns://AgcAAAAAAAAADjE0NC4yMDIuNjkuMTQ5IEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOFGRvaC51cy5kbnN3YXJkZW4uY29tCy91bmNlbnNvcmVk
+
+
+## dnswarden-us-uncensor-dohv6
+
+Hosted in USA (Dallas) . For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
+
+sdns://AgcAAAAAAAAAJ1syMDAxOjE5ZjA6NjQwMTpkNmU6NTQwMDozZmY6ZmVhOTpkNDVlXSBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zhRkb2gudXMuZG5zd2FyZGVuLmNvbQsvdW5jZW5zb3JlZA
+
+
 ## doh-ch-blahdns
 
 Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Switzerland. By https://blahdns.com/
@@ -1517,6 +1776,14 @@ Non-Logging DNS-over-HTTPS server (IPv6), cached via Cloudflare.
 Filters out ads, trackers and malware, NO ECS, supports DNSSEC.
 
 sdns://AgMAAAAAAAAAG1syNjA2OjQ3MDA6MzAzNDo6NjgxNTo0MTNjXQAOZG9oLnRpYXJhcC5vcmcKL2Rucy1xdWVyeQ
+
+
+## e-utp.net-ipv6-doh
+
+e-utp.net DNS Cache service, only accessible over IPv6
+https://fido.e-utp.net/display/EUTPNET/Recursive+DNS
+
+sdns://AgcAAAAAAAAAE1syMDAxOjY3YzoyMWVjOjo1M10gXMJdnIoy7PLLu5Hr9wvZVsUgOfnyDoQJ2mFUcVI21x0SZG5zY2FjaGUuZS11dHAubmV0Ci9kbnMtcXVlcnk
 
 
 ## east.comss.one
@@ -2270,6 +2537,34 @@ Maintained by Frank Denis - https://fr.dnscrypt.info/sfw.html
 sdns://AQMAAAAAAAAADzE2My4xNzIuMTgwLjEyNSDfYnO_x1IZKotaObwMhaw_-WRF1zZE9mJygl01WPGh_x8yLmRuc2NyeXB0LWNlcnQuc2Z3LnNjYWxld2F5LWZy
 
 
+## sg-dn53
+
+non-censoring, non-logging, DNSSEC-capable based on docker image hosted in Singapore
+
+sdns://AQcAAAAAAAAAEDIwLjIxMi41Mi43Njo0NDMgiMrMuuJlXLaaKx6Sk8ob-cASVOOS5uomNjbkhlInwiUYMi5kbnNjcnlwdC1jZXJ0LnNncC1kbjUz
+
+
+## sg-dn53-ipv6
+
+non-censoring, non-logging, DNSSEC-capable based on docker image hosted in Singapore
+
+sdns://AQcAAAAAAAAAI1syYTAxOjExMTpmMTAwOjcwMDA6OjZmZGQ6NTNjNl06NDQzIIjKzLriZVy2misekpPKG_nAElTjkubqJjY25IZSJ8IlGDIuZG5zY3J5cHQtY2VydC5zZ3AtZG41Mw
+
+
+## sgp-dn53
+
+non-censoring, non-logging, DNSSEC-capable based on official docker image hosted in Singapore
+
+sdns://AQcAAAAAAAAAEDIwLjIxMi41Mi43Njo0NDMg48crKAi4_5KqtXbaGAqQff3md7zIoQtIQCce8MnOWkQYMi5kbnNjcnlwdC1jZXJ0LnNncC1kbjUz
+
+
+## sgp-dn53-ipv6
+
+non-censoring, non-logging, DNSSEC-capable based on official docker image hosted in Singapore
+
+sdns://AQcAAAAAAAAAI1syYTAxOjExMTpmMTAwOjcwMDA6OjZmZGQ6NTNjNl06NDQzIOPHKygIuP-SqrV22hgKkH395ne8yKELSEAnHvDJzlpEGDIuZG5zY3J5cHQtY2VydC5zZ3AtZG41Mw
+
+
 ## sicher-surfen-de
 
 Resolver in Frankfurt, Germany and New York, United States. Anycast. More locations following. DNSCrypt server. Non-logging, non-filtering, DNSSEC.
@@ -2445,27 +2740,6 @@ Yandex public DNS server (anycast)
 sdns://AQQAAAAAAAAAEDc3Ljg4LjguNzg6MTUzNTMg04TAccn3RmKvKszVe13MlxTUB7atNgHhrtwG1W1JYyciMi5kbnNjcnlwdC1jZXJ0LmJyb3dzZXIueWFuZGV4Lm5ldA
 
 
-## yepdns-doh-pl
-
-Ad-filtering | DNSSEC | No-logs | Poland | https://get.yepdns.com/
-
-sdns://AgMAAAAAAAAAACARsQLmsfY-UomE1gJfMrE4JB_Ii711GVdNcMmDLVPh6A1wbC55ZXBkbnMuY29tCi9kbnMtcXVlcnk
-
-
-## yepdns-pl
-
-Ad-filtering | DNSSEC | No-logs | Poland | https://get.yepdns.com/
-
-sdns://AQMAAAAAAAAAEzE4NS43MC4xOTYuMTUxOjg0NDMgt4HfZvdGnK283pkPHVDnhZ51N7uWIvOrYMP1ddbUDawdMi5kbnNjcnlwdC1jZXJ0LnBsLnllcGRucy5jb20
-
-
-## yepdns-pl-ipv6
-
-Ad-filtering | DNSSEC | No-logs | Poland | https://get.yepdns.com/
-
-sdns://AQMAAAAAAAAALlsyYTA0OjM1NDQ6ODAwMDoxMDAwOjQ4MzE6YzFmZjpmZWI1OjY0YjJdOjg0NDMgt4HfZvdGnK283pkPHVDnhZ51N7uWIvOrYMP1ddbUDawdMi5kbnNjcnlwdC1jZXJ0LnBsLnllcGRucy5jb20
-
-
 ## zackptg5-us-il-ipv4
 
 DNSSEC/unfiltered/non-logged. Hosted on Vultr in Chicago, IL. Running the official Docker image by @zackptg5
@@ -2478,4 +2752,18 @@ sdns://AQcAAAAAAAAADTEzNy4yMjAuNTkuNjIgTNMjCh27ODMeT_zUDR4yV_L9iWnqXTyyMuyLeAQW0
 DNSSEC/unfiltered/non-logged. Hosted on Vultr in Chicago, IL. Running the official Docker image by @zackptg5
 
 sdns://AQcAAAAAAAAAKFsyMDAxOjE5ZjA6NWMwMToxNDdlOjU0MDA6M2ZmOmZlMmE6M2IxZl0gTNMjCh27ODMeT_zUDR4yV_L9iWnqXTyyMuyLeAQW0eceMi5kbnNjcnlwdC1jZXJ0LnphY2twdGc1LXVzLWls
+
+
+## zackptg5-us-pit-ipv4
+
+DNSSEC/unfiltered/non-logged. Hosted on TeraSwitch in Pittsburgh, PA. Running the official Docker image by @zackptg5
+
+sdns://AQcAAAAAAAAAETc0LjExOC4xNDEuNDc6NDQyILLrUp55NwetKjM1XaPs19NIKDIbD1w0K-lCK33_gKcgHzIuZG5zY3J5cHQtY2VydC56YWNrcHRnNS11cy1waXQ
+
+
+## zackptg5-us-pit-ipv6
+
+DNSSEC/unfiltered/non-logged. Hosted on TeraSwitch in Pittsburgh, PA. Running the official Docker image by @zackptg5
+
+sdns://AQcAAAAAAAAAJ1syNjA3OmZkYzA6MjowOmY4MTY6M2VmZjpmZTMyOmM3YjRdOjQ0MiCy61KeeTcHrSozNV2j7NfTSCgyGw9cNCvpQit9_4CnIB8yLmRuc2NyeXB0LWNlcnQuemFja3B0ZzUtdXMtcGl0
 
