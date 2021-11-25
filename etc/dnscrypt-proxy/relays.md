@@ -397,6 +397,13 @@ Belgrade, Serbia Anonymized DNS relay server provided by https://cryptostorm.is/
 sdns://gQ4zNy4xMjAuMTkzLjIxOQ
 
 
+## anon-cs-sk
+
+South Korea Anonymized DNS relay server provided by https://cryptostorm.is/
+
+sdns://gQ8xNzIuMTA3LjE1NC4yMTE
+
+
 ## anon-cs-slovakia
 
 Bratislava, Slovakia Anonymized DNS relay server provided by https://cryptostorm.is/
@@ -451,13 +458,6 @@ sdns://gQs0NS4zNS43Mi40Mw
 Vancouver, Canada Anonymized DNS relay server provided by https://cryptostorm.is/
 
 sdns://gQw3MS4xOS4yNTEuMzQ
-
-
-## anon-curzon-lux
-
-Anonymized DNS relay hosted in Roost, Luxembourg on BuyVM - maintained by @ztheory. No log.
-
-sdns://gQ0xMDQuMjQ0LjcyLjYx
 
 
 ## anon-curzon-prg
