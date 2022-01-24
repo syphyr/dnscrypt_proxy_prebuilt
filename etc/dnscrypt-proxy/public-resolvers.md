@@ -404,6 +404,17 @@ address when forwarding them to a selection of companies and organizations.
 sdns://AgAAAAAAAAAAEFsyNjIwOjExOTpmYzo6Ml0gaFOPx4GOgdJCKpBgY2-lKCpD9g3OG7pgwtfzq6tmAJcPZG9oLm9wZW5kbnMuY29tCi9kbnMtcXVlcnk
 
 
+## cisco-sandbox
+
+Cisco OpenDNS Sandbox (anycast) - RFC-compliant DNS service without filtering
+
+dnssec/log/no-filter/ecs 146.112.41.4
+
+Warning: This server is incompatible with anonymization.
+
+sdns://AQUAAAAAAAAADDE0Ni4xMTIuNDEuNCC3NRFAIG8iXT4r2CLX_WkeocM8yNZmjQy-BL-rykP7eRsyLmRuc2NyeXB0LWNlcnQub3BlbmRucy5jb20
+
+
 ## cleanbrowsing-adult
 
 Blocks access to all adult, pornographic and explicit sites. It does
@@ -1061,7 +1072,7 @@ sdns://AQcAAAAAAAAAFDEwMy4xNTguMjIzLjE2Mjo4NDQzIB9z-95JSBqhYTv8UIQqUs65Ym2DYNXzB
 
 DNSCrypt | IPv4 only | Non-logging | Non-filtering | DNSSEC | Saint Petersburg, Russia.
 
-sdns://AQcAAAAAAAAADDk0LjI0Mi41OS4zNSBODx7VDHmrdwypnwyTGYbrznR8UddwTB13_uABxZynrBcyLmRuc2NyeXB0LWNlcnQuZGN0LXJ1MQ
+sdns://AQcAAAAAAAAADTk0LjI0Mi41OC4xMzYgH3P73klIGqFhO_xQhCpSzrlibYNg1fMF_lw36Qfw-30XMi5kbnNjcnlwdC1jZXJ0LmRjdC1ydTE
 
 
 ## dct-ru2
@@ -1135,6 +1146,20 @@ Hosted in Zurich, Switzerland.
 Non-logging, non-filtering, supports DNSSEC.
 
 sdns://AgcAAAAAAAAAD1syYTA1OmZjODQ6OjQzXaDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5iBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zhxkbnMuZGlnaXRhbGUtZ2VzZWxsc2NoYWZ0LmNoCi9kbnMtcXVlcnk
+
+
+## dns.digitalsize.net
+
+A public, non-tracking, non-filtering DNS resolver with DNSSEC enabled and hosted in Germany (https://dns.digitalsize.net)
+
+sdns://AgcAAAAAAAAADjE2Mi41NS4xNTkuMjAyIEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOE2Rucy5kaWdpdGFsc2l6ZS5uZXQKL2Rucy1xdWVyeQ
+
+
+## dns.digitalsize.net-ipv6
+
+A public, non-tracking, non-filtering DNS resolver with DNSSEC enabled and hosted in Germany (https://dns.digitalsize.net)
+
+sdns://AgcAAAAAAAAAFlsyYTAxOjRmODoxYzFkOmYxNDo6MV0gRE69Z7uD-IB7OSHpOKyReLiCvVCq2xEjHwRM9fCN984TZG5zLmRpZ2l0YWxzaXplLm5ldAovZG5zLXF1ZXJ5
 
 
 ## dns.ryan-palmer
