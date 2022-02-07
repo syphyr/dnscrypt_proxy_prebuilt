@@ -37,6 +37,22 @@ Public non-censoring, non-logging, DNSSEC-capable, DNSCrypt-enabled DNS resolver
 sdns://AQcAAAAAAAAAFlsyMDAxOmJjODoxODI0OjczODo6MV0gAyfzz5J-mV9G-yOB4Hwcdk7yX12EQs5Iva7kV3oGtlEgMi5kbnNjcnlwdC1jZXJ0LmFjc2Fjc2FyLWFtcy5jb20
 
 
+## adfree.usableprivacy.net
+
+Public updns DoH service with advertising, tracker and malware filters.
+Hosted in Europe by @usableprivacy, details see: https://docs.usableprivacy.com
+
+sdns://AgMAAAAAAAAADTc4LjQ3LjE2My4xNDEgRE69Z7uD-IB7OSHpOKyReLiCvVCq2xEjHwRM9fCN984YYWRmcmVlLnVzYWJsZXByaXZhY3kubmV0Ci9kbnMtcXVlcnk
+
+
+## adfree.usableprivacy.net-ipv6
+
+Public updns DoH service with advertising, tracker and malware filters.
+Hosted in Europe by @usableprivacy, details see: https://docs.usableprivacy.com
+
+sdns://AgMAAAAAAAAAFlsyYTAxOjRmODoxYzBjOjgzMmQ6Ol0gRE69Z7uD-IB7OSHpOKyReLiCvVCq2xEjHwRM9fCN984YYWRmcmVlLnVzYWJsZXByaXZhY3kubmV0Ci9kbnMtcXVlcnk
+
+
 ## adguard-dns
 
 Remove ads and protect your computer from malware
@@ -66,7 +82,7 @@ sdns://AQMAAAAAAAAAETk0LjE0MC4xNC4xNTo1NDQzILgxXdexS27jIKRw3C7Wsao5jMnlhvhdRUXWu
 
 Adguard DNS with safesearch and adult content blocking (over DoH)
 
-sdns://AgMAAAAAAAAADzE3Ni4xMDMuMTMwLjEzMiCsFdIhxY-VWoedpSrEKWAhaBEVj-8L-p_FJl6wMpPufhZkbnMtZmFtaWx5LmFkZ3VhcmQuY29tCi9kbnMtcXVlcnk
+sdns://AgMAAAAAAAAADzE3Ni4xMDMuMTMwLjEzMiCaOjT3J965vKUQA9nOnDn48n3ZxSQpAcK6saROY1oCGRZkbnMtZmFtaWx5LmFkZ3VhcmQuY29tCi9kbnMtcXVlcnk
 
 
 ## adguard-dns-family-ipv6
@@ -1108,6 +1124,13 @@ Encrypted DNS Server image by jedisct1, maintaned by DeffeR.
 sdns://AQcAAAAAAAAADTUyLjY1LjIzNS4xMjkg5Q00RDDBkwx3fUaa0_etjz4iH3lLBOqsg95bYDmV07MdMi5kbnNjcnlwdC1jZXJ0LmRlZmZlci1kbnMuYXU
 
 
+## dns.b33.network-dnscrypt
+
+DNSCrypt | IPv4 only | Non-logging | Non-filtering | DNSSEC | Blocks ads, malware, trackers, viruses, ransomware, telemetry and more | hosted on OVH | Location: Paris, France | Maintained by 0xb33 - (https://github.com/0xb33)
+
+sdns://AQcAAAAAAAAAEjE2Mi4xOS4xMjkuMjA6NTQ0MyBLAxD2I-nLlzrjDQhX_eNLqCb-_DIIEiH7MBG2gbliLRsyLmRuc2NyeXB0LWNlcnQuYjMzLm5ldHdvcms
+
+
 ## dns.digitale-gesellschaft.ch
 
 Public DoH resolver operated by the Digital Society (https://www.digitale-gesellschaft.ch).
@@ -1152,14 +1175,14 @@ sdns://AgcAAAAAAAAAD1syYTA1OmZjODQ6OjQzXaDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj
 
 A public, non-tracking, non-filtering DNS resolver with DNSSEC enabled and hosted in Germany (https://dns.digitalsize.net)
 
-sdns://AgcAAAAAAAAADjE2Mi41NS4xNTkuMjAyIEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOE2Rucy5kaWdpdGFsc2l6ZS5uZXQKL2Rucy1xdWVyeQ
+sdns://AgcAAAAAAAAADjE2Mi41NS4xNTkuMjAyoMwQYNOcgym2K2-8fQ1t-TCYabmB5-Y5LVzY-kCPTYDmIEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOE2Rucy5kaWdpdGFsc2l6ZS5uZXQKL2Rucy1xdWVyeQ
 
 
 ## dns.digitalsize.net-ipv6
 
 A public, non-tracking, non-filtering DNS resolver with DNSSEC enabled and hosted in Germany (https://dns.digitalsize.net)
 
-sdns://AgcAAAAAAAAAFlsyYTAxOjRmODoxYzFkOmYxNDo6MV0gRE69Z7uD-IB7OSHpOKyReLiCvVCq2xEjHwRM9fCN984TZG5zLmRpZ2l0YWxzaXplLm5ldAovZG5zLXF1ZXJ5
+sdns://AgcAAAAAAAAAFlsyYTAxOjRmODoxYzFkOmYxNDo6MV2gzBBg05yDKbYrb7x9DW35MJhpuYHn5jktXNj6QI9NgOYgRE69Z7uD-IB7OSHpOKyReLiCvVCq2xEjHwRM9fCN984TZG5zLmRpZ2l0YWxzaXplLm5ldAovZG5zLXF1ZXJ5
 
 
 ## dns.ryan-palmer
@@ -2125,16 +2148,6 @@ Hosted in Amsterdam (AMS1), The Netherlands.
 Non-logging, non-filtering, supports DNSSEC.
 
 sdns://AQcAAAAAAAAADjEzNi4yNDQuOTcuMTE0IPyq3HBOXuNgu6FO4pU71Si6CTV6kPD85NA6AThr_6tiGDIuZG5zY3J5cHQtY2VydC5tZWdhbmVyZA
-
-
-## meganerd-doh-ipv4
-
-DoH server by MegaNerd.nl (IPv4) - https://meganerd.nl/encrypted-dns-server
-Hosted in Amsterdam (AMS1), The Netherlands.
-
-Non-logging, non-filtering, supports DNSSEC.
-
-sdns://AgcAAAAAAAAADjEzNi4yNDQuOTcuMTE0oMwQYNOcgym2K2-8fQ1t-TCYabmB5-Y5LVzY-kCPTYDmIEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOGWNoZXdiYWNjYS5tZWdhbmVyZC5ubDo0NDMEL2RvaA
 
 
 ## meganerd-doh-ipv6
