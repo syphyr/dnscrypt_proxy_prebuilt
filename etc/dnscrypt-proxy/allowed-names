@@ -19,24 +19,34 @@
 # That one may be blocked due to 'tracker' being in the name.
 tracker.aletorrenty.pl
 tracker.bt-hash.com
+tracker.ccc.de
+tracker.cl
 tracker.coppersurfer.tk
 tracker.cyberia.is
+tracker.cypherpunks.ru
 tracker.debian.org
 tracker.dler.org
 tracker.dutchtracking.com
+tracker.electro-torrent.pl
 tracker.fastdownload.xyz
 tracker.fatkhoala.org
+tracker.filemail.com
+tracker.iamhansen.xyz
 tracker.internetwarriors.net
 tracker.ipv6tracker.ru
+tracker.istole.it
 tracker.justseed.it
 tracker.kicks-ass.net
 tracker.leechers-paradise.org
+tracker.1337x.org
+tracker.moeking.me
 tracker.moxing.party
 tracker.openbittorrent.com
 tracker.opentrackr.org
 tracker.open-internet.nl
 tracker.parrotsec.org
 tracker.pirateparty.gr
+tracker.port443.xyz
 tracker.publicbt.com
 tracker.sktorrent.net
 tracker.slowcheetah.org
@@ -44,9 +54,11 @@ tracker.tallpenguin.org
 tracker.thinelephant.org
 tracker.tiny-vps.com
 tracker.torrent.eu.org
+tracker.torrentyorg.pl
 tracker.trackerfix.com
 tracker.uw0.xyz
 tracker.vanitycore.co
+tracker.wf
 tracker.zer0day.to
 
 # That one may be blocked due to 'ads' being in the name.
