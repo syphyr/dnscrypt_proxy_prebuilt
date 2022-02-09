@@ -163,7 +163,7 @@ keepalive = 30
 ## This file is different from other log files, and will not be
 ## automatically rotated by the application.
 
-# log_file = 'dnscrypt-proxy.log'
+# log_file = '/data/local/tmp/dnscrypt/dnscrypt-proxy.log'
 
 
 ## When using a log file, only keep logs from the most recent launch.
@@ -457,7 +457,7 @@ map_file = '/system/etc/dnscrypt-proxy/captive-portals'
 ## Path to the query log file (absolute, or relative to the same directory as the config file)
 ## Can be set to /dev/stdout in order to log to the standard output.
 
-# file = 'query.log'
+# file = '/data/local/tmp/dnscrypt/query.log'
 
 
 ## Query log format (currently supported: tsv and ltsv)
@@ -483,7 +483,7 @@ format = 'tsv'
 
 ## Path to the query log file (absolute, or relative to the same directory as the config file)
 
-# file = 'nx.log'
+# file = '/data/local/tmp/dnscrypt/nx.log'
 
 
 ## Query log format (currently supported: tsv and ltsv)
@@ -518,7 +518,7 @@ blocked_names_file = '/system/etc/dnscrypt-proxy/blocked-names'
 
 ## Optional path to a file logging blocked queries
 
-# log_file = 'blocked-names.log'
+# log_file = '/data/local/tmp/dnscrypt/blocked-names.log'
 
 
 ## Optional log format: tsv or ltsv (default: tsv)
@@ -546,7 +546,7 @@ blocked_names_file = '/system/etc/dnscrypt-proxy/blocked-names'
 
 ## Optional path to a file logging blocked queries
 
-# log_file = 'blocked-ips.log'
+# log_file = '/data/local/tmp/dnscrypt/blocked-ips.log'
 
 
 ## Optional log format: tsv or ltsv (default: tsv)
@@ -574,7 +574,7 @@ allowed_names_file = '/system/etc/dnscrypt-proxy/allowed-names'
 
 ## Optional path to a file logging allowed queries
 
-# log_file = 'allowed-names.log'
+# log_file = '/data/local/tmp/dnscrypt/allowed-names.log'
 
 
 ## Optional log format: tsv or ltsv (default: tsv)
@@ -602,7 +602,7 @@ allowed_names_file = '/system/etc/dnscrypt-proxy/allowed-names'
 
 ## Optional path to a file logging allowed queries
 
-# log_file = 'allowed-ips.log'
+# log_file = '/data/local/tmp/dnscrypt/allowed-ips.log'
 
 ## Optional log format: tsv or ltsv (default: tsv)
 
