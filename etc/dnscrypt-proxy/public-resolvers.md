@@ -1084,6 +1084,13 @@ DNSCrypt | IPv4 only | Non-logging | Non-filtering | DNSSEC | Düsseldorf, Germa
 sdns://AQcAAAAAAAAAFDEwMy4xNTguMjIzLjE2Mjo4NDQzIB9z-95JSBqhYTv8UIQqUs65Ym2DYNXzBf5cN-kH8Pt9FzIuZG5zY3J5cHQtY2VydC5kY3QtZGUx
 
 
+## dct-ru1
+
+DNSCrypt | IPv4 only | Non-logging | Non-filtering | DNSSEC | Saint Petersburg, Russia.
+
+sdns://AQcAAAAAAAAADTk0LjI0Mi41OC4xMzYgH3P73klIGqFhO_xQhCpSzrlibYNg1fMF_lw36Qfw-30XMi5kbnNjcnlwdC1jZXJ0LmRjdC1ydTE
+
+
 ## dct-ru2
 
 DNSCrypt | IPv4 only | Non-logging | Non-filtering | DNSSEC | Moscow, Russia.
@@ -2328,20 +2335,6 @@ Information at https://dns.oszx.co
 sdns://AQIAAAAAAAAAETUxLjM4LjgzLjE0MTo1MzUzIMwm9_oYw26P4JIVoDhJ_5kFDdNxX1ke4fEzL1V5bwEjFzIuZG5zY3J5cHQtY2VydC5vc3p4LmNv
 
 
-## pf-dnscrypt
-
-by post-factum | Zürich, Switzerland | Non-logging | Non-filtering | DNSSEC | https://dns.post-factum.tk
-
-sdns://AQcAAAAAAAAAFDE0MC4yMzguMjE1LjE5Mjo4NDQzIH2l4fL6H6BQcKWfdf9ZnrvWxZL_vxKUtQMcWDdZwB6bHjIuZG5zY3J5cHQtY2VydC5wb3N0LWZhY3R1bS50aw
-
-
-## pf-doh
-
-by post-factum | Zürich, Switzerland | Non-logging | Non-filtering | DNSSEC | Cached globally via Cloudflare | https://dns.post-factum.tk
-
-sdns://AgcAAAAAAAAAACCcu6D8li96KzHGKxsXWi3kxQqDlXJ-MLYmqAAJp4Dj2BJkb2gucG9zdC1mYWN0dW0udGsKL2Rucy1xdWVyeQ
-
-
 ## plan9-ns1
 
 DNSCrypt server in New Jersey, USA. Non-logging, non-filtering, DNSSEC, anonymized.
@@ -2594,7 +2587,16 @@ usage, data never sold - https://safesurfer.io
 
 Warning: this server is incompatible with DNS anonymization.
 
-sdns://AQMAAAAAAAAADzEwNC4xNTUuMjM3LjIyNSAnIH_VEgToNntINABd-f_R0wu-KpwzY55u2_iu2R1A2CAyLmRuc2NyeXB0LWNlcnQuc2FmZXN1cmZlci5jby5ueg
+sdns://AQIAAAAAAAAADzEwNC4xNTUuMjM3LjIyNSAnIH_VEgToNntINABd-f_R0wu-KpwzY55u2_iu2R1A2CAyLmRuc2NyeXB0LWNlcnQuc2FmZXN1cmZlci5jby5ueg
+
+
+## safesurfer-doh
+
+Family safety focused blocklist for over 2 million adult sites, as well as phishing and malware and more.
+Free to use, paid for customizing blocking for more categories+sites and viewing usage at my.safesurfer.io. Logs taken for viewing
+usage, data never sold - https://safesurfer.io
+
+sdns://AgAAAAAAAAAAACBqUGKw0XjVVvFjsTsbDxlDXQJYgpHMdVid_ubrEcjVwxFkb2guc2FmZXN1cmZlci5pbwovZG5zLXF1ZXJ5
 
 
 ## saldns01-conoha-ipv4
