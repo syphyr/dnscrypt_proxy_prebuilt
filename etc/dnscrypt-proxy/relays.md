@@ -489,13 +489,6 @@ Anonymized DNS relay hosted in OVH, Paris, France - maintained by R4SAS - https:
 sdns://gRdbMjAwMTo0NzA6MWYxNTpiODA6OjUzXQ
 
 
-## anon-pf
-
-Anonymized DNS relay by post-factum | Zürich, Switzerland | https://dns.post-factum.tk
-
-sdns://gRQxNDAuMjM4LjIxNS4xOTI6ODQ0Mw
-
-
 ## anon-plan9-dns
 
 Anonymized DNS relay hosted in New Jersey, USA. Running the official Docker image on Vultr by @jlongua1
@@ -508,13 +501,6 @@ sdns://gQ4xNzMuMTk5LjEyNi4zNQ
 Anonymized DNS relay hosted in Florida, USA. info - https://jlongua.github.io/plan9-dns/
 
 sdns://gRI0NS42My4xMTAuMTg3Ojg0NDM
-
-
-## anon-pwoss.org
-
-Anonymized DNS relay hosted in Nuremberg, Germany (netcup) and maintained by https://pwoss.org (Dan)
-
-sdns://gRM0NS4xNDIuMTc2LjE3MDo0NDM0
 
 
 ## anon-resolver4.dns.openinternet.io
