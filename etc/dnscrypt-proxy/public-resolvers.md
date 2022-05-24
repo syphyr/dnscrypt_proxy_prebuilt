@@ -1149,20 +1149,6 @@ Non-logging, non-filtering, supports DNSSEC.
 sdns://AgcAAAAAAAAAD1syYTA1OmZjODQ6OjQzXaDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5iBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zhxkbnMuZGlnaXRhbGUtZ2VzZWxsc2NoYWZ0LmNoCi9kbnMtcXVlcnk
 
 
-## dns.digitalsize.net
-
-A public, non-tracking, non-filtering DNS resolver with DNSSEC enabled and hosted in Germany (https://dns.digitalsize.net)
-
-sdns://AgcAAAAAAAAADjE2Mi41NS4xNTkuMjAyoMwQYNOcgym2K2-8fQ1t-TCYabmB5-Y5LVzY-kCPTYDmIEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOE2Rucy5kaWdpdGFsc2l6ZS5uZXQKL2Rucy1xdWVyeQ
-
-
-## dns.digitalsize.net-ipv6
-
-A public, non-tracking, non-filtering DNS resolver with DNSSEC enabled and hosted in Germany (https://dns.digitalsize.net)
-
-sdns://AgcAAAAAAAAAFlsyYTAxOjRmODoxYzFkOmYxNDo6MV2gzBBg05yDKbYrb7x9DW35MJhpuYHn5jktXNj6QI9NgOYgRE69Z7uD-IB7OSHpOKyReLiCvVCq2xEjHwRM9fCN984TZG5zLmRpZ2l0YWxzaXplLm5ldAovZG5zLXF1ZXJ5
-
-
 ## dns.ryan-palmer
 
 Non-logging, non-filtering, DNSSEC DoH Server. Hosted in the UK.
@@ -2137,6 +2123,16 @@ Non-logging, non-filtering, supports DNSSEC.
 sdns://AQcAAAAAAAAADjEzNi4yNDQuOTcuMTE0IPyq3HBOXuNgu6FO4pU71Si6CTV6kPD85NA6AThr_6tiGDIuZG5zY3J5cHQtY2VydC5tZWdhbmVyZA
 
 
+## meganerd-doh-ipv4
+
+DoH server by MegaNerd.nl (IPv4) - https://meganerd.nl/encrypted-dns-server
+Hosted in Amsterdam (AMS1), The Netherlands.
+
+Non-logging, non-filtering, supports DNSSEC.
+
+sdns://AgcAAAAAAAAADjEzNi4yNDQuOTcuMTE0IJ_hr9b-aPXauUihcpoaY_sdKvKDHBcRLcY6jrYlgdnUFWNoZXdiYWNjYS5tZWdhbmVyZC5ubAQvZG9o
+
+
 ## meganerd-doh-ipv6
 
 DoH server by MegaNerd.nl (IPv6) - https://meganerd.nl/encrypted-dns-server
@@ -2144,7 +2140,7 @@ Hosted in Amsterdam (AMS1), The Netherlands.
 
 Non-logging, non-filtering, supports DNSSEC.
 
-sdns://AgcAAAAAAAAAKFsyMDAxOjE5ZjA6NTAwMTpjYmI6NTQwMDowM2ZmOmZlMDc6ZjcwZF2gzBBg05yDKbYrb7x9DW35MJhpuYHn5jktXNj6QI9NgOYgRE69Z7uD-IB7OSHpOKyReLiCvVCq2xEjHwRM9fCN984VY2hld2JhY2NhLm1lZ2FuZXJkLm5sBC9kb2g
+sdns://AgcAAAAAAAAAKFsyMDAxOjE5ZjA6NTAwMTpjYmI6NTQwMDowM2ZmOmZlMDc6ZjcwZF0gn-Gv1v5o9dq5SKFymhpj-x0q8oMcFxEtxjqOtiWB2dQVY2hld2JhY2NhLm1lZ2FuZXJkLm5sBC9kb2g
 
 
 ## meganerd-ipv6
@@ -2661,14 +2657,14 @@ sdns://AQMAAAAAAAAADzE2My4xNzIuMTgwLjEyNSDfYnO_x1IZKotaObwMhaw_-WRF1zZE9mJygl01W
 
 non-censoring, non-logging, DNSSEC-capable based on official docker image hosted in Singapore
 
-sdns://AQcAAAAAAAAADDIwLjIxMi41Mi43NiDjxysoCLj_kqq1dtoYCpB9_eZ3vMihC0hAJx7wyc5aRBgyLmRuc2NyeXB0LWNlcnQuc2dwLWRuNTM
+sdns://AQcAAAAAAAAADTE1OS4yMjMuNDcuMjkgwtHD2E4tRYRwxB0CubwBlUcmYKDYXfsCyrmgiCx8LTIYMi5kbnNjcnlwdC1jZXJ0LnNncC1kbjUz
 
 
 ## sgp-dn53-ipv6
 
 non-censoring, non-logging, DNSSEC-capable based on official docker image hosted in Singapore
 
-sdns://AQcAAAAAAAAAH1syYTAxOjExMTpmMTAwOjcwMDA6OjZmZGQ6NTNjNl0g48crKAi4_5KqtXbaGAqQff3md7zIoQtIQCce8MnOWkQYMi5kbnNjcnlwdC1jZXJ0LnNncC1kbjUz
+sdns://AQcAAAAAAAAAGlsyNDAwOjYxODA6MDpkMDo6ZmY4OjcwMDFdIMLRw9hOLUWEcMQdArm8AZVHJmCg2F37Asq5oIgsfC0yGDIuZG5zY3J5cHQtY2VydC5zZ3AtZG41Mw
 
 
 ## sth-ads-doh-se
