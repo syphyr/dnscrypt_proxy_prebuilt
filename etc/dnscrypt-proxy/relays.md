@@ -26,20 +26,6 @@ Anonymized DNS relay hosted in AMS on Scaleway
 sdns://gRZbMjAwMTpiYzg6MTgyNDo3Mzg6OjFd
 
 
-## anon-ams-nl
-
-Anonymized DNS relay hosted in Netherlands - NL
-
-sdns://gRE1MS4xNS4xMjQuMjA4OjQ0Mw
-
-
-## anon-ams-nl-ipv6
-
-Anonymized DNS relay hosted in Netherlands - NL
-
-sdns://gRtbMjAwMTpiYzg6MTgzMDoyMDE4OjoxXTo0NDM
-
-
 ## anon-bcn
 
 Anonymized DNS relay hosted in Barcelona, Spain.
@@ -404,28 +390,27 @@ US - Dallas, TX 3 Anonymized DNS relay server provided by https://cryptostorm.is
 sdns://gQs0NS4zNS43Mi40Mw
 
 
-## anon-curzon-prg
-
-Anonymized DNS relay hosted in Prague, Czech Republic on SkylonHost - maintained by @ztheory. No log.
-
-sdns://gQ4xMDkuMjQ4LjQzLjE1NA
-
-
 ## anon-dnscrypt.uk-ipv4
 
-Anonymized DNS relay hosted in UK on DigitalOcean
+Anonymized DNS relay in London. https://www.dnscrypt.uk
+
+sdns://gQ0xNjUuMjMyLjMyLjk1
 
 
+## anon-dnscrypt.uk-ipv6
 
-##anon-ibksturm
+Anonymized DNS relay in London. https://www.dnscrypt.uk
+
+sdns://gRpbMmEwMzpiMGMwOjE6ZTA6OjQ4NzoxMDAxXQ
+
+
+## anon-ibksturm
 
 Anonymized DNS relay, No Logging, No Filters, DNSSEC
 
 Running privately by ibksturm in Thurgau, Switzerland
 
-sdns://gQ0xNjUuMjMyLjMyLjk1
-sdns://gRpbMmEwMzpiMGMwOjE6ZTA6OjQ4NzoxMDAxXQ
-sdns://gRMyMTMuMTk2LjE5MS45Njo4NDQz
+sdns://gQ4xMDkuMjQ4LjQzLjE1NA
 
 
 ## anon-inconnu
