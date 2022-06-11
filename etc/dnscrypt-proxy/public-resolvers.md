@@ -1035,6 +1035,13 @@ Server provided by Martin 'd0wn' Albus
 sdns://AQcAAAAAAAAAGFsyYzBmOmZkYTg6NTo6MmVkMTpkMmVjXSDWBhX70UU7oU52ij5cXLOsF0YTMUY9oK-M998E2k11bRsyLmRuc2NyeXB0LWNlcnQudHouZDB3bi5iaXo
 
 
+## dct-at1
+
+DNSCrypt | IPv4 only | Non-logging | Non-filtering | DNSSEC | Vienna, Austria.
+
+sdns://AQcAAAAAAAAAEDgzLjEzOC41NS4zNjo0NDMgTg8e1Qx5q3cMqZ8MkxmG6850fFHXcEwdd_7gAcWcp6wXMi5kbnNjcnlwdC1jZXJ0LmRjdC1hdDE
+
+
 ## dct-de1
 
 DNSCrypt | IPv4 only | Non-logging | Non-filtering | DNSSEC | Düsseldorf, Germany.
@@ -2183,7 +2190,7 @@ DNSSEC, Anycast, Non-logging, NoFilters
 
 https://www.nextdns.io/
 
-sdns://AgcAAAAAAAAADjk1LjE3OS4xMzQuMjExIJo6NPcn3rm8pRAD2c6cOfjyfdnFJCkBwrqxpE5jWgIZF2FueWNzYXN0LmRucy5uZXh0ZG5zLmlvCi9kbnMtcXVlcnk
+sdns://AgcAAAAAAAAACjQ1LjkwLjMwLjAgmjo09yfeubylEAPZzpw5-PJ92cUkKQHCurGkTmNaAhkWYW55Y2FzdC5kbnMubmV4dGRucy5pbwovZG5zLXF1ZXJ5
 
 
 ## nextdns-ipv6
@@ -2197,7 +2204,7 @@ DNSSEC, Anycast, Non-logging, NoFilters
 
 https://www.nextdns.io/
 
-sdns://AgcAAAAAAAAADVsyYTA3OmE4YzA6Ol0gmjo09yfeubylEAPZzpw5-PJ92cUkKQHCurGkTmNaAhkXYW55Y3Nhc3QuZG5zLm5leHRkbnMuaW8KL2Rucy1xdWVyeQ
+sdns://AgcAAAAAAAAADVsyYTA3OmE4YzA6Ol0gmjo09yfeubylEAPZzpw5-PJ92cUkKQHCurGkTmNaAhkWYW55Y2FzdC5kbnMubmV4dGRucy5pbwovZG5zLXF1ZXJ5
 
 
 ## nextdns-ultralow
