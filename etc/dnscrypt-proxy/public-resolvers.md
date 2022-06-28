@@ -283,13 +283,6 @@ AT&T test DoH server.
 sdns://AgQAAAAAAAAAAKBLTrSwdCmLgotcADCVoQtFI_uVHAyINIsJxT5bq6QIoyD2Hldod9qWUClMzLX5bHX8txvaG7xGRjZ8Tr7aidcxjxBkb2h0cmlhbC5hdHQubmV0Ci9kbnMtcXVlcnk
 
 
-## bcn-dnscrypt
-
-Resolver in Spain. DNSCrypt protocol. Non-logging, non-filtering, DNSSEC.
-
-sdns://AQcAAAAAAAAADjE4NS4yNTMuMTU0LjY2IOAW_iKdfcd9ay9ewR8txQSwT-LP2bcoxGHv4wxTyGtNHDIuZG5zY3J5cHQtY2VydC5iY24tZG5zY3J5cHQ
-
-
 ## bortzmeyer
 
 Non-logging DoH server in France operated by Stéphane Bortzmeyer.
@@ -1435,13 +1428,6 @@ Hosted in Singapore. For more information look [here](https://github.com/bhanupr
 sdns://AQMAAAAAAAAALVsyMDAxOjE5ZjA6NDQwMDo0ZGUyOjU0MDA6M2ZmOmZlYTk6ZDQxOF06MjA1MyCmqLc8Sz197Ub6R-JQ4W06NXBwi-F_mYVvyYuo1PC8MiEyLmRuc2NyeXB0LWNlcnQuZG5zd2FyZGVuLWFkYmxvY2s
 
 
-## dnswarden-asia-adblock-doh
-
-Hosted in Singapore. For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
-
-sdns://AgMAAAAAAAAAAKDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5iBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zhZkb2guYXNpYS5kbnN3YXJkZW4uY29tCC9hZGJsb2Nr
-
-
 ## dnswarden-asia-adultfilter-dcv4
 
 Hosted in Singapore. For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
@@ -1454,13 +1440,6 @@ sdns://AQMAAAAAAAAAFDIwNy4xNDguMTIwLjI0NDo1MzUzIKaotzxLPX3tRvpH4lDhbTo1cHCL4X-Zh
 Hosted in Singapore. For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
 
 sdns://AQMAAAAAAAAALVsyMDAxOjE5ZjA6NDQwMDo0ZGUyOjU0MDA6M2ZmOmZlYTk6ZDQxOF06NTM1MyCmqLc8Sz197Ub6R-JQ4W06NXBwi-F_mYVvyYuo1PC8MiUyLmRuc2NyeXB0LWNlcnQuZG5zd2FyZGVuLWFkdWx0ZmlsdGVy
-
-
-## dnswarden-asia-adultfilter-doh
-
-Hosted in Singapore. For more information look [here](https://github.com/bhanupratapys/dnswarden) or [here](https://dnswarden.com).
-
-sdns://AgMAAAAAAAAAAKDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5iBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zhZkb2guYXNpYS5kbnN3YXJkZW4uY29tCC9hZGJsb2Nr
 
 
 ## dnswarden-asia-uncensor-dcv4
