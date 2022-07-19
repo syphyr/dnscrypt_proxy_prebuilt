@@ -163,12 +163,12 @@ keepalive = 30
 ## This file is different from other log files, and will not be
 ## automatically rotated by the application.
 
-# log_file = '/data/local/tmp/dnscrypt/dnscrypt-proxy.log'
+log_file = '/data/local/tmp/dnscrypt/dnscrypt-proxy.log'
 
 
 ## When using a log file, only keep logs from the most recent launch.
 
-# log_file_latest = true
+log_file_latest = true
 
 
 ## Use the system logger (syslog on Unix, Event Log on Windows)
