@@ -675,13 +675,6 @@ US - Miami, FL DNSCrypt server provided by https://cryptostorm.is/
 sdns://AQIAAAAAAAAADDIzLjE5LjExNy41NSAxM3KtWVYywkFrhy8Jj4Ub3bllKExsvppPGQlkMNupWh4yLmRuc2NyeXB0LWNlcnQuY3J5cHRvc3Rvcm0uaXM
 
 
-## cs-fl2
-
-US - Miami, FL 2 DNSCrypt server provided by https://cryptostorm.is/
-
-sdns://AQIAAAAAAAAADDIzLjE5LjExNy41MSAxM3KtWVYywkFrhy8Jj4Ub3bllKExsvppPGQlkMNupWh4yLmRuc2NyeXB0LWNlcnQuY3J5cHRvc3Rvcm0uaXM
-
-
 ## cs-fr
 
 France DNSCrypt server provided by https://cryptostorm.is/
@@ -983,6 +976,27 @@ Server provided by Martin 'd0wn' Albus
 sdns://AQcAAAAAAAAAGFsyYzBmOmZkYTg6NTo6MmVkMTpkMmVjXSDWBhX70UU7oU52ij5cXLOsF0YTMUY9oK-M998E2k11bRsyLmRuc2NyeXB0LWNlcnQudHouZDB3bi5iaXo
 
 
+## dct-at1
+
+DNSCrypt | IPv4 only | Non-logging | Non-filtering | DNSSEC | Vienna, Austria.
+
+sdns://AQcAAAAAAAAADDgzLjEzOC41NS4zNiBWtFK5EGeqJCoA9qB6APgcgCUN9FZvR8T22eqqP615MBcyLmRuc2NyeXB0LWNlcnQuZGN0LWF0MQ
+
+
+## dct-de1
+
+DNSCrypt | IPv4 only | Non-logging | Non-filtering | DNSSEC | Düsseldorf, Germany.
+
+sdns://AQcAAAAAAAAAFDEwMy4xNTguMjIzLjE2Mjo4NDQzIMyMcx-PSqcGqQgDXSsH4n9z5OKrTavSmV8mOton7CW7FzIuZG5zY3J5cHQtY2VydC5kY3QtZGUx
+
+
+## dct-ru1
+
+DNSCrypt | IPv4 only | Non-logging | Non-filtering | DNSSEC | Moscow, Russia.
+
+sdns://AQcAAAAAAAAADTE4NS4yMi4xNTQuMTkgaWn7WaFj7FQw_9F1qge8LMND5xUdAtagWFZPPYRok1kXMi5kbnNjcnlwdC1jZXJ0LmRjdC1ydTE
+
+
 ## decloudus-nogoogle-tst
 
 Servers helps you deGoogle and unGoogle by completely blocking Google tracking in addition to annoying ads, online trackers, and malware. Supports DNSSEC. No Logs.
@@ -1176,11 +1190,18 @@ Free, Canadian, uncensored, no-logs, encrypted, and DNSSEC validated DNS service
 sdns://AQcAAAAAAAAADzE2Ny4xMTQuMjIwLjEyNSAaU6PJUHicvdELGTOkaJtshGpA8bc9F1KuysmCnst84h0yLmRuc2NyeXB0LWNlcnQuZG5zY3J5cHQuY2EtMQ
 
 
+## dnscrypt.ca-1-doh
+
+Free, Canadian, uncensored, no-logs, encrypted, and DNSSEC validated DNS service for your pleasure. https://dnscrypt.ca/
+
+sdns://AgcAAAAAAAAAEzE2Ny4xMTQuMjIwLjEyNTo0NTOgzBBg05yDKbYrb7x9DW35MJhpuYHn5jktXNj6QI9NgOYgRE69Z7uD-IB7OSHpOKyReLiCvVCq2xEjHwRM9fCN984UZG5zMS5kbnNjcnlwdC5jYTo0NTMKL2Rucy1xdWVyeQ
+
+
 ## dnscrypt.ca-1-doh-ipv6
 
 Free, Canadian, uncensored, no-logs, encrypted, and DNSSEC validated DNS service for your pleasure. https://dnscrypt.ca/
 
-sdns://AgcAAAAAAAAAJVsyNjA3OjUzMDA6NjE6OTVmOjcyODM6MTFkOTpmODY6ZTY4OV2gzBBg05yDKbYrb7x9DW35MJhpuYHn5jktXNj6QI9NgOYgRE69Z7uD-IB7OSHpOKyReLiCvVCq2xEjHwRM9fCN984ZZG5zMS5pcHY2LmRuc2NyeXB0LmNhOjQ1MwovZG5zLXF1ZXJ5
+sdns://AgcAAAAAAAAAKVsyNjA3OjUzMDA6NjE6OTVmOjcyODM6MTFkOTpmODY6ZTY4OV06NDUzoMwQYNOcgym2K2-8fQ1t-TCYabmB5-Y5LVzY-kCPTYDmIEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOGWRuczEuaXB2Ni5kbnNjcnlwdC5jYTo0NTMKL2Rucy1xdWVyeQ
 
 
 ## dnscrypt.ca-1-ipv6
@@ -1195,6 +1216,13 @@ sdns://AQcAAAAAAAAAJVsyNjA3OjUzMDA6NjE6OTVmOjcyODM6MTFkOTpmODY6ZTY4OV0gINkZ1Ow8U
 Free, Canadian, uncensored, no-logs, encrypted, and DNSSEC validated DNS service for your pleasure. https://dnscrypt.ca/
 
 sdns://AQcAAAAAAAAADTE0OS41Ni4yMjguNDUgAQhUqztWp-7505FY_vaCC_-TojV8iRYI254V07vgEYUdMi5kbnNjcnlwdC1jZXJ0LmRuc2NyeXB0LmNhLTI
+
+
+## dnscrypt.ca-2-doh
+
+Free, Canadian, uncensored, no-logs, encrypted, and DNSSEC validated DNS service for your pleasure. https://dnscrypt.ca/
+
+sdns://AgcAAAAAAAAAETE0OS41Ni4yMjguNDU6NDUzoMwQYNOcgym2K2-8fQ1t-TCYabmB5-Y5LVzY-kCPTYDmIEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOFGRuczIuZG5zY3J5cHQuY2E6NDUzCi9kbnMtcXVlcnk
 
 
 ## dnscrypt.ca-2-doh-ipv6
@@ -1654,13 +1682,6 @@ Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Japan. By https://blahdns.
 sdns://AgMAAAAAAAAADjEzOS4xNjIuMTEyLjQ3ABJkb2gtanAuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ
 
 
-## doh-jp-blahdns-v6
-
-Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Japan. By https://blahdns.com/
-
-sdns://AgMAAAAAAAAAIFsyNDAwOjg5MDI6OmYwM2M6OTJmZjpmZTI3OjM0NGJdABJkb2gtanAuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ
-
-
 ## doh.appliedprivacy.net
 
 Public DoH resolver operated by the Foundation for Applied Privacy (https://appliedprivacy.net).
@@ -1717,6 +1738,26 @@ Non-Logging DNS-over-HTTPS server (IPv6), cached via Cloudflare.
 Filters out ads, trackers and malware, NO ECS, supports DNSSEC.
 
 sdns://AgMAAAAAAAAAG1syNjA2OjQ3MDA6MzAzNDo6NjgxNTo0MTNjXQAOZG9oLnRpYXJhcC5vcmcKL2Rucy1xdWVyeQ
+
+
+## dotya.ml
+
+Free, uncensored, DNSSEC-validated, non-logging DNSCrypt server hosted in Nuremberg, Germany on Contabo servers.
+Operated by dotya.ml, configs live here: https://git.dotya.ml/dotya.ml/dnscrypt-server.
+
+Available over both IPv4 and IPv6.
+
+sdns://AQcAAAAAAAAAETE0NC45MS43MC42Mjo1NDQzIHF-JiN46cNwFXJleEVWGWgrhe2QeysUtZoo9HwzYCMzITIuZG5zY3J5cHQtY2VydC5kbnNjcnlwdC5kb3R5YS5tbA
+
+
+## dotya.ml-ipv6
+
+Free, uncensored, DNSSEC-validated, non-logging DNSCrypt server hosted in Nuremberg, Germany on Contabo servers.
+Operated by dotya.ml, configs live here: https://git.dotya.ml/dotya.ml/dnscrypt-server.
+
+Available over both IPv4 and IPv6.
+
+sdns://AQcAAAAAAAAAHFsyYTAyOmMyMDc6MjAzMDozOTY6OjFdOjU0NDMgcX4mI3jpw3AVcmV4RVYZaCuF7ZB7KxS1mij0fDNgIzMhMi5kbnNjcnlwdC1jZXJ0LmRuc2NyeXB0LmRvdHlhLm1s
 
 
 ## e-utp.net-ipv6-doh
@@ -1947,6 +1988,16 @@ Hosted in Amsterdam (AMS1), The Netherlands.
 Non-logging, non-filtering, supports DNSSEC.
 
 sdns://AgcAAAAAAAAAKFsyMDAxOjE5ZjA6NTAwMTpjYmI6NTQwMDowM2ZmOmZlMDc6ZjcwZF0gU_LXzA6wrtTaDuW0nRCtYP06m1rIt-cu9nrni6MAruEVY2hld2JhY2NhLm1lZ2FuZXJkLm5sCi9kbnMtcXVlcnk
+
+
+## meganerd-ipv6
+
+DNSCrypt server by MegaNerd.nl (IPv6) - https://meganerd.nl/encrypted-dns-server
+Hosted in Amsterdam (AMS1), The Netherlands.
+
+Non-logging, non-filtering, supports DNSSEC.
+
+sdns://AQcAAAAAAAAAJ1syMDAxOjE5ZjA6NTAwMTpjYmI6NTQwMDozZmY6ZmUwNzpmNzBkXSAon-lfTOhBf_V6PzB8JAzeGSYxEaKUiTfIQblFoPWHjCUyLmRuc2NyeXB0LWNlcnQuY2hld2JhY2NhLm1lZ2FuZXJkLm5s
 
 
 ## mullvad-adblock-doh
