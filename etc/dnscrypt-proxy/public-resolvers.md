@@ -1814,7 +1814,7 @@ Hosted in Amsterdam (AMS1), The Netherlands.
 
 Non-logging, non-filtering, supports DNSSEC.
 
-sdns://AQcAAAAAAAAADjEzNi4yNDQuOTcuMTE0ICif6V9M6EF_9Xo_MHwkDN4ZJjERopSJN8hBuUWg9YeMJTIuZG5zY3J5cHQtY2VydC5jaGV3YmFjY2EubWVnYW5lcmQubmw
+sdns://AQcAAAAAAAAAEjEzNi4yNDQuOTcuMTE0OjQ0MyAon-lfTOhBf_V6PzB8JAzeGSYxEaKUiTfIQblFoPWHjCUyLmRuc2NyeXB0LWNlcnQuY2hld2JhY2NhLm1lZ2FuZXJkLm5s
 
 
 ## meganerd-doh-ipv4
@@ -1824,7 +1824,27 @@ Hosted in Amsterdam (AMS1), The Netherlands.
 
 Non-logging, non-filtering, supports DNSSEC.
 
-sdns://AgcAAAAAAAAADjEzNi4yNDQuOTcuMTE0IJRq0Q0bVAt-COHOCim4PL_Nyl_hsJ6bi7sOV67HMIVpFWNoZXdiYWNjYS5tZWdhbmVyZC5ubAovZG5zLXF1ZXJ5
+sdns://AgcAAAAAAAAADjEzNi4yNDQuOTcuMTE0IHJpbRETIG24xQ3FV-Vi7oY68Zcnh7232luPQkDDzDC7FWNoZXdiYWNjYS5tZWdhbmVyZC5ubAovZG5zLXF1ZXJ5
+
+
+## meganerd-doh-ipv6
+
+DoH server by MegaNerd.nl (IPv6) - https://meganerd.nl/encrypted-dns-server
+Hosted in Amsterdam (AMS1), The Netherlands.
+
+Non-logging, non-filtering, supports DNSSEC.
+
+sdns://AgcAAAAAAAAAKFsyMDAxOjE5ZjA6NTAwMTpjYmI6NTQwMDowM2ZmOmZlMDc6ZjcwZF0gcmltERMgbbjFDcVX5WLuhjrxlyeHvbfaW49CQMPMMLsVY2hld2JhY2NhLm1lZ2FuZXJkLm5sCi9kbnMtcXVlcnk
+
+
+## meganerd-ipv6
+
+DNSCrypt server by MegaNerd.nl (IPv6) - https://meganerd.nl/encrypted-dns-server
+Hosted in Amsterdam (AMS1), The Netherlands.
+
+Non-logging, non-filtering, supports DNSSEC.
+
+sdns://AQcAAAAAAAAAK1syMDAxOjE5ZjA6NTAwMTpjYmI6NTQwMDozZmY6ZmUwNzpmNzBkXTo0NDMgKJ_pX0zoQX_1ej8wfCQM3hkmMRGilIk3yEG5RaD1h4wlMi5kbnNjcnlwdC1jZXJ0LmNoZXdiYWNjYS5tZWdhbmVyZC5ubA
 
 
 ## mullvad-adblock-doh
@@ -2319,6 +2339,20 @@ sdns://AQcAAAAAAAAADTE1OS4yMjMuNDcuMjkgwtHD2E4tRYRwxB0CubwBlUcmYKDYXfsCyrmgiCx8L
 non-censoring, non-logging, DNSSEC-capable based on official docker image hosted in Singapore
 
 sdns://AQcAAAAAAAAAGlsyNDAwOjYxODA6MDpkMDo6ZmY4OjcwMDFdIMLRw9hOLUWEcMQdArm8AZVHJmCg2F37Asq5oIgsfC0yGDIuZG5zY3J5cHQtY2VydC5zZ3AtZG41Mw
+
+
+## starrydns
+
+DNSCrypt server in Singapore, no filter, no logs, DNSSEC support
+
+sdns://AQcAAAAAAAAADzUyLjc3LjMuMjE1OjQ0MyA2_WM6DG8Pgw-EJdBhvpmhrLihQhKK_wFuvYuzZb1rlyAyLmRuc2NyeXB0LWNlcnQuc3RhcnJ5ZG5zLnBsYW5ldA
+
+
+## starrydns-ipv6
+
+DNSCrypt server in Singapore, no filter, no logs, DNSSEC support (IPv6 server)
+
+sdns://AQcAAAAAAAAALFsyNDA2OmRhMTg6Njc2OjQxMDI6ODdiOTplMjk5OjJhNWE6ODk0Yl06NDQzIDb9YzoMbw-DD4Ql0GG-maGsuKFCEor_AW69i7NlvWuXIDIuZG5zY3J5cHQtY2VydC5zdGFycnlkbnMucGxhbmV0
 
 
 ## sth-ads-doh-se
