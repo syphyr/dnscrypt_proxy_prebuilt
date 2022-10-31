@@ -168,14 +168,6 @@ Server statistics can be seen at: https://statistics.ahadns.com/?server=ny
 sdns://AgMAAAAAAAAADjE4NS4yMTMuMjYuMTg3oMwQYNOcgym2K2-8fQ1t-TCYabmB5-Y5LVzY-kCPTYDmIEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOEWRvaC5ueS5haGFkbnMubmV0Ci9kbnMtcXVlcnk
 
 
-## ahadns-doh-ny-ipv6
-
-A zero logging DNS with support for DNS-over-HTTPS (DoH) & DNS-over-TLS (DoT). Blocks ads, malware, trackers, viruses, ransomware, telemetry and more. No persistent logs. DNSSEC. Hosted in New York. By https://ahadns.com/
-Server statistics can be seen at: https://statistics.ahadns.com/?server=ny
-
-sdns://AgMAAAAAAAAAE1syYTBkOjU2MDA6MzM6Mzo6M12gzBBg05yDKbYrb7x9DW35MJhpuYHn5jktXNj6QI9NgOYgRE69Z7uD-IB7OSHpOKyReLiCvVCq2xEjHwRM9fCN984RZG9oLm55LmFoYWRucy5uZXQKL2Rucy1xdWVyeQ
-
-
 ## ahadns-doh-pl
 
 A zero logging DNS with support for DNS-over-HTTPS (DoH) & DNS-over-TLS (DoT). Blocks ads, malware, trackers, viruses, ransomware, telemetry and more. No persistent logs. DNSSEC. Hosted in Poland. By https://ahadns.com/
@@ -235,6 +227,13 @@ sdns://AQcAAAAAAAAAGlsyYTBjOmI5YzA6Zjo0NTFkOjoxXTo0MzQzIKWHS9r0FoKY--wcnJl1Ar5aO
 Resolver in Amsterdam. DoH protocol. Non-logging, non-filtering, DNSSEC.
 
 sdns://AgcAAAAAAAAADDg5LjM4LjEzMS4zOKDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5iBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zhJkbnNubC5hbGVrYmVyZy5uZXQKL2Rucy1xdWVyeQ
+
+
+## ams-doh-nl-ipv6
+
+Resolver in Amsterdam. DoH protocol. Non-logging, non-filtering, DNSSEC.
+
+sdns://AgcAAAAAAAAAFVsyYTBjOmI5YzA6Zjo0NTFkOjoxXaDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5iBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zhJkbnNubC5hbGVrYmVyZy5uZXQKL2Rucy1xdWVyeQ
 
 
 ## att
@@ -1327,13 +1326,6 @@ Non-logging, AD-filtering, supports DNSSEC. Hosted in Germany.
 sdns://AgMAAAAAAAAADDE3Ni45LjkzLjE5OKDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5iBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zgtkbnNmb3JnZS5kZQovZG5zLXF1ZXJ5
 
 
-## dnshome-doh
-
-https://www.dnshome.de/ public resolver in Germany
-
-sdns://AgYAAAAAAAAAAKDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5iBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zg5kbnMuZG5zaG9tZS5kZQovZG5zLXF1ZXJ5
-
-
 ## dnslow.me
 
 dnslow.me is an open source project, also your advertisement and threat blocking, privacy-first, encrypted DNS.
@@ -1368,20 +1360,6 @@ Hosted in switzerland.
 For more information look at https://github.com/bhanupratapys/dnswarden or https://dnswarden.com
 
 sdns://AQcAAAAAAAAAFDE4OC4yNDQuMTE3LjExNDoxNDQzIOK0J6XON4YjPmXjlonI5Lx0ZenB5Din7hrX-8uYlDxHKjIuZG5zY3J5cHQtY2VydC5kbnN3YXJkZW4tdW5jZW5zb3JlZC1zd2lzcw
-
-
-## doh-ch-blahdns
-
-Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Switzerland. By https://blahdns.com/
-
-sdns://AgMAAAAAAAAADDQ1LjkxLjkyLjEyMQASZG9oLWNoLmJsYWhkbnMuY29tCi9kbnMtcXVlcnk
-
-
-## doh-ch-blahdns-v6
-
-Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Switzerland. By https://blahdns.com/
-
-sdns://AgMAAAAAAAAAElsyYTBlOmRjMDo2OjIzOjoyXQASZG9oLWNoLmJsYWhkbnMuY29tCi9kbnMtcXVlcnk
 
 
 ## doh-cleanbrowsing-adult
@@ -1435,20 +1413,6 @@ sdns://AgcAAAAAAAAAGlsyNjA2OjQ3MDA6MzAzNzo6NjgxNTo2NGVdABJkb2gtaXB2Ni5jcnlwdG8uc
 sdns://AgcAAAAAAAAAG1syNjA2OjQ3MDA6MzAzNjo6YWM0Mzo4NjlkXQASZG9oLWlwdjYuY3J5cHRvLnN4Ci9kbnMtcXVlcnk
 
 
-## doh-de-blahdns
-
-Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Germany. By https://blahdns.com/
-
-sdns://AgMAAAAAAAAADTc4LjQ2LjI0NC4xNDMAEmRvaC1kZS5ibGFoZG5zLmNvbQovZG5zLXF1ZXJ5
-
-
-## doh-de-blahdns-v6
-
-Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Germany. By https://blahdns.com/
-
-sdns://AgMAAAAAAAAAFlsyYTAxOjRmODpjMTc6ZWM2Nzo6MV0AEmRvaC1kZS5ibGFoZG5zLmNvbQovZG5zLXF1ZXJ5
-
-
 ## doh-fi-blahdns
 
 Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Finland. By https://blahdns.com/
@@ -1470,13 +1434,6 @@ DoH & DoT Server, No Logging, No Filters, DNSSEC
 Running privately by ibksturm in Thurgau, Switzerland
 
 sdns://AgcAAAAAAAAAAKDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5iBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zhRpYmtzdHVybS5zeW5vbG9neS5tZQovZG5zLXF1ZXJ5
-
-
-## doh-jp-blahdns
-
-Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Japan. By https://blahdns.com/
-
-sdns://AgMAAAAAAAAADjEzOS4xNjIuMTEyLjQ3ABJkb2gtanAuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ
 
 
 ## doh.appliedprivacy.net
@@ -1775,16 +1732,6 @@ Hosted in Amsterdam (AMS1), The Netherlands.
 Non-logging, non-filtering, supports DNSSEC.
 
 sdns://AgcAAAAAAAAADjEzNi4yNDQuOTcuMTE0IHJpbRETIG24xQ3FV-Vi7oY68Zcnh7232luPQkDDzDC7FWNoZXdiYWNjYS5tZWdhbmVyZC5ubAovZG5zLXF1ZXJ5
-
-
-## meganerd-doh-ipv6
-
-DoH server by MegaNerd.nl (IPv6) - https://meganerd.nl/encrypted-dns-server
-Hosted in Amsterdam (AMS1), The Netherlands.
-
-Non-logging, non-filtering, supports DNSSEC.
-
-sdns://AgcAAAAAAAAAKFsyMDAxOjE5ZjA6NTAwMTpjYmI6NTQwMDowM2ZmOmZlMDc6ZjcwZF0gcmltERMgbbjFDcVX5WLuhjrxlyeHvbfaW49CQMPMMLsVY2hld2JhY2NhLm1lZ2FuZXJkLm5sCi9kbnMtcXVlcnk
 
 
 ## mullvad-adblock-doh
@@ -2284,13 +2231,6 @@ https://www.switch.ch
 Provides protection against malware, but does not block ads.
 
 sdns://AgMAAAAAAAAAACAqFfXWrLbnwJAa3k67x0OyzNSJAytG4WQvBpNoMAElig1kbnMuc3dpdGNoLmNoCi9kbnMtcXVlcnk
-
-
-## techsaviours.org-dnscrypt
-
-No filter | No logs | DNSSEC | Nuremberg, Germany (netcup) | Maintained by https://techsaviours.org/
-
-sdns://AQcAAAAAAAAAEjQ1LjEzMi4yNDUuOTU6NDQzNCAaKOG7s_XPRo0TVYMDCtgWPemMyDThFEe1os3q_As_UCAyLmRuc2NyeXB0LWNlcnQudGVjaHNhdmlvdXJzLm9yZw
 
 
 ## tuna-doh-ipv4
