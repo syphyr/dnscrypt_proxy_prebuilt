@@ -406,13 +406,6 @@ Anonymized DNS relay hosted by MegaNerd.nl (IPv4) (https://www.meganerd.nl/encry
 sdns://gRIxMzYuMjQ0Ljk3LjExNDo0NDM
 
 
-## anon-resolver4.dns.openinternet.io
-
-Anonymized DNS relay colocated at Sonic.net in Santa Rosa, CA in the United States. Provided by https://openinternet.io
-
-sdns://gQ03MC4zNi4xNzAuMTI2
-
-
 ## anon-saldns01-conoha-ipv4
 
 Hosted on ConoHa VPS Tokyo region. No log. From experimental [&mu;ODNS project](https://junkurihara.github.io/dns/).
@@ -483,7 +476,7 @@ sdns://gRI0NS4xNTMuMTg3Ljk2OjQzNDM
 
 Anonymized DNS relay hosted in Nuremberg, Germany (netcup) and maintained by https://techsaviours.org
 
-sdns://gRI0NS4xMzIuMjQ1Ljk1OjQ0MzQ
+sdns://gRA4OS41OC42LjE2OTo0NDM0
 
 
 ## anon-tiarap
