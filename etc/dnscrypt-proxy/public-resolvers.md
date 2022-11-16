@@ -136,14 +136,6 @@ Server statistics can be seen at: https://statistics.ahadns.com/?server=chi
 sdns://AgMAAAAAAAAADTE5My4yOS42Mi4xOTagzBBg05yDKbYrb7x9DW35MJhpuYHn5jktXNj6QI9NgOYgRE69Z7uD-IB7OSHpOKyReLiCvVCq2xEjHwRM9fCN984SZG9oLmNoaS5haGFkbnMubmV0Ci9kbnMtcXVlcnk
 
 
-## ahadns-doh-in
-
-A zero logging DNS with support for DNS-over-HTTPS (DoH) & DNS-over-TLS (DoT). Blocks ads, malware, trackers, viruses, ransomware, telemetry and more. No persistent logs. DNSSEC. Hosted in Mumbai, India. By https://ahadns.com/
-Server statistics can be seen at: https://statistics.ahadns.com/?server=in
-
-sdns://AgMAAAAAAAAADTQ1Ljc5LjEyMC4yMzOgzBBg05yDKbYrb7x9DW35MJhpuYHn5jktXNj6QI9NgOYgRE69Z7uD-IB7OSHpOKyReLiCvVCq2xEjHwRM9fCN984RZG9oLmluLmFoYWRucy5uZXQKL2Rucy1xdWVyeQ
-
-
 ## ahadns-doh-la
 
 A zero logging DNS with support for DNS-over-HTTPS (DoH) & DNS-over-TLS (DoT). Blocks ads, malware, trackers, viruses, ransomware, telemetry and more. No persistent logs. DNSSEC. Hosted in Los Angeles, USA. By https://ahadns.com/
@@ -640,13 +632,6 @@ France DNSCrypt server provided by https://cryptostorm.is/
 sdns://AQIAAAAAAAAADTE2My4xNzIuMzQuNTYgMTNyrVlWMsJBa4cvCY-FG925ZShMbL6aTxkJZDDbqVoeMi5kbnNjcnlwdC1jZXJ0LmNyeXB0b3N0b3JtLmlz
 
 
-## cs-ga
-
-US - Atlanta, GA DNSCrypt server provided by https://cryptostorm.is/
-
-sdns://AQIAAAAAAAAADTY0LjQyLjE4MS4yMjcgMTNyrVlWMsJBa4cvCY-FG925ZShMbL6aTxkJZDDbqVoeMi5kbnNjcnlwdC1jZXJ0LmNyeXB0b3N0b3JtLmlz
-
-
 ## cs-hungary
 
 Budapest, Hungary DNSCrypt server provided by https://cryptostorm.is/
@@ -1082,13 +1067,6 @@ sdns://AQcAAAAAAAAAHFsyMDAxOjE2MDg6MTA6MjU6OjkyNDk6ZDY5Yl0gQE1aAN9i4CFE7AtIcZi5S
 Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Switzerland. By https://blahdns.com/
 
 sdns://AQMAAAAAAAAAETQ1LjkxLjkyLjEyMTo4NDQzIIUTqWvE4INLlQ1jtQLo0-LVTQSWayYCkzTpBx26I_wrGzIuZG5zY3J5cHQtY2VydC5ibGFoZG5zLmNvbQ
-
-
-## dnscrypt-ch-blahdns-ipv6
-
-Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Switzerland. By https://blahdns.com/
-
-sdns://AQMAAAAAAAAAF1syYTBlOmRjMDo2OjIzOjoyXTo4NDQzIIUTqWvE4INLlQ1jtQLo0-LVTQSWayYCkzTpBx26I_wrGzIuZG5zY3J5cHQtY2VydC5ibGFoZG5zLmNvbQ
 
 
 ## dnscrypt-de-blahdns-ipv4
@@ -1547,13 +1525,6 @@ https://ffmuc.net/
 sdns://AQcAAAAAAAAAGlsyMDAxOjY3ODplNjg6ZjAwMDo6XTo4NDQzIAfQevHP3F2Zdp0_AmaQpwRJZcJ0J2x5HK71rvO5DEb6GTIuZG5zY3J5cHQtY2VydC5mZm11Yy5uZXQ
 
 
-## freetsa.org-ipv6
-
-Non-logged/Uncensored provided by www.freetsa.org. Support for DNS and DNS-over-TLS (DoT)
-
-sdns://AQcAAAAAAAAAH1syNjA3OmYxMzA6MDpmODo6MzA4NTplOTYxXTo1NTMg2P-7QuAxvnp5cwtFVo1Jak6Ky1mqg2b9arkeJyp9FuQbMi5kbnNjcnlwdC1jZXJ0LmZyZWV0c2Eub3Jn
-
-
 ## google
 
 Google DNS (anycast)
@@ -1716,7 +1687,7 @@ Hosted in Amsterdam (AMS1), The Netherlands.
 
 Non-logging, non-filtering, supports DNSSEC.
 
-sdns://AgcAAAAAAAAADjEzNi4yNDQuOTcuMTE0IHJpbRETIG24xQ3FV-Vi7oY68Zcnh7232luPQkDDzDC7FWNoZXdiYWNjYS5tZWdhbmVyZC5ubAovZG5zLXF1ZXJ5
+sdns://AgcAAAAAAAAADjEzNi4yNDQuOTcuMTE0IOaSTdvwPj_u_RiUGT7gQuBqadbySK2eIW2kKyiPLBAZFWNoZXdiYWNjYS5tZWdhbmVyZC5ubAovZG5zLXF1ZXJ5
 
 
 ## mullvad-adblock-doh
@@ -1725,7 +1696,7 @@ Public ad-blocking, non-logging (audited), DNSSEC-capable, DNS-over-HTTPS resolv
 Anycast IPv4/IPv6 with servers in SE, DE, UK, US, AU and SG
 https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/
 
-sdns://AgMAAAAAAAAAACARsQLmsfY-UomE1gJfMrE4JB_Ii711GVdNcMmDLVPh6BdhZGJsb2NrLmRvaC5tdWxsdmFkLm5ldAovZG5zLXF1ZXJ5
+sdns://AgMAAAAAAAAAACDmkk3b8D4_7v0YlBk-4ELgamnW8kitniFtpCsojywQGRdhZGJsb2NrLmRvaC5tdWxsdmFkLm5ldAovZG5zLXF1ZXJ5
 
 
 ## mullvad-doh
@@ -1734,7 +1705,7 @@ Public non-filtering, non-logging (audited), DNSSEC-capable, DNS-over-HTTPS reso
 Anycast IPv4/IPv6 with servers in SE, DE, UK, US, AU and SG
 https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/
 
-sdns://AgcAAAAAAAAAACARsQLmsfY-UomE1gJfMrE4JB_Ii711GVdNcMmDLVPh6A9kb2gubXVsbHZhZC5uZXQKL2Rucy1xdWVyeQ
+sdns://AgcAAAAAAAAAACDmkk3b8D4_7v0YlBk-4ELgamnW8kitniFtpCsojywQGQ9kb2gubXVsbHZhZC5uZXQKL2Rucy1xdWVyeQ
 
 
 ## nextdns
@@ -2216,14 +2187,14 @@ sdns://AgMAAAAAAAAADTQ1LjE1My4xODcuOTYAGGRuc3NlLW5vYWRzLmFsZWtiZXJnLm5ldAovZG5zL
 
 Resolver in Stockholm, Sweden. DNSCrypt server. Non-logging, non-filtering, DNSSEC.
 
-sdns://AQcAAAAAAAAAEjQ1LjE1My4xODcuOTY6NDM0MyB5eVqmG8yEeu7KgiIFlYUJCqBps33UPRtAQFvecn3JRh8yLmRuc2NyeXB0LWNlcnQuc3RoLWRuc2NyeXB0LXNl
+sdns://AQcAAAAAAAAAEjQ1LjE1My4xODcuOTY6NDM0MyDxcH8AVvN5Rqr3-HUqRjpgUFVw3NgiJ-IGTCbEVu__7x8yLmRuc2NyeXB0LWNlcnQuc3RoLWRuc2NyeXB0LW5s
 
 
 ## sth-dnscrypt-se-ipv6
 
 Resolver in Stockholm, Sweden. DNSCrypt server. Non-logging, non-filtering, DNSSEC.
 
-sdns://AQcAAAAAAAAAGlsyYTA5OmNkNDI6Zjo0MjViOjoxXTo0MzQzIHl5WqYbzIR67sqCIgWVhQkKoGmzfdQ9G0BAW95yfclGHzIuZG5zY3J5cHQtY2VydC5zdGgtZG5zY3J5cHQtc2U
+sdns://AQcAAAAAAAAAGlsyYTA5OmNkNDI6Zjo0MjViOjoxXTo0MzQzIPFwfwBW83lGqvf4dSpGOmBQVXDc2CIn4gZMJsRW7__vHzIuZG5zY3J5cHQtY2VydC5zdGgtZG5zY3J5cHQtbmw
 
 
 ## sth-doh-se
