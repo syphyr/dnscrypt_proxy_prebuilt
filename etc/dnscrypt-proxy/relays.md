@@ -131,13 +131,6 @@ Finland Anonymized DNS relay server provided by https://cryptostorm.is/
 sdns://gQ4xODUuMTE3LjExOC4yMA
 
 
-## anon-cs-fl
-
-US - Miami, FL Anonymized DNS relay server provided by https://cryptostorm.is/
-
-sdns://gQwyMy4xOS4xMTcuNTU
-
-
 ## anon-cs-fr
 
 France Anonymized DNS relay server provided by https://cryptostorm.is/
@@ -411,6 +404,13 @@ sdns://gQ4xMzcuNzQuMjIzLjIzNA
 Anonymized DNS relay hosted by MegaNerd.nl (IPv4) (https://www.meganerd.nl/encrypted-dns-server) in Amsterdam, The Netherlands (AMS1)
 
 sdns://gRIxMzYuMjQ0Ljk3LjExNDo0NDM
+
+
+## anon-openinternet
+
+Anonymized DNS relay colocated at Sonic.net in Santa Rosa, CA in the United States. Provided by https://openinternet.io
+
+sdns://gRE3MC4zNi4xNzAuMTI2OjQ0Mw
 
 
 ## anon-saldns01-conoha-ipv4
