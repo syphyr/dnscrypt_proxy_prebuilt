@@ -144,14 +144,6 @@ Server statistics can be seen at: https://statistics.ahadns.com/?server=nl
 sdns://AgMAAAAAAAAACTUuMi43NS43NaDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5iBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zhFkb2gubmwuYWhhZG5zLm5ldAovZG5zLXF1ZXJ5
 
 
-## ahadns-doh-ny
-
-A zero logging DNS with support for DNS-over-HTTPS (DoH) & DNS-over-TLS (DoT). Blocks ads, malware, trackers, viruses, ransomware, telemetry and more. No persistent logs. DNSSEC. Hosted in New York. By https://ahadns.com/
-Server statistics can be seen at: https://statistics.ahadns.com/?server=ny
-
-sdns://AgMAAAAAAAAADjE4NS4yMTMuMjYuMTg3oMwQYNOcgym2K2-8fQ1t-TCYabmB5-Y5LVzY-kCPTYDmIEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOEWRvaC5ueS5haGFkbnMubmV0Ci9kbnMtcXVlcnk
-
-
 ## ahadns-doh-pl
 
 A zero logging DNS with support for DNS-over-HTTPS (DoH) & DNS-over-TLS (DoT). Blocks ads, malware, trackers, viruses, ransomware, telemetry and more. No persistent logs. DNSSEC. Hosted in Poland. By https://ahadns.com/
@@ -881,18 +873,11 @@ DNSCrypt | IPv4 only | Non-logging | Non-filtering | DNSSEC | Vienna, Austria.
 sdns://AQcAAAAAAAAADDgzLjEzOC41NS4zNiBWtFK5EGeqJCoA9qB6APgcgCUN9FZvR8T22eqqP615MBcyLmRuc2NyeXB0LWNlcnQuZGN0LWF0MQ
 
 
-## dct-de1
-
-DNSCrypt | IPv4 only | Non-logging | Non-filtering | DNSSEC | Düsseldorf, Germany.
-
-sdns://AQcAAAAAAAAAFDEwMy4xNTguMjIzLjE2Mjo4NDQzIMyMcx-PSqcGqQgDXSsH4n9z5OKrTavSmV8mOton7CW7FzIuZG5zY3J5cHQtY2VydC5kY3QtZGUx
-
-
 ## dct-nl1
 
 DNSCrypt | IPv4 only | Non-logging | Non-filtering | DNSSEC | Naaldwijk, Netherlands.
 
-sdns://AQcAAAAAAAAADjIzLjEzNy4yNDkuMTE2IHMpw-wvp4z1FZcW_2ZmwKokMZTOL9AjG-lxUwgzs27IFzIuZG5zY3J5cHQtY2VydC5kY3Qtbmwx
+sdns://AQcAAAAAAAAAEzIzLjEzNy4yNDkuMTE2Ojg0NDMgEWD0g0vsKFqwslGBKql8eTiu1RvK2dzZIxLfR7ctlAwXMi5kbnNjcnlwdC1jZXJ0LmRjdC1ubDE
 
 
 ## dct-ru1
