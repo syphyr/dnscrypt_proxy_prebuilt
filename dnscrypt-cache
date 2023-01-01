@@ -1,0 +1,56 @@
+#!/system/bin/sh
+
+set -e
+
+CONFIG_DIR=/etc/dnscrypt-proxy
+CACHE_DIR=/data/local/tmp/dnscrypt-proxy
+
+if [ ! -d "$CACHE_DIR" ]; then
+	mkdir -p -m 01755 "$CACHE_DIR"
+	chown nobody:nobody "$CACHE_DIR"
+fi
+
+if [ ! -f "$CACHE_DIR"/public-resolvers.md ]; then
+	cp "$CONFIG_DIR"/public-resolvers.md "$CACHE_DIR"/
+	cp "$CONFIG_DIR"/public-resolvers.md.minisig "$CACHE_DIR"/
+	chmod 600 "$CACHE_DIR"/public-resolvers.md
+	chmod 600 "$CACHE_DIR"/public-resolvers.md.minisig
+	chown nobody:nobody "$CACHE_DIR"/public-resolvers.md
+	chown nobody:nobody "$CACHE_DIR"/public-resolvers.md.minisig
+fi
+
+if [ ! -f "$CACHE_DIR"/relays.md ]; then
+	cp "$CONFIG_DIR"/relays.md "$CACHE_DIR"/
+	cp "$CONFIG_DIR"/relays.md.minisig "$CACHE_DIR"/
+	chmod 600 "$CACHE_DIR"/relays.md
+	chmod 600 "$CACHE_DIR"/relays.md.minisig
+	chown nobody:nobody "$CACHE_DIR"/relays.md
+	chown nobody:nobody "$CACHE_DIR"/relays.md.minisig
+fi
+
+if [ ! -f "$CACHE_DIR"/odoh-servers.md ]; then
+	cp "$CONFIG_DIR"/odoh-servers.md "$CACHE_DIR"/
+	cp "$CONFIG_DIR"/odoh-servers.md.minisig "$CACHE_DIR"/
+	chmod 600 "$CACHE_DIR"/odoh-servers.md
+	chmod 600 "$CACHE_DIR"/odoh-servers.md.minisig
+	chown nobody:nobody "$CACHE_DIR"/odoh-servers.md
+	chown nobody:nobody "$CACHE_DIR"/odoh-servers.md.minisig
+fi
+
+if [ ! -f "$CACHE_DIR"/odoh-relays.md ]; then
+	cp "$CONFIG_DIR"/odoh-relays.md "$CACHE_DIR"/
+	cp "$CONFIG_DIR"/odoh-relays.md.minisig "$CACHE_DIR"/
+	chmod 600 "$CACHE_DIR"/odoh-relays.md
+	chmod 600 "$CACHE_DIR"/odoh-relays.md.minisig
+	chown nobody:nobody "$CACHE_DIR"/odoh-relays.md
+	chown nobody:nobody "$CACHE_DIR"/odoh-relays.md.minisig
+fi
+
+if [ ! -f "$CACHE_DIR"/onion-services.md ]; then
+	cp "$CONFIG_DIR"/onion-services.md "$CACHE_DIR"/
+	cp "$CONFIG_DIR"/onion-services.md.minisig "$CACHE_DIR"/
+	chmod 600 "$CACHE_DIR"/onion-services.md
+	chmod 600 "$CACHE_DIR"/onion-services.md.minisig
+	chown nobody:nobody "$CACHE_DIR"/onion-services.md
+	chown nobody:nobody "$CACHE_DIR"/onion-services.md.minisig
+fi
