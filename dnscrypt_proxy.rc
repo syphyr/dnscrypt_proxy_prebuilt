@@ -1,6 +1,7 @@
 service dnscrypt /system/bin/dnscrypt
     class main
-    user root
+    user nobody
+    group nobody inet net_raw net_admin
     oneshot
     disabled
 
