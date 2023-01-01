@@ -6,7 +6,7 @@ NAME=dnscrypt-proxy
 DAEMON=/system/xbin/$NAME
 CONFIG_DIR=/etc/dnscrypt-proxy
 CONFIG_FILE=$CONFIG_DIR/dnscrypt-proxy.toml
-CACHE_DIR=/data/local/tmp/dnscrypt
+CACHE_DIR=/data/local/tmp/dnscrypt-proxy
 
 PROP_STATE=$( getprop persist.privacy.tor )
 

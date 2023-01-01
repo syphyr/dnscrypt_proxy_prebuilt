@@ -170,7 +170,7 @@ keepalive = 30
 ## This file is different from other log files, and will not be
 ## automatically rotated by the application.
 
-log_file = '/data/local/tmp/dnscrypt/dnscrypt-proxy.log'
+log_file = '/data/local/tmp/dnscrypt-proxy/dnscrypt-proxy.log'
 
 
 ## When using a log file, only keep logs from the most recent launch.
@@ -471,7 +471,7 @@ map_file = '/system/etc/dnscrypt-proxy/captive-portals'
 ## Path to the query log file (absolute, or relative to the same directory as the config file)
 ## Can be set to /dev/stdout in order to log to the standard output.
 
-# file = '/data/local/tmp/dnscrypt/query.log'
+# file = '/data/local/tmp/dnscrypt-proxy/query.log'
 
 
 ## Query log format (currently supported: tsv and ltsv)
@@ -497,7 +497,7 @@ format = 'tsv'
 
 ## Path to the query log file (absolute, or relative to the same directory as the config file)
 
-# file = '/data/local/tmp/dnscrypt/nx.log'
+# file = '/data/local/tmp/dnscrypt-proxy/nx.log'
 
 
 ## Query log format (currently supported: tsv and ltsv)
@@ -532,7 +532,7 @@ blocked_names_file = '/system/etc/dnscrypt-proxy/blocked-names'
 
 ## Optional path to a file logging blocked queries
 
-# log_file = '/data/local/tmp/dnscrypt/blocked-names.log'
+# log_file = '/data/local/tmp/dnscrypt-proxy/blocked-names.log'
 
 
 ## Optional log format: tsv or ltsv (default: tsv)
@@ -560,7 +560,7 @@ blocked_names_file = '/system/etc/dnscrypt-proxy/blocked-names'
 
 ## Optional path to a file logging blocked queries
 
-# log_file = '/data/local/tmp/dnscrypt/blocked-ips.log'
+# log_file = '/data/local/tmp/dnscrypt-proxy/blocked-ips.log'
 
 
 ## Optional log format: tsv or ltsv (default: tsv)
@@ -588,7 +588,7 @@ allowed_names_file = '/system/etc/dnscrypt-proxy/allowed-names'
 
 ## Optional path to a file logging allowed queries
 
-# log_file = '/data/local/tmp/dnscrypt/allowed-names.log'
+# log_file = '/data/local/tmp/dnscrypt-proxy/allowed-names.log'
 
 
 ## Optional log format: tsv or ltsv (default: tsv)
@@ -616,7 +616,7 @@ allowed_names_file = '/system/etc/dnscrypt-proxy/allowed-names'
 
 ## Optional path to a file logging allowed queries
 
-# log_file = '/data/local/tmp/dnscrypt/allowed-ips.log'
+# log_file = '/data/local/tmp/dnscrypt-proxy/allowed-ips.log'
 
 ## Optional log format: tsv or ltsv (default: tsv)
 
@@ -687,7 +687,7 @@ allowed_names_file = '/system/etc/dnscrypt-proxy/allowed-names'
 
   [sources.public-resolvers]
     urls = ['https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/public-resolvers.md', 'https://download.dnscrypt.info/resolvers-list/v3/public-resolvers.md', 'https://ipv6.download.dnscrypt.info/resolvers-list/v3/public-resolvers.md']
-    cache_file = '/data/local/tmp/dnscrypt/public-resolvers.md'
+    cache_file = '/data/local/tmp/dnscrypt-proxy/public-resolvers.md'
     minisign_key = 'RWQf6LRCGA9i53mlYecO4IzT51TGPpvWucNSCh1CBM0QTaLn73Y7GFO3'
     refresh_delay = 72
     prefix = ''
@@ -696,7 +696,7 @@ allowed_names_file = '/system/etc/dnscrypt-proxy/allowed-names'
 
   [sources.relays]
     urls = ['https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/relays.md', 'https://download.dnscrypt.info/resolvers-list/v3/relays.md', 'https://ipv6.download.dnscrypt.info/resolvers-list/v3/relays.md']
-    cache_file = '/data/local/tmp/dnscrypt/relays.md'
+    cache_file = '/data/local/tmp/dnscrypt-proxy/relays.md'
     minisign_key = 'RWQf6LRCGA9i53mlYecO4IzT51TGPpvWucNSCh1CBM0QTaLn73Y7GFO3'
     refresh_delay = 72
     prefix = ''
@@ -705,13 +705,13 @@ allowed_names_file = '/system/etc/dnscrypt-proxy/allowed-names'
 
   # [sources.odoh-servers]
   #   urls = ['https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/odoh-servers.md', 'https://download.dnscrypt.info/resolvers-list/v3/odoh-servers.md', 'https://ipv6.download.dnscrypt.info/resolvers-list/v3/odoh-servers.md']
-  #   cache_file = '/data/local/tmp/dnscrypt/odoh-servers.md'
+  #   cache_file = '/data/local/tmp/dnscrypt-proxy/odoh-servers.md'
   #   minisign_key = 'RWQf6LRCGA9i53mlYecO4IzT51TGPpvWucNSCh1CBM0QTaLn73Y7GFO3'
   #   refresh_delay = 24
   #   prefix = ''
   # [sources.odoh-relays]
   #   urls = ['https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/odoh-relays.md', 'https://download.dnscrypt.info/resolvers-list/v3/odoh-relays.md', 'https://ipv6.download.dnscrypt.info/resolvers-list/v3/odoh-relays.md']
-  #   cache_file = '/data/local/tmp/dnscrypt/odoh-relays.md'
+  #   cache_file = '/data/local/tmp/dnscrypt-proxy/odoh-relays.md'
   #   minisign_key = 'RWQf6LRCGA9i53mlYecO4IzT51TGPpvWucNSCh1CBM0QTaLn73Y7GFO3'
   #   refresh_delay = 24
   #   prefix = ''
@@ -721,7 +721,7 @@ allowed_names_file = '/system/etc/dnscrypt-proxy/allowed-names'
   # [sources.quad9-resolvers]
   #   urls = ['https://www.quad9.net/quad9-resolvers.md']
   #   minisign_key = 'RWQBphd2+f6eiAqBsvDZEBXBGHQBJfeG6G+wJPPKxCZMoEQYpmoysKUN'
-  #   cache_file = '/data/local/tmp/dnscrypt/quad9-resolvers.md'
+  #   cache_file = '/data/local/tmp/dnscrypt-proxy/quad9-resolvers.md'
   #   prefix = 'quad9-'
 
   ### Another example source, with resolvers censoring some websites not appropriate for children
@@ -729,14 +729,14 @@ allowed_names_file = '/system/etc/dnscrypt-proxy/allowed-names'
 
   # [sources.parental-control]
   #   urls = ['https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/parental-control.md', 'https://download.dnscrypt.info/resolvers-list/v3/parental-control.md', 'https://ipv6.download.dnscrypt.info/resolvers-list/v3/parental-control.md']
-  #   cache_file = '/data/local/tmp/dnscrypt/parental-control.md'
+  #   cache_file = '/data/local/tmp/dnscrypt-proxy/parental-control.md'
   #   minisign_key = 'RWQf6LRCGA9i53mlYecO4IzT51TGPpvWucNSCh1CBM0QTaLn73Y7GFO3'
 
   ### DNS servers as .onion services
 
   [sources.onion-services]
     urls = ['https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/onion-services.md', 'https://download.dnscrypt.info/resolvers-list/v3/onion-services.md', 'https://ipv6.download.dnscrypt.info/resolvers-list/v3/onion-services.md']
-    cache_file = '/data/local/tmp/dnscrypt/onion-services.md'
+    cache_file = '/data/local/tmp/dnscrypt-proxy/onion-services.md'
     minisign_key = 'RWQf6LRCGA9i53mlYecO4IzT51TGPpvWucNSCh1CBM0QTaLn73Y7GFO3'
 
 
