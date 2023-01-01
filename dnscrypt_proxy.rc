@@ -18,6 +18,7 @@ service dns_nat_off /system/bin/dnscrypt-iptables stop
     disabled
 
 on property:persist.privacy.dnscrypt=1
+    exec - root -- /system/bin/dnscrypt-cache
     start dnscrypt
 
 on property:persist.privacy.dnscrypt=0
