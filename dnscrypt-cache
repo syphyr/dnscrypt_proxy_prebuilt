@@ -54,3 +54,5 @@ if [ ! -f "$CACHE_DIR"/onion-services.md ]; then
 	chown nobody:nobody "$CACHE_DIR"/onion-services.md
 	chown nobody:nobody "$CACHE_DIR"/onion-services.md.minisig
 fi
+
+exit 0
