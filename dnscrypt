@@ -6,6 +6,7 @@ NAME=dnscrypt-proxy
 DAEMON=/system/xbin/$NAME
 CONFIG_DIR=/etc/dnscrypt-proxy
 CONFIG_FILE=$CONFIG_DIR/dnscrypt-proxy.toml
+CACHE_DIR=/data/local/tmp/dnscrypt-proxy
 
 PROP_STATE=$( getprop persist.privacy.tor )
 
@@ -15,6 +16,16 @@ fi
 
 if test ! -s "$CONFIG_FILE"; then
     exit 1
+fi
+
+##
+## dnscrypt-proxy runs as user nobody so its cache
+## directory must initially be created with root
+## calling dnscrypt-cache to chown proper permissions
+## to user nobody.
+##
+if [ ! -d "$CACHE_DIR" ]; then
+       exit 1
 fi
 
 exec $DAEMON -config "$CONFIG_FILE"
