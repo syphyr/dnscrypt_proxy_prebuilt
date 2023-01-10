@@ -26,13 +26,6 @@ Anonymized DNS relay hosted in AMS on Scaleway
 sdns://gRZbMjAwMTpiYzg6MTgyNDo3Mzg6OjFd
 
 
-## anon-ams
-
-Anonymized DNS relay hosted in Amsterdam
-
-sdns://gRE4OS4zOC4xMzEuMzg6NDM0Mw
-
-
 ## anon-cs-austria
 
 Wien, Austria Anonymized DNS relay server provided by https://cryptostorm.is/
@@ -59,13 +52,6 @@ sdns://gQ0zNy4xMjAuMjM2LjEx
 Berlin, Germany Anonymized DNS relay server provided by https://cryptostorm.is/
 
 sdns://gQ0zNy4xMjAuMjE3Ljc1
-
-
-## anon-cs-brazil
-
-Brazil Anonymized DNS relay server provided by https://cryptostorm.is/
-
-sdns://gQ4xNzcuNTQuMTQ1LjEzMQ
 
 
 ## anon-cs-bulgaria
