@@ -141,7 +141,7 @@ AdGuard public DNS servers without filters
 
 Warning: This server is incompatible with anonymization.
 
-sdns://AQMAAAAAAAAAEjk0LjE0MC4xNC4xNDA6NTQ0MyC16ETWuDo-PhJo62gfvqcN48X6aNvWiBQdvy7AZrLa-iUyLmRuc2NyeXB0LnVuZmlsdGVyZWQubnMxLmFkZ3VhcmQuY29t
+sdns://AQcAAAAAAAAAEjk0LjE0MC4xNC4xNDA6NTQ0MyC16ETWuDo-PhJo62gfvqcN48X6aNvWiBQdvy7AZrLa-iUyLmRuc2NyeXB0LnVuZmlsdGVyZWQubnMxLmFkZ3VhcmQuY29t
 
 
 ## adguard-dns-unfiltered-doh
@@ -899,6 +899,13 @@ DNSCrypt | IPv4 only | Non-logging | Non-filtering | DNSSEC | Vienna, Austria.
 sdns://AQcAAAAAAAAADDgzLjEzOC41NS4zNiBWtFK5EGeqJCoA9qB6APgcgCUN9FZvR8T22eqqP615MBcyLmRuc2NyeXB0LWNlcnQuZGN0LWF0MQ
 
 
+## dct-de1
+
+DNSCrypt | IPv4 only | Non-logging | Non-filtering | DNSSEC | Frankfurt, Germany.
+
+sdns://AQcAAAAAAAAADzE0OS4xNTQuMTU5LjE5MSBCjJ9c_IkJLd7MVZP4wiqkOSy-sGt0GojSKJ48ztxbWRcyLmRuc2NyeXB0LWNlcnQuZGN0LWRlMQ
+
+
 ## dct-nl1
 
 DNSCrypt | IPv4 only | Non-logging | Non-filtering | DNSSEC | Naaldwijk, Netherlands.
@@ -1005,6 +1012,16 @@ sdns://AgcAAAAAAAAAGVsyYTAxOjRmODoxM2I6MzQwNzo6ZmFjZV2gzBBg05yDKbYrb7x9DW35MJhpu
 Non-logging, non-filtering, DNSSEC DoH Server. Hosted in the UK.
 
 sdns://AgcAAAAAAAAADjY4LjE4My4yNTMuMjAwoMwQYNOcgym2K2-8fQ1t-TCYabmB5-Y5LVzY-kCPTYDmIEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOFGRuczEucnlhbi1wYWxtZXIuY29tCi9kbnMtcXVlcnk
+
+
+## dns.sb
+
+DoH server runned by xTom.com. No logs, no filtering, supports DNSSEC.
+
+Homepage: https://dns.sb
+
+sdns://AgcAAAAAAAAADzE4NS4yMjIuMjIyLjIyMiCaOjT3J965vKUQA9nOnDn48n3ZxSQpAcK6saROY1oCGQ8xODUuMjIyLjIyMi4yMjIKL2Rucy1xdWVyeQ
+sdns://AgcAAAAAAAAACzQ1LjExLjQ1LjExIJo6NPcn3rm8pRAD2c6cOfjyfdnFJCkBwrqxpE5jWgIZCzQ1LjExLjQ1LjExCi9kbnMtcXVlcnk
 
 
 ## dns.therifleman.name
@@ -1263,6 +1280,15 @@ All DNS requests will be protected with threat-intelligence feeds and randomly d
 More info on the [homepage](https://dnslow.me) and [GitHub](https://github.com/PeterDaveHello/dnslow.me)
 
 sdns://AgAAAAAAAAAAAKDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5iBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zglkbnNsb3cubWUKL2Rucy1xdWVyeQ
+
+
+## dnspod-doh
+
+DoH server runned by Tencent's DNSPod, has logs, support DNSSEC. China's GFW filtering rules are applied.
+
+Homepage: https://www.dnspod.cn/Products/publicdns
+
+sdns://AgEAAAAAAAAAACDBlAfoWsQD52fP2oOBh_Ag-lY6yBaIr1EMIqd559RaVgdkb2gucHViCi9kbnMtcXVlcnk
 
 
 ## dnswarden-adult-doh
@@ -1615,7 +1641,7 @@ Hosted in Amsterdam (AMS1), The Netherlands.
 
 Non-logging, non-filtering, supports DNSSEC.
 
-sdns://AgcAAAAAAAAADjEzNi4yNDQuOTcuMTE0IPzeORHpBJHobi2cNX3_9XQfsFz8cUVhWC_BDJQm1PxCFWNoZXdiYWNjYS5tZWdhbmVyZC5ubAovZG5zLXF1ZXJ5
+sdns://AgcAAAAAAAAADjEzNi4yNDQuOTcuMTE0IFkaneMM4pPbY6hfvwOotK0c18K3ichOc9LzR0pw9zdAFWNoZXdiYWNjYS5tZWdhbmVyZC5ubAovZG5zLXF1ZXJ5
 
 
 ## meganerd-doh-ipv6
@@ -1625,7 +1651,7 @@ Hosted in Amsterdam (AMS1), The Netherlands.
 
 Non-logging, non-filtering, supports DNSSEC.
 
-sdns://AgcAAAAAAAAAKFsyMDAxOjE5ZjA6NTAwMTpjYmI6NTQwMDowM2ZmOmZlMDc6ZjcwZF0g_N45EekEkehuLZw1ff_1dB-wXPxxRWFYL8EMlCbU_EIVY2hld2JhY2NhLm1lZ2FuZXJkLm5sCi9kbnMtcXVlcnk
+sdns://AgcAAAAAAAAAKFsyMDAxOjE5ZjA6NTAwMTpjYmI6NTQwMDowM2ZmOmZlMDc6ZjcwZF0gWRqd4wzik9tjqF-_A6i0rRzXwreJyE5z0vNHSnD3N0AVY2hld2JhY2NhLm1lZ2FuZXJkLm5sCi9kbnMtcXVlcnk
 
 
 ## meganerd-ipv6
@@ -1805,6 +1831,15 @@ DNSSEC • OpenNIC • Non-logging • Uncensored - hosted on ovh.com.au
 Maintained by publicarray - https://dns.seby.io
 
 sdns://AgcAAAAAAAAADTEzOS45OS4yMjIuNzKgzBBg05yDKbYrb7x9DW35MJhpuYHn5jktXNj6QI9NgOYgRE69Z7uD-IB7OSHpOKyReLiCvVCq2xEjHwRM9fCN984NZG9oLTIuc2VieS5pbwovZG5zLXF1ZXJ5
+
+
+## qihoo360-doh
+
+DoH server runned by Qihoo 360, has logs, supports DNSSEC. GFW filtering rules are applied.
+
+Homepage: https://sdns.360.net/
+
+sdns://AgEAAAAAAAAAACBZPi1Jp0AjVVUmrvm3QisZ5bixZzkbbe5e0pKxyiOnTApkb2guMzYwLmNuCi9kbnMtcXVlcnk
 
 
 ## quad101
