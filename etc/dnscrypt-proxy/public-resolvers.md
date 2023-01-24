@@ -157,7 +157,7 @@ AdGuard public DNS servers without filters (over IPv6)
 
 Warning: This server is incompatible with anonymization.
 
-sdns://AQMAAAAAAAAAFlsyYTEwOjUwYzA6OjE6ZmZdOjU0NDMgtehE1rg6Pj4SaOtoH76nDePF-mjb1ogUHb8uwGay2volMi5kbnNjcnlwdC51bmZpbHRlcmVkLm5zMS5hZGd1YXJkLmNvbQ
+sdns://AQcAAAAAAAAAFlsyYTEwOjUwYzA6OjE6ZmZdOjU0NDMgtehE1rg6Pj4SaOtoH76nDePF-mjb1ogUHb8uwGay2volMi5kbnNjcnlwdC51bmZpbHRlcmVkLm5zMS5hZGd1YXJkLmNvbQ
 
 
 ## ahadns-doh-chi
@@ -1026,10 +1026,22 @@ sdns://AgcAAAAAAAAACzQ1LjExLjQ1LjExIJo6NPcn3rm8pRAD2c6cOfjyfdnFJCkBwrqxpE5jWgIZC
 
 ## dns.therifleman.name
 
-DNS-over-HTTPS DNS forwarder from Mumbai, India. Blocks web and Android trackers and ads.
-IP addresses are not logged, but queries are logged for 24 hours for debugging.
-Report issues, send suggestions @ joker349 at protonmail.com.
-Also supports DoT (for android) @ dns.therifleman.name and plain DNS @ 172.104.206.174
+DNS-over-HTTPS DNS forwarder from Mumbai, India.
+
+Blocks web, Android trackers and ads.
+
+Does not log client IP addresses, but logs queries for 24 hours for debugging
+and delegates DNS resolution to the default Linode DNS server.
+
+Report issues, and send suggestions to @ joker349 at protonmail.com.
+
+Also supports DoT (for android) @ dns.therifleman.name and plain
+DNS @ 172.104.206.174 (Note: because of spam bots mostly from USA,
+plain DNS access is limited to India and Singapore for now. If you
+are not from these countries and would like to access plain DNS, send
+a request at aforementioned email address.
+
+DoT and DoH are available world-wide.
 
 sdns://AgMAAAAAAAAADzE3Mi4xMDQuMjA2LjE3NKDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5iBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zhRkbnMudGhlcmlmbGVtYW4ubmFtZQovZG5zLXF1ZXJ5
 
@@ -1631,7 +1643,7 @@ Hosted in Amsterdam (AMS1), The Netherlands.
 
 Non-logging, non-filtering, supports DNSSEC.
 
-sdns://AQcAAAAAAAAADjEzNi4yNDQuOTcuMTE0ICif6V9M6EF_9Xo_MHwkDN4ZJjERopSJN8hBuUWg9YeMJTIuZG5zY3J5cHQtY2VydC5jaGV3YmFjY2EubWVnYW5lcmQubmw
+sdns://AQcAAAAAAAAAEjEzNi4yNDQuOTcuMTE0OjQ0MyAon-lfTOhBf_V6PzB8JAzeGSYxEaKUiTfIQblFoPWHjCUyLmRuc2NyeXB0LWNlcnQuY2hld2JhY2NhLm1lZ2FuZXJkLm5s
 
 
 ## meganerd-doh-ipv4
@@ -1661,7 +1673,7 @@ Hosted in Amsterdam (AMS1), The Netherlands.
 
 Non-logging, non-filtering, supports DNSSEC.
 
-sdns://AQcAAAAAAAAAJ1syMDAxOjE5ZjA6NTAwMTpjYmI6NTQwMDozZmY6ZmUwNzpmNzBkXSAon-lfTOhBf_V6PzB8JAzeGSYxEaKUiTfIQblFoPWHjCUyLmRuc2NyeXB0LWNlcnQuY2hld2JhY2NhLm1lZ2FuZXJkLm5s
+sdns://AQcAAAAAAAAAK1syMDAxOjE5ZjA6NTAwMTpjYmI6NTQwMDozZmY6ZmUwNzpmNzBkXTo0NDMgKJ_pX0zoQX_1ej8wfCQM3hkmMRGilIk3yEG5RaD1h4wlMi5kbnNjcnlwdC1jZXJ0LmNoZXdiYWNjYS5tZWdhbmVyZC5ubA
 
 
 ## mullvad-adblock-doh
