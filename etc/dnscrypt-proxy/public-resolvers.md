@@ -906,6 +906,13 @@ DNSCrypt | IPv4 only | Non-logging | Non-filtering | DNSSEC | Naaldwijk, Netherl
 sdns://AQcAAAAAAAAAEzIzLjEzNy4yNDkuMTE2Ojg0NDMgEWD0g0vsKFqwslGBKql8eTiu1RvK2dzZIxLfR7ctlAwXMi5kbnNjcnlwdC1jZXJ0LmRjdC1ubDE
 
 
+## dct-ru1
+
+DNSCrypt | IPv4 only | Non-logging | Non-filtering | DNSSEC | Moscow, Russia.
+
+sdns://AQcAAAAAAAAADTE4NS4yMi4xNTQuMTkgaWn7WaFj7FQw_9F1qge8LMND5xUdAtagWFZPPYRok1kXMi5kbnNjcnlwdC1jZXJ0LmRjdC1ydTE
+
+
 ## decloudus-nogoogle-tst
 
 Servers helps you deGoogle and unGoogle by completely blocking Google tracking in addition to annoying ads, online trackers, and malware. Supports DNSSEC. No Logs.
@@ -1046,6 +1053,34 @@ Free, uncensored, non-logging server in Germany. IPv6 only.
 https://dns.watch
 
 sdns://AQcAAAAAAAAAHFsyMDAxOjE2MDg6MTA6MjU6OjkyNDk6ZDY5Yl0gQE1aAN9i4CFE7AtIcZi5Shmv6OT0Z4B8pXaxHouU-bAjMi5kbnNjcnlwdC1jZXJ0LnJlc29sdmVyMi5kbnMud2F0Y2g
+
+
+## dns0
+
+A free, sovereign and GDPR-compliant recursive DNS resolver with a
+strong focus on security to protect the citizens and organizations of
+the European Union.
+
+Blocks new domains, dynamic DNS, parked domains, uncommon TLDs, etc.
+
+https://www.dns0.eu/
+
+sdns://AgMAAAAAAAAAACCaOjT3J965vKUQA9nOnDn48n3ZxSQpAcK6saROY1oCGQdkbnMwLmV1Ci9kbnMtcXVlcnk
+
+
+## dns0-kids
+
+A free, sovereign and GDPR-compliant recursive DNS resolver with a
+strong focus on security to protect the citizens and organizations of
+the European Union.
+
+This version blocks content not suitable for children.
+
+Also blocks new domains, dynamic DNS, parked domains, uncommon TLDs, etc.
+
+https://www.dns0.eu/
+
+sdns://AgMAAAAAAAAAACCaOjT3J965vKUQA9nOnDn48n3ZxSQpAcK6saROY1oCGQxraWRzLmRuczAuZXUKL2Rucy1xdWVyeQ
 
 
 ## dnscrypt-ch-blahdns-ipv4
@@ -1278,6 +1313,17 @@ All DNS requests will be protected with threat-intelligence feeds and randomly d
 More info on the [homepage](https://dnslow.me) and [GitHub](https://github.com/PeterDaveHello/dnslow.me)
 
 sdns://AgAAAAAAAAAAAKDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5iBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zglkbnNsb3cubWUKL2Rucy1xdWVyeQ
+
+
+## dnspod
+
+A public DNS resolver that supports DoH/DoT in mainland China, provided by dnspod/Tencent-cloud.
+
+Warning: GFW filtering rules are applied by that resolver.
+
+Homepage: https://dnspod.cn/
+
+sdns://AgAAAAAAAAAACjEuMTIuMTIuMTIgD3COiTWYzhCaz4188tVyp8i8EAR0UYsu0tkTgK_E7aYHZG9oLnB1YgovZG5zLXF1ZXJ5
 
 
 ## dnspod-doh
@@ -1734,6 +1780,27 @@ DNSCrypt resolver colocated at Sonic.net in Santa Rosa, CA in the United States.
 No log, no filter, DNSSEC. Provided by https://openinternet.io
 
 sdns://AQcAAAAAAAAADTcwLjM2LjE3MC4xMjYgHRhodSnh6n0lyl8T0d5e2OSapsrl455sspOSW_cLlQ0cMi5kbnNjcnlwdC1jZXJ0Lm9wZW5pbnRlcm5ldA
+
+
+## opennameserver-2-doh
+
+OpenNIC • DoH • DoT • DNSSEC • No Logging • Uncensored - https://opennameserver.org
+
+sdns://AgcAAAAAAAAAACBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zhZuczIub3Blbm5hbWVzZXJ2ZXIub3JnCi9kbnMtcXVlcnk
+
+
+## opennameserver-3-doh
+
+OpenNIC • DoH • DoT • DNSSEC • No Logging • Uncensored - https://opennameserver.org
+
+sdns://AgcAAAAAAAAAACBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zhZuczMub3Blbm5hbWVzZXJ2ZXIub3JnCi9kbnMtcXVlcnk
+
+
+## opennameserver-4-doh
+
+OpenNIC • DoH • DoT • DNSSEC • No Logging • Uncensored - https://opennameserver.org
+
+sdns://AgcAAAAAAAAAACBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zhZuczQub3Blbm5hbWVzZXJ2ZXIub3JnCi9kbnMtcXVlcnk
 
 
 ## oszx
