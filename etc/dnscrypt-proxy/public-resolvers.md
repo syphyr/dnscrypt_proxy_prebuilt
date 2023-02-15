@@ -1469,6 +1469,38 @@ https://ffmuc.net/
 sdns://AgcAAAAAAAAAFVsyMDAxOjY3ODplZDA6ZjAwMDo6XaDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5iBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zg1kb2guZmZtdWMubmV0Ci9kbnMtcXVlcnk
 
 
+## doh.tiar.app
+
+Non-Logging DNSCrypt server located in Singapore.
+Filters out ads, trackers and malware, supports DNSSEC, provided by id-gmail.
+
+sdns://AQMAAAAAAAAADjE3NC4xMzguMjEuMTI4IO-WgGbo2ZTwZdg-3dMa7u31bYZXRj5KykfN1_6Xw9T2HDIuZG5zY3J5cHQtY2VydC5kbnMudGlhci5hcHA
+
+
+## doh.tiar.app-doh
+
+Non-Logging DNS-over-HTTPS (HTTP/2 & HTTP/3) server located in Singapore.
+Filters out ads, trackers and malware, supports DNSSEC, provided by id-gmail.
+
+sdns://AgMAAAAAAAAADjE3NC4xMzguMjkuMTc1oMwQYNOcgym2K2-8fQ1t-TCYabmB5-Y5LVzY-kCPTYDmIEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffODGRvaC50aWFyLmFwcAovZG5zLXF1ZXJ5
+
+
+## doh.tiar.app-doh-ipv6
+
+Non-Logging DNS-over-HTTPS (HTTP/2 & HTTP/3) server located in Singapore.
+Filters out ads, trackers and malware, supports DNSSEC, provided by id-gmail.
+
+sdns://AgMAAAAAAAAAG1syNDAwOjYxODA6MDpkMDo6NWY3Mzo0MDAxXaDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5iBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zgxkb2gudGlhci5hcHAKL2Rucy1xdWVyeQ
+
+
+## doh.tiar.app-ipv6
+
+Non-Logging DNSCrypt (IPv6) server located in Singapore.
+Filters out ads, trackers and malware, supports DNSSEC, provided by id-gmail.
+
+sdns://AQMAAAAAAAAAG1syNDAwOjYxODA6MDpkMDo6NWY2ZTo0MDAxXSDvloBm6NmU8GXYPt3TGu7t9W2GV0Y-SspHzdf-l8PU9hwyLmRuc2NyeXB0LWNlcnQuZG5zLnRpYXIuYXBw
+
+
 ## doh.tiarap.org
 
 Non-Logging DNS-over-HTTPS server, cached via Cloudflare.
@@ -1491,6 +1523,19 @@ e-utp.net DNS Cache service, only accessible over IPv6
 https://fido.e-utp.net/display/EUTPNET/Recursive+DNS
 
 sdns://AgcAAAAAAAAAE1syMDAxOjY3YzoyMWVjOjo1M10gXMJdnIoy7PLLu5Hr9wvZVsUgOfnyDoQJ2mFUcVI21x0SZG5zY2FjaGUuZS11dHAubmV0Ci9kbnMtcXVlcnk
+
+
+## easymosdns-doh
+
+DoH forwarded runned personally, as a example server of the project [EasyMosdns](https://github.com/pmkol/easymosdns).
+No filtering or logs (by the forwarder itself).
+No DNSSEC support due to one of the upstream servers (AliDNS) that doesn't support it.
+Upstreams are AliDNS and DNSPod for resolving domains in mainland China, and GoogleDNS is for domains.
+Cloudflare CDN is used as a front-end for non-China areas, and Mobile CDN is used in China.
+
+Homepage: https://apad.pro/dns-doh/
+
+sdns://AgQAAAAAAAAAAAAMZG9oLmFwYWQucHJvCi9kbnMtcXVlcnk
 
 
 ## faelix-ch-ipv4
@@ -1562,38 +1607,6 @@ DNSCRYPT V2 Server, No Logging, No Filters, DNSSEC
 Running privately by ibksturm in Thurgau, Switzerland
 
 sdns://AQcAAAAAAAAAEzIxMy4xOTYuMTkxLjk2Ojg0NDMgHK0AUhqiLSuBFR07jpBhKvko_oyqyWnot8z4cce7cKkYMi5kbnNjcnlwdC1jZXJ0Lmlia3N0dXJt
-
-
-## id-gmail
-
-Non-Logging DNSCrypt server located in Singapore.
-Filters out ads, trackers and malware, supports DNSSEC, provided by id-gmail.
-
-sdns://AQMAAAAAAAAADjE3NC4xMzguMjEuMTI4IO-WgGbo2ZTwZdg-3dMa7u31bYZXRj5KykfN1_6Xw9T2HDIuZG5zY3J5cHQtY2VydC5kbnMudGlhci5hcHA
-
-
-## id-gmail-doh
-
-Non-Logging DNS-over-HTTPS server located in Singapore.
-Filters out ads, trackers and malware, supports DNSSEC, provided by id-gmail.
-
-sdns://AgMAAAAAAAAADjE3NC4xMzguMjkuMTc1oMwQYNOcgym2K2-8fQ1t-TCYabmB5-Y5LVzY-kCPTYDmIEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffODGRvaC50aWFyLmFwcAovZG5zLXF1ZXJ5
-
-
-## id-gmail-doh-ipv6
-
-Non-Logging DNS-over-HTTPS (IPv6) server located in Singapore.
-Filters out ads, trackers and malware, supports DNSSEC, provided by id-gmail.
-
-sdns://AgMAAAAAAAAAG1syNDAwOjYxODA6MDpkMDo6NWY3Mzo0MDAxXaDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5iBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zgxkb2gudGlhci5hcHAKL2Rucy1xdWVyeQ
-
-
-## id-gmail-ipv6
-
-Non-Logging DNSCrypt (IPv6) server located in Singapore.
-Filters out ads, trackers and malware, supports DNSSEC, provided by id-gmail.
-
-sdns://AQMAAAAAAAAAG1syNDAwOjYxODA6MDpkMDo6NWY2ZTo0MDAxXSDvloBm6NmU8GXYPt3TGu7t9W2GV0Y-SspHzdf-l8PU9hwyLmRuc2NyeXB0LWNlcnQuZG5zLnRpYXIuYXBw
 
 
 ## iij
@@ -1675,7 +1688,7 @@ Hosted in Amsterdam (AMS1), The Netherlands.
 
 Non-logging, non-filtering, supports DNSSEC.
 
-sdns://AQcAAAAAAAAAEjEzNi4yNDQuOTcuMTE0OjQ0MyAon-lfTOhBf_V6PzB8JAzeGSYxEaKUiTfIQblFoPWHjCUyLmRuc2NyeXB0LWNlcnQuY2hld2JhY2NhLm1lZ2FuZXJkLm5s
+sdns://AQcAAAAAAAAADjEzNi4yNDQuOTcuMTE0ICif6V9M6EF_9Xo_MHwkDN4ZJjERopSJN8hBuUWg9YeMJTIuZG5zY3J5cHQtY2VydC5jaGV3YmFjY2EubWVnYW5lcmQubmw
 
 
 ## meganerd-doh-ipv4
@@ -1705,7 +1718,7 @@ Hosted in Amsterdam (AMS1), The Netherlands.
 
 Non-logging, non-filtering, supports DNSSEC.
 
-sdns://AQcAAAAAAAAAK1syMDAxOjE5ZjA6NTAwMTpjYmI6NTQwMDozZmY6ZmUwNzpmNzBkXTo0NDMgKJ_pX0zoQX_1ej8wfCQM3hkmMRGilIk3yEG5RaD1h4wlMi5kbnNjcnlwdC1jZXJ0LmNoZXdiYWNjYS5tZWdhbmVyZC5ubA
+sdns://AQcAAAAAAAAAJ1syMDAxOjE5ZjA6NTAwMTpjYmI6NTQwMDozZmY6ZmUwNzpmNzBkXSAon-lfTOhBf_V6PzB8JAzeGSYxEaKUiTfIQblFoPWHjCUyLmRuc2NyeXB0LWNlcnQuY2hld2JhY2NhLm1lZ2FuZXJkLm5s
 
 
 ## mullvad-adblock-doh
@@ -1786,21 +1799,21 @@ sdns://AQcAAAAAAAAADTcwLjM2LjE3MC4xMjYgHRhodSnh6n0lyl8T0d5e2OSapsrl455sspOSW_cLl
 
 OpenNIC • DoH • DoT • DNSSEC • No Logging • Uncensored - https://opennameserver.org
 
-sdns://AgcAAAAAAAAAACBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zhZuczIub3Blbm5hbWVzZXJ2ZXIub3JnCi9kbnMtcXVlcnk
+sdns://AgcAAAAAAAAAAKDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5iBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zhZuczIub3Blbm5hbWVzZXJ2ZXIub3JnCi9kbnMtcXVlcnk
 
 
 ## opennameserver-3-doh
 
 OpenNIC • DoH • DoT • DNSSEC • No Logging • Uncensored - https://opennameserver.org
 
-sdns://AgcAAAAAAAAAACBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zhZuczMub3Blbm5hbWVzZXJ2ZXIub3JnCi9kbnMtcXVlcnk
+sdns://AgcAAAAAAAAAAKDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5iBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zhZuczMub3Blbm5hbWVzZXJ2ZXIub3JnCi9kbnMtcXVlcnk
 
 
 ## opennameserver-4-doh
 
 OpenNIC • DoH • DoT • DNSSEC • No Logging • Uncensored - https://opennameserver.org
 
-sdns://AgcAAAAAAAAAACBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zhZuczQub3Blbm5hbWVzZXJ2ZXIub3JnCi9kbnMtcXVlcnk
+sdns://AgcAAAAAAAAAAKDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5iBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zhZuczQub3Blbm5hbWVzZXJ2ZXIub3JnCi9kbnMtcXVlcnk
 
 
 ## oszx
@@ -2207,14 +2220,14 @@ sdns://AgMAAAAAAAAADTQ1LjE1My4xODcuOTYAGGRuc3NlLW5vYWRzLmFsZWtiZXJnLm5ldAovZG5zL
 
 Resolver in Stockholm, Sweden. DNSCrypt server. Non-logging, non-filtering, DNSSEC.
 
-sdns://AQcAAAAAAAAAEjQ1LjE1My4xODcuOTY6NDM0MyDxcH8AVvN5Rqr3-HUqRjpgUFVw3NgiJ-IGTCbEVu__7x8yLmRuc2NyeXB0LWNlcnQuc3RoLWRuc2NyeXB0LW5s
+sdns://AQcAAAAAAAAAEjQ1LjE1My4xODcuOTY6NDM0MyDxcH8AVvN5Rqr3-HUqRjpgUFVw3NgiJ-IGTCbEVu__7x8yLmRuc2NyeXB0LWNlcnQuc3RoLWRuc2NyeXB0LXNl
 
 
 ## sth-dnscrypt-se-ipv6
 
 Resolver in Stockholm, Sweden. DNSCrypt server. Non-logging, non-filtering, DNSSEC.
 
-sdns://AQcAAAAAAAAAGlsyYTA5OmNkNDI6Zjo0MjViOjoxXTo0MzQzIPFwfwBW83lGqvf4dSpGOmBQVXDc2CIn4gZMJsRW7__vHzIuZG5zY3J5cHQtY2VydC5zdGgtZG5zY3J5cHQtbmw
+sdns://AQcAAAAAAAAAGlsyYTA5OmNkNDI6Zjo0MjViOjoxXTo0MzQzIPFwfwBW83lGqvf4dSpGOmBQVXDc2CIn4gZMJsRW7__vHzIuZG5zY3J5cHQtY2VydC5zdGgtZG5zY3J5cHQtc2U
 
 
 ## sth-doh-se
