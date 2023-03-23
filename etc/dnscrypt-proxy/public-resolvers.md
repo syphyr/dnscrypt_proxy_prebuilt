@@ -32,15 +32,6 @@ Blocks ads, malware, trackers and more. No persistent logs. DNSSEC. No EDNS Clie
 sdns://AgMAAAAAAAAADjE2My40Ny4xMTcuMTc2oMwQYNOcgym2K2-8fQ1t-TCYabmB5-Y5LVzY-kCPTYDmIEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOEGFkbC5hZGZpbHRlci5uZXQKL2Rucy1xdWVyeQ
 
 
-## adfilter-adl-ipv6
-
-Hosted in Adelaide, Australia.
-
-Blocks ads, malware, trackers and more. No persistent logs. DNSSEC. No EDNS Client-Subnet.
-
-sdns://AgMAAAAAAAAAHlsyNDAwOmM0MDE6OjUwNTQ6ZmY6ZmUxYjpiMDM2XaDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5iBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zhBhZGwuYWRmaWx0ZXIubmV0Ci9kbnMtcXVlcnk
-
-
 ## adfilter-per
 
 Hosted in Perth, Australia.
@@ -50,15 +41,6 @@ Blocks ads, malware, trackers and more. No persistent logs. DNSSEC. No EDNS Clie
 sdns://AgMAAAAAAAAADTIwMy4yOS4yNDEuNzagzBBg05yDKbYrb7x9DW35MJhpuYHn5jktXNj6QI9NgOYgRE69Z7uD-IB7OSHpOKyReLiCvVCq2xEjHwRM9fCN984QcGVyLmFkZmlsdGVyLm5ldAovZG5zLXF1ZXJ5
 
 
-## adfilter-per-ipv6
-
-Hosted in Perth, Australia.
-
-Blocks ads, malware, trackers and more. No persistent logs. DNSSEC. No EDNS Client-Subnet.
-
-sdns://AgMAAAAAAAAAGFsyNDA0Ojk0MDA6NDFhOTo0ODAwOjoxXaDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5iBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zhBwZXIuYWRmaWx0ZXIubmV0Ci9kbnMtcXVlcnk
-
-
 ## adfilter-syd
 
 Hosted in Sydney, Australia.
@@ -66,15 +48,6 @@ Hosted in Sydney, Australia.
 Blocks ads, malware, trackers and more. No persistent logs. DNSSEC. No EDNS Client-Subnet.
 
 sdns://AgMAAAAAAAAADjExMi4yMTMuMzIuMjE5oMwQYNOcgym2K2-8fQ1t-TCYabmB5-Y5LVzY-kCPTYDmIEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOEHN5ZC5hZGZpbHRlci5uZXQKL2Rucy1xdWVyeQ
-
-
-## adfilter-syd-ipv6
-
-Hosted in Sydney, Australia.
-
-Blocks ads, malware, trackers and more. No persistent logs. DNSSEC. No EDNS Client-Subnet.
-
-sdns://AgMAAAAAAAAAGFsyNDA0Ojk0MDA6MjE0ZTplYTAwOjoxXaDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5iBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zhBzeWQuYWRmaWx0ZXIubmV0Ci9kbnMtcXVlcnk
 
 
 ## adfree.usableprivacy.net
@@ -1593,6 +1566,16 @@ https://www.iij.ad.jp/
 sdns://AgEAAAAAAAAACjEwMy4yLjU3LjUgmOPV5TavKVjNL38U9wTvSidtJeM81l8uZfXk8nJ8EzARcHVibGljLmRucy5paWouanAKL2Rucy1xdWVyeQ
 
 
+## invisv
+
+A DoH server using 3rd-party intermediate relays to avoid linking IP
+addresses with queries.
+
+https://invisv.com
+
+sdns://AgcAAAAAAAAAAAAOZG5zLmludmlzdi5jb20KL2Rucy1xdWVyeQ
+
+
 ## jp.tiar.app
 
 Non-Logging, Non-Filtering DNSCrypt server in Japan.
@@ -1674,7 +1657,7 @@ Hosted in Amsterdam (AMS1), The Netherlands.
 
 Non-logging, non-filtering, supports DNSSEC.
 
-sdns://AgcAAAAAAAAADjEzNi4yNDQuOTcuMTE0IFkaneMM4pPbY6hfvwOotK0c18K3ichOc9LzR0pw9zdAFWNoZXdiYWNjYS5tZWdhbmVyZC5ubAovZG5zLXF1ZXJ5
+sdns://AgcAAAAAAAAADjEzNi4yNDQuOTcuMTE0IFDev8_1OF25hJldwxFEny-ZkBjtZ3kzo5lBJFOcpr10FWNoZXdiYWNjYS5tZWdhbmVyZC5ubAovZG5zLXF1ZXJ5
 
 
 ## meganerd-doh-ipv6
@@ -1684,7 +1667,7 @@ Hosted in Amsterdam (AMS1), The Netherlands.
 
 Non-logging, non-filtering, supports DNSSEC.
 
-sdns://AgcAAAAAAAAAKFsyMDAxOjE5ZjA6NTAwMTpjYmI6NTQwMDowM2ZmOmZlMDc6ZjcwZF0gWRqd4wzik9tjqF-_A6i0rRzXwreJyE5z0vNHSnD3N0AVY2hld2JhY2NhLm1lZ2FuZXJkLm5sCi9kbnMtcXVlcnk
+sdns://AgcAAAAAAAAAKFsyMDAxOjE5ZjA6NTAwMTpjYmI6NTQwMDowM2ZmOmZlMDc6ZjcwZF0gUN6_z_U4XbmEmV3DEUSfL5mQGO1neTOjmUEkU5ymvXQVY2hld2JhY2NhLm1lZ2FuZXJkLm5sCi9kbnMtcXVlcnk
 
 
 ## meganerd-ipv6
