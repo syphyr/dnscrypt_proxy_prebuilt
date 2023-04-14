@@ -463,6 +463,8 @@ map_file = '/system/etc/dnscrypt-proxy/captive-portals'
 
 
 ## Certificate file and key - Note that the certificate has to be trusted.
+## Can be generated using the following command:
+## openssl req -x509 -nodes -newkey rsa:2048 -days 5000 -sha256 -keyout localhost.pem -out localhost.pem
 ## See the documentation (wiki) for more information.
 
 # cert_file = '/system/etc/dnscrypt-proxy/localhost.pem'
