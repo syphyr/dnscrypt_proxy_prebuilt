@@ -652,13 +652,6 @@ Dublin, Ireland DNSCrypt server provided by https://cryptostorm.is/
 sdns://AQIAAAAAAAAADjM3LjEyMC4yMzUuMTg3IDEzcq1ZVjLCQWuHLwmPhRvduWUoTGy-mk8ZCWQw26laHjIuZG5zY3J5cHQtY2VydC5jcnlwdG9zdG9ybS5pcw
 
 
-## cs-is
-
-Iceland DNSCrypt server provided by https://cryptostorm.is/
-
-sdns://AQIAAAAAAAAADTgyLjIyMS4xMjguNDQgMTNyrVlWMsJBa4cvCY-FG925ZShMbL6aTxkJZDDbqVoeMi5kbnNjcnlwdC1jZXJ0LmNyeXB0b3N0b3JtLmlz
-
-
 ## cs-london
 
 London, England DNSCrypt server provided by https://cryptostorm.is/
@@ -1600,7 +1593,7 @@ Hosted in Amsterdam (AMS1), The Netherlands.
 
 Non-logging, non-filtering, supports DNSSEC.
 
-sdns://AgcAAAAAAAAADjEzNi4yNDQuOTcuMTE0IFDev8_1OF25hJldwxFEny-ZkBjtZ3kzo5lBJFOcpr10FWNoZXdiYWNjYS5tZWdhbmVyZC5ubAovZG5zLXF1ZXJ5
+sdns://AgcAAAAAAAAADjEzNi4yNDQuOTcuMTE0IKtmfDbr2JUY2EaNRaqOgzT5COvXBHIKGgnYNr4fp-h9FWNoZXdiYWNjYS5tZWdhbmVyZC5ubAovZG5zLXF1ZXJ5
 
 
 ## meganerd-doh-ipv6
@@ -1610,7 +1603,7 @@ Hosted in Amsterdam (AMS1), The Netherlands.
 
 Non-logging, non-filtering, supports DNSSEC.
 
-sdns://AgcAAAAAAAAAKFsyMDAxOjE5ZjA6NTAwMTpjYmI6NTQwMDowM2ZmOmZlMDc6ZjcwZF0gUN6_z_U4XbmEmV3DEUSfL5mQGO1neTOjmUEkU5ymvXQVY2hld2JhY2NhLm1lZ2FuZXJkLm5sCi9kbnMtcXVlcnk
+sdns://AgcAAAAAAAAAJ1syMDAxOjE5ZjA6NTAwMTpjYmI6NTQwMDozZmY6ZmUwNzpmNzBkXSCrZnw269iVGNhGjUWqjoM0-Qjr1wRyChoJ2Da-H6fofRVjaGV3YmFjY2EubWVnYW5lcmQubmwKL2Rucy1xdWVyeQ
 
 
 ## meganerd-ipv6
@@ -2068,20 +2061,6 @@ Maintained by Frank Denis - https://fr.dnscrypt.info/sfw.html
 sdns://AQMAAAAAAAAADzE2My4xNzIuMTgwLjEyNSDfYnO_x1IZKotaObwMhaw_-WRF1zZE9mJygl01WPGh_x8yLmRuc2NyeXB0LWNlcnQuc2Z3LnNjYWxld2F5LWZy
 
 
-## starrydns
-
-DNSCrypt server in Singapore, no filter, no logs, DNSSEC support
-
-sdns://AQcAAAAAAAAACzUyLjc3LjMuMjE1IDb9YzoMbw-DD4Ql0GG-maGsuKFCEor_AW69i7NlvWuXIDIuZG5zY3J5cHQtY2VydC5zdGFycnlkbnMucGxhbmV0
-
-
-## starrydns-ipv6
-
-DNSCrypt server in Singapore, no filter, no logs, DNSSEC support (IPv6 server)
-
-sdns://AQcAAAAAAAAAKFsyNDA2OmRhMTg6Njc2OjQxMDI6ODdiOTplMjk5OjJhNWE6ODk0Yl0gNv1jOgxvD4MPhCXQYb6Zoay4oUISiv8Bbr2Ls2W9a5cgMi5kbnNjcnlwdC1jZXJ0LnN0YXJyeWRucy5wbGFuZXQ
-
-
 ## sth-ads-doh-se
 
 Resolver in Stockholm, Sweden. DoH server. Non-logging, remove ads and malware, DNSSEC.
@@ -2207,14 +2186,6 @@ Private DNSCrypt service by WeVPN in Singapore - https://wevpn.com/dns
 With ad blocking.
 
 sdns://AQcAAAAAAAAAEzE0My4yNDQuMzMuNzQ6MTUzNTMgFTXwu5MfYkBOrRpDeoB-yOWEjCnf-l3yixhtuzuPBskfMi5kbnNjcnlwdC1jZXJ0LnNlY3VyZS5kbnMudGVzdA
-
-
-## wevpn-useast
-
-Private DNSCrypt service by WeVPN in New Jersey, USA - https://wevpn.com/dns
-With ad blocking.
-
-sdns://AQcAAAAAAAAAFDIzLjIyNi4xMzQuMjQyOjE1MzUzII_Le5DiGa3AfdRxR7DRt52ZaexL_22aLfjDJwp5saIsHzIuZG5zY3J5cHQtY2VydC5zZWN1cmUuZG5zLnRlc3Q
 
 
 ## yandex
