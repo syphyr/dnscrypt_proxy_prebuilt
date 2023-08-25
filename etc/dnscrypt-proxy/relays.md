@@ -103,13 +103,6 @@ US - Chicago, IL Anonymized DNS relay server provided by https://cryptostorm.is/
 sdns://gQ4xNzMuMjM0LjU2LjExNQ
 
 
-## anon-cs-il2
-
-US - Chicago, IL 2 Anonymized DNS relay server provided by https://cryptostorm.is/
-
-sdns://gQ4xNzIuMTA3LjE5OS4xOQ
-
-
 ## anon-cs-ireland
 
 Dublin, Ireland Anonymized DNS relay server provided by https://cryptostorm.is/
@@ -386,6 +379,20 @@ sdns://gRI0NS4xNTMuMTg3Ljk2OjQzNDM
 Anonymized DNS relay hosted in Nuremberg, Germany (netcup) and maintained by https://techsaviours.org
 
 sdns://gRA4OS41OC42LjE2OTo0NDM0
+
+
+## anon-tiarap
+
+Anonymized DNS relay hosted in Singapore
+
+sdns://gRMxNzQuMTM4LjI5LjE3NToxNDQz
+
+
+## anon-tiarap-ipv6
+
+Anonymized IPv6 DNS relay hosted in Singapore
+
+sdns://gSBbMjQwMDo2MTgwOjA6ZDA6OjVmNzM6NDAwMV06MTQ0Mw
 
 
 ## anon-v.dnscrypt.uk-ipv4
