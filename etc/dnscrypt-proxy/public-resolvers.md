@@ -1874,7 +1874,7 @@ DoH & DoT Server, No Logging, No Filters, DNSSEC
 
 Running privately by ibksturm in Thurgau, Switzerland
 
-sdns://AgcAAAAAAAAAAKDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5iBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zhRpYmtzdHVybS5zeW5vbG9neS5tZQovZG5zLXF1ZXJ5
+sdns://AgcAAAAAAAAADjIxMy4xOTYuMTkxLjk2IFk-LUmnQCNVVSau-bdCKxnluLFnORtt7l7SkrHKI6dMGGlia3N0dXJtLnN5bm9sb2d5Lm1lOjQ0MwovZG5zLXF1ZXJ5
 
 
 ## doh.appliedprivacy.net
@@ -2048,7 +2048,7 @@ DNSCRYPT V2 Server, No Logging, No Filters, DNSSEC
 
 Running privately by ibksturm in Thurgau, Switzerland
 
-sdns://AQcAAAAAAAAAEzIxMy4xOTYuMTkxLjk2Ojg0NDMgHK0AUhqiLSuBFR07jpBhKvko_oyqyWnot8z4cce7cKkYMi5kbnNjcnlwdC1jZXJ0Lmlia3N0dXJt
+sdns://AQcAAAAAAAAAEzIxMy4xOTYuMTkxLjk2Ojg0NDMgiwvumeI8et789m3naGH-4xzM40t6c2xO_fCxHldawJgYMi5kbnNjcnlwdC1jZXJ0Lmlia3N0dXJt
 
 
 ## iij
@@ -2140,7 +2140,7 @@ Hosted in Amsterdam (AMS1), The Netherlands.
 
 Non-logging, non-filtering, supports DNSSEC.
 
-sdns://AgcAAAAAAAAADTk1LjE3OS4xMzEuODIgzTW4grmL7hHRUEEM0vaOdI2ofnkJWzmig-0Np94LnpwRc25va2UubWVnYW5lcmQubmwKL2Rucy1xdWVyeQ
+sdns://AgcAAAAAAAAADTk1LjE3OS4xMzEuODIgcnEzGvYS6ObYZFA4PozbbNTJ3vre9wWfijO0ZuDCe3YRc25va2UubWVnYW5lcmQubmwKL2Rucy1xdWVyeQ
 
 
 ## meganerd-doh-ipv6
@@ -2150,7 +2150,7 @@ Hosted in Amsterdam (AMS1), The Netherlands.
 
 Non-logging, non-filtering, supports DNSSEC.
 
-sdns://AgcAAAAAAAAAGFsyYTA1OmY0ODA6MTQwMDoyYjAwOjoxXSDNNbiCuYvuEdFQQQzS9o50jah-eQlbOaKD7Q2n3guenBFzbm9rZS5tZWdhbmVyZC5ubAovZG5zLXF1ZXJ5
+sdns://AgcAAAAAAAAAGFsyYTA1OmY0ODA6MTQwMDoyYjAwOjoxXSBycTMa9hLo5thkUDg-jNts1Mne-t73BZ-KM7Rm4MJ7dhFzbm9rZS5tZWdhbmVyZC5ubAovZG5zLXF1ZXJ5
 
 
 ## meganerd-ipv6
