@@ -75,13 +75,6 @@ Dusseldorf, Germany 4 Anonymized DNS relay server provided by https://cryptostor
 sdns://gQ44NS4xMTQuMTM4LjExOQ
 
 
-## anon-cs-finland
-
-Finland Anonymized DNS relay server provided by https://cryptostorm.is/
-
-sdns://gQ4xODUuMTE3LjExOC4yMA
-
-
 ## anon-cs-fr
 
 France Anonymized DNS relay server provided by https://cryptostorm.is/
@@ -108,13 +101,6 @@ sdns://gQ4xNzMuMjM0LjU2LjExNQ
 Dublin, Ireland Anonymized DNS relay server provided by https://cryptostorm.is/
 
 sdns://gQ4zNy4xMjAuMjM1LjE4Nw
-
-
-## anon-cs-london
-
-London, England Anonymized DNS relay server provided by https://cryptostorm.is/
-
-sdns://gQ03OC4xMjkuMTQwLjY1
 
 
 ## anon-cs-madrid
@@ -298,14 +284,14 @@ sdns://gQ4xMzcuNzQuMjIzLjIzNA
 
 Anonymized DNS relay hosted by MegaNerd.nl (IPv4) (https://www.meganerd.nl/encrypted-dns-server) in Amsterdam, The Netherlands (AMS1)
 
-sdns://gRE5NS4xNzkuMTMxLjgyOjQ0Mw
+sdns://gQ05NS4xNzkuMTMxLjgy
 
 
 ## anon-meganerd-ipv6
 
 Anonymized DNS relay hosted by MegaNerd.nl (IPv6) (https://www.meganerd.nl/encrypted-dns-server) in Amsterdam, The Netherlands (AMS1)
 
-sdns://gRxbMmEwNTpmNDgwOjE0MDA6MmIwMDo6MV06NDQz
+sdns://gRhbMmEwNTpmNDgwOjE0MDA6MmIwMDo6MV0
 
 
 ## anon-openinternet
