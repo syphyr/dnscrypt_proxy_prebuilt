@@ -258,11 +258,32 @@ For more information look at https://github.com/bhanupratapys/dnswarden or https
 sdns://gRQxODguMjQ0LjExNy4xMTQ6MTQ0Mw
 
 
-## anon-ibksturm
+## anon-gombadi-sydney
 
-Same as DNSCRYPT Resolver, hosted in Thurgau, Switzerland
+Anonymized DNS relay hosted in Sydney Australia. https://www.gombadi.com/edns/edns.html
 
-sdns://gRMyMTMuMTk2LjE5MS45Njo4NDQz
+sdns://gRIxOTQuMTk1LjEyNC40MTo0NDM
+
+
+## anon-gombadi-sydney-ipv6
+
+Anonymized DNS relay hosted in Sydney Australia. https://www.gombadi.com/edns/edns.html
+
+sdns://gSRbMjQwMDo4OTA3OjpmMDNjOjkzZmY6ZmVjNDo4YzQyXTo0NDM
+
+
+## anon-gombadi-tokyo
+
+Anonymized DNS relay hosted in Tokyo Japan. https://www.gombadi.com/edns/edns.html
+
+sdns://gRMyMDIuMTgyLjExMS4yMzQ6NDQz
+
+
+## anon-gombadi-tokyo-ipv6
+
+Anonymized DNS relay hosted in Tokyo Japan. https://www.gombadi.com/edns/edns.html
+
+sdns://gSxbMjQwMTpjMDgwOjEwMDA6NDhiNDo1NDAwOjRmZjpmZTlkOmQ0NTVdOjQ0Mw
 
 
 ## anon-inconnu
