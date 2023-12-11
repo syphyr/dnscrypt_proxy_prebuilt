@@ -222,13 +222,6 @@ Resolver in Amsterdam. HTTP3, DoH protocol. Non-logging, non-filtering, DNSSEC.
 sdns://AgcAAAAAAAAAFVsyYTBjOmI5YzA6Zjo0NTFkOjoxXaDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5iBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zhJkbnNubC5hbGVrYmVyZy5uZXQKL2Rucy1xdWVyeQ
 
 
-## att
-
-AT&T test DoH server.
-
-sdns://AgUAAAAAAAAAAKC8hFRehaL-5iAWO74cDW6sa3toE6vGROtou_hQdtyuYyCY49XlNq8pWM0vfxT3BO9KJ20l4zzWXy5l9eTycnwTMBBkb2h0cmlhbC5hdHQubmV0Ci9kbnMtcXVlcnk
-
-
 ## bebasdns
 
 BebasDNS default server by BebasID. DNSSEC and OpenNIC supported. Filters ads, tracker, and malware.
@@ -422,16 +415,6 @@ Warning: This server is incompatible with anonymization.
 By https://cleanbrowsing.org/
 
 sdns://AQMAAAAAAAAAFDE4NS4yMjguMTY4LjE2ODo4NDQzILysMvrVQ2kXHwgy1gdQJ8MgjO7w6OmflBjcd2Bl1I8pEWNsZWFuYnJvd3Npbmcub3Jn
-
-
-## cleanbrowsing-security
-
-Block access to phishing, malware and malicious domains. It does not block adult content.
-By https://cleanbrowsing.org/
-
-Warning: This server is incompatible with anonymization.
-
-sdns://AQMAAAAAAAAAEjE4NS4yMjguMTY4Ljk6ODQ0MyC8rDL61UNpFx8IMtYHUCfDIIzu8Ojpn5QY3HdgZdSPKRFjbGVhbmJyb3dzaW5nLm9yZw
 
 
 ## cloudflare
@@ -799,11 +782,11 @@ Vancouver, Canada DNSCrypt server provided by https://cryptostorm.is/
 sdns://AQIAAAAAAAAADDcxLjE5LjI1MS4zNCAxM3KtWVYywkFrhy8Jj4Ub3bllKExsvppPGQlkMNupWh4yLmRuc2NyeXB0LWNlcnQuY3J5cHRvc3Rvcm0uaXM
 
 
-## dct-at1
+## dct-at
 
 DNSCrypt | IPv4 only | Non-logging | Non-filtering | DNSSEC | Vienna, Austria.
 
-sdns://AQcAAAAAAAAADjQ2LjEwMi4xNTcuMTEwIL3HqqP-DQCOOO3DIcdSXv-DixOZ4ExyvKykQknqHvYTFzIuZG5zY3J5cHQtY2VydC5kY3QtYXQx
+sdns://AQcAAAAAAAAADjQ2LjEwMi4xNTcuMTEwIAnp3m8PUYh5Cyppt-OUsmYHRcFaK9PJFqnbf9QRQKEuFjIuZG5zY3J5cHQtY2VydC5kY3QtYXQ
 
 
 ## dct-nl
@@ -813,11 +796,11 @@ DNSCrypt | IPv4 only | Non-logging | Non-filtering | DNSSEC | Dronten, Netherlan
 sdns://AQcAAAAAAAAAETUuMjU1LjEwNS4yNDo4NDQzIGYDjxqBuodg51XiBs8O31_1kxMBDNl_OebQ1wFrx79BFjIuZG5zY3J5cHQtY2VydC5kY3Qtbmw
 
 
-## dct-ru1
+## dct-ru
 
 DNSCrypt | IPv4 only | Non-logging | Non-filtering | DNSSEC | Moscow, Russia.
 
-sdns://AQcAAAAAAAAADTE4NS4yMi4xNTQuMTkgaWn7WaFj7FQw_9F1qge8LMND5xUdAtagWFZPPYRok1kXMi5kbnNjcnlwdC1jZXJ0LmRjdC1ydTE
+sdns://AQcAAAAAAAAADTE4NS4yMi4xNTQuMTkgLAeIPVz7a5qz4uU0W98UXxtNPDYwGNfvwxGBM2pZST0WMi5kbnNjcnlwdC1jZXJ0LmRjdC1ydQ
 
 
 ## decloudus-nogoogle-tst
@@ -1120,24 +1103,6 @@ DNSCry.pt Dublin - no filter, no logs, DNSSEC support (IPv6 server)
 https://www.dnscry.pt
 
 sdns://AQcAAAAAAAAAJFsyYTBmOjNiMDU6MTAxOjE1OjUwNTQ6ZmY6ZmUwMDplMDU3XSC7ML6bwChOgZ9lQzKCTVsYCVYYx84HxCPQ8wgS0_vhFxkyLmRuc2NyeXB0LWNlcnQuZG5zY3J5LnB0
-
-
-## dnscry.pt-durham-ipv4
-
-DNSCry.pt Durham - no filter, no logs, DNSSEC support (IPv4 server)
-
-https://www.dnscry.pt
-
-sdns://AQcAAAAAAAAADDM4LjQ1LjY0LjExNyAS3jjOGrb2p9i5bpMiO0WB-XlTLq7Ek3soP2xndELQ8xkyLmRuc2NyeXB0LWNlcnQuZG5zY3J5LnB0
-
-
-## dnscry.pt-durham-ipv6
-
-DNSCry.pt Durham - no filter, no logs, DNSSEC support (IPv6 server)
-
-https://www.dnscry.pt
-
-sdns://AQcAAAAAAAAAHVsyMDAxOjU1MDo1YTAwOjVlYjo6ZGI1OmYwMDFdIBLeOM4atvan2LlukyI7RYH5eVMursSTeyg_bGd0QtDzGTIuZG5zY3J5cHQtY2VydC5kbnNjcnkucHQ
 
 
 ## dnscry.pt-dusseldorf-ipv4
@@ -1680,20 +1645,6 @@ https://www.dnscry.pt
 sdns://AQcAAAAAAAAAFlsyYTA5OmIyODA6ZmUwMDoyNDo6YV0gTjYGdF7KZoIwpaD8VZEyKsawGmo47OV6QOHxTCx9URAZMi5kbnNjcnlwdC1jZXJ0LmRuc2NyeS5wdA
 
 
-## dnscrypt-de-blahdns-ipv4
-
-Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Germany. By https://blahdns.com/
-
-sdns://AQMAAAAAAAAAEjc4LjQ2LjI0NC4xNDM6ODQ0MyCFE6lrxOCDS5UNY7UC6NPi1U0ElmsmApM06QcduiP8KxsyLmRuc2NyeXB0LWNlcnQuYmxhaGRucy5jb20
-
-
-## dnscrypt-de-blahdns-ipv6
-
-Blocks ad and Tracking, no Logging, DNSSEC, Hosted in Germany. By https://blahdns.com/
-
-sdns://AQMAAAAAAAAAG1syYTAxOjRmODpjMTc6ZWM2Nzo6MV06ODQ0MyCFE6lrxOCDS5UNY7UC6NPi1U0ElmsmApM06QcduiP8KxsyLmRuc2NyeXB0LWNlcnQuYmxhaGRucy5jb20
-
-
 ## dnscrypt.be
 
 Resolver in Leuven, Belgium (UCLL Campus Proximus). Non-logging/DNSSEC/Uncensored. https://dnscrypt.be
@@ -2109,6 +2060,24 @@ An open (non-logging, non-filtering, no ECS) DNSCrypt resolver operated by https
 
 sdns://AQYAAAAAAAAAFFsyYTAxOjllMDA6OjU0XTo4NDQzIH7L7z4vAYAyjWDg4dHsI-Tod9jqCaGTcBoE1rPAvovhHzIuZG5zY3J5cHQtY2VydC5yZG5zLmZhZWxpeC5uZXQ
 sdns://AQYAAAAAAAAAFFsyYTAxOjllMDA6OjU1XTo4NDQzIH7L7z4vAYAyjWDg4dHsI-Tod9jqCaGTcBoE1rPAvovhHzIuZG5zY3J5cHQtY2VydC5yZG5zLmZhZWxpeC5uZXQ
+
+
+## fdn
+
+DoH server in France operated by FDN - French Data Network (non-profit ISP)
+https://www.fdn.fr/
+
+sdns://AgcAAAAAAAAADDgwLjY3LjE2OS4xMqDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5iBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zgpuczAuZmRuLmZyCi9kbnMtcXVlcnk
+sdns://AgcAAAAAAAAADDgwLjY3LjE2OS40MKDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5iBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zgpuczEuZmRuLmZyCi9kbnMtcXVlcnk
+
+
+## fdn-ipv6
+
+DoH server in France operated by FDN - French Data Network (non-profit ISP)
+https://www.fdn.fr/
+
+sdns://AgcAAAAAAAAAElsyMDAxOjkxMDo4MDA6OjEyXaDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5iBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zgpuczAuZmRuLmZyCi9kbnMtcXVlcnk
+sdns://AgcAAAAAAAAAElsyMDAxOjkxMDo4MDA6OjQwXaDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5iBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zgpuczEuZmRuLmZyCi9kbnMtcXVlcnk
 
 
 ## ffmuc.net
