@@ -63,6 +63,9 @@ tracker.vanitycore.co
 tracker.wf
 tracker.zer0day.to
 
+# Allow file hosting site
+transfer.sh
+
 # That one may be blocked due to 'ads' being in the name.
 # However, blocking it prevents all sponsored links from the Google
 # search engine from being opened.
