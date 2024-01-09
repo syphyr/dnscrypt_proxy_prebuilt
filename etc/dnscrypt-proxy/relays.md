@@ -12,13 +12,6 @@ See the link below for more information:
 https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS
 
 
-## anon-ams
-
-Anonymized DNS relay hosted in Amsterdam
-
-sdns://gRE4OS4zOC4xMzEuMzg6NDM0Mw
-
-
 ## anon-ams-ipv6
 
 Anonymized DNS relay hosted in Amsterdam
@@ -305,13 +298,6 @@ sdns://gSxbMjAwMToxOWYwOmI4MDA6MThiOTo1NDAwOjRmZjpmZThkOjczNGJdOjQ0Mw
 Anonymized DNS relay hosted in Singapore. https://www.gombadi.com/edns/edns.html
 
 sdns://gRIxNzIuMTA0LjQ0LjEyMDo0NDM
-
-
-## anon-gombadi-singapore-ipv6
-
-Anonymized DNS relay hosted in Singapore. https://www.gombadi.com/edns/edns.html
-
-sdns://gSlbMjQwMDo4OTAxOmUwMDE6MmZmOjA6YTc4OTpiNDU2OmMxMjNdOjQ0Mw
 
 
 ## anon-gombadi-sydney
