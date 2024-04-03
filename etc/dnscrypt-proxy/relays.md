@@ -422,7 +422,7 @@ sdns://gRIxMDguMTgxLjEwMS42Nzo0NDM
 
 Vancouver, Canada Anonymized DNS relay server provided by https://cryptostorm.is/
 
-sdns://gRA3MS4xOS4yNTEuMzQ6NDQz
+sdns://gRIxOTYuMjQwLjc5LjE2Mzo0NDM
 
 
 ## anon-dnscrypt.uk-ipv4
@@ -445,6 +445,20 @@ Relay hosted in swizterland.
 For more information look at https://github.com/bhanupratapys/dnswarden or https://dnswarden.com
 
 sdns://gRQxODguMjQ0LjExNy4xMTQ6MTQ0Mw
+
+
+## anon-fluffycat-fr-01
+
+Anonymized DNS relay hosted in Marseille, FR on Oracle Cloud.
+
+sdns://gRQxMjkuMTUxLjIyNC4xODI6NTM1Mw
+
+
+## anon-fluffycat-fr-02
+
+Anonymized DNS relay hosted in Marseille, FR on Oracle Cloud.
+
+sdns://gRQxMjkuMTUxLjI0My4xNDM6NTM1Mw
 
 
 ## anon-gombadi-chennai
