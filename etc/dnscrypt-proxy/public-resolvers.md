@@ -92,13 +92,15 @@ Remove ads and protect your computer from malware
 Warning: This server is incompatible with anonymization.
 
 sdns://AQMAAAAAAAAAETk0LjE0MC4xNC4xNDo1NDQzINErR_JS3PLCu_iZEIbq95zkSV2LFsigxDIuUso_OQhzIjIuZG5zY3J5cHQuZGVmYXVsdC5uczEuYWRndWFyZC5jb20
+sdns://AQMAAAAAAAAAETk0LjE0MC4xNS4xNTo1NDQzINErR_JS3PLCu_iZEIbq95zkSV2LFsigxDIuUso_OQhzIjIuZG5zY3J5cHQuZGVmYXVsdC5uczEuYWRndWFyZC5jb20
 
 
 ## adguard-dns-doh
 
 Remove ads and protect your computer from malware (over DoH)
 
-sdns://AgMAAAAAAAAADDk0LjE0MC4xNS4xNSCaOjT3J965vKUQA9nOnDn48n3ZxSQpAcK6saROY1oCGQ9kbnMuYWRndWFyZC5jb20KL2Rucy1xdWVyeQ
+sdns://AgMAAAAAAAAADDk0LjE0MC4xNC4xNCCaOjT3J965vKUQA9nOnDn48n3ZxSQpAcK6saROY1oCGQw5NC4xNDAuMTQuMTQKL2Rucy1xdWVyeQ
+sdns://AgMAAAAAAAAADDk0LjE0MC4xNS4xNSCaOjT3J965vKUQA9nOnDn48n3ZxSQpAcK6saROY1oCGQw5NC4xNDAuMTUuMTUKL2Rucy1xdWVyeQ
 
 
 ## adguard-dns-family
@@ -108,22 +110,25 @@ Adguard DNS with safesearch and adult content blocking
 Warning: This server is incompatible with anonymization.
 
 sdns://AQMAAAAAAAAAETk0LjE0MC4xNC4xNTo1NDQzILgxXdexS27jIKRw3C7Wsao5jMnlhvhdRUXWuMm1AFq6ITIuZG5zY3J5cHQuZmFtaWx5Lm5zMS5hZGd1YXJkLmNvbQ
+sdns://AQMAAAAAAAAAETk0LjE0MC4xNS4xNjo1NDQzILgxXdexS27jIKRw3C7Wsao5jMnlhvhdRUXWuMm1AFq6ITIuZG5zY3J5cHQuZmFtaWx5Lm5zMS5hZGd1YXJkLmNvbQ
 
 
 ## adguard-dns-family-doh
 
 Adguard DNS with safesearch and adult content blocking (over DoH)
 
-sdns://AgMAAAAAAAAADDk0LjE0MC4xNS4xNiCaOjT3J965vKUQA9nOnDn48n3ZxSQpAcK6saROY1oCGRZkbnMtZmFtaWx5LmFkZ3VhcmQuY29tCi9kbnMtcXVlcnk
+sdns://AgMAAAAAAAAADDk0LjE0MC4xNC4xNSCaOjT3J965vKUQA9nOnDn48n3ZxSQpAcK6saROY1oCGQw5NC4xNDAuMTQuMTUKL2Rucy1xdWVyeQ
+sdns://AgMAAAAAAAAADDk0LjE0MC4xNS4xNiCaOjT3J965vKUQA9nOnDn48n3ZxSQpAcK6saROY1oCGQw5NC4xNDAuMTUuMTYKL2Rucy1xdWVyeQ
 
 
 ## adguard-dns-family-ipv6
 
-Adguard DNS with safesearch and adult content blocking (over IPv6)
+Adguard DNS with safesearch and adult content blocking (Over IPv6)
 
 Warning: This server is incompatible with anonymization.
 
 sdns://AQMAAAAAAAAAGVsyYTEwOjUwYzA6OmJhZDE6ZmZdOjU0NDMguDFd17FLbuMgpHDcLtaxqjmMyeWG-F1FRda4ybUAWrohMi5kbnNjcnlwdC5mYW1pbHkubnMxLmFkZ3VhcmQuY29t
+sdns://AQMAAAAAAAAAGVsyYTEwOjUwYzA6OmJhZDI6ZmZdOjU0NDMguDFd17FLbuMgpHDcLtaxqjmMyeWG-F1FRda4ybUAWrohMi5kbnNjcnlwdC5mYW1pbHkubnMxLmFkZ3VhcmQuY29t
 
 
 ## adguard-dns-ipv6
@@ -133,6 +138,7 @@ Remove ads and protect your computer from malware (over IPv6)
 Warning: This server is incompatible with anonymization.
 
 sdns://AQMAAAAAAAAAGFsyYTEwOjUwYzA6OmFkMTpmZl06NTQ0MyDRK0fyUtzywrv4mRCG6vec5EldixbIoMQyLlLKPzkIcyIyLmRuc2NyeXB0LmRlZmF1bHQubnMxLmFkZ3VhcmQuY29t
+sdns://AQMAAAAAAAAAGFsyYTEwOjUwYzA6OmFkMjpmZl06NTQ0MyDRK0fyUtzywrv4mRCG6vec5EldixbIoMQyLlLKPzkIcyIyLmRuc2NyeXB0LmRlZmF1bHQubnMxLmFkZ3VhcmQuY29t
 
 
 ## adguard-dns-unfiltered
@@ -142,13 +148,15 @@ AdGuard public DNS servers without filters
 Warning: This server is incompatible with anonymization.
 
 sdns://AQcAAAAAAAAAEjk0LjE0MC4xNC4xNDA6NTQ0MyC16ETWuDo-PhJo62gfvqcN48X6aNvWiBQdvy7AZrLa-iUyLmRuc2NyeXB0LnVuZmlsdGVyZWQubnMxLmFkZ3VhcmQuY29t
+sdns://AQcAAAAAAAAAEjk0LjE0MC4xNC4xNDE6NTQ0MyC16ETWuDo-PhJo62gfvqcN48X6aNvWiBQdvy7AZrLa-iUyLmRuc2NyeXB0LnVuZmlsdGVyZWQubnMxLmFkZ3VhcmQuY29t
 
 
 ## adguard-dns-unfiltered-doh
 
 AdGuard public DNS servers without filters (over DoH)
 
-sdns://AgcAAAAAAAAADTk0LjE0MC4xNC4xNDAgmjo09yfeubylEAPZzpw5-PJ92cUkKQHCurGkTmNaAhkaZG5zLXVuZmlsdGVyZWQuYWRndWFyZC5jb20KL2Rucy1xdWVyeQ
+sdns://AgcAAAAAAAAADTk0LjE0MC4xNC4xNDAgmjo09yfeubylEAPZzpw5-PJ92cUkKQHCurGkTmNaAhkNOTQuMTQwLjE0LjE0MAovZG5zLXF1ZXJ5
+sdns://AgcAAAAAAAAADTk0LjE0MC4xNC4xNDEgmjo09yfeubylEAPZzpw5-PJ92cUkKQHCurGkTmNaAhkNOTQuMTQwLjE0LjE0MQovZG5zLXF1ZXJ5
 
 
 ## adguard-dns-unfiltered-ipv6
@@ -158,6 +166,7 @@ AdGuard public DNS servers without filters (over IPv6)
 Warning: This server is incompatible with anonymization.
 
 sdns://AQcAAAAAAAAAFlsyYTEwOjUwYzA6OjE6ZmZdOjU0NDMgtehE1rg6Pj4SaOtoH76nDePF-mjb1ogUHb8uwGay2volMi5kbnNjcnlwdC51bmZpbHRlcmVkLm5zMS5hZGd1YXJkLmNvbQ
+sdns://AQcAAAAAAAAAFlsyYTEwOjUwYzA6OjI6ZmZdOjU0NDMgtehE1rg6Pj4SaOtoH76nDePF-mjb1ogUHb8uwGay2volMi5kbnNjcnlwdC51bmZpbHRlcmVkLm5zMS5hZGd1YXJkLmNvbQ
 
 
 ## ahadns-doh-la
@@ -215,11 +224,18 @@ Resolver in Amsterdam. HTTP3, DoH protocol. Non-logging, non-filtering, DNSSEC.
 sdns://AgcAAAAAAAAADDg5LjM4LjEzMS4zOKARsQLmsfY-UomE1gJfMrE4JB_Ii711GVdNcMmDLVPh6KBa74Q__PLscFX1BKFi8in4ORw3D_OmFj0ts_PWBNYiviBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zhJkbnNubC5hbGVrYmVyZy5uZXQKL2Rucy1xdWVyeQ
 
 
-## ams-doh-nl-ipv6
+## artikel10-doh-ipv4
 
-Resolver in Amsterdam. HTTP3, DoH protocol. Non-logging, non-filtering, DNSSEC.
+DNSSEC, No-filter and No-log DoH resolver operated by Artikel10 association. Homepage: https://artikel10.org
 
-sdns://AgcAAAAAAAAAFVsyYTBjOmI5YzA6Zjo0NTFkOjoxXaARsQLmsfY-UomE1gJfMrE4JB_Ii711GVdNcMmDLVPh6KBa74Q__PLscFX1BKFi8in4ORw3D_OmFj0ts_PWBNYiviBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zhJkbnNubC5hbGVrYmVyZy5uZXQKL2Rucy1xdWVyeQ
+sdns://AgcAAAAAAAAADjIxNy4xOTcuOTEuMTUzIEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOEWRucy5hcnRpa2VsMTAub3JnCi9kbnMtcXVlcnk
+
+
+## artikel10-doh-ipv6
+
+DNSSEC, No-filter and No-log DoH resolver (IPv6) operated by Artikel10 association. Homepage: https://artikel10.org
+
+sdns://AgcAAAAAAAAAF1syMDAxOjY3YzoxNDAxOjIxMjA6OjFdIEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOEWRucy5hcnRpa2VsMTAub3JnCi9kbnMtcXVlcnk
 
 
 ## bebasdns
@@ -2167,6 +2183,20 @@ https://www.dnscry.pt
 sdns://AQcAAAAAAAAAFlsyYTA5OmIyODA6ZmUwMDoyNDo6YV0gTjYGdF7KZoIwpaD8VZEyKsawGmo47OV6QOHxTCx9URAZMi5kbnNjcnlwdC1jZXJ0LmRuc2NyeS5wdA
 
 
+## dnscrypt.ca-ipv4
+
+Canadian based, unfiltered, DNSSEC validating, and no logs... for your pleasure. https://dnscrypt.ca/
+
+sdns://AQcAAAAAAAAAEzE4NS4xMTEuMTg4LjQ2Ojg0NDMgC-tbTwd-08e_JtBJmgsvjAG9i10itE-LBNCwjTflezQiMi5kbnNjcnlwdC1jZXJ0LmRuc2NyeXB0LmNhLTEtaXB2NA
+
+
+## dnscrypt.ca-ipv4-doh
+
+Canadian based, unfiltered, DNSSEC validating, and no logs... for your pleasure. https://dnscrypt.ca/
+
+sdns://AgcAAAAAAAAADjE4NS4xMTEuMTg4LjQ2ID8EEe3pxEdwV9V-V4g7HyBbIM3A8yYxKbHuAmmiZ49jEGRuczEuZG5zY3J5cHQuY2EKL2Rucy1xdWVyeQ
+
+
 ## dnscrypt.pl
 
 Free | No filtering | Zero logs | DNSSEC | Poland | https://dnscrypt.pl/ | @dnscryptpl
@@ -2677,46 +2707,6 @@ no ads version, uses StevenBlack's host list: https://github.com/StevenBlack/hos
 sdns://AgIAAAAAAAAADjExNi4yMDIuMTc2LjI2oBGxAuax9j5SiYTWAl8ysTgkH8iLvXUZV01wyYMtU-HooFrvhD_88uxwVfUEoWLyKfg5HDcP86YWPS2z89YE1iK-IEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOD2RvaC5saWJyZWRucy5ncgQvYWRz
 
 
-## meganerd
-
-DNSCrypt server by MegaNerd.nl (IPv4) - https://meganerd.nl/encrypted-dns-server
-Hosted in Amsterdam (AMS1), The Netherlands.
-
-Non-logging, non-filtering, supports DNSSEC.
-
-sdns://AQcAAAAAAAAADTk1LjE3OS4xMzEuODIgIRiZQdNmDJj8zSxSbb1qzEEAU3Pjo0sVBjpJdICkfj4hMi5kbnNjcnlwdC1jZXJ0LnNub2tlLm1lZ2FuZXJkLm5s
-
-
-## meganerd-doh-ipv4
-
-DoH server by MegaNerd.nl (IPv4) - https://meganerd.nl/encrypted-dns-server
-Hosted in Amsterdam (AMS1), The Netherlands.
-
-Non-logging, non-filtering, supports DNSSEC.
-
-sdns://AgcAAAAAAAAADTk1LjE3OS4xMzEuODKgEbEC5rH2PlKJhNYCXzKxOCQfyIu9dRlXTXDJgy1T4eigWu-EP_zy7HBV9QShYvIp-DkcNw_zphY9LbPz1gTWIr4gRE69Z7uD-IB7OSHpOKyReLiCvVCq2xEjHwRM9fCN984Rc25va2UubWVnYW5lcmQubmwKL2Rucy1xdWVyeQ
-
-
-## meganerd-doh-ipv6
-
-DoH server by MegaNerd.nl (IPv6) - https://meganerd.nl/encrypted-dns-server
-Hosted in Amsterdam (AMS1), The Netherlands.
-
-Non-logging, non-filtering, supports DNSSEC.
-
-sdns://AgcAAAAAAAAAGFsyYTA1OmY0ODA6MTQwMDoyYjAwOjoxXaARsQLmsfY-UomE1gJfMrE4JB_Ii711GVdNcMmDLVPh6KBa74Q__PLscFX1BKFi8in4ORw3D_OmFj0ts_PWBNYiviBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zhFzbm9rZS5tZWdhbmVyZC5ubAovZG5zLXF1ZXJ5
-
-
-## meganerd-ipv6
-
-DNSCrypt server by MegaNerd.nl (IPv6) - https://meganerd.nl/encrypted-dns-server
-Hosted in Amsterdam (AMS1), The Netherlands.
-
-Non-logging, non-filtering, supports DNSSEC.
-
-sdns://AQcAAAAAAAAAGFsyYTA1OmY0ODA6MTQwMDoyYjAwOjoxXSAhGJlB02YMmPzNLFJtvWrMQQBTc-OjSxUGOkl0gKR-PiEyLmRuc2NyeXB0LWNlcnQuc25va2UubWVnYW5lcmQubmw
-
-
 ## mullvad-adblock-doh
 
 Same as mullvad-doh but blocks ads and trackers.
@@ -3105,6 +3095,20 @@ sdns://AgYAAAAAAAAADVsyNjIwOmZlOjoxMF0gKhX11qy258CQGt5Ou8dDsszUiQMrRuFkLwaTaDABJ
 sdns://AgYAAAAAAAAAEFsyNjIwOmZlOjpmZToxMF0gKhX11qy258CQGt5Ou8dDsszUiQMrRuFkLwaTaDABJYoUZG5zMTAucXVhZDkubmV0OjUwNTMKL2Rucy1xdWVyeQ
 
 
+## restena-doh-ipv4
+
+DNSSEC, No-log and No-filter DoH operated by RESTENA. Homepage: https://www.restena.lu
+
+sdns://AgcAAAAAAAAACzE1OC42NC4xLjI5IFk-LUmnQCNVVSau-bdCKxnluLFnORtt7l7SkrHKI6dMEWRuc3B1Yi5yZXN0ZW5hLmx1Ci9kbnMtcXVlcnk
+
+
+## restena-doh-ipv6
+
+DNSSEC, No-log and No-filter DoH (IPv6) operated by RESTENA. Homepage: https://www.restena.lu
+
+sdns://AgcAAAAAAAAAEFsyMDAxOmExODoxOjoyOV0gWT4tSadAI1VVJq75t0IrGeW4sWc5G23uXtKSscojp0wRZG5zcHViLnJlc3RlbmEubHUKL2Rucy1xdWVyeQ
+
+
 ## rethinkdns-doh
 
 DNSSEC, No-log, No-filter
@@ -3232,13 +3236,6 @@ Resolver in Stockholm, Sweden. DNSCrypt server. Non-logging, non-filtering, DNSS
 sdns://AQcAAAAAAAAAEjQ1LjE1My4xODcuOTY6NDM0MyAwkzvlkzabRkYs-RrxrcuyTjr9R73mBsx1Y-Ud2o-Whx8yLmRuc2NyeXB0LWNlcnQuc3RoLWRuc2NyeXB0LXNl
 
 
-## sth-dnscrypt-se-ipv6
-
-Resolver in Stockholm, Sweden. DNSCrypt server. Non-logging, non-filtering, DNSSEC.
-
-sdns://AQcAAAAAAAAAGlsyYTA5OmNkNDI6Zjo0MjViOjoxXTo0MzQzIDCTO-WTNptGRiz5GvGty7JOOv1HveYGzHVj5R3aj5aHHzIuZG5zY3J5cHQtY2VydC5zdGgtZG5zY3J5cHQtc2U
-
-
 ## sth-doh-se
 
 Resolver in Stockholm, Sweden. DoH server. Non-logging, non-filtering, DNSSEC.
@@ -3266,16 +3263,16 @@ sdns://AQcAAAAAAAAAEDg5LjU4LjYuMTY5OjQ0MzQgB4isFl7gD2-efHhMEtFjyCz_nHFCaQ8OsbBTg
 
 ## tirapan-doh-ipv4
 
-Recursive and caching resolver, no-log/filter, DNSSEC, OpenNIC. Homepage: https://www.tirapan.top
+Recursive and caching resolver, no-log/filter, DNSSEC. Homepage: https://www.tirapan.top
 
-sdns://AgcAAAAAAAAADDkxLjEwNy4yMzUuMKARsQLmsfY-UomE1gJfMrE4JB_Ii711GVdNcMmDLVPh6KBa74Q__PLscFX1BKFi8in4ORw3D_OmFj0ts_PWBNYiviBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zg93d3cudGlyYXBhbi50b3AQL25vbWVuLXF1YWVzaXR1bQ
+sdns://AgcAAAAAAAAADDkxLjEwNy4yMzUuMCBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zgt0aXJhcGFuLnRvcBAvbm9tZW4tcXVhZXNpdHVt
 
 
 ## tirapan-doh-ipv6
 
-Recursive and caching resolver, no-log/filter, DNSSEC, OpenNIC, IPv6 variant. Homepage: https://www.tirapan.top
+Recursive and caching resolver, no-log/filter, DNSSEC, IPv6 variant. Homepage: https://www.tirapan.top
 
-sdns://AgcAAAAAAAAAF1syYTAxOjRmODoxYzFlOjhjYmE6OjFdoBGxAuax9j5SiYTWAl8ysTgkH8iLvXUZV01wyYMtU-HooFrvhD_88uxwVfUEoWLyKfg5HDcP86YWPS2z89YE1iK-IEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOD3d3dy50aXJhcGFuLnRvcBAvbm9tZW4tcXVhZXNpdHVt
+sdns://AgcAAAAAAAAAF1syYTAxOjRmODoxYzFlOjhjYmE6OjFdIEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOC3RpcmFwYW4udG9wEC9ub21lbi1xdWFlc2l0dW0
 
 
 ## tuna-doh-ipv6
