@@ -12,13 +12,6 @@ See the link below for more information:
 https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS
 
 
-## anon-ams
-
-Anonymized DNS relay hosted in NL
-
-sdns://gRE4OS4zOC4xMzEuMzg6NDM0Mw
-
-
 ## anon-cs-austria
 
 Wien, Austria Anonymized DNS relay server provided by https://cryptostorm.is/
@@ -276,13 +269,6 @@ sdns://gQ45MS4yMTkuMjE1LjIyNw
 US - Las Vegas, NV Anonymized DNS relay server provided by https://cryptostorm.is/
 
 sdns://gQwzNy4xMjAuMTQ3LjI
-
-
-## anon-cs-nyc1
-
-US - New York City, NY 1 Anonymized DNS relay server provided by https://cryptostorm.is/
-
-sdns://gQwyMy4xOS4yNDUuODg
 
 
 ## anon-cs-nyc2
@@ -918,15 +904,6 @@ DNSCry.pt Düsseldorf - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 serve
 https://www.dnscry.pt
 
 sdns://gRhbMmEwZjo1NzA3OmFhODE6NWUzYzo6MV0
-
-
-## dnscry.pt-anon-ebene-ipv4
-
-DNSCry.pt Ebène - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)
-
-https://www.dnscry.pt
-
-sdns://gQ8xMDIuMjIyLjEwNi4xNjU
 
 
 ## dnscry.pt-anon-eygelshoven-ipv4
