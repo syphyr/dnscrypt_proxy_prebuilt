@@ -187,14 +187,6 @@ Server statistics can be seen at: https://statistics.ahadns.com/?server=la
 sdns://AgMAAAAAAAAADTQ1LjY3LjIxOS4yMDigzBBg05yDKbYrb7x9DW35MJhpuYHn5jktXNj6QI9NgOag9_WvKIAeh31986K-KP4UnzJ0p-0p8Tb9UDzjmMuoCw2gs14FlQz72CWfk3W6EBhwuMPEwOxaUpdX5jFn6d4mqeigRE69Z7uD-IB7OSHpOKyReLiCvVCq2xEjHwRM9fCN986g5kS6aWPjNf52XLmXaxKxDrVClLQkd3ZMyzo6zKOssvwgKq4_t78F5MgcQZTcpEUR1PmvMEeG7BrnIYQJz2Kgg1URZG9oLmxhLmFoYWRucy5uZXQKL2Rucy1xdWVyeQ
 
 
-## ahadns-doh-nl
-
-A zero logging DNS with support for DNS-over-HTTPS (DoH) & DNS-over-TLS (DoT). Blocks ads, malware, trackers, viruses, ransomware, telemetry and more. No persistent logs. DNSSEC. Hosted in Amsterdam, Netherlands. By https://ahadns.com/
-Server statistics can be seen at: https://statistics.ahadns.com/?server=nl
-
-sdns://AgMAAAAAAAAACTUuMi43NS43NaDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5qD39a8ogB6HfX3zor4o_hSfMnSn7SnxNv1QPOOYy6gLDaCzXgWVDPvYJZ-TdboQGHC4w8TA7FpSl1fmMWfp3iap6KBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zqDmRLppY-M1_nZcuZdrErEOtUKUtCR3dkzLOjrMo6yy_CAqrj-3vwXkyBxBlNykRRHU-a8wR4bsGuchhAnPYqCDVRFkb2gubmwuYWhhZG5zLm5ldAovZG5zLXF1ZXJ5
-
-
 ## alidns-doh
 
 A public DNS resolver that supports DoH/DoT in mainland China, provided by Alibaba-Cloud.
@@ -232,6 +224,20 @@ sdns://AgAAAAAAAAAAE1syNDAwOjMyMDA6YmFiYTo6MV0gmOPV5TavKVjNL38U9wTvSidtJeM81l8uZ
 Resolver in Amsterdam. HTTP/3, DoH protocol. Non-logging. Blocks ads, malware and trackers. DNSSEC enabled.
 
 sdns://AgMAAAAAAAAADDg5LjM4LjEzMS4zOAAYZG5zbmwtbm9hZHMuYWxla2JlcmcubmV0Ci9kbnMtcXVlcnk
+
+
+## ams-dnscrypt-nl
+
+Resolver in Amsterdam. Dnscrypt protocol. Non-logging, non-filtering, DNSSEC.
+
+sdns://AQcAAAAAAAAAETg5LjM4LjEzMS4zODo0MzQzIBI197wcfHaxuMFi9_YgoxSJ1yIDWPfO75iztVhWzk0aHzIuZG5zY3J5cHQtY2VydC5hbXMtZG5zY3J5cHQtbmw
+
+
+## ams-dnscrypt-nl-ipv6
+
+Resolver in Amsterdam. Dnscrypt protocol. Non-logging, non-filtering, DNSSEC.
+
+sdns://AQcAAAAAAAAAGlsyYTBjOmI5YzA6Zjo0NTFkOjoxXTo0MzQzIBI197wcfHaxuMFi9_YgoxSJ1yIDWPfO75iztVhWzk0aHzIuZG5zY3J5cHQtY2VydC5hbXMtZG5zY3J5cHQtbmw
 
 
 ## ams-doh-nl
@@ -617,8 +623,6 @@ Cloudflare DNS over IPv6 (anycast)
 
 sdns://AgcAAAAAAAAAAAAWWzI2MDY6NDcwMDo0NzAwOjoxMTExXQovZG5zLXF1ZXJ5
 sdns://AgcAAAAAAAAAAAAWWzI2MDY6NDcwMDo0NzAwOjoxMDAxXQovZG5zLXF1ZXJ5
-sdns://AgcAAAAAAAAAAAAUWzI2MDY6NDcwMDo0NzAwOjo2NF0KL2Rucy1xdWVyeQ
-sdns://AgcAAAAAAAAAAAAWWzI2MDY6NDcwMDo0NzAwOjo2NDAwXQovZG5zLXF1ZXJ5
 sdns://AgcAAAAAAAAAFlsyNjA2OjQ3MDA6OjY4MTA6ODRlNV0AEmRucy5jbG91ZGZsYXJlLmNvbQovZG5zLXF1ZXJ5
 sdns://AgcAAAAAAAAAFlsyNjA2OjQ3MDA6OjY4MTA6ODVlNV0AEmRucy5jbG91ZGZsYXJlLmNvbQovZG5zLXF1ZXJ5
 sdns://AgcAAAAAAAAAFlsyNjA2OjQ3MDA6OjY4MTA6ZjhmOV0AEmNsb3VkZmxhcmUtZG5zLmNvbQovZG5zLXF1ZXJ5
@@ -1016,14 +1020,14 @@ sdns://AQYAAAAAAAAADjE5Ni4yNDAuNzkuMTYzIDEzcq1ZVjLCQWuHLwmPhRvduWUoTGy-mk8ZCWQw2
 
 DNSCrypt | IPv4 only | Non-logging | Non-filtering | DNSSEC | Frankfurt, Germany.
 
-sdns://AQcAAAAAAAAADTE4NS4xNDAuMTIuOTMgK4UG-UiZwUJhkj7RtUmAR6b0tunp7iVmJgQqTxM3x6MWMi5kbnNjcnlwdC1jZXJ0LmRjdC1kZQ
+sdns://AQcAAAAAAAAADTE4NS4xNDAuMTIuOTMgx50la90EKLdawfQ6ouxuYvCpUqJsIU-DHL1Yz9W6auUWMi5kbnNjcnlwdC1jZXJ0LmRjdC1kZQ
 
 
 ## dct-fr
 
 DNSCrypt | IPv4 only | Non-logging | Non-filtering | DNSSEC | Paris, France.
 
-sdns://AQcAAAAAAAAADjEwMy44Mi4xMDEuMTUzIPw1gIRq8zr1ToLoDc3i8bVAHw-7tck7WccvJtTyJ2T2FjIuZG5zY3J5cHQtY2VydC5kY3QtZnI
+sdns://AQcAAAAAAAAADjEwMy44Mi4xMDEuMTUzINCNcA60VX87arjzoo9aWX28No2O70kH6IGdtTgEfyJRFjIuZG5zY3J5cHQtY2VydC5kY3QtZnI
 
 
 ## decloudus-nogoogle-tstipv6
@@ -1132,6 +1136,24 @@ The unfiltered version of dns0.eu.
 https://open.dns0.eu/
 
 sdns://AgcAAAAAAAAAACCaOjT3J965vKUQA9nOnDn48n3ZxSQpAcK6saROY1oCGQxvcGVuLmRuczAuZXUKL2Rucy1xdWVyeQ
+
+
+## dns4all-ipv4
+
+A DoH, DoT and DoQ resolver operated by sidnlabs.nl. No-logs, DNSSEC and No-filter.
+Homepage: https://dns4all.eu
+
+sdns://AgcAAAAAAAAACTE5NC4wLjUuMwAOZG9xLmRuczRhbGwuZXUKL2Rucy1xdWVyeQ
+sdns://AgcAAAAAAAAACjE5NC4wLjUuNjQAEGRvcTY0LmRuczRhbGwuZXUKL2Rucy1xdWVyeQ
+
+
+## dns4all-ipv6
+
+A DoH, DoT and DoQ resolver operated by sidnlabs.nl over IPv6. No-logs, DNSSEC and No-filter.
+Homepage: https://dns4all.eu
+
+sdns://AgcAAAAAAAAAD1syMDAxOjY3ODo4OjozXQAOZG9xLmRuczRhbGwuZXUKL2Rucy1xdWVyeQ
+sdns://AgcAAAAAAAAAEFsyMDAxOjY3ODo4Ojo2NF0AEGRvcTY0LmRuczRhbGwuZXUKL2Rucy1xdWVyeQ
 
 
 ## dnscry.pt-adelaide-ipv4
@@ -2976,8 +2998,6 @@ Google DNS (anycast)
 
 sdns://AgUAAAAAAAAAACCwoooTgTC-0hs2MaNqAjbrTsR0pJUejBhm3K8P2I-uSRZbMjAwMTo0ODYwOjQ4NjA6Ojg4ODhdCi9kbnMtcXVlcnk
 sdns://AgUAAAAAAAAAACCwoooTgTC-0hs2MaNqAjbrTsR0pJUejBhm3K8P2I-uSRZbMjAwMTo0ODYwOjQ4NjA6Ojg4NDRdCi9kbnMtcXVlcnk
-sdns://AgUAAAAAAAAAACCwoooTgTC-0hs2MaNqAjbrTsR0pJUejBhm3K8P2I-uSRRbMjAwMTo0ODYwOjQ4NjA6OjY0XQovZG5zLXF1ZXJ5
-sdns://AgUAAAAAAAAAACCwoooTgTC-0hs2MaNqAjbrTsR0pJUejBhm3K8P2I-uSRZbMjAwMTo0ODYwOjQ4NjA6OjY0NjRdCi9kbnMtcXVlcnk
 
 
 ## he
