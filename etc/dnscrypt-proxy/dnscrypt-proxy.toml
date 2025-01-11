@@ -715,7 +715,7 @@ allowed_names_file = '/system/etc/dnscrypt-proxy/allowed-names'
     urls = ['https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/public-resolvers.md', 'https://download.dnscrypt.info/resolvers-list/v3/public-resolvers.md']
     cache_file = '/data/local/tmp/dnscrypt-proxy/public-resolvers.md'
     minisign_key = 'RWQf6LRCGA9i53mlYecO4IzT51TGPpvWucNSCh1CBM0QTaLn73Y7GFO3'
-    refresh_delay = 72
+    refresh_delay = 73
     prefix = ''
 
   ### Anonymized DNS relays
@@ -724,7 +724,7 @@ allowed_names_file = '/system/etc/dnscrypt-proxy/allowed-names'
     urls = ['https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/relays.md', 'https://download.dnscrypt.info/resolvers-list/v3/relays.md']
     cache_file = '/data/local/tmp/dnscrypt-proxy/relays.md'
     minisign_key = 'RWQf6LRCGA9i53mlYecO4IzT51TGPpvWucNSCh1CBM0QTaLn73Y7GFO3'
-    refresh_delay = 72
+    refresh_delay = 73
     prefix = ''
 
   ### ODoH (Oblivious DoH) servers and relays
@@ -733,20 +733,20 @@ allowed_names_file = '/system/etc/dnscrypt-proxy/allowed-names'
   #   urls = ['https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/odoh-servers.md', 'https://download.dnscrypt.info/resolvers-list/v3/odoh-servers.md']
   #   cache_file = '/data/local/tmp/dnscrypt-proxy/odoh-servers.md'
   #   minisign_key = 'RWQf6LRCGA9i53mlYecO4IzT51TGPpvWucNSCh1CBM0QTaLn73Y7GFO3'
-  #   refresh_delay = 24
+  #   refresh_delay = 73
   #   prefix = ''
   # [sources.odoh-relays]
   #   urls = ['https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/odoh-relays.md', 'https://download.dnscrypt.info/resolvers-list/v3/odoh-relays.md']
   #   cache_file = '/data/local/tmp/dnscrypt-proxy/odoh-relays.md'
   #   minisign_key = 'RWQf6LRCGA9i53mlYecO4IzT51TGPpvWucNSCh1CBM0QTaLn73Y7GFO3'
-  #   refresh_delay = 24
+  #   refresh_delay = 73
   #   prefix = ''
 
   ### Quad9
 
   # [sources.quad9-resolvers]
   #   urls = ['https://www.quad9.net/quad9-resolvers.md']
-  #   minisign_key = 'RWTp2E4t64BrL651lEiDLNon+DqzPG4jhZ97pfdNkcq1VDdocLKvl5FW'
+  #   minisign_key = 'RWQBphd2+f6eiAqBsvDZEBXBGHQBJfeG6G+wJPPKxCZMoEQYpmoysKUN'
   #   cache_file = '/data/local/tmp/dnscrypt-proxy/quad9-resolvers.md'
   #   prefix = 'quad9-'
 
@@ -764,13 +764,13 @@ allowed_names_file = '/system/etc/dnscrypt-proxy/allowed-names'
   #    urls = ["https://www.dnscry.pt/resolvers.md"]
   #    minisign_key = "RWQM31Nwkqh01x88SvrBL8djp1NH56Rb4mKLHz16K7qsXgEomnDv6ziQ"
   #    cache_file = "/data/local/tmp/dnscrypt-proxy/dnscry.pt-resolvers.md"
-  #    refresh_delay = 72
+  #    refresh_delay = 73
   #    prefix = "dnscry.pt-"
 
   ### DNS servers as .onion services
 
   [sources.onion-services]
-    urls = ['https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/onion-services.md', 'https://download.dnscrypt.info/resolvers-list/v3/onion-services.md']
+    urls = ['https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/onion-services.md', 'https://download.dnscrypt.info/resolvers-list/v3/onion-services.md', 'https://ipv6.download.dnscrypt.info/resolvers-list/v3/onion-services.md']
     cache_file = '/data/local/tmp/dnscrypt-proxy/onion-services.md'
     minisign_key = 'RWQf6LRCGA9i53mlYecO4IzT51TGPpvWucNSCh1CBM0QTaLn73Y7GFO3'
 
@@ -782,10 +782,6 @@ allowed_names_file = '/system/etc/dnscrypt-proxy/allowed-names'
 
 [broken_implementations]
 
-## Cisco servers currently cannot handle queries larger than 1472 bytes, and don't
-## truncate responses larger than questions as expected by the DNSCrypt protocol.
-## This prevents large responses from being received over UDP and over relays.
-##
 ## Older versions of the `dnsdist` server software had a bug with queries larger
 ## than 1500 bytes. This is fixed since `dnsdist` version 1.5.0, but
 ## some server may still run an outdated version.
@@ -793,7 +789,7 @@ allowed_names_file = '/system/etc/dnscrypt-proxy/allowed-names'
 ## The list below enables workarounds to make non-relayed usage more reliable
 ## until the servers are fixed.
 
-fragments_blocked = ['cisco', 'cisco-ipv6', 'cisco-familyshield', 'cisco-familyshield-ipv6', 'cisco-sandbox', 'cleanbrowsing-adult', 'cleanbrowsing-adult-ipv6', 'cleanbrowsing-family', 'cleanbrowsing-family-ipv6', 'cleanbrowsing-security', 'cleanbrowsing-security-ipv6']
+fragments_blocked = ['cleanbrowsing-adult', 'cleanbrowsing-adult-ipv6', 'cleanbrowsing-family', 'cleanbrowsing-family-ipv6', 'cleanbrowsing-security', 'cleanbrowsing-security-ipv6']
 
 
 
