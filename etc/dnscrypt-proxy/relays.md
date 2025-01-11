@@ -131,13 +131,6 @@ US - Chicago, IL 2 Anonymized DNS relay server provided by https://cryptostorm.i
 sdns://gQ4xMDguMTgxLjYzLjE2Mw
 
 
-## anon-cs-india
-
-India Anonymized DNS relay server provided by https://cryptostorm.is/
-
-sdns://gQ8xNjUuMjMxLjI1My4xNjM
-
-
 ## anon-cs-ireland
 
 Dublin, Ireland Anonymized DNS relay server provided by https://cryptostorm.is/
@@ -737,15 +730,6 @@ https://www.dnscry.pt
 sdns://gRpbMjYwNjo2NjgwOjY6MTo6M2VhOTozY2U2XQ
 
 
-## dnscry.pt-anon-detroit-ipv4
-
-DNSCry.pt Detroit - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)
-
-https://www.dnscry.pt
-
-sdns://gQw2Ni4xODcuNy4xNDA
-
-
 ## dnscry.pt-anon-dublin-ipv4
 
 DNSCry.pt Dublin - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)
@@ -915,15 +899,6 @@ DNSCry.pt Hanoi - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)
 https://www.dnscry.pt
 
 sdns://gRhbMjQwNDpmYmMwOjA6MTFjODo6YTMyNF0
-
-
-## dnscry.pt-anon-helsinki-ipv6
-
-DNSCry.pt Helsinki - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)
-
-https://www.dnscry.pt
-
-sdns://gRJbMmExMjoxZmMwOjA6Yzo6M10
 
 
 ## dnscry.pt-anon-hochiminhcity-ipv4
@@ -1779,24 +1754,6 @@ DNSCry.pt Valdivia - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)
 https://www.dnscry.pt
 
 sdns://gRVbMmEwNjphMDA2OmQxZDE6OjExNl0
-
-
-## dnscry.pt-anon-vancouver-ipv4
-
-DNSCry.pt Vancouver - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)
-
-https://www.dnscry.pt
-
-sdns://gQ0xMDQuMzYuMTQ4LjQ2
-
-
-## dnscry.pt-anon-vancouver-ipv6
-
-DNSCry.pt Vancouver - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)
-
-https://www.dnscry.pt
-
-sdns://gSBbMjYwNzo3YjAwOjMwMDQ6ZmZmZjo6YTY4ZDo1YTJlXQ
 
 
 ## dnscry.pt-anon-vilnius-ipv4
