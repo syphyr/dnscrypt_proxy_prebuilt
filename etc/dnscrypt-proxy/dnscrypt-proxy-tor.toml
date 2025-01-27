@@ -228,7 +228,7 @@ cert_refresh_delay = 240
 ##
 ## Keep tls_cipher_suite undefined to let the app automatically choose secure parameters.
 
-tls_cipher_suite = [52392, 49199]
+# tls_cipher_suite = [52392, 49199]
 
 
 ## Log TLS key material to a file, for debugging purposes only.
