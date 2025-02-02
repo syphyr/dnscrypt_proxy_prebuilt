@@ -582,7 +582,7 @@ blocked_names_file = '/system/etc/dnscrypt-proxy/blocked-names'
 
 ## Path to the file of blocking rules (absolute, or relative to the same directory as the config file)
 
-# blocked_ips_file = '/system/etc/dnscrypt-proxy/blocked-ips'
+blocked_ips_file = '/system/etc/dnscrypt-proxy/blocked-ips'
 
 
 ## Optional path to a file logging blocked queries
