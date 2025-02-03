@@ -72,8 +72,9 @@ transfer.sh
 # search engine from being opened.
 googleadservices.com
 
-# Plex Support
-plex.direct
+## Plex Support
+
+# plex.direct
 
 ## Time-based rules
 
