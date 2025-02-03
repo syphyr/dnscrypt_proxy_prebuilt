@@ -12,9 +12,9 @@
 ## - https://block.energized.pro/extensions/ips/formats/list.txt
 ## - https://www.iblocklist.com/lists
 
-163.5.1.4
-94.46.118.*
-fe80:53:*          # IPv6 prefix example
+#163.5.1.4
+#94.46.118.*
+#fe80:53:*          # IPv6 prefix example
 
 # Localhost rebinding protection
 0.0.0.0
