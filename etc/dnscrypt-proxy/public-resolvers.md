@@ -234,20 +234,6 @@ sdns://AgAAAAAAAAAADlsyNDAwOjMyMDA6OjFdIJjj1eU2rylYzS9_FPcE70onbSXjPNZfLmX15PJyf
 sdns://AgAAAAAAAAAAE1syNDAwOjMyMDA6YmFiYTo6MV0gmOPV5TavKVjNL38U9wTvSidtJeM81l8uZfXk8nJ8EzAJMjIzLjUuNS41Ci9kbnMtcXVlcnk
 
 
-## artikel10-doh-ipv4
-
-DNSSEC, No-filter and No-log DoH resolver operated by Artikel10 association. Homepage: https://artikel10.org
-
-sdns://AgcAAAAAAAAADjIxNy4xOTcuOTEuMTUzoMwQYNOcgym2K2-8fQ1t-TCYabmB5-Y5LVzY-kCPTYDmoPf1ryiAHod9ffOivij-FJ8ydKftKfE2_VA845jLqAsNoLNeBZUM-9gln5N1uhAYcLjDxMDsWlKXV-YxZ-neJqnooEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOoOZEumlj4zX-dly5l2sSsQ61QpS0JHd2TMs6OsyjrLL8ICquP7e_BeTIHEGU3KRFEdT5rzBHhuwa5yGECc9ioINVEWRucy5hcnRpa2VsMTAub3JnCi9kbnMtcXVlcnk
-
-
-## artikel10-doh-ipv6
-
-DNSSEC, No-filter and No-log DoH resolver (IPv6) operated by Artikel10 association. Homepage: https://artikel10.org
-
-sdns://AgcAAAAAAAAAF1syMDAxOjY3YzoxNDAxOjIxMjA6OjFdoMwQYNOcgym2K2-8fQ1t-TCYabmB5-Y5LVzY-kCPTYDmoPf1ryiAHod9ffOivij-FJ8ydKftKfE2_VA845jLqAsNoLNeBZUM-9gln5N1uhAYcLjDxMDsWlKXV-YxZ-neJqnooEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOoOZEumlj4zX-dly5l2sSsQ61QpS0JHd2TMs6OsyjrLL8ICquP7e_BeTIHEGU3KRFEdT5rzBHhuwa5yGECc9ioINVEWRucy5hcnRpa2VsMTAub3JnCi9kbnMtcXVlcnk
-
-
 ## blahdns-sg-dnscrypt-v4
 
 DNSCrypt server. No Logging, filters ads, trackers and malware. DNSSEC ready, QNAME Minimization, No EDNS Client-Subnet.
@@ -1404,15 +1390,6 @@ https://www.dnscry.pt
 sdns://AQcAAAAAAAAACzQ1LjExLjIzMC44IMGyYyUUH-ohVO5gxPJoOoTQYe6WeqqivutZK9FR5v2eGTIuZG5zY3J5cHQtY2VydC5kbnNjcnkucHQ
 
 
-## dnscry.pt-ashburn-ipv6
-
-DNSCry.pt Ashburn - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)
-
-https://www.dnscry.pt
-
-sdns://AQcAAAAAAAAAFVsyMDAxOjQ3MDo4OjE2OTo6MTAwXSDBsmMlFB_qIVTuYMTyaDqE0GHulnqqor7rWSvRUeb9nhkyLmRuc2NyeXB0LWNlcnQuZG5zY3J5LnB0
-
-
 ## dnscry.pt-athens-ipv4
 
 DNSCry.pt Athens - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)
@@ -1611,24 +1588,6 @@ https://www.dnscry.pt
 sdns://AQcAAAAAAAAAHVsyMDAxOjY3ODo2ZDQ6NTA4MDo6M2RlYToxMDldIEJtkG567ZvN_tTXhVcSyywcrDRhziwxmbnyohp5u8gPGTIuZG5zY3J5cHQtY2VydC5kbnNjcnkucHQ
 
 
-## dnscry.pt-copenhagen-ipv4
-
-DNSCry.pt Copenhagen - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)
-
-https://www.dnscry.pt
-
-sdns://AQcAAAAAAAAACzg1LjEyMC44NC41IAQtkx4Ql90wruZmjw-U_klFVM9Mn7MHWgMR_Db140SrGTIuZG5zY3J5cHQtY2VydC5kbnNjcnkucHQ
-
-
-## dnscry.pt-copenhagen-ipv6
-
-DNSCry.pt Copenhagen - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)
-
-https://www.dnscry.pt
-
-sdns://AQcAAAAAAAAAHlsyYTBlOjFkODA6MzE6OGE1NjowOmIwZTo1ZTowXSAELZMeEJfdMK7mZo8PlP5JRVTPTJ-zB1oDEfw29eNEqxkyLmRuc2NyeXB0LWNlcnQuZG5zY3J5LnB0
-
-
 ## dnscry.pt-coventry-ipv4
 
 DNSCry.pt Coventry - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)
@@ -1726,15 +1685,6 @@ DNSCry.pt Durham - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)
 https://www.dnscry.pt
 
 sdns://AQcAAAAAAAAADDM4LjQ1LjY0LjExNyAS3jjOGrb2p9i5bpMiO0WB-XlTLq7Ek3soP2xndELQ8xkyLmRuc2NyeXB0LWNlcnQuZG5zY3J5LnB0
-
-
-## dnscry.pt-durham-ipv6
-
-DNSCry.pt Durham - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)
-
-https://www.dnscry.pt
-
-sdns://AQcAAAAAAAAAHVsyMDAxOjU1MDo1YTAwOjVlYjo6ZGI1OmYwMDFdIBLeOM4atvan2LlukyI7RYH5eVMursSTeyg_bGd0QtDzGTIuZG5zY3J5cHQtY2VydC5kbnNjcnkucHQ
 
 
 ## dnscry.pt-dusseldorf-ipv4
@@ -2016,24 +1966,6 @@ https://www.dnscry.pt
 sdns://AQcAAAAAAAAAHFsyYTAzOmQ3ODA6MDoxOTY6OjNlODQ6NTZhZl0gh7pXj5J4puzI2WXFexhGiors0NT0S1SfvKnjxhZ4S70ZMi5kbnNjcnlwdC1jZXJ0LmRuc2NyeS5wdA
 
 
-## dnscry.pt-islamabad-ipv4
-
-DNSCry.pt Islamabad - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)
-
-https://www.dnscry.pt
-
-sdns://AQcAAAAAAAAADzEwMy4xNTEuMTExLjE3NCC9ck9MCNpysOp-XjsEWzVP5nxv-R4d52xZp_LSeH4R7hkyLmRuc2NyeXB0LWNlcnQuZG5zY3J5LnB0
-
-
-## dnscry.pt-islamabad-ipv6
-
-DNSCry.pt Islamabad - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)
-
-https://www.dnscry.pt
-
-sdns://AQcAAAAAAAAAF1syMDAxOmRmMjpkNDA6MTc6OmJhYmFdIL1yT0wI2nKw6n5eOwRbNU_mfG_5Hh3nbFmn8tJ4fhHuGTIuZG5zY3J5cHQtY2VydC5kbnNjcnkucHQ
-
-
 ## dnscry.pt-jacksonville-ipv4
 
 DNSCry.pt Jacksonville - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)
@@ -2313,24 +2245,6 @@ https://www.dnscry.pt
 sdns://AQcAAAAAAAAAG1syYTAzOmM3YzA6NTI6MjY0MToxODA6OjEzXSAXimnppvfeE7g1v22nzO5TwOuSHYZy_NhmKS63gMgc3xkyLmRuc2NyeXB0LWNlcnQuZG5zY3J5LnB0
 
 
-## dnscry.pt-manchester-ipv4
-
-DNSCry.pt Manchester - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)
-
-https://www.dnscry.pt
-
-sdns://AQcAAAAAAAAADTgxLjE4MS4xMDguNDAg8vn0M0oHAF39xBc4UdC7YUwU27O6do5bSz-AlR5pz-MZMi5kbnNjcnlwdC1jZXJ0LmRuc2NyeS5wdA
-
-
-## dnscry.pt-manchester-ipv6
-
-DNSCry.pt Manchester - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)
-
-https://www.dnscry.pt
-
-sdns://AQcAAAAAAAAAHVsyYTBlOjFkODA6NTo4MmU5OjU2Nzg6OTEwOjpdIPL59DNKBwBd_cQXOFHQu2FMFNuzunaOW0s_gJUeac_jGTIuZG5zY3J5cHQtY2VydC5kbnNjcnkucHQ
-
-
 ## dnscry.pt-miami-ipv4
 
 DNSCry.pt Miami - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)
@@ -2338,15 +2252,6 @@ DNSCry.pt Miami - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)
 https://www.dnscry.pt
 
 sdns://AQcAAAAAAAAADjEyOC4yNTQuMjA3LjUwIIOGZgtvk9SmJ8GODlVlvGnZKIbEK66_WlJnYWU6rED7GTIuZG5zY3J5cHQtY2VydC5kbnNjcnkucHQ
-
-
-## dnscry.pt-miami-ipv6
-
-DNSCry.pt Miami - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)
-
-https://www.dnscry.pt
-
-sdns://AQcAAAAAAAAAFFsyNjAyOmZhZmQ6ZmIyOjE6OmFdIIOGZgtvk9SmJ8GODlVlvGnZKIbEK66_WlJnYWU6rED7GTIuZG5zY3J5cHQtY2VydC5kbnNjcnkucHQ
 
 
 ## dnscry.pt-montreal-ipv4
@@ -2799,24 +2704,6 @@ https://www.dnscry.pt
 sdns://AQcAAAAAAAAAFlsyYTA5OmIyODA6ZmUwMTozNTo6YV0gGz7B2azgtRxiyTWATtfYbRTuOo4DELSKGId8jBUkBhMZMi5kbnNjcnlwdC1jZXJ0LmRuc2NyeS5wdA
 
 
-## dnscry.pt-sydney-ipv4
-
-DNSCry.pt Sydney - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)
-
-https://www.dnscry.pt
-
-sdns://AQcAAAAAAAAADDg0LjMzLjE1LjEwMCBq8e6bhSwgentAeVRR__dhXfcSy86CtQPtq0vb_Cl18hkyLmRuc2NyeXB0LWNlcnQuZG5zY3J5LnB0
-
-
-## dnscry.pt-sydney-ipv6
-
-DNSCry.pt Sydney - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)
-
-https://www.dnscry.pt
-
-sdns://AQcAAAAAAAAAH1syYTBjOjhmYzE6ODAwNDo1NTM6OjE0NWE6YmJmOV0gavHum4UsIHp7QHlUUf_3YV33EsvOgrUD7atL2_wpdfIZMi5kbnNjcnlwdC1jZXJ0LmRuc2NyeS5wdA
-
-
 ## dnscry.pt-sydney02-ipv4
 
 DNSCry.pt Sydney 02 - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)
@@ -3201,6 +3088,37 @@ Public DoH resolver running with Pihole for Adblocking (https://dnsforge.de).
 Non-logging, AD-filtering, supports DNSSEC. Hosted in Germany.
 
 sdns://AgMAAAAAAAAADDE3Ni45LjkzLjE5OKDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5qD39a8ogB6HfX3zor4o_hSfMnSn7SnxNv1QPOOYy6gLDaCzXgWVDPvYJZ-TdboQGHC4w8TA7FpSl1fmMWfp3iap6KBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zqDmRLppY-M1_nZcuZdrErEOtUKUtCR3dkzLOjrMo6yy_CAqrj-3vwXkyBxBlNykRRHU-a8wR4bsGuchhAnPYqCDVQtkbnNmb3JnZS5kZQovZG5zLXF1ZXJ5
+sdns://AgMAAAAAAAAACzE3Ni45LjEuMTE3oMwQYNOcgym2K2-8fQ1t-TCYabmB5-Y5LVzY-kCPTYDmoPf1ryiAHod9ffOivij-FJ8ydKftKfE2_VA845jLqAsNoLNeBZUM-9gln5N1uhAYcLjDxMDsWlKXV-YxZ-neJqnooEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOoOZEumlj4zX-dly5l2sSsQ61QpS0JHd2TMs6OsyjrLL8ICquP7e_BeTIHEGU3KRFEdT5rzBHhuwa5yGECc9ioINVC2Ruc2ZvcmdlLmRlCi9kbnMtcXVlcnk
+
+
+## dnsforge.de-ipv6
+
+Public DoH resolver running with Pihole for Adblocking (https://dnsforge.de).
+
+Non-logging, AD-filtering, supports DNSSEC. Hosted in Germany.
+
+sdns://AgMAAAAAAAAAGFsyYTAxOjRmODoxNTE6MzRhYTo6MTk4XaDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5qD39a8ogB6HfX3zor4o_hSfMnSn7SnxNv1QPOOYy6gLDaCzXgWVDPvYJZ-TdboQGHC4w8TA7FpSl1fmMWfp3iap6KBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zqDmRLppY-M1_nZcuZdrErEOtUKUtCR3dkzLOjrMo6yy_CAqrj-3vwXkyBxBlNykRRHU-a8wR4bsGuchhAnPYqCDVQtkbnNmb3JnZS5kZQovZG5zLXF1ZXJ5
+sdns://AgMAAAAAAAAAGFsyYTAxOjRmODoxNDE6MzE2ZDo6MTE3XaDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5qD39a8ogB6HfX3zor4o_hSfMnSn7SnxNv1QPOOYy6gLDaCzXgWVDPvYJZ-TdboQGHC4w8TA7FpSl1fmMWfp3iap6KBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zqDmRLppY-M1_nZcuZdrErEOtUKUtCR3dkzLOjrMo6yy_CAqrj-3vwXkyBxBlNykRRHU-a8wR4bsGuchhAnPYqCDVQtkbnNmb3JnZS5kZQovZG5zLXF1ZXJ5
+
+
+## dnsforge.de-nofilter
+
+Public DoH resolver (https://dnsforge.de)
+
+Non-logging, non-filtering, supports DNSSEC. Hosted in Germany.
+
+sdns://AgcAAAAAAAAADzEzOC4xOTkuMTQ5LjI0OaDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5qD39a8ogB6HfX3zor4o_hSfMnSn7SnxNv1QPOOYy6gLDaCzXgWVDPvYJZ-TdboQGHC4w8TA7FpSl1fmMWfp3iap6KBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zqDmRLppY-M1_nZcuZdrErEOtUKUtCR3dkzLOjrMo6yy_CAqrj-3vwXkyBxBlNykRRHU-a8wR4bsGuchhAnPYqCDVRFibGFuay5kbnNmb3JnZS5kZQovZG5zLXF1ZXJ5
+sdns://AgcAAAAAAAAADDc4LjQ3LjcxLjE5NKDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5qD39a8ogB6HfX3zor4o_hSfMnSn7SnxNv1QPOOYy6gLDaCzXgWVDPvYJZ-TdboQGHC4w8TA7FpSl1fmMWfp3iap6KBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zqDmRLppY-M1_nZcuZdrErEOtUKUtCR3dkzLOjrMo6yy_CAqrj-3vwXkyBxBlNykRRHU-a8wR4bsGuchhAnPYqCDVRFibGFuay5kbnNmb3JnZS5kZQovZG5zLXF1ZXJ5
+
+
+## dnsforge.de-nofilter-ipv6
+
+Public DoH resolver (https://dnsforge.de)
+
+Non-logging, non-filtering, supports DNSSEC. Hosted in Germany.
+
+sdns://AgcAAAAAAAAAGFsyYTAxOjRmODpjMTc6N2FhNTo6MjQ5XaDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5qD39a8ogB6HfX3zor4o_hSfMnSn7SnxNv1QPOOYy6gLDaCzXgWVDPvYJZ-TdboQGHC4w8TA7FpSl1fmMWfp3iap6KBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zqDmRLppY-M1_nZcuZdrErEOtUKUtCR3dkzLOjrMo6yy_CAqrj-3vwXkyBxBlNykRRHU-a8wR4bsGuchhAnPYqCDVRFibGFuay5kbnNmb3JnZS5kZQovZG5zLXF1ZXJ5
+sdns://AgcAAAAAAAAAGVsyYTAxOjRmODpjMDEzOmFhZTk6OjE5NF2gzBBg05yDKbYrb7x9DW35MJhpuYHn5jktXNj6QI9NgOag9_WvKIAeh31986K-KP4UnzJ0p-0p8Tb9UDzjmMuoCw2gs14FlQz72CWfk3W6EBhwuMPEwOxaUpdX5jFn6d4mqeigRE69Z7uD-IB7OSHpOKyReLiCvVCq2xEjHwRM9fCN986g5kS6aWPjNf52XLmXaxKxDrVClLQkd3ZMyzo6zKOssvwgKq4_t78F5MgcQZTcpEUR1PmvMEeG7BrnIYQJz2Kgg1URYmxhbmsuZG5zZm9yZ2UuZGUKL2Rucy1xdWVyeQ
 
 
 ## dnslow.me
