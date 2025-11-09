@@ -193,6 +193,19 @@ keepalive = 30
 
 # lb_estimator = true
 
+## Dynamically reduce query timeout as the number of concurrent connections
+## approaches max_clients to prevent overload. Value must be between 0.0 and 1.0.
+## 0.0 = no reduction, 1.0 = maximum reduction.
+## Uses a quartic curve to keep timeout high at low load and reduce sharply near limit.
+## For example, with timeout=5000ms, max_clients=250, and timeout_load_reduction=0.75:
+## - At 125 connections (50% load): timeout remains ~4765ms (95.3%)
+## - At 187 connections (75% load): timeout reduces to ~3826ms (76.5%)
+## - At 225 connections (90% load): timeout reduces to ~2539ms (50.8%)
+## - At 250 connections (100% load): timeout reduces to ~1250ms (25%)
+## This helps maintain responsiveness under high load by failing fast.
+
+# timeout_load_reduction = 0.75
+
 ## Set to `true` to enable hot reloading of configuration files (like allowed-names.txt,
 ## blocked-names.txt, etc.) when they are modified. This can increase CPU and memory usage.
 ## Default is `false` (hot reloading is disabled).
