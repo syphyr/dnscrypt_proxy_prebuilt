@@ -257,8 +257,8 @@ log_files_max_backups = 1
 #                           Certificate Management                             #
 ###############################################################################
 
-## The maximum concurrency to reload certificates from the resolvers.
-## Default is 10.
+## The maximum concurrency to refresh resolvers (DNSCrypt, DoH, and ODoH).
+## Default is 10. Reduce this on constrained devices such as small routers.
 
 # cert_refresh_concurrency = 10
 
@@ -287,21 +287,13 @@ cert_refresh_delay = 240
 # tls_disable_session_tickets = false
 
 
-## DoH: Use TLS 1.2 and specific cipher suite instead of the server preference
-## 49199 = TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
-## 49195 = TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
-## 52392 = TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305
-## 52393 = TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305
-##
-## On non-Intel CPUs such as MIPS routers and ARM systems (Android, Raspberry Pi...),
-## uncommenting the following line may improve performance.
-## This may also help on Intel CPUs running 32-bit operating systems.
-## However, this can cause issues fetching sources or connecting to some HTTP servers,
-## and should not be set on regular CPUs.
-##
-## Keep tls_cipher_suite undefined to let the app automatically choose secure parameters.
+## Prefer RSA certificates over ECDSA for TLS connections.
+## When this is enabled, some servers may become impossible to use,
+## or may stop to work later as they upgrade their configuratione.
+## Changing this setting is generally not recommended, but it may
+## reduce CPU usage on small routers with slow CPUs.
 
-# tls_cipher_suite = [52392, 49199]
+# tls_prefer_rsa = false
 
 
 ## Log TLS key material to a file, for debugging purposes only.
