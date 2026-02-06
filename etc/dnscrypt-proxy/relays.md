@@ -432,13 +432,6 @@ Romania Anonymized DNS relay server provided by https://cryptostorm.is/
 sdns://gRExNDYuNzAuNjYuMjI3OjQ0Mw
 
 
-## anon-cs-ro6
-
-Romania IPv6 Anonymized DNS relay server provided by https://cryptostorm.is/
-
-sdns://gRlbMmEwNDo5ZGMwOjA6MTYyOjo1M106NDQz
-
-
 ## anon-cs-sea
 
 US - Seattle, WA Anonymized DNS relay server provided by https://cryptostorm.is/
@@ -572,20 +565,6 @@ IPv4 server. Anonymized DNS relay hosted in Nuremberg, Germany (netcup) and main
 sdns://gRIzNy4yMjEuMTk0Ljg0OjQ0MzQ
 
 
-## anon-dnscrypt.uk-ipv4
-
-Anonymized DNS relay in London. https://www.dnscrypt.uk
-
-sdns://gQ0xNjUuMjMyLjMyLjk1
-
-
-## anon-dnscrypt.uk-ipv6
-
-Anonymized DNS relay in London. https://www.dnscrypt.uk
-
-sdns://gRpbMmEwMzpiMGMwOjE6ZTA6OjQ4NzoxMDAxXQ
-
-
 ## anon-dnswarden-swiss
 
 Relay hosted in swizterland.
@@ -600,34 +579,6 @@ Anonymized DNS relay hosted in Seattle, WA (USA), maintained by Eric
 Lagergren (@ericlagergren). Running the official Docker image on Vultr.
 
 sdns://gQ4xMDQuMjM4LjE1My40Ng
-
-
-## anon-jp1.vr.ekinao.com
-
-Anonymized DNS relay IPv4 server provided by https://www.ekinao.com/dnscrypt.html
-
-sdns://gRQxMzMuMjQyLjE2MS4yNTE6NTM1Mw
-
-
-## anon-jp1.vr.ekinao.com-ipv6
-
-Anonymized DNS relay IPv6 server provided by https://www.ekinao.com/dnscrypt.html
-
-sdns://gSlbMjQwMToyNTAwOjEwMjoxMTExOjEzMzoyNDI6MTYxOjI1MV06NTM1Mw
-
-
-## anon-jp2.vr.ekinao.com
-
-Anonymized DNS relay IPv4 server provided by https://www.ekinao.com/dnscrypt.html
-
-sdns://gRMxNTMuMTI3LjE2LjIzNTo1MzUz
-
-
-## anon-jp2.vr.ekinao.com-ipv6
-
-Anonymized DNS relay IPv6 server provided by https://www.ekinao.com/dnscrypt.html
-
-sdns://gShbMjQwMToyNTAwOjIwNDoxMTA2OjE1MzoxMjc6MTY6MjM1XTo1MzUz
 
 
 ## anon-kama
@@ -709,20 +660,6 @@ Anonymized DNS relay hosted in Singapore
 sdns://gRMxNzQuMTM4LjI5LjE3NToxNDQz
 
 
-## anon-v.dnscrypt.uk-ipv4
-
-Anonymized DNS relay hosted in UK on Vultr
-
-sdns://gQ8xMDQuMjM4LjE4Ni4xOTI
-
-
-## anon-v.dnscrypt.uk-ipv6
-
-Anonymized DNS relay hosted in UK on Vultr
-
-sdns://gShbMjAwMToxOWYwOjc0MDI6MTU3NDo1NDAwOjJmZjpmZTY2OjJjZmZd
-
-
 ## dnscry.pt-anon-adelaide-ipv4
 
 DNSCry.pt Adelaide - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)
@@ -757,24 +694,6 @@ DNSCry.pt Allendale - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)
 https://www.dnscry.pt
 
 sdns://gRVbMjYwMjpmN2EzOjA6NTIwMDo6YV0
-
-
-## dnscry.pt-anon-allentown-ipv4
-
-DNSCry.pt Allentown - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)
-
-https://www.dnscry.pt
-
-sdns://gQ0yMy4xMzcuMjUzLjI0
-
-
-## dnscry.pt-anon-allentown-ipv6
-
-DNSCry.pt Allentown - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)
-
-https://www.dnscry.pt
-
-sdns://gRxbMjYwMjpmYzI0OjE5Ojc0YjA6NTI4NTo6MTJd
 
 
 ## dnscry.pt-anon-amsterdam-ipv4
@@ -1657,24 +1576,6 @@ DNSCry.pt Helsinki - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)
 https://www.dnscry.pt
 
 sdns://gRVbMmEwNjoxNzAwOjE6M2E6OmNiYV0
-
-
-## dnscry.pt-anon-hochiminhcity-ipv4
-
-DNSCry.pt Ho-Chi-Minh City - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)
-
-https://www.dnscry.pt
-
-sdns://gQ0xNTcuMjAuODMuMTM1
-
-
-## dnscry.pt-anon-hochiminhcity-ipv6
-
-DNSCry.pt Ho-Chi-Minh City - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)
-
-https://www.dnscry.pt
-
-sdns://gRhbMjQwMDo2ZWEwOjA6MTFhZTo6YWRjNF0
 
 
 ## dnscry.pt-anon-hongkong-ipv4
