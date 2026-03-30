@@ -746,7 +746,7 @@ allowed_names_file = '/system/etc/dnscrypt-proxy/allowed-names'
 ## Refer to the documentation for URLs of public sources.
 ##
 ## A prefix can be prepended to server names in order to
-## avoid collisions if different sources share the same for
+## avoid collisions if different sources share the same names for
 ## different servers. In that case, names listed in `server_names`
 ## must include the prefixes.
 ##
