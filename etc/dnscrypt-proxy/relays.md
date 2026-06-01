@@ -22,6 +22,13 @@ To use that list, add this to the `[sources]` section of your
 --
 
 
+## anon-cipherdns-jb1-za
+
+Anonymized DNSCrypt relay based in South Africa.
+
+sdns://gRIxMDIuMjE0LjEwLjgyOjg0NDM
+
+
 ## anon-cs-austria
 
 Wien, Austria Anonymized DNS relay server provided by https://cryptostorm.is/
@@ -535,7 +542,7 @@ sdns://gRlbMmEwMjo1NzQwOjI0OjQ1Ojo1M106NDQz
 
 ## anon-dnswarden-swiss
 
-Relay hosted in swizterland.
+Relay hosted in Switzerland.
 For more information look at https://github.com/bhanupratapys/dnswarden or https://dnswarden.com
 
 sdns://gRQxODguMjQ0LjExNy4xMTQ6MTQ0Mw
@@ -628,13 +635,6 @@ Anonymized DNS relay hosted in Singapore
 sdns://gRMxNzQuMTM4LjI5LjE3NToxNDQz
 
 
-## anon-vpsdns-za
-
-Anonymized DNSCrypt relay based in South Africa. Zero logging.
-
-sdns://gRIxMDIuMjE0LjEwLjgyOjg0NDM
-
-
 ## dnscry.pt-anon-adelaide-ipv4
 
 DNSCry.pt Adelaide - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)
@@ -659,6 +659,15 @@ DNSCry.pt Allentown - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)
 https://www.dnscry.pt
 
 sdns://gQ0yMy4xMzcuMjUzLjI0
+
+
+## dnscry.pt-anon-allentown-ipv6
+
+DNSCry.pt Allentown - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)
+
+https://www.dnscry.pt
+
+sdns://gRxbMjYwMjpmYzI0OjE5Ojc0YjA6NTI4NTo6MTJd
 
 
 ## dnscry.pt-anon-amsterdam-ipv4
@@ -2829,6 +2838,15 @@ DNSCry.pt Sydney 02 - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)
 https://www.dnscry.pt
 
 sdns://gRhbMjQwMjo3MzQwOjUwMDA6NjIwMDo6YV0
+
+
+## dnscry.pt-anon-taipeh-ipv6
+
+DNSCry.pt Taipeh - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)
+
+https://www.dnscry.pt
+
+sdns://gRpbMjQwMzpjZmMwOjEwMDQ6OmI1Yjo0N2ZmXQ
 
 
 ## dnscry.pt-anon-tallinn-ipv4

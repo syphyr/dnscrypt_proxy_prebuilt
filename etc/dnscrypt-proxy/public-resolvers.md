@@ -290,6 +290,20 @@ Hosted in Nuremberg, Germany. (https://dns.brahma.world)
 sdns://AgMAAAAAAAAAF1syYTAxOjRmODoxYzFjOmY1ZTE6OjFdIJB40hpWwOCJHZBiIbaZIzG90XFy6w8z3aB9XGXG4Uw5EGRucy5icmFobWEud29ybGQKL2Rucy1xdWVyeQ
 
 
+## cipherdns-jb1-doh-za
+
+High-performance privacy DoH resolver based in South Africa. Zero logging, DNSSEC validation, unfiltered raw resolution.
+
+sdns://AgcAAAAAAAAAETEwMi4yMTQuMTAuODI6NDQzIOqZ_CHx5qkQnPKeJ6CeLnsGIXkvpnnuhnILI-WmYCw3F2piMS1kb2guY2lwaGVyZG5zLmNvLnphCi9kbnMtcXVlcnk
+
+
+## cipherdns-jb1-za
+
+High-performance privacy DNSCrypt resolver based in South Africa. Zero logging, DNSSEC validation, unfiltered raw resolution.
+
+sdns://AQcAAAAAAAAAEjEwMi4yMTQuMTAuODI6ODQ0MyAp_ZK8Ab77yIXFI7AIeSrgjZjUJ2zG9acKC0XARJZprSMyLmRuc2NyeXB0LWNlcnQuamIxLmNpcGhlcmRucy5jby56YQ
+
+
 ## cira-family
 
 Canadian Internet Registration Authority (CIRA) Canadian Shield DNS resolver - Family - Malware and phishing protection plus blocking pornographic content
@@ -813,14 +827,14 @@ sdns://AQcAAAAAAAAAF1syMDAxOjRiYTA6ZmZlZDo3Njo6NTNdIDEzcq1ZVjLCQWuHLwmPhRvduWUoT
 
 ## cs-finland
 
-Finland DNSCrypt server provided by https://cryptostorm.is
+Finland DNSCrypt server provided by https://cryptostorm.is/
 
 sdns://AQcAAAAAAAAADTgzLjE0My4yNDIuNDMgMTNyrVlWMsJBa4cvCY-FG925ZShMbL6aTxkJZDDbqVoeMi5kbnNjcnlwdC1jZXJ0LmNyeXB0b3N0b3JtLmlz
 
 
 ## cs-finland6
 
-Finland IPv6 DNSCrypt server provided by https://cryptostorm.is
+Finland IPv6 DNSCrypt server provided by https://cryptostorm.is/
 
 sdns://AQcAAAAAAAAAFlsyYTBkOjU2MDA6MTQyOjExOjo1M10gMTNyrVlWMsJBa4cvCY-FG925ZShMbL6aTxkJZDDbqVoeMi5kbnNjcnlwdC1jZXJ0LmNyeXB0b3N0b3JtLmlz
 
@@ -1265,12 +1279,12 @@ sdns://AgcAAAAAAAAAGVsyYTAxOjRmODoxM2I6MzQwNzo6ZmFjZV0g1h2W6_s_oZCW4sAC42A79_2q7
 
 ## dns.sb
 
-DoH server runned by xTom.com. No logs, no filtering, supports DNSSEC.
+DoH server run by xTom.com. No logs, no filtering, supports DNSSEC.
 
 Homepage: https://dns.sb
 
-sdns://AgcAAAAAAAAADzE4NS4yMjIuMjIyLjIyMiCyXy82ln9zlPCZN4hbMz-qNW1xn-rPOMzp8DVQAPPhdA8xODUuMjIyLjIyMi4yMjIKL2Rucy1xdWVyeQ
-sdns://AgcAAAAAAAAACzQ1LjExLjQ1LjExILJfLzaWf3OU8Jk3iFszP6o1bXGf6s84zOnwNVAA8-F0CzQ1LjExLjQ1LjExCi9kbnMtcXVlcnk
+sdns://AgcAAAAAAAAADzE4NS4yMjIuMjIyLjIyMiCMUDOXP_5P8e8KqSmE_JMoG6epJ474v2QSJriY0Q1OdA8xODUuMjIyLjIyMi4yMjIKL2Rucy1xdWVyeQ
+sdns://AgcAAAAAAAAACzQ1LjExLjQ1LjExIIxQM5c__k_x7wqpKYT8kygbp6knjvi_ZBImuJjRDU50CzQ1LjExLjQ1LjExCi9kbnMtcXVlcnk
 
 
 ## dns4all-ipv4
@@ -1394,6 +1408,15 @@ DNSCry.pt Allentown - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)
 https://www.dnscry.pt
 
 sdns://AQcAAAAAAAAADTIzLjEzNy4yNTMuMjQg3Z0YI7udXIjKWcPC5GdTm4Uk6D1x2DuyYuj2OZz2cKQZMi5kbnNjcnlwdC1jZXJ0LmRuc2NyeS5wdA
+
+
+## dnscry.pt-allentown-ipv6
+
+DNSCry.pt Allentown - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)
+
+https://www.dnscry.pt
+
+sdns://AQcAAAAAAAAAHFsyNjAyOmZjMjQ6MTk6NzRiMDo1Mjg1OjoxMl0g3Z0YI7udXIjKWcPC5GdTm4Uk6D1x2DuyYuj2OZz2cKQZMi5kbnNjcnlwdC1jZXJ0LmRuc2NyeS5wdA
 
 
 ## dnscry.pt-amsterdam-ipv4
@@ -3657,6 +3680,15 @@ https://www.dnscry.pt
 sdns://AQcAAAAAAAAADzEwMy4xMzEuMTg5LjE5MSAl1jOdIay4Ch7r2CgrehwgnU1olQWj8A7t2WAMmoGbMxkyLmRuc2NyeXB0LWNlcnQuZG5zY3J5LnB0
 
 
+## dnscry.pt-taipeh-ipv6
+
+DNSCry.pt Taipeh - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)
+
+https://www.dnscry.pt
+
+sdns://AQcAAAAAAAAAGlsyNDAzOmNmYzA6MTAwNDo6YjViOjQ3ZmZdICXWM50hrLgKHuvYKCt6HCCdTWiVBaPwDu3ZYAyagZszGTIuZG5zY3J5cHQtY2VydC5kbnNjcnkucHQ
+
+
 ## dnscry.pt-tallinn-ipv4
 
 DNSCry.pt Tallinn - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)
@@ -4038,7 +4070,7 @@ sdns://AgcAAAAAAAAADjE4NS4xMTEuMTg4LjQ2ID8EEe3pxEdwV9V-V4g7HyBbIM3A8yYxKbHuAmmiZ
 
 ## dnsforfamily
 
-(DNSCrypt Protocol) (Now supports DNSSEC). Block adult websites, gambling websites, malwares, trackers and advertisements.
+(DNSCrypt Protocol) (Supports DNSSEC). Block adult websites, gambling websites, malwares, trackers and advertisements.
 It also enforces safe search in: Google, YouTube, Bing, DuckDuckGo and Yandex.
 
 Social websites like Facebook and Instagram are not blocked. No DNS queries are logged.
@@ -4055,7 +4087,7 @@ sdns://AQMAAAAAAAAADDc4LjQ3LjY0LjE2MSATJeLOABXNSYcSJIoqR5_iUYz87Y4OecMLB84aEAKPr
 
 ## dnsforfamily-doh
 
-(DoH Protocol) (Now supports DNSSEC). Block adult websites, gambling websites, malwares, trackers and advertisements.
+(DoH Protocol) (Supports DNSSEC). Block adult websites, gambling websites, malwares, trackers and advertisements.
 It also enforces safe search in: Google, YouTube, Bing, DuckDuckGo and Yandex.
 
 Social websites like Facebook and Instagram are not blocked. No DNS queries are logged.
@@ -4070,7 +4102,7 @@ sdns://AgMAAAAAAAAADzE2Ny4yMzUuMjM2LjEwNyCdSDK7TI13IHsl3hdZJoLvw8pF9XncZkoO1fJI9
 
 ## dnsforfamily-doh-no-safe-search
 
-(DoH Protocol) (Now supports DNSSEC) Block adult websites, gambling websites, malwares, trackers and advertisements.
+(DoH Protocol) (Supports DNSSEC) Block adult websites, gambling websites, malwares, trackers and advertisements.
 Unlike other dnsforfamily servers, this one does not enforces safe search. So Google, YouTube, Bing, DuckDuckGo and Yandex are completely accessible without any restriction.
 
 Social websites like Facebook and Instagram are not blocked. No DNS queries are logged.
@@ -4087,7 +4119,7 @@ sdns://AgMAAAAAAAAADzE2Ny4yMzUuMjM2LjEwNyCdSDK7TI13IHsl3hdZJoLvw8pF9XncZkoO1fJI9
 
 ## dnsforfamily-no-safe-search
 
-(DNSCrypt Protocol) (Now supports DNSSEC) Block adult websites, gambling websites, malwares, trackers and advertisements.
+(DNSCrypt Protocol) (Supports DNSSEC) Block adult websites, gambling websites, malwares, trackers and advertisements.
 Unlike other dnsforfamily servers, this one does not enforces safe search. So Google, YouTube, Bing, DuckDuckGo and Yandex are completely accessible without any restriction.
 
 Social websites like Facebook and Instagram are not blocked. No DNS queries are logged.
@@ -4104,7 +4136,7 @@ sdns://AQMAAAAAAAAADzEzNS4xODEuMTkzLjIyMiDrxcZ_hFtGE6tfATvQZYjxgl5pTY_e2cRH_ms8b
 
 ## dnsforfamily-v6
 
-(DNSCrypt Protocol) (Now supports DNSSEC) Block adult websites, gambling websites, malwares, trackers and advertisements.
+(DNSCrypt Protocol) (Supports DNSSEC) Block adult websites, gambling websites, malwares, trackers and advertisements.
 It also enforces safe search in: Google, YouTube, Bing, DuckDuckGo and Yandex.
 
 Social websites like Facebook and Instagram are not blocked. No DNS queries are logged.
@@ -4238,7 +4270,7 @@ Hosted in Vienna, Austria.
 
 Non-logging, non-filtering, supports DNSSEC.
 
-sdns://AgcAAAAAAAAAACCyXy82ln9zlPCZN4hbMz-qNW1xn-rPOMzp8DVQAPPhdBZkb2guYXBwbGllZHByaXZhY3kubmV0Bi9xdWVyeQ
+sdns://AgcAAAAAAAAAACCQeNIaVsDgiR2QYiG2mSMxvdFxcusPM92gfVxlxuFMORZkb2guYXBwbGllZHByaXZhY3kubmV0Bi9xdWVyeQ
 
 
 ## doh.ffmuc.net
@@ -4288,6 +4320,14 @@ Non-Logging DNS-over-HTTPS server (IPv6), cached via Cloudflare.
 Filters out ads, trackers and malware, NO ECS, supports DNSSEC.
 
 sdns://AgMAAAAAAAAAG1syNjA2OjQ3MDA6MzAzNDo6NjgxNTo0MTNjXQAOZG9oLnRpYXJhcC5vcmcKL2Rucy1xdWVyeQ
+
+
+## dorriere-fr
+
+Recursive-to-root DNSCrypt resolver hosted in France, operated by Nicolas Derriere. DNSSEC, no logs, no filters.
+Homepage: https://nicolas-dorriere.fr/blog/it-was-dns.html
+
+sdns://AQcAAAAAAAAAETkwLjQ2LjIwNi4yNDg6NDQzIBliqCXeEXeous1YRa1T3AIXMpYmK-Cz4yaK62AyQiOcRzIuZG5zY3J5cHQtY2VydC5kbnNjcnlwdC1yZWN1cnNpdmUtdG8tcm9vdC11ZHAtb25seS5uaWNvbGFzLWRvcnJpZXJlLmZy
 
 
 ## fdn
@@ -4469,7 +4509,7 @@ DNSSEC, Anycast, Non-logging, NoFilters
 
 https://www.nextdns.io/
 
-sdns://AgcAAAAAAAAACjQ1LjkwLjMwLjAgmjo09yfeubylEAPZzpw5-PJ92cUkKQHCurGkTmNaAhkWYW55Y2FzdC5kbnMubmV4dGRucy5pbwovZG5zLXF1ZXJ5
+sdns://AgcAAAAAAAAACjQ1LjkwLjMwLjAgmzT6w-Nufisf7khHpzdmItTOLIc3jC6i1GBHI90_9ikWYW55Y2FzdC5kbnMubmV4dGRucy5pbwovZG5zLXF1ZXJ5
 
 
 ## nextdns-ipv6
@@ -4483,7 +4523,7 @@ DNSSEC, Anycast, Non-logging, NoFilters
 
 https://www.nextdns.io/
 
-sdns://AgcAAAAAAAAADVsyYTA3OmE4YzA6Ol0gmjo09yfeubylEAPZzpw5-PJ92cUkKQHCurGkTmNaAhkWYW55Y2FzdC5kbnMubmV4dGRucy5pbwovZG5zLXF1ZXJ5
+sdns://AgcAAAAAAAAADVsyYTA3OmE4YzA6Ol0gmzT6w-Nufisf7khHpzdmItTOLIc3jC6i1GBHI90_9ikWYW55Y2FzdC5kbnMubmV4dGRucy5pbwovZG5zLXF1ZXJ5
 
 
 ## nextdns-ultralow
@@ -4496,7 +4536,7 @@ https://www.nextdns.io/
 To select the server location, the "-ultralow" variant relies on bootstrap servers
 instead of anycast.
 
-sdns://AgcAAAAAAAAAACCaOjT3J965vKUQA9nOnDn48n3ZxSQpAcK6saROY1oCGQ5kbnMubmV4dGRucy5pbw8vZG5zY3J5cHQtcHJveHk
+sdns://AgcAAAAAAAAAACCbNPrD425-Kx_uSEenN2Yi1M4shzeMLqLUYEcj3T_2KQ5kbnMubmV4dGRucy5pbw8vZG5zY3J5cHQtcHJveHk
 
 
 ## nic.cz
@@ -4641,7 +4681,7 @@ sdns://AQcAAAAAAAAAKlsyMDAxOjE5ZjA6NTozYmQ3OjU0MDA6NGZmOmZlMDU6ZGE4M106ODQ0MyCwm
 
 ## qihoo360-doh
 
-DoH server runned by Qihoo 360, has logs, GFW filtering rules are applied.
+DoH server run by Qihoo 360, has logs, GFW filtering rules are applied.
 Homepage: https://sdns.360.net
 
 sdns://AgAAAAAAAAAAACB0U9UiRYe3qyTSjk1AVT4byYiucktDNFVJEcHmRNnlYwpkb2guMzYwLmNuCi9kbnMtcXVlcnk
@@ -4953,7 +4993,7 @@ sdns://AgMAAAAAAAAAElsyMDAxOjYyMDowOmZmOjozXSCwGSB0S7t2yasFPgHge34FDkc9IPefe-pDX
 Also known as censurfridns.
 DoH, no logs, no filter, unicast hosted in Denmark - https://blog.uncensoreddns.org
 
-sdns://AgYAAAAAAAAADDg5LjIzMy40My43MSCyXy82ln9zlPCZN4hbMz-qNW1xn-rPOMzp8DVQAPPhdBl1bmljYXN0LnVuY2Vuc29yZWRkbnMub3JnCi9kbnMtcXVlcnk
+sdns://AgYAAAAAAAAADDg5LjIzMy40My43MQAZdW5pY2FzdC51bmNlbnNvcmVkZG5zLm9yZwovZG5zLXF1ZXJ5
 
 
 ## uncensoreddns-dk-ipv6
@@ -4961,7 +5001,7 @@ sdns://AgYAAAAAAAAADDg5LjIzMy40My43MSCyXy82ln9zlPCZN4hbMz-qNW1xn-rPOMzp8DVQAPPhd
 Also known as censurfridns.
 DoH, no logs, no filter, unicast hosted in Denmark - https://blog.uncensoreddns.org
 
-sdns://AgYAAAAAAAAAElsyYTAxOjNhMDo1Mzo1Mzo6XSCyXy82ln9zlPCZN4hbMz-qNW1xn-rPOMzp8DVQAPPhdBl1bmljYXN0LnVuY2Vuc29yZWRkbnMub3JnCi9kbnMtcXVlcnk
+sdns://AgYAAAAAAAAAElsyYTAxOjNhMDo1Mzo1Mzo6XQAZdW5pY2FzdC51bmNlbnNvcmVkZG5zLm9yZwovZG5zLXF1ZXJ5
 
 
 ## uncensoreddns-ipv4
@@ -4969,7 +5009,7 @@ sdns://AgYAAAAAAAAAElsyYTAxOjNhMDo1Mzo1Mzo6XSCyXy82ln9zlPCZN4hbMz-qNW1xn-rPOMzp8
 Also known as censurfridns.
 DoH, no logs, no filter, anycast - https://blog.uncensoreddns.org
 
-sdns://AgYAAAAAAAAADjkxLjIzOS4xMDAuMTAwILJfLzaWf3OU8Jk3iFszP6o1bXGf6s84zOnwNVAA8-F0GWFueWNhc3QudW5jZW5zb3JlZGRucy5vcmcKL2Rucy1xdWVyeQ
+sdns://AgYAAAAAAAAADjkxLjIzOS4xMDAuMTAwABlhbnljYXN0LnVuY2Vuc29yZWRkbnMub3JnCi9kbnMtcXVlcnk
 
 
 ## uncensoreddns-ipv6
@@ -4977,7 +5017,7 @@ sdns://AgYAAAAAAAAADjkxLjIzOS4xMDAuMTAwILJfLzaWf3OU8Jk3iFszP6o1bXGf6s84zOnwNVAA8
 Also known as censurfridns.
 DoH, no logs, no filter, anycast - https://blog.uncensoreddns.org
 
-sdns://AgYAAAAAAAAAEVsyMDAxOjY3YzoyOGE0OjpdILJfLzaWf3OU8Jk3iFszP6o1bXGf6s84zOnwNVAA8-F0GWFueWNhc3QudW5jZW5zb3JlZGRucy5vcmcKL2Rucy1xdWVyeQ
+sdns://AgYAAAAAAAAAEVsyMDAxOjY3YzoyOGE0OjpdABlhbnljYXN0LnVuY2Vuc29yZWRkbnMub3JnCi9kbnMtcXVlcnk
 
 
 ## userspace-australia
@@ -4996,20 +5036,6 @@ No logs | IPv6 | Filtered
 
 sdns://AQIAAAAAAAAAJVsyNDA0Ojk0MDA6MTowOjIxNjozZWZmOmZlZjA6MTgwYV06NTQgnRNtOLv4IzxEfkbLFOaHa-ncLImdQiP-pS1jaFY5jlUdMi5kbnNjcnlwdC1jZXJ0LnVzZXJzcGFjZS1ibmU
 sdns://AQIAAAAAAAAAJVsyNDA0Ojk0MDA6MzowOjIxNjozZWZmOmZlZTA6N2Y2OV06NTQgT6-Ywg_9oHjkzJkuS4EIP7-_aYKaU5t7y2YXv6GoW4EdMi5kbnNjcnlwdC1jZXJ0LnVzZXJzcGFjZS1tZWw
-
-
-## vpsdns-za
-
-High-performance privacy DNSCrypt resolver based in South Africa. Zero logging, DNSSEC validation, unfiltered raw resolution.
-
-sdns://AQcAAAAAAAAAEjEwMi4yMTQuMTAuODI6ODQ0MyAp_ZK8Ab77yIXFI7AIeSrgjZjUJ2zG9acKC0XARJZprRwyLmRuc2NyeXB0LWNlcnQudnBzZG5zLmNvLnph
-
-
-## vpsdns-za-doh
-
-High-performance privacy DoH resolver based in South Africa. Zero logging, unfiltered raw resolution.
-
-sdns://AgYAAAAAAAAADTEwMi4yMTQuMTAuODIg5vEeyAbBx-ZMKDCsuvSaiZNVC7pEWvVl-yEncW8dIkgQZG9oLnZwc2Rucy5jby56YQovZG5zLXF1ZXJ5
 
 
 ## wikimedia
