@@ -27,7 +27,8 @@
 ##
 ## Remove the leading # first to enable this; lines starting with # are ignored.
 
-server_names = ['scaleway-fr', 'google', 'yandex', 'cloudflare']
+#server_names = ['scaleway-fr', 'google', 'yandex', 'cloudflare']
+server_names = ['odoh-cloudflare', 'odoh-crypto-sx']
 
 
 ## List of local addresses and ports to listen to. Can be IPv4 and/or IPv6.
@@ -72,7 +73,7 @@ dnscrypt_servers = true
 doh_servers = true
 
 # Use servers implementing the Oblivious DoH protocol
-odoh_servers = false
+odoh_servers = true
 
 
 ## Require servers defined by remote sources to satisfy specific properties
@@ -791,18 +792,19 @@ prefix = ''
 
 ### ODoH (Oblivious DoH) servers and relays
 
-# [sources.odoh-servers]
-#   urls = ['https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/odoh-servers.md', 'https://download.dnscrypt.info/resolvers-list/v3/odoh-servers.md', 'https://cdn.jsdelivr.net/gh/DNSCrypt/dnscrypt-resolvers@master/v3/odoh-servers.md']
-#   cache_file = '/data/local/tmp/dnscrypt-proxy/odoh-servers.md'
-#   minisign_key = 'RWQf6LRCGA9i53mlYecO4IzT51TGPpvWucNSCh1CBM0QTaLn73Y7GFO3'
-#   refresh_delay = 73
-#   prefix = ''
-# [sources.odoh-relays]
-#   urls = ['https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/odoh-relays.md', 'https://download.dnscrypt.info/resolvers-list/v3/odoh-relays.md', 'https://cdn.jsdelivr.net/gh/DNSCrypt/dnscrypt-resolvers@master/v3/odoh-relays.md']
-#   cache_file = '/data/local/tmp/dnscrypt-proxy/odoh-relays.md'
-#   minisign_key = 'RWQf6LRCGA9i53mlYecO4IzT51TGPpvWucNSCh1CBM0QTaLn73Y7GFO3'
-#   refresh_delay = 73
-#   prefix = ''
+[sources.odoh-servers]
+  urls = ['https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/odoh-servers.md', 'https://download.dnscrypt.info/resolvers-list/v3/odoh-servers.md', 'https://cdn.jsdelivr.net/gh/DNSCrypt/dnscrypt-resolvers@master/v3/odoh-servers.md']
+  cache_file = '/data/local/tmp/dnscrypt-proxy/odoh-servers.md'
+  minisign_key = 'RWQf6LRCGA9i53mlYecO4IzT51TGPpvWucNSCh1CBM0QTaLn73Y7GFO3'
+  refresh_delay = 73
+  prefix = ''
+
+[sources.odoh-relays]
+  urls = ['https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/odoh-relays.md', 'https://download.dnscrypt.info/resolvers-list/v3/odoh-relays.md', 'https://cdn.jsdelivr.net/gh/DNSCrypt/dnscrypt-resolvers@master/v3/odoh-relays.md']
+  cache_file = '/data/local/tmp/dnscrypt-proxy/odoh-relays.md'
+  minisign_key = 'RWQf6LRCGA9i53mlYecO4IzT51TGPpvWucNSCh1CBM0QTaLn73Y7GFO3'
+  refresh_delay = 73
+  prefix = ''
 
 ### Quad9
 
@@ -926,10 +928,15 @@ fragments_blocked = [
 #    { server_name='example-server-2', via=['sdns://gRIxMzcuNzQuMjIzLjIzNDo0NDM'] }
 # ]
 
+routes = [
+   { server_name='odoh-cloudflare', via=['odohrelay-crypto-sx', 'odohrelay-numa'] },
+   { server_name='odoh-crypto-sx', via=['odohrelay-crypto-sx', 'odohrelay-numa'] }
+]
+
 
 ## Skip resolvers incompatible with anonymization instead of using them directly
 
-skip_incompatible = false
+skip_incompatible = true
 
 
 ## If public server certificates for a non-conformant server cannot be
