@@ -17,6 +17,8 @@ https://github.com/syphyr/android_system_sepolicy/commit/20af525f2d80fa70a877602
 
 https://github.com/syphyr/android_system_sepolicy/commit/9717a0fec356dbeb57540fde9411bd4f9b5d6548
 
+https://github.com/syphyr/android_system_sepolicy/commit/28469b915234f3b90f16f686e1fe56c57dcf3a26
+
 https://github.com/syphyr/android_vendor_cm-1/commit/8aeb7737ff44830815e9776c44e334e2d51561a
 
 https://github.com/syphyr/cm_build_scripts/commit/59b173830ce78be1bebff6c3d75ba72e9831aceb
