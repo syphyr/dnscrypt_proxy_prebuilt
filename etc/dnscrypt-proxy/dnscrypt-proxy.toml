@@ -28,7 +28,7 @@
 ## Remove the leading # first to enable this; lines starting with # are ignored.
 
 #server_names = ['scaleway-fr', 'google', 'yandex', 'cloudflare']
-server_names = ['odoh-cloudflare', 'odoh-crypto-sx']
+server_names = ['odoh-cloudflare', 'odoh-crypto-sx', 'dnscry.pt-odoh-munich', 'odoh-snowstorm']
 
 
 ## List of local addresses and ports to listen to. Can be IPv4 and/or IPv6.
@@ -938,7 +938,9 @@ fragments_blocked = [
 
 routes = [
    { server_name='odoh-cloudflare', via=['odohrelay-crypto-sx', 'odohrelay-numa'] },
-   { server_name='odoh-crypto-sx', via=['odohrelay-crypto-sx', 'odohrelay-numa'] }
+   { server_name='odoh-crypto-sx', via=['odohrelay-crypto-sx', 'odohrelay-numa'] },
+   { server_name='dnscry.pt-odoh-munich', via=['odohrelay-crypto-sx', 'odohrelay-numa'] },
+   { server_name='odoh-snowstorm', via=['odohrelay-crypto-sx', 'odohrelay-numa'] }
 ]
 
 
