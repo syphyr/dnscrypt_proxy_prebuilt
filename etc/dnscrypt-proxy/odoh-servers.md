@@ -131,15 +131,6 @@ https://www.dnscry.pt
 sdns://BQcAAAAAAAAAD2JlaTAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
 
 
-## dnscry.pt-odoh-bogota
-
-dnscry.pt Bogotá ODoH target.
-Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redirecting or rewriting, DNSSEC validation.
-https://www.dnscry.pt
-
-sdns://BQcAAAAAAAAAD2JvZzAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
-
-
 ## dnscry.pt-odoh-bratislava
 
 dnscry.pt Bratislava ODoH target.
@@ -572,15 +563,6 @@ https://www.dnscry.pt
 sdns://BQcAAAAAAAAAD2prdDAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
 
 
-## dnscry.pt-odoh-jena
-
-dnscry.pt Jena ODoH target.
-Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redirecting or rewriting, DNSSEC validation.
-https://www.dnscry.pt
-
-sdns://BQcAAAAAAAAAD2plbjAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
-
-
 ## dnscry.pt-odoh-johannesburg
 
 dnscry.pt Johannesburg ODoH target.
@@ -678,15 +660,6 @@ Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redire
 https://www.dnscry.pt
 
 sdns://BQcAAAAAAAAAD2xpczAyLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
-
-
-## dnscry.pt-odoh-ljubljana
-
-dnscry.pt Ljubljana ODoH target.
-Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redirecting or rewriting, DNSSEC validation.
-https://www.dnscry.pt
-
-sdns://BQcAAAAAAAAAD2xqdTAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
 
 
 ## dnscry.pt-odoh-london
@@ -894,15 +867,6 @@ Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redire
 https://www.dnscry.pt
 
 sdns://BQcAAAAAAAAAD290dDAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
-
-
-## dnscry.pt-odoh-palermo
-
-dnscry.pt Palermo ODoH target.
-Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redirecting or rewriting, DNSSEC validation.
-https://www.dnscry.pt
-
-sdns://BQcAAAAAAAAAD3BtbzAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
 
 
 ## dnscry.pt-odoh-paris
