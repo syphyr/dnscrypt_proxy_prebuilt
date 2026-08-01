@@ -58,6 +58,7 @@ tracker.files.fm
 tracker.fnix.net
 tracker.foreverpirates.co
 tracker.gbitt.info
+tracker.ghostchu-services.top
 tracker.glotorrents.pw
 tracker.iamhansen.xyz
 tracker.imgoingto.icu
@@ -101,6 +102,7 @@ tracker.skyts.net
 tracker.slowcheetah.org
 tracker.srv00.com
 tracker.swateam.org.uk
+tracker.t-1.org
 tracker.t-rb.org
 tracker.tallpenguin.org
 tracker.tamersunion.org
@@ -139,3 +141,6 @@ googleadservices.com
 
 # *.youtube.*  @time-to-play
 # facebook.com @play
+
+# Allow discord
+click.discord.com
