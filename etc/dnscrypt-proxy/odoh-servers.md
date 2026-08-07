@@ -68,15 +68,6 @@ https://www.dnscry.pt
 sdns://BQcAAAAAAAAAD2FtczAzLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
 
 
-## dnscry.pt-odoh-ashburn
-
-dnscry.pt Ashburn ODoH target.
-Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redirecting or rewriting, DNSSEC validation.
-https://www.dnscry.pt
-
-sdns://BQcAAAAAAAAAD2FibjAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
-
-
 ## dnscry.pt-odoh-atlanta
 
 dnscry.pt Atlanta ODoH target.
@@ -93,15 +84,6 @@ Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redire
 https://www.dnscry.pt
 
 sdns://BQcAAAAAAAAAD2FrbDAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
-
-
-## dnscry.pt-odoh-baku
-
-dnscry.pt Baku ODoH target.
-Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redirecting or rewriting, DNSSEC validation.
-https://www.dnscry.pt
-
-sdns://BQcAAAAAAAAAD2d5ZDAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
 
 
 ## dnscry.pt-odoh-bangkok
@@ -158,15 +140,6 @@ https://www.dnscry.pt
 sdns://BQcAAAAAAAAAD2JuZTAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
 
 
-## dnscry.pt-odoh-brussels
-
-dnscry.pt Brussels ODoH target.
-Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redirecting or rewriting, DNSSEC validation.
-https://www.dnscry.pt
-
-sdns://BQcAAAAAAAAAD2JydTAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
-
-
 ## dnscry.pt-odoh-bucharest
 
 dnscry.pt Bucharest ODoH target.
@@ -174,15 +147,6 @@ Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redire
 https://www.dnscry.pt
 
 sdns://BQcAAAAAAAAAD2J1aDAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
-
-
-## dnscry.pt-odoh-budapest
-
-dnscry.pt Budapest ODoH target.
-Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redirecting or rewriting, DNSSEC validation.
-https://www.dnscry.pt
-
-sdns://BQcAAAAAAAAAD2J1ZDAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
 
 
 ## dnscry.pt-odoh-calgary
@@ -293,15 +257,6 @@ https://www.dnscry.pt
 sdns://BQcAAAAAAAAAD2R1YjAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
 
 
-## dnscry.pt-odoh-durham
-
-dnscry.pt Durham ODoH target.
-Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redirecting or rewriting, DNSSEC validation.
-https://www.dnscry.pt
-
-sdns://BQcAAAAAAAAAD3JkdTAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
-
-
 ## dnscry.pt-odoh-dusseldorf
 
 dnscry.pt Düsseldorf ODoH target.
@@ -327,15 +282,6 @@ Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redire
 https://www.dnscry.pt
 
 sdns://BQcAAAAAAAAAD2R1czAzLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
-
-
-## dnscry.pt-odoh-ebenecity
-
-dnscry.pt Ebène City ODoH target.
-Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redirecting or rewriting, DNSSEC validation.
-https://www.dnscry.pt
-
-sdns://BQcAAAAAAAAAD21ydTAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
 
 
 ## dnscry.pt-odoh-ebenecity02
@@ -644,15 +590,6 @@ https://www.dnscry.pt
 sdns://BQcAAAAAAAAAD2xsazAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
 
 
-## dnscry.pt-odoh-lima02
-
-dnscry.pt Lima 02 ODoH target.
-Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redirecting or rewriting, DNSSEC validation.
-https://www.dnscry.pt
-
-sdns://BQcAAAAAAAAAD2xpbTAyLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
-
-
 ## dnscry.pt-odoh-lisbon
 
 dnscry.pt Lisbon ODoH target.
@@ -698,15 +635,6 @@ https://www.dnscry.pt
 sdns://BQcAAAAAAAAAD2xheDAyLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
 
 
-## dnscry.pt-odoh-luxembourg
-
-dnscry.pt Luxembourg ODoH target.
-Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redirecting or rewriting, DNSSEC validation.
-https://www.dnscry.pt
-
-sdns://BQcAAAAAAAAAD2x1eDAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
-
-
 ## dnscry.pt-odoh-madrid
 
 dnscry.pt Madrid ODoH target.
@@ -714,24 +642,6 @@ Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redire
 https://www.dnscry.pt
 
 sdns://BQcAAAAAAAAAD21hZDAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
-
-
-## dnscry.pt-odoh-manchester
-
-dnscry.pt Manchester ODoH target.
-Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redirecting or rewriting, DNSSEC validation.
-https://www.dnscry.pt
-
-sdns://BQcAAAAAAAAAD21hbjAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
-
-
-## dnscry.pt-odoh-manila
-
-dnscry.pt Manila ODoH target.
-Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redirecting or rewriting, DNSSEC validation.
-https://www.dnscry.pt
-
-sdns://BQcAAAAAAAAAD21ubDAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
 
 
 ## dnscry.pt-odoh-marseille
@@ -932,15 +842,6 @@ https://www.dnscry.pt
 sdns://BQcAAAAAAAAAD3ByZzAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
 
 
-## dnscry.pt-odoh-queretaro
-
-dnscry.pt Querétaro ODoH target.
-Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redirecting or rewriting, DNSSEC validation.
-https://www.dnscry.pt
-
-sdns://BQcAAAAAAAAAD3FybzAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
-
-
 ## dnscry.pt-odoh-redditch
 
 dnscry.pt Redditch ODoH target.
@@ -1002,15 +903,6 @@ Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redire
 https://www.dnscry.pt
 
 sdns://BQcAAAAAAAAAD3NlYTAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
-
-
-## dnscry.pt-odoh-seoul
-
-dnscry.pt Seoul ODoH target.
-Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redirecting or rewriting, DNSSEC validation.
-https://www.dnscry.pt
-
-sdns://BQcAAAAAAAAAD3NlbDAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
 
 
 ## dnscry.pt-odoh-seoul02
@@ -1128,15 +1020,6 @@ Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redire
 https://www.dnscry.pt
 
 sdns://BQcAAAAAAAAAD3RiczAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
-
-
-## dnscry.pt-odoh-telaviv
-
-dnscry.pt Tel Aviv ODoH target.
-Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redirecting or rewriting, DNSSEC validation.
-https://www.dnscry.pt
-
-sdns://BQcAAAAAAAAAD3RsdjAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
 
 
 ## dnscry.pt-odoh-thessaloniki
@@ -1263,15 +1146,6 @@ Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redire
 https://www.dnscry.pt
 
 sdns://BQcAAAAAAAAAD3dhdzAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
-
-
-## dnscry.pt-odoh-yerevan
-
-dnscry.pt Yerevan ODoH target.
-Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redirecting or rewriting, DNSSEC validation.
-https://www.dnscry.pt
-
-sdns://BQcAAAAAAAAAD2V2bjAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
 
 
 ## dnscry.pt-odoh-zurich
