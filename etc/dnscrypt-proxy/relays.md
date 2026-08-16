@@ -31,15 +31,6 @@ Provider information is limited to the resolver-list entry; report issues throug
 sdns://gRMxMDIuMjA5LjIxLjE3Njo4NDQz
 
 
-## anon-cipherdns-jb1-za
-
-CipherDNS Johannesburg relay.
-Anonymized DNSCrypt relay based in Johannesburg, South Africa.
-Provider information is limited to the resolver-list entry; report issues through the dnscrypt-resolvers project.
-
-sdns://gRIxMDIuMjE0LjEwLjgyOjg0NDM
-
-
 ## anon-cs-austria
 
 CryptoStorm Vienna, Austria relay.
