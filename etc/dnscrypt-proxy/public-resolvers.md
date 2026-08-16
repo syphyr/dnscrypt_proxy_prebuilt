@@ -325,22 +325,6 @@ Based in Cape Town, South Africa. Zero logging, DNSSEC validation, unfiltered ra
 sdns://AQcAAAAAAAAAEzEwMi4yMDkuMjEuMTc2Ojg0NDMgXnTgm6IgQnhUO3h_6tAlE0lQ5dXjfG2JmvSXCde6P6QjMi5kbnNjcnlwdC1jZXJ0LmN0MS5jaXBoZXJkbnMuY28uemE
 
 
-## cipherdns-jb1-doh-za
-
-CipherDNS Johannesburg privacy resolver.
-Based in Johannesburg, South Africa. Zero logging, DNSSEC validation, unfiltered raw resolution.
-
-sdns://AgcAAAAAAAAADTEwMi4yMTQuMTAuODIgjFAzlz_-T_HvCqkphPyTKBunqSeO-L9kEia4mNENTnQXamIxLWRvaC5jaXBoZXJkbnMuY28uemEKL2Rucy1xdWVyeQ
-
-
-## cipherdns-jb1-za
-
-CipherDNS Johannesburg privacy resolver.
-Based in Johannesburg, South Africa. Zero logging, DNSSEC validation, unfiltered raw resolution.
-
-sdns://AQcAAAAAAAAAEjEwMi4yMTQuMTAuODI6ODQ0MyAp_ZK8Ab77yIXFI7AIeSrgjZjUJ2zG9acKC0XARJZprSMyLmRuc2NyeXB0LWNlcnQuamIxLmNpcGhlcmRucy5jby56YQ
-
-
 ## cira-family
 
 CIRA Canadian Shield Family resolver.
@@ -6830,9 +6814,9 @@ sdns://AgYAAAAAAAAADDk1LjIxNS4xOS41MyAy7bsRzCWPvjPCzSShSScPC-b0RvVyZLO9HCW5hTMnL
 
 NWPS.fi public resolver in Helsinki.
 No filters, no logs, DNSSEC.
-Operated by NWPS.fi. Service page: https://nwps.fi/wordpress/free-recursive-dns/
+Operated by NWPS.fi. Service page: https://nwps.fi/dnscrypt.php
 
-sdns://AQcAAAAAAAAAETk1LjIxNy4xMS42Mzo4NDQzILqK827XPyVhFNCgYRi2VrryJyHhnfkeQnBB2EvkiM-3FzIuZG5zY3J5cHQtY2VydC5ud3BzLmZp
+sdns://AQcAAAAAAAAAEzk1LjIxNi4xMzguMTQxOjg0NDMguorzbtc_JWEU0KBhGLZWuvInIeGd-R5CcEHYS-SIz7cXMi5kbnNjcnlwdC1jZXJ0Lm53cHMuZmk
 
 
 ## olilo-doh
