@@ -284,15 +284,6 @@ Maintained by BlahDNS. Project page: https://blahdns.com/
 sdns://AgMAAAAAAAAADTc4LjQ2LjI0NC4xNDMAEmRvaC1kZS5ibGFoZG5zLmNvbQovZG5zLXF1ZXJ5
 
 
-## blahdns-sg-doh
-
-BlahDNS ad-blocking resolver in Singapore.
-No logging. Blocks ads, trackers and malware. DNSSEC ready, QNAME minimization, no EDNS Client Subnet.
-Maintained by BlahDNS. Project page: https://blahdns.com/
-
-sdns://AgMAAAAAAAAADjQ2LjI1MC4yMjYuMjQyABJkb2gtc2cuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ
-
-
 ## bortzmeyer
 
 Stéphane Bortzmeyer resolver in France.
@@ -307,22 +298,6 @@ Stéphane Bortzmeyer resolver in France.
 IPv6 endpoint. Non-logging public resolver operated by Stéphane Bortzmeyer. Policy: https://www.bortzmeyer.org/doh-bortzmeyer-fr-policy.html Technical notes: https://www.bortzmeyer.org/doh-mon-resolveur.html
 
 sdns://AgcAAAAAAAAAGVsyMDAxOjQxZDA6MzAyOjIyMDA6OjE4MF0gMu27Ecwlj74zws0koUknDwvm9Eb1cmSzvRwluYUzJy4RZG9oLmJvcnR6bWV5ZXIuZnIBLw
-
-
-## cipherdns-ct1-doh-za
-
-CipherDNS Cape Town privacy resolver.
-Based in Cape Town, South Africa. Zero logging, DNSSEC validation, unfiltered raw resolution.
-
-sdns://AgcAAAAAAAAADjEwMi4yMDkuMjEuMTc2IIxQM5c__k_x7wqpKYT8kygbp6knjvi_ZBImuJjRDU50F2N0MS1kb2guY2lwaGVyZG5zLmNvLnphCi9kbnMtcXVlcnk
-
-
-## cipherdns-ct1-za
-
-CipherDNS Cape Town privacy resolver.
-Based in Cape Town, South Africa. Zero logging, DNSSEC validation, unfiltered raw resolution.
-
-sdns://AQcAAAAAAAAAEzEwMi4yMDkuMjEuMTc2Ojg0NDMgXnTgm6IgQnhUO3h_6tAlE0lQ5dXjfG2JmvSXCde6P6QjMi5kbnNjcnlwdC1jZXJ0LmN0MS5jaXBoZXJkbnMuY28uemE
 
 
 ## cira-family
@@ -1623,6 +1598,26 @@ https://www.dnscry.pt
 sdns://AQcAAAAAAAAAGFsyNjAyOmZjMjQ6MTI6OTg3Mzo6YWIxXSAIDj6De26zf2mqbvz8Kg5zxvJEFst-5zlx4SIU0Vac3hkyLmRuc2NyeXB0LWNlcnQuZG5zY3J5LnB0
 
 
+## dnscry.pt-ashburn-ipv4
+
+dnscry.pt Ashburn resolver.
+IPv4 endpoint. Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redirecting or rewriting, DNSSEC validation.
+All dnscry.pt resolvers can also be used as Anonymized DNSCrypt relays.
+https://www.dnscry.pt
+
+sdns://AQcAAAAAAAAADjc3LjI0Ny4xMjcuMTA3IJOWzrgz5XhvHJtWLbFAFhcg9_e11cQSpjMcGFMUsHxJGTIuZG5zY3J5cHQtY2VydC5kbnNjcnkucHQ
+
+
+## dnscry.pt-ashburn-ipv6
+
+dnscry.pt Ashburn resolver.
+IPv6 endpoint. Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redirecting or rewriting, DNSSEC validation.
+All dnscry.pt resolvers can also be used as Anonymized DNSCrypt relays.
+https://www.dnscry.pt
+
+sdns://AQcAAAAAAAAAE1syYTBhOjhkYzA6YTA2Nzo6YV0gk5bOuDPleG8cm1YtsUAWFyD397XVxBKmMxwYUxSwfEkZMi5kbnNjcnlwdC1jZXJ0LmRuc2NyeS5wdA
+
+
 ## dnscry.pt-atlanta-ipv4
 
 dnscry.pt Atlanta resolver.
@@ -2129,6 +2124,24 @@ IPv6 endpoint. Operated by dnscry.pt. No query logs, no intentional filtering, b
 https://www.dnscry.pt
 
 sdns://AgcAAAAAAAAAGFsyNjAyOmZjMjQ6MTI6OTg3Mzo6YWIxXSCMUDOXP_5P8e8KqSmE_JMoG6epJ474v2QSJriY0Q1OdA9hbXMwMy5kbnNjcnkucHQKL2Rucy1xdWVyeQ
+
+
+## dnscry.pt-doh-ashburn-ipv4
+
+dnscry.pt Ashburn DoH resolver.
+IPv4 endpoint. Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redirecting or rewriting, DNSSEC validation.
+https://www.dnscry.pt
+
+sdns://AgcAAAAAAAAADjc3LjI0Ny4xMjcuMTA3IIxQM5c__k_x7wqpKYT8kygbp6knjvi_ZBImuJjRDU50D2FibjAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
+
+
+## dnscry.pt-doh-ashburn-ipv6
+
+dnscry.pt Ashburn DoH resolver.
+IPv6 endpoint. Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redirecting or rewriting, DNSSEC validation.
+https://www.dnscry.pt
+
+sdns://AgcAAAAAAAAAE1syYTBhOjhkYzA6YTA2Nzo6YV0gjFAzlz_-T_HvCqkphPyTKBunqSeO-L9kEia4mNENTnQPYWJuMDEuZG5zY3J5LnB0Ci9kbnMtcXVlcnk
 
 
 ## dnscry.pt-doh-atlanta-ipv4
@@ -3013,24 +3026,6 @@ https://www.dnscry.pt
 sdns://AgcAAAAAAAAAHlsyNDA3OjZhYzA6Mzo1OjEyMzQ6NDMyMTo4OToxXSCMUDOXP_5P8e8KqSmE_JMoG6epJ474v2QSJriY0Q1OdA9qa3QwMS5kbnNjcnkucHQKL2Rucy1xdWVyeQ
 
 
-## dnscry.pt-doh-jena-ipv4
-
-DNSCry.pt Jena - DoH, no filter, no logs, DNSSEC support (IPv4 server)
-
-https://www.dnscry.pt
-
-sdns://AgcAAAAAAAAACzgxLjcuMTEuMjQ2IIxQM5c__k_x7wqpKYT8kygbp6knjvi_ZBImuJjRDU50D2plbjAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
-
-
-## dnscry.pt-doh-jena-ipv6
-
-dnscry.pt Jena DoH resolver.
-IPv6 endpoint. Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redirecting or rewriting, DNSSEC validation.
-https://www.dnscry.pt
-
-sdns://AgcAAAAAAAAAE1syYTAyOjE4MDo2OjE6OjhiNF0gjFAzlz_-T_HvCqkphPyTKBunqSeO-L9kEia4mNENTnQPamVuMDEuZG5zY3J5LnB0Ci9kbnMtcXVlcnk
-
-
 ## dnscry.pt-doh-johannesburg-ipv4
 
 dnscry.pt Johannesburg DoH resolver.
@@ -3283,6 +3278,24 @@ https://www.dnscry.pt
 sdns://AgcAAAAAAAAAG1syYTAzOmM3YzA6NTI6MjY0MToxODA6OjEzXSCMUDOXP_5P8e8KqSmE_JMoG6epJ474v2QSJriY0Q1OdA9tYWQwMS5kbnNjcnkucHQKL2Rucy1xdWVyeQ
 
 
+## dnscry.pt-doh-manchester-ipv4
+
+dnscry.pt Manchester DoH resolver.
+IPv4 endpoint. Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redirecting or rewriting, DNSSEC validation.
+https://www.dnscry.pt
+
+sdns://AgcAAAAAAAAADjIxNi4yNDUuMTQwLjIwIIxQM5c__k_x7wqpKYT8kygbp6knjvi_ZBImuJjRDU50D21hbjAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
+
+
+## dnscry.pt-doh-manchester-ipv6
+
+dnscry.pt Manchester DoH resolver.
+IPv6 endpoint. Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redirecting or rewriting, DNSSEC validation.
+https://www.dnscry.pt
+
+sdns://AgcAAAAAAAAAE1syYTBhOjhkYzA6NjA1ODo6YV0gjFAzlz_-T_HvCqkphPyTKBunqSeO-L9kEia4mNENTnQPbWFuMDEuZG5zY3J5LnB0Ci9kbnMtcXVlcnk
+
+
 ## dnscry.pt-doh-marseille-ipv4
 
 dnscry.pt Marseille DoH resolver.
@@ -3344,6 +3357,15 @@ IPv4 endpoint. Operated by dnscry.pt. No query logs, no intentional filtering, b
 https://www.dnscry.pt
 
 sdns://AgcAAAAAAAAADTgyLjExOC4xNi4xMjEgjFAzlz_-T_HvCqkphPyTKBunqSeO-L9kEia4mNENTnQPbWlsMDEuZG5zY3J5LnB0Ci9kbnMtcXVlcnk
+
+
+## dnscry.pt-doh-milan-ipv6
+
+dnscry.pt Milan DoH resolver.
+IPv6 endpoint. Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redirecting or rewriting, DNSSEC validation.
+https://www.dnscry.pt
+
+sdns://AgcAAAAAAAAAFVsyYTAyOjI3YWU6ODAwMDo6MmExXSCMUDOXP_5P8e8KqSmE_JMoG6epJ474v2QSJriY0Q1OdA9taWwwMS5kbnNjcnkucHQKL2Rucy1xdWVyeQ
 
 
 ## dnscry.pt-doh-molln-ipv4
@@ -4219,24 +4241,6 @@ https://www.dnscry.pt
 sdns://AgcAAAAAAAAAF1syYTBkOmYzMDI6MTEwOjY1MTc6OjFdIIxQM5c__k_x7wqpKYT8kygbp6knjvi_ZBImuJjRDU50D3ZpZTAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
 
 
-## dnscry.pt-doh-vientiane-ipv4
-
-DNSCry.pt Vientiane - DoH, no filter, no logs, DNSSEC support (IPv4 server)
-
-https://www.dnscry.pt
-
-sdns://AgcAAAAAAAAADzEwMy4yMjguMTAxLjE3OCCMUDOXP_5P8e8KqSmE_JMoG6epJ474v2QSJriY0Q1OdA92dGUwMS5kbnNjcnkucHQKL2Rucy1xdWVyeQ
-
-
-## dnscry.pt-doh-vientiane-ipv6
-
-DNSCry.pt Vientiane - DoH, no filter, no logs, DNSSEC support (IPv6 server)
-
-https://www.dnscry.pt
-
-sdns://AgcAAAAAAAAAFlsyNDAwOjgxYzA6ZGMwMTo4NTo6Ml0gjFAzlz_-T_HvCqkphPyTKBunqSeO-L9kEia4mNENTnQPdnRlMDEuZG5zY3J5LnB0Ci9kbnMtcXVlcnk
-
-
 ## dnscry.pt-doh-vilnius-ipv4
 
 dnscry.pt Vilnius DoH resolver.
@@ -4779,26 +4783,6 @@ https://www.dnscry.pt
 sdns://AQcAAAAAAAAAE1syNjA1OmZhODA6MToxNzo6YV0guqA-ESXGxfnn2VmRNUtHPKE5G-D2-rpY4Rnw16ZYs3wZMi5kbnNjcnlwdC1jZXJ0LmRuc2NyeS5wdA
 
 
-## dnscry.pt-islamabad-ipv4
-
-dnscry.pt Islamabad resolver.
-IPv4 endpoint. Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redirecting or rewriting, DNSSEC validation.
-All dnscry.pt resolvers can also be used as Anonymized DNSCrypt relays.
-https://www.dnscry.pt
-
-sdns://AQcAAAAAAAAADjEwMy45OS4xMzMuMTEwIFPjUb1Byf1Q1sjfnNHrBCXbDr7mAHAw49_8PNpk5kiEGTIuZG5zY3J5cHQtY2VydC5kbnNjcnkucHQ
-
-
-## dnscry.pt-islamabad-ipv6
-
-dnscry.pt Islamabad resolver.
-IPv6 endpoint. Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redirecting or rewriting, DNSSEC validation.
-All dnscry.pt resolvers can also be used as Anonymized DNSCrypt relays.
-https://www.dnscry.pt
-
-sdns://AQcAAAAAAAAAFFsyMDAxOmRmMjpkNDA6Mjk6OjJdIFPjUb1Byf1Q1sjfnNHrBCXbDr7mAHAw49_8PNpk5kiEGTIuZG5zY3J5cHQtY2VydC5kbnNjcnkucHQ
-
-
 ## dnscry.pt-istanbul-ipv4
 
 dnscry.pt Istanbul resolver.
@@ -4857,26 +4841,6 @@ All dnscry.pt resolvers can also be used as Anonymized DNSCrypt relays.
 https://www.dnscry.pt
 
 sdns://AQcAAAAAAAAAHlsyNDA3OjZhYzA6Mzo1OjEyMzQ6NDMyMTo4OToxXSDKfpLdkE1Xh8Xx7s7AZvGPo_y5005XYSmx3wOtSiE7HxkyLmRuc2NyeXB0LWNlcnQuZG5zY3J5LnB0
-
-
-## dnscry.pt-jena-ipv4
-
-dnscry.pt Jena resolver.
-IPv4 endpoint. Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redirecting or rewriting, DNSSEC validation.
-All dnscry.pt resolvers can also be used as Anonymized DNSCrypt relays.
-https://www.dnscry.pt
-
-sdns://AQcAAAAAAAAACzgxLjcuMTEuMjQ2IBvtASWQpVAO2tlQ273LY_mPl7f-D2JbYcoAHt14hJVBGTIuZG5zY3J5cHQtY2VydC5kbnNjcnkucHQ
-
-
-## dnscry.pt-jena-ipv6
-
-dnscry.pt Jena resolver.
-IPv6 endpoint. Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redirecting or rewriting, DNSSEC validation.
-All dnscry.pt resolvers can also be used as Anonymized DNSCrypt relays.
-https://www.dnscry.pt
-
-sdns://AQcAAAAAAAAAE1syYTAyOjE4MDo2OjE6OjhiNF0gG-0BJZClUA7a2VDbvctj-Y-Xt_4PYlthygAe3XiElUEZMi5kbnNjcnlwdC1jZXJ0LmRuc2NyeS5wdA
 
 
 ## dnscry.pt-johannesburg-ipv4
@@ -5158,6 +5122,26 @@ https://www.dnscry.pt
 sdns://AQcAAAAAAAAAG1syYTAzOmM3YzA6NTI6MjY0MToxODA6OjEzXSAXimnppvfeE7g1v22nzO5TwOuSHYZy_NhmKS63gMgc3xkyLmRuc2NyeXB0LWNlcnQuZG5zY3J5LnB0
 
 
+## dnscry.pt-manchester-ipv4
+
+dnscry.pt Manchester resolver.
+IPv4 endpoint. Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redirecting or rewriting, DNSSEC validation.
+All dnscry.pt resolvers can also be used as Anonymized DNSCrypt relays.
+https://www.dnscry.pt
+
+sdns://AQcAAAAAAAAADjIxNi4yNDUuMTQwLjIwIOUvdbEOhupyl3_MymoToO-zVeHubT5q6UveXcvkAHAzGTIuZG5zY3J5cHQtY2VydC5kbnNjcnkucHQ
+
+
+## dnscry.pt-manchester-ipv6
+
+dnscry.pt Manchester resolver.
+IPv6 endpoint. Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redirecting or rewriting, DNSSEC validation.
+All dnscry.pt resolvers can also be used as Anonymized DNSCrypt relays.
+https://www.dnscry.pt
+
+sdns://AQcAAAAAAAAAE1syYTBhOjhkYzA6NjA1ODo6YV0g5S91sQ6G6nKXf8zKahOg77NV4e5tPmrpS95dy-QAcDMZMi5kbnNjcnlwdC1jZXJ0LmRuc2NyeS5wdA
+
+
 ## dnscry.pt-marseille-ipv4
 
 dnscry.pt Marseille resolver.
@@ -5226,6 +5210,16 @@ All dnscry.pt resolvers can also be used as Anonymized DNSCrypt relays.
 https://www.dnscry.pt
 
 sdns://AQcAAAAAAAAADTgyLjExOC4xNi4xMjEguySFBuKaH6g5ZUYPPs59A9TRvbZUDtnj_NPoHOXQ0oAZMi5kbnNjcnlwdC1jZXJ0LmRuc2NyeS5wdA
+
+
+## dnscry.pt-milan-ipv6
+
+dnscry.pt Milan resolver.
+IPv6 endpoint. Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redirecting or rewriting, DNSSEC validation.
+All dnscry.pt resolvers can also be used as Anonymized DNSCrypt relays.
+https://www.dnscry.pt
+
+sdns://AQcAAAAAAAAAFVsyYTAyOjI3YWU6ODAwMDo6MmExXSC7JIUG4pofqDllRg8-zn0D1NG9tlQO2eP80-gc5dDSgBkyLmRuc2NyeXB0LWNlcnQuZG5zY3J5LnB0
 
 
 ## dnscry.pt-molln-ipv4
@@ -6196,24 +6190,6 @@ https://www.dnscry.pt
 sdns://AQcAAAAAAAAAF1syYTBkOmYzMDI6MTEwOjY1MTc6OjFdIN5MiNa1GMEMps26xdXOX2IcNa1pjk5vC-otWiEsJusuGTIuZG5zY3J5cHQtY2VydC5kbnNjcnkucHQ
 
 
-## dnscry.pt-vientiane-ipv4
-
-DNSCry.pt Vientiane - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)
-
-https://www.dnscry.pt
-
-sdns://AQcAAAAAAAAADzEwMy4yMjguMTAxLjE3OCDsBgKLhj_vw4R4VLAYAe0lINIZEMImGhQboH6ssbjp4xkyLmRuc2NyeXB0LWNlcnQuZG5zY3J5LnB0
-
-
-## dnscry.pt-vientiane-ipv6
-
-DNSCry.pt Vientiane - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)
-
-https://www.dnscry.pt
-
-sdns://AQcAAAAAAAAAFlsyNDAwOjgxYzA6ZGMwMTo4NTo6Ml0g7AYCi4Y_78OEeFSwGAHtJSDSGRDCJhoUG6B-rLG46eMZMi5kbnNjcnlwdC1jZXJ0LmRuc2NyeS5wdA
-
-
 ## dnscry.pt-vilnius-ipv4
 
 dnscry.pt Vilnius resolver.
@@ -6645,7 +6621,7 @@ sdns://AgIAAAAAAAAADjExNi4yMDIuMTc2LjI2IDLtuxHMJY--M8LNJKFJJw8L5vRG9XJks70cJbmFM
 
 ## mullvad-adblock-doh
 
-Mullvad Ads & Trackers resolver.
+Mullvad Ads & Trackers resolver. - Deprecated, will be shot down on 11/02/2026
 No logging, DNSSEC-capable, global anycast network. Blocks ads and trackers.
 Operated by Mullvad. Service page: https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/
 
@@ -6654,7 +6630,7 @@ sdns://AgMAAAAAAAAACzE5NC4yNDIuMi4zABdhZGJsb2NrLmRucy5tdWxsdmFkLm5ldAovZG5zLXF1Z
 
 ## mullvad-adblock-doh-ipv6
 
-Mullvad Ads & Trackers resolver.
+Mullvad Ads & Trackers resolver. - Deprecated, will be shot down on 11/02/2026
 IPv6 endpoint. No logging, DNSSEC-capable, global anycast network. Blocks ads and trackers.
 Operated by Mullvad. Service page: https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/
 
@@ -6663,7 +6639,7 @@ sdns://AgMAAAAAAAAADlsyYTA3OmUzNDA6OjNdABdhZGJsb2NrLmRucy5tdWxsdmFkLm5ldAovZG5zL
 
 ## mullvad-all-doh
 
-Mullvad all-filter resolver.
+Mullvad all-filter resolver. - Deprecated, will be shot down on 11/02/2026
 No logging, DNSSEC-capable, global anycast network. Blocks ads, trackers, malware, adult content, gambling and social media.
 Operated by Mullvad. Service page: https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/
 
@@ -6672,7 +6648,7 @@ sdns://AgMAAAAAAAAACzE5NC4yNDIuMi45ABNhbGwuZG5zLm11bGx2YWQubmV0Ci9kbnMtcXVlcnk
 
 ## mullvad-all-doh-ipv6
 
-Mullvad all-filter resolver.
+Mullvad all-filter resolver. - Deprecated, will be shot down on 11/02/2026
 IPv6 endpoint. No logging, DNSSEC-capable, global anycast network. Blocks ads, trackers, malware, adult content, gambling and social media.
 Operated by Mullvad. Service page: https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/
 
@@ -6681,7 +6657,7 @@ sdns://AgMAAAAAAAAADlsyYTA3OmUzNDA6OjldABNhbGwuZG5zLm11bGx2YWQubmV0Ci9kbnMtcXVlc
 
 ## mullvad-base-doh
 
-Mullvad base filtering resolver.
+Mullvad base filtering resolver. - Deprecated, will be shot down on 11/02/2026
 No logging, DNSSEC-capable, global anycast network. Blocks ads, trackers and malware.
 Operated by Mullvad. Service page: https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/
 
@@ -6690,7 +6666,7 @@ sdns://AgMAAAAAAAAACzE5NC4yNDIuMi40ABRiYXNlLmRucy5tdWxsdmFkLm5ldAovZG5zLXF1ZXJ5
 
 ## mullvad-base-doh-ipv6
 
-Mullvad base filtering resolver.
+Mullvad base filtering resolver. - Deprecated, will be shot down on 11/02/2026
 IPv6 endpoint. No logging, DNSSEC-capable, global anycast network. Blocks ads, trackers and malware.
 Operated by Mullvad. Service page: https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/
 
@@ -6699,7 +6675,7 @@ sdns://AgMAAAAAAAAADlsyYTA3OmUzNDA6OjRdABRiYXNlLmRucy5tdWxsdmFkLm5ldAovZG5zLXF1Z
 
 ## mullvad-doh
 
-Mullvad non-filtering public resolver.
+Mullvad non-filtering public resolver. - Deprecated, will be shot down on 11/02/2026
 No logging, DNSSEC-capable. Anycast IPv4/IPv6 with servers in SE, DE, UK, US, AU, and SG.
 Operated by Mullvad. Service page: https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/
 
@@ -6708,7 +6684,7 @@ sdns://AgcAAAAAAAAACzE5NC4yNDIuMi4yAA9kbnMubXVsbHZhZC5uZXQKL2Rucy1xdWVyeQ
 
 ## mullvad-doh-ipv6
 
-Mullvad non-filtering public resolver.
+Mullvad non-filtering public resolver. - Deprecated, will be shot down on 11/02/2026
 IPv6 endpoint. No logging, DNSSEC-capable, global anycast network.
 Operated by Mullvad. Service page: https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/
 
@@ -6717,7 +6693,7 @@ sdns://AgcAAAAAAAAADlsyYTA3OmUzNDA6OjJdAA9kbnMubXVsbHZhZC5uZXQKL2Rucy1xdWVyeQ
 
 ## mullvad-extend-doh
 
-Mullvad extended filtering resolver.
+Mullvad extended filtering resolver. - Deprecated, will be shot down on 11/02/2026
 No logging, DNSSEC-capable, global anycast network. Blocks ads, trackers, malware and social media.
 Operated by Mullvad. Service page: https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/
 
@@ -6726,7 +6702,7 @@ sdns://AgMAAAAAAAAACzE5NC4yNDIuMi41ABhleHRlbmRlZC5kbnMubXVsbHZhZC5uZXQKL2Rucy1xd
 
 ## mullvad-extend-doh-ipv6
 
-Mullvad extended filtering resolver.
+Mullvad extended filtering resolver. - Deprecated, will be shot down on 11/02/2026
 IPv6 endpoint. No logging, DNSSEC-capable, global anycast network. Blocks ads, trackers, malware and social media.
 Operated by Mullvad. Service page: https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/
 
@@ -6735,7 +6711,7 @@ sdns://AgMAAAAAAAAADlsyYTA3OmUzNDA6OjVdABhleHRlbmRlZC5kbnMubXVsbHZhZC5uZXQKL2Ruc
 
 ## mullvad-family-doh
 
-Mullvad family filtering resolver.
+Mullvad family filtering resolver. - Deprecated, will be shot down on 11/02/2026
 No logging, DNSSEC-capable, global anycast network. Blocks ads, trackers, malware, adult content and gambling.
 Operated by Mullvad. Service page: https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/
 
@@ -6744,7 +6720,7 @@ sdns://AgMAAAAAAAAACzE5NC4yNDIuMi42ABZmYW1pbHkuZG5zLm11bGx2YWQubmV0Ci9kbnMtcXVlc
 
 ## mullvad-family-doh-ipv6
 
-Mullvad family filtering resolver.
+Mullvad family filtering resolver. - Deprecated, will be shot down on 11/02/2026
 IPv6 endpoint. No logging, DNSSEC-capable, global anycast network. Blocks ads, trackers, malware, adult content and gambling.
 Operated by Mullvad. Service page: https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/
 

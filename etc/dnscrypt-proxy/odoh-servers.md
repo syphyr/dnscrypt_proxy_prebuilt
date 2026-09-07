@@ -68,6 +68,15 @@ https://www.dnscry.pt
 sdns://BQcAAAAAAAAAD2FtczAzLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
 
 
+## dnscry.pt-odoh-ashburn
+
+dnscry.pt Ashburn ODoH target.
+Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redirecting or rewriting, DNSSEC validation.
+https://www.dnscry.pt
+
+sdns://BQcAAAAAAAAAD2FibjAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
+
+
 ## dnscry.pt-odoh-atlanta
 
 dnscry.pt Atlanta ODoH target.
@@ -509,15 +518,6 @@ https://www.dnscry.pt
 sdns://BQcAAAAAAAAAD2prdDAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
 
 
-## dnscry.pt-odoh-jena
-
-dnscry.pt Jena ODoH target.
-Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redirecting or rewriting, DNSSEC validation.
-https://www.dnscry.pt
-
-sdns://BQcAAAAAAAAAD2plbjAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
-
-
 ## dnscry.pt-odoh-johannesburg
 
 dnscry.pt Johannesburg ODoH target.
@@ -642,6 +642,15 @@ Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redire
 https://www.dnscry.pt
 
 sdns://BQcAAAAAAAAAD21hZDAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
+
+
+## dnscry.pt-odoh-manchester
+
+dnscry.pt Manchester ODoH target.
+Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redirecting or rewriting, DNSSEC validation.
+https://www.dnscry.pt
+
+sdns://BQcAAAAAAAAAD21hbjAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
 
 
 ## dnscry.pt-odoh-marseille
@@ -1119,15 +1128,6 @@ Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redire
 https://www.dnscry.pt
 
 sdns://BQcAAAAAAAAAD3ZpZTAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
-
-
-## dnscry.pt-odoh-vientiane
-
-dnscry.pt Vientiane ODoH target.
-Operated by dnscry.pt. No query logs, no intentional filtering, blocking, redirecting or rewriting, DNSSEC validation.
-https://www.dnscry.pt
-
-sdns://BQcAAAAAAAAAD3Z0ZTAxLmRuc2NyeS5wdAovZG5zLXF1ZXJ5
 
 
 ## dnscry.pt-odoh-vilnius
