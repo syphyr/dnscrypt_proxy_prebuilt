@@ -386,7 +386,7 @@ netprobe_timeout = 60
 ## both IPv4-only and IPv6-only networks. Connectivity is detected as soon
 ## as any of them works: '9.9.9.9:53,[2620:fe::fe]:53'
 
-netprobe_address = '9.9.9.9:53'
+netprobe_address = '9.9.9.11:53'
 
 
 ## Offline mode - Do not use any remote encrypted servers.
